@@ -1,0 +1,4612 @@
+{
+  "duplicates": {
+    "total_duplicates": 0,
+    "duplicate_pct": 0.0
+  },
+  "outliers": {
+    "PRICECLOSE": {
+      "outlier_count": 2138,
+      "outlier_pct": 10.812177606958633,
+      "bounds": {
+        "lower": -252.12499999999997,
+        "upper": 443.275
+      }
+    },
+    "horizon_mean": {
+      "outlier_count": 2151,
+      "outlier_pct": 10.877920501668859,
+      "bounds": {
+        "lower": -251.5380952380952,
+        "upper": 442.3761904761904
+      }
+    },
+    "target": {
+      "outlier_count": 1632,
+      "outlier_pct": 8.253261859006775,
+      "bounds": {
+        "lower": -9.557418847818118,
+        "upper": 9.53351695724787
+      }
+    },
+    "Book to Price": {
+      "outlier_count": 812,
+      "outlier_pct": 4.106402346515627,
+      "bounds": {
+        "lower": 51.5,
+        "upper": 119.5
+      }
+    },
+    "Earnings to Price": {
+      "outlier_count": 878,
+      "outlier_pct": 4.440173965813695,
+      "bounds": {
+        "lower": 26.5,
+        "upper": 110.5
+      }
+    },
+    "Operating Cash Flow to Price": {
+      "outlier_count": 671,
+      "outlier_pct": 3.3933447961970264,
+      "bounds": {
+        "lower": 30.5,
+        "upper": 114.5
+      }
+    },
+    "Free Cash Flow to Price": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -5.0,
+        "upper": 123.0
+      }
+    },
+    "Net Cash Flow to Price": {
+      "outlier_count": 1495,
+      "outlier_pct": 7.560432891675937,
+      "bounds": {
+        "lower": 42.0,
+        "upper": 106.0
+      }
+    },
+    "Net Cash Flow to Enterprise Value": {
+      "outlier_count": 1296,
+      "outlier_pct": 6.554060888034793,
+      "bounds": {
+        "lower": 33.0,
+        "upper": 113.0
+      }
+    },
+    "Operating Cash Flow to Enterprise Value": {
+      "outlier_count": 605,
+      "outlier_pct": 3.059573176898958,
+      "bounds": {
+        "lower": 12.0,
+        "upper": 124.0
+      }
+    },
+    "Free Cash Flow to Enterprise Value": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -14.0,
+        "upper": 130.0
+      }
+    },
+    "EBITDA to Enterprise Value": {
+      "outlier_count": 1507,
+      "outlier_pct": 7.621118640639223,
+      "bounds": {
+        "lower": 38.5,
+        "upper": 114.5
+      }
+    },
+    "Sales to EV Ratio": {
+      "outlier_count": 637,
+      "outlier_pct": 3.2214018408010516,
+      "bounds": {
+        "lower": 27.0,
+        "upper": 123.0
+      }
+    },
+    "Assets to Price Ratio": {
+      "outlier_count": 1443,
+      "outlier_pct": 7.297461312835036,
+      "bounds": {
+        "lower": 71.5,
+        "upper": 115.5
+      }
+    },
+    "Operating Earnings to Price Ratio": {
+      "outlier_count": 743,
+      "outlier_pct": 3.7574592899767367,
+      "bounds": {
+        "lower": 24.0,
+        "upper": 112.0
+      }
+    },
+    "Pretax Income Per Share to Price": {
+      "outlier_count": 592,
+      "outlier_pct": 2.9938302821887324,
+      "bounds": {
+        "lower": 28.5,
+        "upper": 112.5
+      }
+    },
+    "Sales to Price Ratio": {
+      "outlier_count": 303,
+      "outlier_pct": 1.5323151613229493,
+      "bounds": {
+        "lower": 31.5,
+        "upper": 131.5
+      }
+    },
+    "Future Cashflow Yield": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": NaN,
+        "upper": NaN
+      }
+    },
+    "Free Cash Flow to Common Equity": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -103.0,
+        "upper": 209.0
+      }
+    },
+    "Operating Cash Flow to Equity": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -87.5,
+        "upper": 204.5
+      }
+    },
+    "Operating Earnings to Assets Ratio": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -122.5,
+        "upper": 225.5
+      }
+    },
+    "Inverse P/E Ratio Adj for Growth and Yield": {
+      "outlier_count": 443,
+      "outlier_pct": 2.240315565894609,
+      "bounds": {
+        "lower": 34.0,
+        "upper": 98.0
+      }
+    },
+    "Tobin's Q Ratio": {
+      "outlier_count": 1068,
+      "outlier_pct": 5.401031657732376,
+      "bounds": {
+        "lower": 66.5,
+        "upper": 118.5
+      }
+    },
+    "EBITDA to Price": {
+      "outlier_count": 1351,
+      "outlier_pct": 6.832203904116517,
+      "bounds": {
+        "lower": 48.5,
+        "upper": 108.5
+      }
+    },
+    "Cash to Price": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -10.0,
+        "upper": 126.0
+      }
+    },
+    "Dividends to Price Ratio": {
+      "outlier_count": 852,
+      "outlier_pct": 4.308688176393244,
+      "bounds": {
+        "lower": 27.0,
+        "upper": 131.0
+      }
+    },
+    "Growth Flow to Price": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -0.5,
+        "upper": 123.5
+      }
+    },
+    "Net Current Assets to Price Ratio": {
+      "outlier_count": 1093,
+      "outlier_pct": 5.5274603014058865,
+      "bounds": {
+        "lower": 4.5,
+        "upper": 56.5
+      }
+    },
+    "Discounted Future Cash Flows to Market Cap": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": NaN,
+        "upper": NaN
+      }
+    },
+    "Proved Reserves to Market Cap": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": NaN,
+        "upper": NaN
+      }
+    },
+    "Cash to EV Ratio": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -22.5,
+        "upper": 117.5
+      }
+    },
+    "Book Value to Enterprise Value": {
+      "outlier_count": 1382,
+      "outlier_pct": 6.98897542227167,
+      "bounds": {
+        "lower": 27.0,
+        "upper": 131.0
+      }
+    },
+    "Forward Earnings to Price": {
+      "outlier_count": 484,
+      "outlier_pct": 2.4476585415191665,
+      "bounds": {
+        "lower": 50.0,
+        "upper": 114.0
+      }
+    },
+    "Forward Free Cash Flow to Price Ratio": {
+      "outlier_count": 231,
+      "outlier_pct": 1.1682006675432386,
+      "bounds": {
+        "lower": 19.0,
+        "upper": 123.0
+      }
+    },
+    "Core EPS to Price (Fundamentals)": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": NaN,
+        "upper": NaN
+      }
+    },
+    "Current Liability to Price": {
+      "outlier_count": 923,
+      "outlier_pct": 4.667745524426014,
+      "bounds": {
+        "lower": 47.5,
+        "upper": 123.5
+      }
+    },
+    "Adjusted EBIT to Price": {
+      "outlier_count": 203,
+      "outlier_pct": 1.0266005866289067,
+      "bounds": {
+        "lower": 31.5,
+        "upper": 115.5
+      }
+    },
+    "Adjusted Forward Earnings to Price": {
+      "outlier_count": 526,
+      "outlier_pct": 2.6600586628906644,
+      "bounds": {
+        "lower": 47.5,
+        "upper": 115.5
+      }
+    },
+    "EBITDA to Assets": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -120.0,
+        "upper": 224.0
+      }
+    },
+    "Free Cash Flow to Sales": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -96.0,
+        "upper": 208.0
+      }
+    },
+    "Cash Flow to Total Asset": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -122.5,
+        "upper": 225.5
+      }
+    },
+    "Cash Flow to Equity": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -81.0,
+        "upper": 199.0
+      }
+    },
+    "Cash Flow to Invested Capital": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -103.5,
+        "upper": 212.5
+      }
+    },
+    "Cash to Sales": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -23.5,
+        "upper": 156.5
+      }
+    },
+    "Gross Profit to Assets": {
+      "outlier_count": 2372,
+      "outlier_pct": 11.995549711742692,
+      "bounds": {
+        "lower": -39.5,
+        "upper": 84.5
+      }
+    },
+    "Return on Invested Capital": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -133.0,
+        "upper": 235.0
+      }
+    },
+    "Return on Equity": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -94.5,
+        "upper": 205.5
+      }
+    },
+    "Return on Assets": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -122.5,
+        "upper": 225.5
+      }
+    },
+    "Cash Flow Return on Invested Capital": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -106.0,
+        "upper": 214.0
+      }
+    },
+    "Operating Margin": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -46.0,
+        "upper": 178.0
+      }
+    },
+    "Net Profit Margin": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -68.0,
+        "upper": 188.0
+      }
+    },
+    "Gross Profit Margin": {
+      "outlier_count": 1928,
+      "outlier_pct": 9.750177000101143,
+      "bounds": {
+        "lower": -42.5,
+        "upper": 97.5
+      }
+    },
+    "EBIT Margin": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -56.0,
+        "upper": 184.0
+      }
+    },
+    "Balance Sheet Accruals": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -39.5,
+        "upper": 132.5
+      }
+    },
+    "Accrual Ratio - Balance Sheet": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -61.0,
+        "upper": 187.0
+      }
+    },
+    "Accrual Ratio - Cash Flows": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -114.0,
+        "upper": 214.0
+      }
+    },
+    "Working Capital Accruals": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -79.5,
+        "upper": 180.5
+      }
+    },
+    "Earnings Quality": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -69.05000000000001,
+        "upper": 149.75
+      }
+    },
+    "Piotroski F-Score": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -85.10000000000001,
+        "upper": 196.5
+      }
+    },
+    "Altman Z-Score": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -101.5,
+        "upper": 198.5
+      }
+    },
+    "Adjusted Interest Coverage Ratio": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -97.0,
+        "upper": 207.0
+      }
+    },
+    "Depreciation to Capex Ratio": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -30.0,
+        "upper": 122.0
+      }
+    },
+    "Return on Net Tangible Assets": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -99.0,
+        "upper": 205.0
+      }
+    },
+    "Return on Risk Weighted Assets (Fundamentals)": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": NaN,
+        "upper": NaN
+      }
+    },
+    "EBIT to Assets": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -116.5,
+        "upper": 223.5
+      }
+    },
+    "EBIT to Assets v2": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -109.0,
+        "upper": 219.0
+      }
+    },
+    "EPS Stability": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -58.5,
+        "upper": 161.5
+      }
+    },
+    "Net Income Stability": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -74.0,
+        "upper": 158.0
+      }
+    },
+    "Sales to Invested Capital": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -52.0,
+        "upper": 140.0
+      }
+    },
+    "Dividends to Cash Flow": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -52.0,
+        "upper": 148.0
+      }
+    },
+    "Adjusted Accruals": {
+      "outlier_count": 732,
+      "outlier_pct": 3.7018306867603927,
+      "bounds": {
+        "lower": 13.0,
+        "upper": 109.0
+      }
+    },
+    "Asset Adjusted Capital Investments": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -27.0,
+        "upper": 117.0
+      }
+    },
+    "Pretax Profit Margin": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -51.0,
+        "upper": 181.0
+      }
+    },
+    "Reserve Exhaustion Rate": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": NaN,
+        "upper": NaN
+      }
+    },
+    "Pretax Income to Net Operating Assets": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -129.75,
+        "upper": 232.25
+      }
+    },
+    "Return on Assets v2": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -122.5,
+        "upper": 225.5
+      }
+    },
+    "Inverse PEG": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": 5.0,
+        "upper": 117.0
+      }
+    },
+    "3Y Average Annual Sales Growth": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -42.0,
+        "upper": 102.0
+      }
+    },
+    "3Y Average Annual Earnings Growth": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -58.0,
+        "upper": 158.0
+      }
+    },
+    "Expected Earnings Growth: Fiscal Year 2/Fiscal Year 1": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -73.5,
+        "upper": 146.5
+      }
+    },
+    "Expected LTG": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -51.5,
+        "upper": 104.5
+      }
+    },
+    "Sustainable Growth Rate": {
+      "outlier_count": 512,
+      "outlier_pct": 2.5892586224334986,
+      "bounds": {
+        "lower": -41.5,
+        "upper": 82.5
+      }
+    },
+    "Production Growth": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": NaN,
+        "upper": NaN
+      }
+    },
+    "Reserve Growth": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": NaN,
+        "upper": NaN
+      }
+    },
+    "Dividend Growth": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -8.0,
+        "upper": 104.0
+      }
+    },
+    "Dividend per Share Growth": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -31.5,
+        "upper": 132.5
+      }
+    },
+    "Historical Growth": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -93.0,
+        "upper": 195.0
+      }
+    },
+    "Asset Growth - 1 Year": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -42.5,
+        "upper": 169.5
+      }
+    },
+    "Developed Reserves per Share Growth": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": NaN,
+        "upper": NaN
+      }
+    },
+    "1Y Chg in Asset Adjusted EPS": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -102.0,
+        "upper": 202.0
+      }
+    },
+    "1Y Chg in Asset Adjusted Cash Flow": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -103.5,
+        "upper": 212.5
+      }
+    },
+    "1Y Chg in Asset Adjusted Free Cash Flow": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -101.0,
+        "upper": 203.0
+      }
+    },
+    "1Y Chg in Asset Adjusted Operating Cash Flow": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -105.0,
+        "upper": 207.0
+      }
+    },
+    "1Y Chg in Operating Margin": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -65.0,
+        "upper": 175.0
+      }
+    },
+    "1Y Chg in Cash Flow per Share": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -67.5,
+        "upper": 168.5
+      }
+    },
+    "1Y Chg in Free Cash Flow per Share": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -55.5,
+        "upper": 148.5
+      }
+    },
+    "1Y Chg in Operating Cash Flow per Share": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -68.5,
+        "upper": 175.5
+      }
+    },
+    "1Y Chg in Earnings per Share": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -50.0,
+        "upper": 150.0
+      }
+    },
+    "1Y Chg in Sales Turnover": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -71.5,
+        "upper": 180.5
+      }
+    },
+    "3Y Chg in Asset Adjusted EPS": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -88.0,
+        "upper": 176.0
+      }
+    },
+    "3Y Chg in Asset Adjusted Cash Flow": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -103.5,
+        "upper": 204.5
+      }
+    },
+    "3Y Chg in Asset Adjusted Free Cash Flow": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -98.0,
+        "upper": 206.0
+      }
+    },
+    "3Y Chg in Asset Adjusted Operating Cash Flow": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -106.0,
+        "upper": 206.0
+      }
+    },
+    "3Y Chg in Operating Margin": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -51.5,
+        "upper": 144.5
+      }
+    },
+    "3Y Chg in Cash Flow per Share": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -59.5,
+        "upper": 152.5
+      }
+    },
+    "3Y Chg in Free Cash Flow per Share": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -57.5,
+        "upper": 146.5
+      }
+    },
+    "3Y Chg in Operating Cash Flow per Share": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -78.0,
+        "upper": 178.0
+      }
+    },
+    "3Y Chg in Earnings per Share": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -58.5,
+        "upper": 161.5
+      }
+    },
+    "3Y Chg in Sales Turnover": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -53.5,
+        "upper": 174.5
+      }
+    },
+    "1Y Chg in Cash Flow to Price": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -10.0,
+        "upper": 110.0
+      }
+    },
+    "1Y Chg in Earnings to Price": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -9.5,
+        "upper": 114.5
+      }
+    },
+    "1Y Chg in Free Cash Flow to Price": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -3.5,
+        "upper": 104.5
+      }
+    },
+    "1Y Chg in Operating Cash Flow to Price": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -2.5,
+        "upper": 105.5
+      }
+    },
+    "1Y Chg in Sales to Price": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": 0.0,
+        "upper": 104.0
+      }
+    },
+    "1Y Chg in Stock Buybacks": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -29.0,
+        "upper": 131.0
+      }
+    },
+    "1Y Chg in Discounted Future Cash Flows to Market Cap": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": NaN,
+        "upper": NaN
+      }
+    },
+    "3Y Chg in Cash Flow to Price": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -11.5,
+        "upper": 112.5
+      }
+    },
+    "3Y Chg in Earnings to Price": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -13.5,
+        "upper": 110.5
+      }
+    },
+    "3Y Chg in Free Cash Flow to Price": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": 1.0,
+        "upper": 105.0
+      }
+    },
+    "3Y Chg in Operating Cash Flow to Price": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -5.5,
+        "upper": 110.5
+      }
+    },
+    "3Y Chg in Sales to Price": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -5.0,
+        "upper": 107.0
+      }
+    },
+    "Sales Acceleration": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -80.5,
+        "upper": 179.5
+      }
+    },
+    "Same Restaurant Sales Growth": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": NaN,
+        "upper": NaN
+      }
+    },
+    "Surgeries Growth": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": NaN,
+        "upper": NaN
+      }
+    },
+    "12M - 1M Price Momentum": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -81.5,
+        "upper": 162.5
+      }
+    },
+    "9 Month Price Momentum": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -82.0,
+        "upper": 166.0
+      }
+    },
+    "6 Months Price Reversal": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -71.0,
+        "upper": 185.0
+      }
+    },
+    "1M Price Reversal": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -75.0,
+        "upper": 181.0
+      }
+    },
+    "5 Day Price Reversal": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -77.0,
+        "upper": 179.0
+      }
+    },
+    "14-Day Relative Strength Index": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -45.5,
+        "upper": 150.5
+      }
+    },
+    "10 Day MACD Trend": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -81.0,
+        "upper": 175.0
+      }
+    },
+    "Closing Price to 52 Week High": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -36.5,
+        "upper": 143.5
+      }
+    },
+    "4W to 52W Price Oscillator": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -82.0,
+        "upper": 166.0
+      }
+    },
+    "52W High Low": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -51.5,
+        "upper": 144.5
+      }
+    },
+    "130 Day Minimum Return": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -25.0,
+        "upper": 143.0
+      }
+    },
+    "180D Price TStat": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -56.0,
+        "upper": 144.0
+      }
+    },
+    "26W Price Stat": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -56.5,
+        "upper": 147.5
+      }
+    },
+    "26W Relative Price Strength": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -82.5,
+        "upper": 169.5
+      }
+    },
+    "39W Lagged Return": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -82.0,
+        "upper": 166.0
+      }
+    },
+    "50 Day to 200 Day Stock Price": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -77.0,
+        "upper": 163.0
+      }
+    },
+    "Slope of 52W Price Trend": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -84.5,
+        "upper": 175.5
+      }
+    },
+    "Risk Adjusted Relative Strength": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -46.5,
+        "upper": 141.5
+      }
+    },
+    "15/36 Week Price Ratio": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -77.0,
+        "upper": 163.0
+      }
+    },
+    "1M Price High - 1M Price Low": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -42.5,
+        "upper": 145.5
+      }
+    },
+    "Closing Price to 260 Day Low": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -26.0,
+        "upper": 158.0
+      }
+    },
+    "Percent Above 260-Day Low": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -57.0,
+        "upper": 127.0
+      }
+    },
+    "Price Momentum": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -64.5,
+        "upper": 155.5
+      }
+    },
+    "60M CAPM Beta": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -30.0,
+        "upper": 122.0
+      }
+    },
+    "60M CAPM Alpha": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -66.0,
+        "upper": 174.0
+      }
+    },
+    "12M Realized Price Volatility": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -35.0,
+        "upper": 101.0
+      }
+    },
+    "1M Realized Price Volatility": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -34.5,
+        "upper": 105.5
+      }
+    },
+    "24M Residual Return Variance": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": 2.5,
+        "upper": 134.5
+      }
+    },
+    "90 Day Coefficient of Variation": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -42.5,
+        "upper": 113.5
+      }
+    },
+    "Sharpe Ratio": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -20.5,
+        "upper": 159.5
+      }
+    },
+    "20 Day Coefficient of Variation of Volume to Price": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -3.0,
+        "upper": 141.0
+      }
+    },
+    "30 Day Coefficient of Variation of Volume to Price": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -0.5,
+        "upper": 139.5
+      }
+    },
+    "60 Day Coefficient of Variation of Volume to Price": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -4.5,
+        "upper": 143.5
+      }
+    },
+    "Volatility": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -35.26250000000001,
+        "upper": 99.8375
+      }
+    },
+    "Volatility adjusted 12M return": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -63.0,
+        "upper": 145.0
+      }
+    },
+    "6M Chg in 12M CAPM Alpha": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -50.0,
+        "upper": 150.0
+      }
+    },
+    "6M Chg in 18M CAPM Alpha": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -42.0,
+        "upper": 142.0
+      }
+    },
+    "6M Chg in 36M CAPM Alpha": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -41.5,
+        "upper": 146.5
+      }
+    },
+    "Max Daily Return in the Past 6 Months": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -2.5,
+        "upper": 137.5
+      }
+    },
+    "Amihud Illiquidity Measure": {
+      "outlier_count": 146,
+      "outlier_pct": 0.7383432790533023,
+      "bounds": {
+        "lower": -32.0,
+        "upper": 96.0
+      }
+    },
+    "Log Market Cap": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -19.5,
+        "upper": 128.5
+      }
+    },
+    "Share Turnover": {
+      "outlier_count": 12,
+      "outlier_pct": 0.06068574896328512,
+      "bounds": {
+        "lower": 19.0,
+        "upper": 131.0
+      }
+    },
+    "50 Day Volume Signal": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -42.0,
+        "upper": 142.0
+      }
+    },
+    "Adj 50 Day Volume Signal": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -47.5,
+        "upper": 148.5
+      }
+    },
+    "52-Week Volume Price Trend with 20-Day Lag": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -93.0,
+        "upper": 187.0
+      }
+    },
+    "5 Day Volume Signal": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -33.0,
+        "upper": 127.0
+      }
+    },
+    "5-Day Money Flow/Volume": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -30.0,
+        "upper": 130.0
+      }
+    },
+    "6 Month Average Share Turn Over": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -39.5,
+        "upper": 156.5
+      }
+    },
+    "Adjusted 6 Month Average Share Turn Over": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": 21.5,
+        "upper": 129.5
+      }
+    },
+    "1Y Chg in Share Turnover": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -49.0,
+        "upper": 151.0
+      }
+    },
+    "1Y Chg in Shares Outstanding": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -27.750000000000014,
+        "upper": 151.05
+      }
+    },
+    "Change in Number of Buyers": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -40.24999999999999,
+        "upper": 147.35
+      }
+    },
+    "Change in Number of Holders": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -46.599999999999994,
+        "upper": 115.0
+      }
+    },
+    "Change of Ownership Level - All Managers": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -69.0,
+        "upper": 171.0
+      }
+    },
+    "Foreign Institution Ownership": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -43.5,
+        "upper": 120.5
+      }
+    },
+    "Institution Ownership Level": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -25.5,
+        "upper": 122.5
+      }
+    },
+    "Institution Ownership Level - Active Manager": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -28.0,
+        "upper": 124.0
+      }
+    },
+    "Institution Ownership Concentration": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -33.44999999999999,
+        "upper": 151.75
+      }
+    },
+    "Institution Ownership Turnover": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -30.5,
+        "upper": 149.5
+      }
+    },
+    "Ownership Breadth Stability of Institution Ownership by Buyers": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -38.0,
+        "upper": 138.0
+      }
+    },
+    "Ownership Breadth Stability of Institution Ownership by Holders": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -17.0,
+        "upper": 143.0
+      }
+    },
+    "Stability of Change in Number of Holders": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -43.400000000000006,
+        "upper": 115.0
+      }
+    },
+    "Log of Market Capitalization Cubed": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -18.5,
+        "upper": 129.5
+      }
+    },
+    "Size": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -43.5,
+        "upper": 136.5
+      }
+    },
+    "Earnings Surprise": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -6.5,
+        "upper": 109.5
+      }
+    },
+    "Analyst Dispersion for FY1 EPS": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -78.94999999999999,
+        "upper": 174.25
+      }
+    },
+    "Analyst Dispersion for FY2 EPS": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -78.5,
+        "upper": 149.5
+      }
+    },
+    "Analyst Earnings Estimate Diffusion": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -6.000000000000007,
+        "upper": 128.4
+      }
+    },
+    "Analyst Expectations": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -72.5,
+        "upper": 163.5
+      }
+    },
+    "EBIT Estimate Dispersion": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -39.5,
+        "upper": 172.5
+      }
+    },
+    "Revenue Estimate Dispersion": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -58.0,
+        "upper": 190.0
+      }
+    },
+    "Adjusted Number of EPS FY1 Revisions": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -7.500000000000007,
+        "upper": 129.3
+      }
+    },
+    "Adj Number of EPS FY2 Revisions": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -10.850000000000009,
+        "upper": 136.75
+      }
+    },
+    "Number of EPS FY1 Revisions": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -71.74999999999999,
+        "upper": 169.45
+      }
+    },
+    "Adjusted Revision Magnitude": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -71.5,
+        "upper": 164.5
+      }
+    },
+    "Street Revision Magnitude": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -69.0,
+        "upper": 163.0
+      }
+    },
+    "3M Revision in FY1 EPS Estimate": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -48.0,
+        "upper": 144.0
+      }
+    },
+    "3M Revision in FY2 EPS Estimate": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -60.0,
+        "upper": 164.0
+      }
+    },
+    "6M Chg in Target Price": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -67.0,
+        "upper": 149.0
+      }
+    },
+    "6M Chg in Target Price Gap": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -39.0,
+        "upper": 137.0
+      }
+    },
+    "Target Price Gap to 6M EMA": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -40.5,
+        "upper": 139.5
+      }
+    },
+    "Buy-to-Sell Recommendation Ratio Less 3M EMA": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -30.5,
+        "upper": 133.5
+      }
+    },
+    "Buy-to-Sell Recommendation Ratio Less 3M SMA": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -31.5,
+        "upper": 132.5
+      }
+    },
+    "6M Avg Chg 1M Recommendation": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -44.5,
+        "upper": 151.5
+      }
+    },
+    "Standardized Unexpected Earnings": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -42.0,
+        "upper": 142.0
+      }
+    },
+    "12 month Relative Price Strength(Ind Grp Rel VolAdjRtn12M)": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -57.0,
+        "upper": 143.0
+      }
+    },
+    "4-Week Change in 12-Month Forward Earnings Consensus Estimate/Price": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -42.5,
+        "upper": 145.5
+      }
+    },
+    "8-Week Change in 12-Month Forward Earnings Consensus Estimate/Price": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -48.0,
+        "upper": 152.0
+      }
+    },
+    "6M Momentum in Trailing 12M Sales": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -75.0,
+        "upper": 173.0
+      }
+    },
+    "3M Momentum in Trailing 12M Sales": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -79.5,
+        "upper": 180.5
+      }
+    },
+    "Ind Grp Rel Return on Equity": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -42.0,
+        "upper": 150.0
+      }
+    },
+    "Ind Grp Rel Return on Assets": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -91.5,
+        "upper": 184.5
+      }
+    },
+    "Ind Grp Rel Return on Invested Capital": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -70.5,
+        "upper": 173.5
+      }
+    },
+    "Ind Grp Rel EBIT Margin": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -60.5,
+        "upper": 143.5
+      }
+    },
+    "Ind Grp Rel Operating Margin": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -57.5,
+        "upper": 138.5
+      }
+    },
+    "Ind Grp Rel Pretax Profit Margin": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -41.5,
+        "upper": 106.5
+      }
+    },
+    "Ind Grp Rel Gross Profit Margin": {
+      "outlier_count": 1299,
+      "outlier_pct": 6.569232325275615,
+      "bounds": {
+        "lower": -4.5,
+        "upper": 79.5
+      }
+    },
+    "Ind Grp Rel Operating Earnings to Assets Ratio": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -91.5,
+        "upper": 184.5
+      }
+    },
+    "Ind Grp Rel Operating Earnings to Price Ratio": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -33.5,
+        "upper": 106.5
+      }
+    },
+    "Ind Grp Rel Book to Price": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -37.5,
+        "upper": 166.5
+      }
+    },
+    "Ind Grp Rel Cash to Price": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -47.0,
+        "upper": 169.0
+      }
+    },
+    "Ind Grp Rel Free Cash Flow to Price": {
+      "outlier_count": 393,
+      "outlier_pct": 1.9874582785475876,
+      "bounds": {
+        "lower": -31.0,
+        "upper": 97.0
+      }
+    },
+    "Ind Grp Rel Operating Cash Flow to Price": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -35.0,
+        "upper": 101.0
+      }
+    },
+    "Ind Grp Rel Net Cash Flow to Price": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -40.0,
+        "upper": 112.0
+      }
+    },
+    "Ind Grp Rel Net Cash Flow to Enterprise Value": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -51.0,
+        "upper": 141.0
+      }
+    },
+    "Ind Grp Rel EBITDA to Price": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -34.0,
+        "upper": 110.0
+      }
+    },
+    "Ind Grp Rel EBITDA to Enterprise Value": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -44.0,
+        "upper": 140.0
+      }
+    },
+    "Ind Grp Rel Assets to Price Ratio": {
+      "outlier_count": 451,
+      "outlier_pct": 2.2807727318701327,
+      "bounds": {
+        "lower": 18.5,
+        "upper": 126.5
+      }
+    },
+    "Ind Grp Rel Sales to Price Ratio": {
+      "outlier_count": 40,
+      "outlier_pct": 0.20228582987761706,
+      "bounds": {
+        "lower": 10.0,
+        "upper": 146.0
+      }
+    },
+    "Ind Grp Rel Current Ratio": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -59.5,
+        "upper": 128.5
+      }
+    },
+    "Ind Grp Rel Quick Ratio": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -61.5,
+        "upper": 126.5
+      }
+    },
+    "Ind Grp Rel Cash to Total Assets": {
+      "outlier_count": 2132,
+      "outlier_pct": 10.78183473247699,
+      "bounds": {
+        "lower": -28.5,
+        "upper": 71.5
+      }
+    },
+    "Ind Grp Rel Working Capital to Assets Ratio": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -60.0,
+        "upper": 116.0
+      }
+    },
+    "Ind Grp Rel Long Term Debt to Assets Ratio": {
+      "outlier_count": 355,
+      "outlier_pct": 1.7952867401638515,
+      "bounds": {
+        "lower": 2.8000000000000043,
+        "upper": 94.0
+      }
+    },
+    "Ind Grp Rel Inventory Turnover": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -97.0,
+        "upper": 167.0
+      }
+    },
+    "Ind Grp Rel Receivables Turnover Ratio": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -86.0,
+        "upper": 186.0
+      }
+    },
+    "Ind Grp Rel Working Capital Turnover Ratio": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": 0.5,
+        "upper": 132.5
+      }
+    },
+    "Ind Grp Rel Sales to Gross Profit Margin Growth": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -51.5,
+        "upper": 152.5
+      }
+    },
+    "Ind Grp Rel 1Y Chg in Earnings per Share": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -31.0,
+        "upper": 121.0
+      }
+    },
+    "Ind Grp Rel 1Y Chg in Operating Margin": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -85.0,
+        "upper": 179.0
+      }
+    },
+    "Ind Grp Rel 1Y Chg in Cash Flow to Price": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -9.0,
+        "upper": 143.0
+      }
+    },
+    "Ind Grp Rel 1Y Chg in Earnings to Price": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -29.0,
+        "upper": 155.0
+      }
+    },
+    "Ind Grp Rel 1Y Chg in Free Cash Flow per Share": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -48.0,
+        "upper": 152.0
+      }
+    },
+    "Ind Grp Rel 1Y Chg in Free Cash Flow to Price": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -37.5,
+        "upper": 150.5
+      }
+    },
+    "Ind Grp Rel 1Y Chg in Operating Cash Flow per Share": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -75.5,
+        "upper": 176.5
+      }
+    },
+    "Ind Grp Rel 1Y Chg in Sales to Price": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -47.5,
+        "upper": 132.5
+      }
+    },
+    "Ind Grp Rel 1Y Chg in Shares Outstanding": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -29.5,
+        "upper": 126.5
+      }
+    },
+    "Ind Grp Rel 1Y Chg in Stock Buybacks": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -30.0,
+        "upper": 162.0
+      }
+    },
+    "Ind Grp Rel 3Y Chg in Sales to Price": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -44.0,
+        "upper": 124.0
+      }
+    },
+    "Ind Grp Rel 5 Day Price Momentum": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -65.0,
+        "upper": 167.0
+      }
+    },
+    "Ind Grp Rel 9M Price Momentum": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -69.0,
+        "upper": 155.0
+      }
+    },
+    "Ind Grp Rel 12M - 1M Price Momentum": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -67.5,
+        "upper": 152.5
+      }
+    },
+    "Ind Grp Rel 50 Day Volume Signal": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -41.0,
+        "upper": 143.0
+      }
+    },
+    "Ind Grp Rel Accrual Ratio - Cash Flows": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -55.5,
+        "upper": 156.5
+      }
+    },
+    "Ind Grp Rel Adjusted Accruals": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -22.5,
+        "upper": 133.5
+      }
+    },
+    "Ind Grp Rel Analyst Dispersion for FY1 EPS": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -42.5,
+        "upper": 129.5
+      }
+    },
+    "Ind Grp Rel Asset Adjusted Capital Investments": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -38.0,
+        "upper": 122.0
+      }
+    },
+    "Ind Grp Rel Balance Sheet Accruals": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -45.5,
+        "upper": 166.5
+      }
+    },
+    "Ind Grp Rel Inverse P/E Ratio Adj for Growth and Yield": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -60.0,
+        "upper": 148.0
+      }
+    },
+    "Ind Grp Rel Max Daily Return in the Past 6 Months": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -55.5,
+        "upper": 164.5
+      }
+    },
+    "Ind Grp Rel Standardized Unexpected Earnings": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -59.5,
+        "upper": 152.5
+      }
+    },
+    "Ind Grp Rel Sustainable Growth Rate": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -53.5,
+        "upper": 118.5
+      }
+    },
+    "Ind Grp Rel Tobin's Q Ratio": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -7.5,
+        "upper": 156.5
+      }
+    },
+    "Ind Grp Rel 1M Price Reversal": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -63.0,
+        "upper": 169.0
+      }
+    },
+    "Ind Grp Rel Earnings Surprise": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -40.0,
+        "upper": 144.0
+      }
+    },
+    "Ind Grp Rel Operating Cash Flow to Enterprise Value": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -43.5,
+        "upper": 136.5
+      }
+    },
+    "Ind Grp Rel Pretax Income Per Share to Price": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -35.5,
+        "upper": 120.5
+      }
+    },
+    "Ind Grp Rel Asset Turnover": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -46.0,
+        "upper": 130.0
+      }
+    },
+    "Ind Grp Rel Capital Acquisition Ratio": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -91.5,
+        "upper": 176.5
+      }
+    },
+    "Ind Grp Rel Capital Expenditure to Total Assets": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -34.0,
+        "upper": 118.0
+      }
+    },
+    "Ind Grp Rel Cash Conversion Cycle": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -37.0,
+        "upper": 139.0
+      }
+    },
+    "Ind Grp Rel Cash Flow Return on Invested Capital": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -64.0,
+        "upper": 160.0
+      }
+    },
+    "Ind Grp Rel Cash to EV Ratio": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -38.5,
+        "upper": 149.5
+      }
+    },
+    "Ind Grp Rel Change in TTM Depr. to Capex": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -48.5,
+        "upper": 131.5
+      }
+    },
+    "Ind Grp Rel Debt to Assets Ratio": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -27.34999999999999,
+        "upper": 105.04999999999998
+      }
+    },
+    "Ind Grp Rel Depreciation to Capex Ratio": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -27.5,
+        "upper": 152.5
+      }
+    },
+    "Ind Grp Rel Dividends to Price Ratio": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -20.0,
+        "upper": 148.0
+      }
+    },
+    "Ind Grp Rel Earnings to Price": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -33.5,
+        "upper": 106.5
+      }
+    },
+    "Ind Grp Rel Expected LTG": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -84.0,
+        "upper": 156.0
+      }
+    },
+    "Ind Grp Rel Forward Earnings to Price": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -38.0,
+        "upper": 106.0
+      }
+    },
+    "Ind Grp Rel Forward Free Cash Flow to Price Ratio": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -32.5,
+        "upper": 107.5
+      }
+    },
+    "Ind Grp Rel Free Cash Flow to Common Equity": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -81.5,
+        "upper": 178.5
+      }
+    },
+    "Ind Grp Rel Free Cash Flow to Enterprise Value": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -50.0,
+        "upper": 142.0
+      }
+    },
+    "Ind Grp Rel Growth Flow to Price": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -37.5,
+        "upper": 126.5
+      }
+    },
+    "Ind Grp Rel Interest Coverage Ratio": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -51.5,
+        "upper": 152.5
+      }
+    },
+    "Ind Grp Rel Inventory to Assets Ratio": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -45.5,
+        "upper": 102.5
+      }
+    },
+    "Ind Grp Rel Inverse PEG": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -61.0,
+        "upper": 163.0
+      }
+    },
+    "Ind Grp Rel Long Term Debt to Equity Ratio": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -43.0,
+        "upper": 109.0
+      }
+    },
+    "Ind Grp Rel Net Current Assets to Price Ratio": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -30.5,
+        "upper": 141.5
+      }
+    },
+    "Ind Grp Rel Net Profit Margin": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -50.0,
+        "upper": 118.0
+      }
+    },
+    "Ind Grp Rel Price Momentum - 6 Months": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -57.5,
+        "upper": 170.5
+      }
+    },
+    "Ind Grp Rel SG&A to Sales": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -50.0,
+        "upper": 142.0
+      }
+    },
+    "Ind Grp Rel Sales to EV Ratio": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -7.5,
+        "upper": 140.5
+      }
+    },
+    "Ind Grp Rel Working Capital Accruals": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -64.0,
+        "upper": 168.0
+      }
+    },
+    "Ind Grp Rel Working Capital to Sales": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -74.5,
+        "upper": 153.5
+      }
+    },
+    "Ind Grp Rel Year over Year Change of EPS to Sales": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -82.0,
+        "upper": 174.0
+      }
+    },
+    "Ind Grp Rel Year over Year Change of Total Debt": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -12.5,
+        "upper": 119.5
+      }
+    },
+    "Ind Grp Rel YoY Change in SGA to Sales": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -75.0,
+        "upper": 165.0
+      }
+    },
+    "5 Yr Hist Rel 1Y Chg in Earnings per Share": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -41.0,
+        "upper": 143.0
+      }
+    },
+    "5 Yr Hist Rel Adjusted Accruals": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -46.5,
+        "upper": 165.5
+      }
+    },
+    "5 Yr Hist Rel Assets to Price Ratio": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -2.0,
+        "upper": 126.0
+      }
+    },
+    "5 Yr Hist Rel Book to Price": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -20.5,
+        "upper": 135.5
+      }
+    },
+    "5 Yr Hist Rel Cash to Total Assets": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -66.0,
+        "upper": 182.0
+      }
+    },
+    "5 Yr Hist Rel Current Ratio": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -65.5,
+        "upper": 162.5
+      }
+    },
+    "5 Yr Hist Rel EBIT Margin": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -57.5,
+        "upper": 146.5
+      }
+    },
+    "5 Yr Hist Rel EBITDA to Price": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -46.0,
+        "upper": 146.0
+      }
+    },
+    "5 Yr Hist Rel Free Cash Flow to Price": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -37.0,
+        "upper": 147.0
+      }
+    },
+    "5 Yr Hist Rel Gross Profit Margin": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -66.5,
+        "upper": 161.5
+      }
+    },
+    "5 Yr Hist Rel Inverse P/E Ratio Adj for Growth and Yield": {
+      "outlier_count": 61,
+      "outlier_pct": 0.308485890563366,
+      "bounds": {
+        "lower": 3.0,
+        "upper": 75.0
+      }
+    },
+    "5 Yr Hist Rel Long Term Debt to Assets Ratio": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -63.0,
+        "upper": 161.0
+      }
+    },
+    "5 Yr Hist Rel Net Cash Flow to Enterprise Value": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -47.5,
+        "upper": 148.5
+      }
+    },
+    "5 Yr Hist Rel Net Cash Flow to Price": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -70.5,
+        "upper": 157.5
+      }
+    },
+    "5 Yr Hist Rel Operating Cash Flow to Price": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -45.0,
+        "upper": 155.0
+      }
+    },
+    "5 Yr Hist Rel Operating Earnings to Assets Ratio": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -65.0,
+        "upper": 151.0
+      }
+    },
+    "5 Yr Hist Rel Operating Margin": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -56.5,
+        "upper": 147.5
+      }
+    },
+    "5 Yr Hist Rel Pretax Profit Margin": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -54.5,
+        "upper": 149.5
+      }
+    },
+    "5 Yr Hist Rel Quick Ratio": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -70.0,
+        "upper": 170.0
+      }
+    },
+    "5 Yr Hist Rel Receivables Turnover Ratio": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -24.5,
+        "upper": 139.5
+      }
+    },
+    "5 Yr Hist Rel Return on Assets": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -65.0,
+        "upper": 151.0
+      }
+    },
+    "5 Yr Hist Rel Return on Equity": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -54.5,
+        "upper": 141.5
+      }
+    },
+    "5 Yr Hist Rel Return on Invested Capital": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -32.5,
+        "upper": 131.5
+      }
+    },
+    "5 Yr Hist Rel Sales to Gross Profit Margin Growth": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -40.5,
+        "upper": 147.5
+      }
+    },
+    "5 Yr Hist Rel Working Capital Turnover Ratio": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -52.0,
+        "upper": 156.0
+      }
+    },
+    "5 Yr Hist Rel Working Capital to Assets Ratio": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -56.0,
+        "upper": 160.0
+      }
+    },
+    "1 Yr Chg in Admissions": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": NaN,
+        "upper": NaN
+      }
+    },
+    "1 Yr Chg in Number of Properties": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": NaN,
+        "upper": NaN
+      }
+    },
+    "1 Yr Chg in Number of Restuarants": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": NaN,
+        "upper": NaN
+      }
+    },
+    "1 Yr Chg in Number of Rooms": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": NaN,
+        "upper": NaN
+      }
+    },
+    "1 Yr Chg in Revenue per Room": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": NaN,
+        "upper": NaN
+      }
+    },
+    "1 Yr Grw Avg Length of Stay": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": NaN,
+        "upper": NaN
+      }
+    },
+    "1 Yr Grw Broadband Subscribers": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": NaN,
+        "upper": NaN
+      }
+    },
+    "1 Yr Grw Churn Rate": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": NaN,
+        "upper": NaN
+      }
+    },
+    "1 Yr Grw House Sales Revenue": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": NaN,
+        "upper": NaN
+      }
+    },
+    "1 Yr Grw Net New Orders": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": NaN,
+        "upper": NaN
+      }
+    },
+    "1 Yr Grw Net Wireless Subs Additions": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": NaN,
+        "upper": NaN
+      }
+    },
+    "1 Yr Grw Num of Patent Applications": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -121.30000000000001,
+        "upper": 209.10000000000002
+      }
+    },
+    "1 Yr Grw Num of Products in Phase 3": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -58.19999999999999,
+        "upper": 137.0
+      }
+    },
+    "1 Yr Grw Number of Patents": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -8.850000000000009,
+        "upper": 154.75
+      }
+    },
+    "1 Yr Grw Revenue Passenger Miles": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": NaN,
+        "upper": NaN
+      }
+    },
+    "1 Yr Grw Revenue Passengers Carried": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": NaN,
+        "upper": NaN
+      }
+    },
+    "1 Yr Grw Tot Home Rev to Const in Prog": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": NaN,
+        "upper": NaN
+      }
+    },
+    "1 Yr Grw Tot Home Rev to Inventory": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": NaN,
+        "upper": NaN
+      }
+    },
+    "1 Yr Grw Wireless Subscribers": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": NaN,
+        "upper": NaN
+      }
+    },
+    "1 Yr Grw in Net Premiums Earned": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": NaN,
+        "upper": NaN
+      }
+    },
+    "1 Yr Grw in Total Investments": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": NaN,
+        "upper": NaN
+      }
+    },
+    "1 Yr Grw in Underwriting Profit": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": NaN,
+        "upper": NaN
+      }
+    },
+    "1 Yr Same Rest Sales Acceleration": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": NaN,
+        "upper": NaN
+      }
+    },
+    "1-Year Change in Current Ratio": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -108.0,
+        "upper": 204.0
+      }
+    },
+    "1-Year Change in Gross Profit Margin": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -70.5,
+        "upper": 165.5
+      }
+    },
+    "1-Year Change in Long Term Debt to Avg Total Assets": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -55.5,
+        "upper": 132.5
+      }
+    },
+    "1-Year Change in ROA": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -100.0,
+        "upper": 204.0
+      }
+    },
+    "1Y Change in Modified Texas Ratio (Fundamentals)": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": NaN,
+        "upper": NaN
+      }
+    },
+    "1Y Change in Nonaccrual Loans to Total Assets (Fundamentals)": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": NaN,
+        "upper": NaN
+      }
+    },
+    "1Y Chg in Amihud": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -71.5,
+        "upper": 164.5
+      }
+    },
+    "1Y Chg in EPS to Operating Cash Flow": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -26.5,
+        "upper": 121.5
+      }
+    },
+    "1Y Chg in Future Cash Flows per Share": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": NaN,
+        "upper": NaN
+      }
+    },
+    "1Y Chg in Future Cash Flows to Total Assets": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": NaN,
+        "upper": NaN
+      }
+    },
+    "1Y Chg in Future Cashflow Yield": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": NaN,
+        "upper": NaN
+      }
+    },
+    "1Y Chg in Proved Reserves to Market Cap": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": NaN,
+        "upper": NaN
+      }
+    },
+    "1Y Chg in Reserve Acquired to Total Costs": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": NaN,
+        "upper": NaN
+      }
+    },
+    "1Y Chg in Reserve Exhaustion Rate": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": NaN,
+        "upper": NaN
+      }
+    },
+    "1Y Chg in Sales to Earnings": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -30.5,
+        "upper": 125.5
+      }
+    },
+    "20-Day Lane's Stochastic Indicator": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -40.0,
+        "upper": 144.0
+      }
+    },
+    "3Y Change in Operating Income to Tier 1 Common Equity (Fundamentals)": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": NaN,
+        "upper": NaN
+      }
+    },
+    "3Y Change in Total Pretax Expense to Average Assets (Fundamentals)": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": 38.0,
+        "upper": 86.0
+      }
+    },
+    "Actual Production to Market Cap": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": NaN,
+        "upper": NaN
+      }
+    },
+    "Backlog Homes Value Grw": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": NaN,
+        "upper": NaN
+      }
+    },
+    "Churn Rate": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": NaN,
+        "upper": NaN
+      }
+    },
+    "Deliv Homes Value Grw to Mkt Cap": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": NaN,
+        "upper": NaN
+      }
+    },
+    "Gas Margin": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": NaN,
+        "upper": NaN
+      }
+    },
+    "Home Gross Margin": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": NaN,
+        "upper": NaN
+      }
+    },
+    "Hospitals and Facilities Growth": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": NaN,
+        "upper": NaN
+      }
+    },
+    "Hotel & Casino Rev to Oper Exp": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": NaN,
+        "upper": NaN
+      }
+    },
+    "Implied Cap Rate": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": NaN,
+        "upper": NaN
+      }
+    },
+    "Insurance: Net Premium Written to Net Assets": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": NaN,
+        "upper": NaN
+      }
+    },
+    "Investment Duration": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -53.5,
+        "upper": 174.5
+      }
+    },
+    "Licensed Beds Growth": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": NaN,
+        "upper": NaN
+      }
+    },
+    "Log TTM Sales": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -62.5,
+        "upper": 133.5
+      }
+    },
+    "Log of Total Last Quarter Assets": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -9.0,
+        "upper": 151.0
+      }
+    },
+    "Log of Unadjusted Stock Price": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -26.0,
+        "upper": 150.0
+      }
+    },
+    "Mine Life - Gold Mining": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": NaN,
+        "upper": NaN
+      }
+    },
+    "Net Prem Written to Stat Surplus": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": NaN,
+        "upper": NaN
+      }
+    },
+    "Normalized EP": {
+      "outlier_count": 957,
+      "outlier_pct": 4.839688479821989,
+      "bounds": {
+        "lower": 33.0,
+        "upper": 105.0
+      }
+    },
+    "Normalized ROA": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -117.5,
+        "upper": 222.5
+      }
+    },
+    "Normalized ROE": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -92.5,
+        "upper": 199.5
+      }
+    },
+    "Number of Patents to Mkt Cap": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -19.550000000000004,
+        "upper": 84.85000000000001
+      }
+    },
+    "Oil Margin": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": NaN,
+        "upper": NaN
+      }
+    },
+    "Operating Cash Flow Ratio": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -97.5,
+        "upper": 210.5
+      }
+    },
+    "Operating Cash Flow to Asset v2": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -120.5,
+        "upper": 227.5
+      }
+    },
+    "Passenger Load Factor": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": NaN,
+        "upper": NaN
+      }
+    },
+    "Patient Days Growth": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": NaN,
+        "upper": NaN
+      }
+    },
+    "Pre-Provision Net Revenue / Price  (Fundamentals)": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": NaN,
+        "upper": NaN
+      }
+    },
+    "Profit per Room": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": NaN,
+        "upper": NaN
+      }
+    },
+    "Proved & Prob Reserves to Market Cap": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": NaN,
+        "upper": NaN
+      }
+    },
+    "ROA 20 Qtr Standard Deviation": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -10.0,
+        "upper": 158.0
+      }
+    },
+    "ROA 60 Month Slope": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -101.5,
+        "upper": 182.5
+      }
+    },
+    "ROE 20 Qtr Standard Deviation": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -21.5,
+        "upper": 158.5
+      }
+    },
+    "Reserve Acquisition Cost": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": NaN,
+        "upper": NaN
+      }
+    },
+    "Reserve Acquisition Yield": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": NaN,
+        "upper": NaN
+      }
+    },
+    "Reserve Replacement Ratio": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": NaN,
+        "upper": NaN
+      }
+    },
+    "Restaurant Operating Margin": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": NaN,
+        "upper": NaN
+      }
+    },
+    "Restaurants Closing Momentum": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": NaN,
+        "upper": NaN
+      }
+    },
+    "Restaurants Opening Momentum": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": NaN,
+        "upper": NaN
+      }
+    },
+    "Revenue per Room": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": NaN,
+        "upper": NaN
+      }
+    },
+    "Room Margin": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": NaN,
+        "upper": NaN
+      }
+    },
+    "TTM Rest Closed & Sold to Total Rest": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": NaN,
+        "upper": NaN
+      }
+    },
+    "TTM Rest Open & Acquire to Total Rest": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": NaN,
+        "upper": NaN
+      }
+    },
+    "Total Profit per Available Seat Mile": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": NaN,
+        "upper": NaN
+      }
+    },
+    "Underwriting Margin": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": NaN,
+        "upper": NaN
+      }
+    },
+    "Unexpected Inventory Change": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -31.0,
+        "upper": 121.0
+      }
+    },
+    "Unexpected Receivables Change": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": -101.5,
+        "upper": 206.5
+      }
+    },
+    "Valuation": {
+      "outlier_count": 554,
+      "outlier_pct": 2.8016587438049965,
+      "bounds": {
+        "lower": 11.5,
+        "upper": 135.5
+      }
+    },
+    "Wireless Penetration Rate": {
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "bounds": {
+        "lower": NaN,
+        "upper": NaN
+      }
+    }
+  },
+  "consistency": {
+    "index_gaps": {},
+    "value_ranges": {
+      "ASOFDATE": {
+        "out_of_range_count": 0
+      },
+      "COMPANYNAME": {
+        "out_of_range_count": 0
+      },
+      "EXCHANGETICKER": {
+        "out_of_range_count": 0
+      },
+      "PRICECLOSE": {
+        "out_of_range_count": 1343
+      },
+      "horizon_mean": {
+        "out_of_range_count": 1349
+      },
+      "horizon_end": {
+        "out_of_range_count": 0
+      },
+      "target": {
+        "out_of_range_count": 0
+      },
+      "Book to Price": {
+        "out_of_range_count": 0
+      },
+      "Earnings to Price": {
+        "out_of_range_count": 0
+      },
+      "Operating Cash Flow to Price": {
+        "out_of_range_count": 0
+      },
+      "Free Cash Flow to Price": {
+        "out_of_range_count": 0
+      },
+      "Net Cash Flow to Price": {
+        "out_of_range_count": 0
+      },
+      "Net Cash Flow to Enterprise Value": {
+        "out_of_range_count": 0
+      },
+      "Operating Cash Flow to Enterprise Value": {
+        "out_of_range_count": 0
+      },
+      "Free Cash Flow to Enterprise Value": {
+        "out_of_range_count": 0
+      },
+      "EBITDA to Enterprise Value": {
+        "out_of_range_count": 0
+      },
+      "Sales to EV Ratio": {
+        "out_of_range_count": 0
+      },
+      "Assets to Price Ratio": {
+        "out_of_range_count": 0
+      },
+      "Operating Earnings to Price Ratio": {
+        "out_of_range_count": 0
+      },
+      "Pretax Income Per Share to Price": {
+        "out_of_range_count": 0
+      },
+      "Sales to Price Ratio": {
+        "out_of_range_count": 0
+      },
+      "Future Cashflow Yield": {
+        "out_of_range_count": 0
+      },
+      "Free Cash Flow to Common Equity": {
+        "out_of_range_count": 0
+      },
+      "Operating Cash Flow to Equity": {
+        "out_of_range_count": 0
+      },
+      "Operating Earnings to Assets Ratio": {
+        "out_of_range_count": 0
+      },
+      "Inverse P/E Ratio Adj for Growth and Yield": {
+        "out_of_range_count": 0
+      },
+      "Tobin's Q Ratio": {
+        "out_of_range_count": 0
+      },
+      "EBITDA to Price": {
+        "out_of_range_count": 0
+      },
+      "Cash to Price": {
+        "out_of_range_count": 0
+      },
+      "Dividends to Price Ratio": {
+        "out_of_range_count": 0
+      },
+      "Growth Flow to Price": {
+        "out_of_range_count": 0
+      },
+      "Net Current Assets to Price Ratio": {
+        "out_of_range_count": 0
+      },
+      "Discounted Future Cash Flows to Market Cap": {
+        "out_of_range_count": 0
+      },
+      "Proved Reserves to Market Cap": {
+        "out_of_range_count": 0
+      },
+      "Cash to EV Ratio": {
+        "out_of_range_count": 0
+      },
+      "Book Value to Enterprise Value": {
+        "out_of_range_count": 0
+      },
+      "Forward Earnings to Price": {
+        "out_of_range_count": 0
+      },
+      "Forward Free Cash Flow to Price Ratio": {
+        "out_of_range_count": 0
+      },
+      "Core EPS to Price (Fundamentals)": {
+        "out_of_range_count": 0
+      },
+      "Current Liability to Price": {
+        "out_of_range_count": 0
+      },
+      "Adjusted EBIT to Price": {
+        "out_of_range_count": 0
+      },
+      "Adjusted Forward Earnings to Price": {
+        "out_of_range_count": 0
+      },
+      "EBITDA to Assets": {
+        "out_of_range_count": 0
+      },
+      "Free Cash Flow to Sales": {
+        "out_of_range_count": 0
+      },
+      "Cash Flow to Total Asset": {
+        "out_of_range_count": 0
+      },
+      "Cash Flow to Equity": {
+        "out_of_range_count": 0
+      },
+      "Cash Flow to Invested Capital": {
+        "out_of_range_count": 0
+      },
+      "Cash to Sales": {
+        "out_of_range_count": 0
+      },
+      "Gross Profit to Assets": {
+        "out_of_range_count": 0
+      },
+      "Return on Invested Capital": {
+        "out_of_range_count": 0
+      },
+      "Return on Equity": {
+        "out_of_range_count": 0
+      },
+      "Return on Assets": {
+        "out_of_range_count": 0
+      },
+      "Cash Flow Return on Invested Capital": {
+        "out_of_range_count": 0
+      },
+      "Operating Margin": {
+        "out_of_range_count": 0
+      },
+      "Net Profit Margin": {
+        "out_of_range_count": 0
+      },
+      "Gross Profit Margin": {
+        "out_of_range_count": 0
+      },
+      "EBIT Margin": {
+        "out_of_range_count": 0
+      },
+      "Balance Sheet Accruals": {
+        "out_of_range_count": 0
+      },
+      "Accrual Ratio - Balance Sheet": {
+        "out_of_range_count": 0
+      },
+      "Accrual Ratio - Cash Flows": {
+        "out_of_range_count": 0
+      },
+      "Working Capital Accruals": {
+        "out_of_range_count": 0
+      },
+      "Earnings Quality": {
+        "out_of_range_count": 0
+      },
+      "Piotroski F-Score": {
+        "out_of_range_count": 0
+      },
+      "Altman Z-Score": {
+        "out_of_range_count": 0
+      },
+      "Adjusted Interest Coverage Ratio": {
+        "out_of_range_count": 0
+      },
+      "Depreciation to Capex Ratio": {
+        "out_of_range_count": 0
+      },
+      "Return on Net Tangible Assets": {
+        "out_of_range_count": 0
+      },
+      "Return on Risk Weighted Assets (Fundamentals)": {
+        "out_of_range_count": 0
+      },
+      "EBIT to Assets": {
+        "out_of_range_count": 0
+      },
+      "EBIT to Assets v2": {
+        "out_of_range_count": 0
+      },
+      "EPS Stability": {
+        "out_of_range_count": 0
+      },
+      "Net Income Stability": {
+        "out_of_range_count": 0
+      },
+      "Sales to Invested Capital": {
+        "out_of_range_count": 0
+      },
+      "Dividends to Cash Flow": {
+        "out_of_range_count": 0
+      },
+      "Adjusted Accruals": {
+        "out_of_range_count": 0
+      },
+      "Asset Adjusted Capital Investments": {
+        "out_of_range_count": 0
+      },
+      "Pretax Profit Margin": {
+        "out_of_range_count": 0
+      },
+      "Reserve Exhaustion Rate": {
+        "out_of_range_count": 0
+      },
+      "Pretax Income to Net Operating Assets": {
+        "out_of_range_count": 0
+      },
+      "Return on Assets v2": {
+        "out_of_range_count": 0
+      },
+      "Inverse PEG": {
+        "out_of_range_count": 0
+      },
+      "3Y Average Annual Sales Growth": {
+        "out_of_range_count": 0
+      },
+      "3Y Average Annual Earnings Growth": {
+        "out_of_range_count": 0
+      },
+      "Expected Earnings Growth: Fiscal Year 2/Fiscal Year 1": {
+        "out_of_range_count": 0
+      },
+      "Expected LTG": {
+        "out_of_range_count": 0
+      },
+      "Sustainable Growth Rate": {
+        "out_of_range_count": 0
+      },
+      "Production Growth": {
+        "out_of_range_count": 0
+      },
+      "Reserve Growth": {
+        "out_of_range_count": 0
+      },
+      "Dividend Growth": {
+        "out_of_range_count": 0
+      },
+      "Dividend per Share Growth": {
+        "out_of_range_count": 0
+      },
+      "Historical Growth": {
+        "out_of_range_count": 0
+      },
+      "Asset Growth - 1 Year": {
+        "out_of_range_count": 0
+      },
+      "Developed Reserves per Share Growth": {
+        "out_of_range_count": 0
+      },
+      "1Y Chg in Asset Adjusted EPS": {
+        "out_of_range_count": 0
+      },
+      "1Y Chg in Asset Adjusted Cash Flow": {
+        "out_of_range_count": 0
+      },
+      "1Y Chg in Asset Adjusted Free Cash Flow": {
+        "out_of_range_count": 0
+      },
+      "1Y Chg in Asset Adjusted Operating Cash Flow": {
+        "out_of_range_count": 0
+      },
+      "1Y Chg in Operating Margin": {
+        "out_of_range_count": 0
+      },
+      "1Y Chg in Cash Flow per Share": {
+        "out_of_range_count": 0
+      },
+      "1Y Chg in Free Cash Flow per Share": {
+        "out_of_range_count": 0
+      },
+      "1Y Chg in Operating Cash Flow per Share": {
+        "out_of_range_count": 0
+      },
+      "1Y Chg in Earnings per Share": {
+        "out_of_range_count": 0
+      },
+      "1Y Chg in Sales Turnover": {
+        "out_of_range_count": 0
+      },
+      "3Y Chg in Asset Adjusted EPS": {
+        "out_of_range_count": 0
+      },
+      "3Y Chg in Asset Adjusted Cash Flow": {
+        "out_of_range_count": 0
+      },
+      "3Y Chg in Asset Adjusted Free Cash Flow": {
+        "out_of_range_count": 0
+      },
+      "3Y Chg in Asset Adjusted Operating Cash Flow": {
+        "out_of_range_count": 0
+      },
+      "3Y Chg in Operating Margin": {
+        "out_of_range_count": 0
+      },
+      "3Y Chg in Cash Flow per Share": {
+        "out_of_range_count": 0
+      },
+      "3Y Chg in Free Cash Flow per Share": {
+        "out_of_range_count": 0
+      },
+      "3Y Chg in Operating Cash Flow per Share": {
+        "out_of_range_count": 0
+      },
+      "3Y Chg in Earnings per Share": {
+        "out_of_range_count": 0
+      },
+      "3Y Chg in Sales Turnover": {
+        "out_of_range_count": 0
+      },
+      "1Y Chg in Cash Flow to Price": {
+        "out_of_range_count": 0
+      },
+      "1Y Chg in Earnings to Price": {
+        "out_of_range_count": 0
+      },
+      "1Y Chg in Free Cash Flow to Price": {
+        "out_of_range_count": 0
+      },
+      "1Y Chg in Operating Cash Flow to Price": {
+        "out_of_range_count": 0
+      },
+      "1Y Chg in Sales to Price": {
+        "out_of_range_count": 0
+      },
+      "1Y Chg in Stock Buybacks": {
+        "out_of_range_count": 0
+      },
+      "1Y Chg in Discounted Future Cash Flows to Market Cap": {
+        "out_of_range_count": 0
+      },
+      "3Y Chg in Cash Flow to Price": {
+        "out_of_range_count": 0
+      },
+      "3Y Chg in Earnings to Price": {
+        "out_of_range_count": 0
+      },
+      "3Y Chg in Free Cash Flow to Price": {
+        "out_of_range_count": 0
+      },
+      "3Y Chg in Operating Cash Flow to Price": {
+        "out_of_range_count": 0
+      },
+      "3Y Chg in Sales to Price": {
+        "out_of_range_count": 0
+      },
+      "Sales Acceleration": {
+        "out_of_range_count": 0
+      },
+      "Same Restaurant Sales Growth": {
+        "out_of_range_count": 0
+      },
+      "Surgeries Growth": {
+        "out_of_range_count": 0
+      },
+      "12M - 1M Price Momentum": {
+        "out_of_range_count": 0
+      },
+      "9 Month Price Momentum": {
+        "out_of_range_count": 0
+      },
+      "6 Months Price Reversal": {
+        "out_of_range_count": 0
+      },
+      "1M Price Reversal": {
+        "out_of_range_count": 0
+      },
+      "5 Day Price Reversal": {
+        "out_of_range_count": 0
+      },
+      "14-Day Relative Strength Index": {
+        "out_of_range_count": 0
+      },
+      "10 Day MACD Trend": {
+        "out_of_range_count": 0
+      },
+      "Closing Price to 52 Week High": {
+        "out_of_range_count": 0
+      },
+      "4W to 52W Price Oscillator": {
+        "out_of_range_count": 0
+      },
+      "52W High Low": {
+        "out_of_range_count": 0
+      },
+      "130 Day Minimum Return": {
+        "out_of_range_count": 0
+      },
+      "180D Price TStat": {
+        "out_of_range_count": 0
+      },
+      "26W Price Stat": {
+        "out_of_range_count": 0
+      },
+      "26W Relative Price Strength": {
+        "out_of_range_count": 0
+      },
+      "39W Lagged Return": {
+        "out_of_range_count": 0
+      },
+      "50 Day to 200 Day Stock Price": {
+        "out_of_range_count": 0
+      },
+      "Slope of 52W Price Trend": {
+        "out_of_range_count": 0
+      },
+      "Risk Adjusted Relative Strength": {
+        "out_of_range_count": 0
+      },
+      "15/36 Week Price Ratio": {
+        "out_of_range_count": 0
+      },
+      "1M Price High - 1M Price Low": {
+        "out_of_range_count": 0
+      },
+      "Closing Price to 260 Day Low": {
+        "out_of_range_count": 0
+      },
+      "Percent Above 260-Day Low": {
+        "out_of_range_count": 0
+      },
+      "Price Momentum": {
+        "out_of_range_count": 0
+      },
+      "60M CAPM Beta": {
+        "out_of_range_count": 0
+      },
+      "60M CAPM Alpha": {
+        "out_of_range_count": 0
+      },
+      "12M Realized Price Volatility": {
+        "out_of_range_count": 0
+      },
+      "1M Realized Price Volatility": {
+        "out_of_range_count": 0
+      },
+      "24M Residual Return Variance": {
+        "out_of_range_count": 0
+      },
+      "90 Day Coefficient of Variation": {
+        "out_of_range_count": 0
+      },
+      "Sharpe Ratio": {
+        "out_of_range_count": 0
+      },
+      "20 Day Coefficient of Variation of Volume to Price": {
+        "out_of_range_count": 0
+      },
+      "30 Day Coefficient of Variation of Volume to Price": {
+        "out_of_range_count": 0
+      },
+      "60 Day Coefficient of Variation of Volume to Price": {
+        "out_of_range_count": 0
+      },
+      "Volatility": {
+        "out_of_range_count": 0
+      },
+      "Volatility adjusted 12M return": {
+        "out_of_range_count": 0
+      },
+      "6M Chg in 12M CAPM Alpha": {
+        "out_of_range_count": 0
+      },
+      "6M Chg in 18M CAPM Alpha": {
+        "out_of_range_count": 0
+      },
+      "6M Chg in 36M CAPM Alpha": {
+        "out_of_range_count": 0
+      },
+      "Max Daily Return in the Past 6 Months": {
+        "out_of_range_count": 0
+      },
+      "Amihud Illiquidity Measure": {
+        "out_of_range_count": 0
+      },
+      "Log Market Cap": {
+        "out_of_range_count": 0
+      },
+      "Share Turnover": {
+        "out_of_range_count": 0
+      },
+      "50 Day Volume Signal": {
+        "out_of_range_count": 0
+      },
+      "Adj 50 Day Volume Signal": {
+        "out_of_range_count": 0
+      },
+      "52-Week Volume Price Trend with 20-Day Lag": {
+        "out_of_range_count": 0
+      },
+      "5 Day Volume Signal": {
+        "out_of_range_count": 0
+      },
+      "5-Day Money Flow/Volume": {
+        "out_of_range_count": 0
+      },
+      "6 Month Average Share Turn Over": {
+        "out_of_range_count": 0
+      },
+      "Adjusted 6 Month Average Share Turn Over": {
+        "out_of_range_count": 0
+      },
+      "1Y Chg in Share Turnover": {
+        "out_of_range_count": 0
+      },
+      "1Y Chg in Shares Outstanding": {
+        "out_of_range_count": 0
+      },
+      "Change in Number of Buyers": {
+        "out_of_range_count": 0
+      },
+      "Change in Number of Holders": {
+        "out_of_range_count": 0
+      },
+      "Change of Ownership Level - All Managers": {
+        "out_of_range_count": 0
+      },
+      "Foreign Institution Ownership": {
+        "out_of_range_count": 0
+      },
+      "Institution Ownership Level": {
+        "out_of_range_count": 0
+      },
+      "Institution Ownership Level - Active Manager": {
+        "out_of_range_count": 0
+      },
+      "Institution Ownership Concentration": {
+        "out_of_range_count": 0
+      },
+      "Institution Ownership Turnover": {
+        "out_of_range_count": 0
+      },
+      "Ownership Breadth Stability of Institution Ownership by Buyers": {
+        "out_of_range_count": 0
+      },
+      "Ownership Breadth Stability of Institution Ownership by Holders": {
+        "out_of_range_count": 0
+      },
+      "Stability of Change in Number of Holders": {
+        "out_of_range_count": 0
+      },
+      "Log of Market Capitalization Cubed": {
+        "out_of_range_count": 0
+      },
+      "Size": {
+        "out_of_range_count": 0
+      },
+      "Earnings Surprise": {
+        "out_of_range_count": 0
+      },
+      "Analyst Dispersion for FY1 EPS": {
+        "out_of_range_count": 0
+      },
+      "Analyst Dispersion for FY2 EPS": {
+        "out_of_range_count": 0
+      },
+      "Analyst Earnings Estimate Diffusion": {
+        "out_of_range_count": 0
+      },
+      "Analyst Expectations": {
+        "out_of_range_count": 0
+      },
+      "EBIT Estimate Dispersion": {
+        "out_of_range_count": 0
+      },
+      "Revenue Estimate Dispersion": {
+        "out_of_range_count": 0
+      },
+      "Adjusted Number of EPS FY1 Revisions": {
+        "out_of_range_count": 0
+      },
+      "Adj Number of EPS FY2 Revisions": {
+        "out_of_range_count": 0
+      },
+      "Number of EPS FY1 Revisions": {
+        "out_of_range_count": 0
+      },
+      "Adjusted Revision Magnitude": {
+        "out_of_range_count": 0
+      },
+      "Street Revision Magnitude": {
+        "out_of_range_count": 0
+      },
+      "3M Revision in FY1 EPS Estimate": {
+        "out_of_range_count": 0
+      },
+      "3M Revision in FY2 EPS Estimate": {
+        "out_of_range_count": 0
+      },
+      "6M Chg in Target Price": {
+        "out_of_range_count": 0
+      },
+      "6M Chg in Target Price Gap": {
+        "out_of_range_count": 0
+      },
+      "Target Price Gap to 6M EMA": {
+        "out_of_range_count": 0
+      },
+      "Buy-to-Sell Recommendation Ratio Less 3M EMA": {
+        "out_of_range_count": 0
+      },
+      "Buy-to-Sell Recommendation Ratio Less 3M SMA": {
+        "out_of_range_count": 0
+      },
+      "6M Avg Chg 1M Recommendation": {
+        "out_of_range_count": 0
+      },
+      "Standardized Unexpected Earnings": {
+        "out_of_range_count": 0
+      },
+      "12 month Relative Price Strength(Ind Grp Rel VolAdjRtn12M)": {
+        "out_of_range_count": 0
+      },
+      "4-Week Change in 12-Month Forward Earnings Consensus Estimate/Price": {
+        "out_of_range_count": 0
+      },
+      "8-Week Change in 12-Month Forward Earnings Consensus Estimate/Price": {
+        "out_of_range_count": 0
+      },
+      "6M Momentum in Trailing 12M Sales": {
+        "out_of_range_count": 0
+      },
+      "3M Momentum in Trailing 12M Sales": {
+        "out_of_range_count": 0
+      },
+      "Ind Grp Rel Return on Equity": {
+        "out_of_range_count": 0
+      },
+      "Ind Grp Rel Return on Assets": {
+        "out_of_range_count": 0
+      },
+      "Ind Grp Rel Return on Invested Capital": {
+        "out_of_range_count": 0
+      },
+      "Ind Grp Rel EBIT Margin": {
+        "out_of_range_count": 0
+      },
+      "Ind Grp Rel Operating Margin": {
+        "out_of_range_count": 0
+      },
+      "Ind Grp Rel Pretax Profit Margin": {
+        "out_of_range_count": 0
+      },
+      "Ind Grp Rel Gross Profit Margin": {
+        "out_of_range_count": 0
+      },
+      "Ind Grp Rel Operating Earnings to Assets Ratio": {
+        "out_of_range_count": 0
+      },
+      "Ind Grp Rel Operating Earnings to Price Ratio": {
+        "out_of_range_count": 0
+      },
+      "Ind Grp Rel Book to Price": {
+        "out_of_range_count": 0
+      },
+      "Ind Grp Rel Cash to Price": {
+        "out_of_range_count": 0
+      },
+      "Ind Grp Rel Free Cash Flow to Price": {
+        "out_of_range_count": 0
+      },
+      "Ind Grp Rel Operating Cash Flow to Price": {
+        "out_of_range_count": 0
+      },
+      "Ind Grp Rel Net Cash Flow to Price": {
+        "out_of_range_count": 0
+      },
+      "Ind Grp Rel Net Cash Flow to Enterprise Value": {
+        "out_of_range_count": 0
+      },
+      "Ind Grp Rel EBITDA to Price": {
+        "out_of_range_count": 0
+      },
+      "Ind Grp Rel EBITDA to Enterprise Value": {
+        "out_of_range_count": 0
+      },
+      "Ind Grp Rel Assets to Price Ratio": {
+        "out_of_range_count": 0
+      },
+      "Ind Grp Rel Sales to Price Ratio": {
+        "out_of_range_count": 0
+      },
+      "Ind Grp Rel Current Ratio": {
+        "out_of_range_count": 0
+      },
+      "Ind Grp Rel Quick Ratio": {
+        "out_of_range_count": 0
+      },
+      "Ind Grp Rel Cash to Total Assets": {
+        "out_of_range_count": 0
+      },
+      "Ind Grp Rel Working Capital to Assets Ratio": {
+        "out_of_range_count": 0
+      },
+      "Ind Grp Rel Long Term Debt to Assets Ratio": {
+        "out_of_range_count": 0
+      },
+      "Ind Grp Rel Inventory Turnover": {
+        "out_of_range_count": 0
+      },
+      "Ind Grp Rel Receivables Turnover Ratio": {
+        "out_of_range_count": 0
+      },
+      "Ind Grp Rel Working Capital Turnover Ratio": {
+        "out_of_range_count": 0
+      },
+      "Ind Grp Rel Sales to Gross Profit Margin Growth": {
+        "out_of_range_count": 0
+      },
+      "Ind Grp Rel 1Y Chg in Earnings per Share": {
+        "out_of_range_count": 0
+      },
+      "Ind Grp Rel 1Y Chg in Operating Margin": {
+        "out_of_range_count": 0
+      },
+      "Ind Grp Rel 1Y Chg in Cash Flow to Price": {
+        "out_of_range_count": 0
+      },
+      "Ind Grp Rel 1Y Chg in Earnings to Price": {
+        "out_of_range_count": 0
+      },
+      "Ind Grp Rel 1Y Chg in Free Cash Flow per Share": {
+        "out_of_range_count": 0
+      },
+      "Ind Grp Rel 1Y Chg in Free Cash Flow to Price": {
+        "out_of_range_count": 0
+      },
+      "Ind Grp Rel 1Y Chg in Operating Cash Flow per Share": {
+        "out_of_range_count": 0
+      },
+      "Ind Grp Rel 1Y Chg in Sales to Price": {
+        "out_of_range_count": 0
+      },
+      "Ind Grp Rel 1Y Chg in Shares Outstanding": {
+        "out_of_range_count": 0
+      },
+      "Ind Grp Rel 1Y Chg in Stock Buybacks": {
+        "out_of_range_count": 0
+      },
+      "Ind Grp Rel 3Y Chg in Sales to Price": {
+        "out_of_range_count": 0
+      },
+      "Ind Grp Rel 5 Day Price Momentum": {
+        "out_of_range_count": 0
+      },
+      "Ind Grp Rel 9M Price Momentum": {
+        "out_of_range_count": 0
+      },
+      "Ind Grp Rel 12M - 1M Price Momentum": {
+        "out_of_range_count": 0
+      },
+      "Ind Grp Rel 50 Day Volume Signal": {
+        "out_of_range_count": 0
+      },
+      "Ind Grp Rel Accrual Ratio - Cash Flows": {
+        "out_of_range_count": 0
+      },
+      "Ind Grp Rel Adjusted Accruals": {
+        "out_of_range_count": 0
+      },
+      "Ind Grp Rel Analyst Dispersion for FY1 EPS": {
+        "out_of_range_count": 0
+      },
+      "Ind Grp Rel Asset Adjusted Capital Investments": {
+        "out_of_range_count": 0
+      },
+      "Ind Grp Rel Balance Sheet Accruals": {
+        "out_of_range_count": 0
+      },
+      "Ind Grp Rel Inverse P/E Ratio Adj for Growth and Yield": {
+        "out_of_range_count": 0
+      },
+      "Ind Grp Rel Max Daily Return in the Past 6 Months": {
+        "out_of_range_count": 0
+      },
+      "Ind Grp Rel Standardized Unexpected Earnings": {
+        "out_of_range_count": 0
+      },
+      "Ind Grp Rel Sustainable Growth Rate": {
+        "out_of_range_count": 0
+      },
+      "Ind Grp Rel Tobin's Q Ratio": {
+        "out_of_range_count": 0
+      },
+      "Ind Grp Rel 1M Price Reversal": {
+        "out_of_range_count": 0
+      },
+      "Ind Grp Rel Earnings Surprise": {
+        "out_of_range_count": 0
+      },
+      "Ind Grp Rel Operating Cash Flow to Enterprise Value": {
+        "out_of_range_count": 0
+      },
+      "Ind Grp Rel Pretax Income Per Share to Price": {
+        "out_of_range_count": 0
+      },
+      "Ind Grp Rel Asset Turnover": {
+        "out_of_range_count": 0
+      },
+      "Ind Grp Rel Capital Acquisition Ratio": {
+        "out_of_range_count": 0
+      },
+      "Ind Grp Rel Capital Expenditure to Total Assets": {
+        "out_of_range_count": 0
+      },
+      "Ind Grp Rel Cash Conversion Cycle": {
+        "out_of_range_count": 0
+      },
+      "Ind Grp Rel Cash Flow Return on Invested Capital": {
+        "out_of_range_count": 0
+      },
+      "Ind Grp Rel Cash to EV Ratio": {
+        "out_of_range_count": 0
+      },
+      "Ind Grp Rel Change in TTM Depr. to Capex": {
+        "out_of_range_count": 0
+      },
+      "Ind Grp Rel Debt to Assets Ratio": {
+        "out_of_range_count": 0
+      },
+      "Ind Grp Rel Depreciation to Capex Ratio": {
+        "out_of_range_count": 0
+      },
+      "Ind Grp Rel Dividends to Price Ratio": {
+        "out_of_range_count": 0
+      },
+      "Ind Grp Rel Earnings to Price": {
+        "out_of_range_count": 0
+      },
+      "Ind Grp Rel Expected LTG": {
+        "out_of_range_count": 0
+      },
+      "Ind Grp Rel Forward Earnings to Price": {
+        "out_of_range_count": 0
+      },
+      "Ind Grp Rel Forward Free Cash Flow to Price Ratio": {
+        "out_of_range_count": 0
+      },
+      "Ind Grp Rel Free Cash Flow to Common Equity": {
+        "out_of_range_count": 0
+      },
+      "Ind Grp Rel Free Cash Flow to Enterprise Value": {
+        "out_of_range_count": 0
+      },
+      "Ind Grp Rel Growth Flow to Price": {
+        "out_of_range_count": 0
+      },
+      "Ind Grp Rel Interest Coverage Ratio": {
+        "out_of_range_count": 0
+      },
+      "Ind Grp Rel Inventory to Assets Ratio": {
+        "out_of_range_count": 0
+      },
+      "Ind Grp Rel Inverse PEG": {
+        "out_of_range_count": 0
+      },
+      "Ind Grp Rel Long Term Debt to Equity Ratio": {
+        "out_of_range_count": 0
+      },
+      "Ind Grp Rel Net Current Assets to Price Ratio": {
+        "out_of_range_count": 0
+      },
+      "Ind Grp Rel Net Profit Margin": {
+        "out_of_range_count": 0
+      },
+      "Ind Grp Rel Price Momentum - 6 Months": {
+        "out_of_range_count": 0
+      },
+      "Ind Grp Rel SG&A to Sales": {
+        "out_of_range_count": 0
+      },
+      "Ind Grp Rel Sales to EV Ratio": {
+        "out_of_range_count": 0
+      },
+      "Ind Grp Rel Working Capital Accruals": {
+        "out_of_range_count": 0
+      },
+      "Ind Grp Rel Working Capital to Sales": {
+        "out_of_range_count": 0
+      },
+      "Ind Grp Rel Year over Year Change of EPS to Sales": {
+        "out_of_range_count": 0
+      },
+      "Ind Grp Rel Year over Year Change of Total Debt": {
+        "out_of_range_count": 0
+      },
+      "Ind Grp Rel YoY Change in SGA to Sales": {
+        "out_of_range_count": 0
+      },
+      "5 Yr Hist Rel 1Y Chg in Earnings per Share": {
+        "out_of_range_count": 0
+      },
+      "5 Yr Hist Rel Adjusted Accruals": {
+        "out_of_range_count": 0
+      },
+      "5 Yr Hist Rel Assets to Price Ratio": {
+        "out_of_range_count": 0
+      },
+      "5 Yr Hist Rel Book to Price": {
+        "out_of_range_count": 0
+      },
+      "5 Yr Hist Rel Cash to Total Assets": {
+        "out_of_range_count": 0
+      },
+      "5 Yr Hist Rel Current Ratio": {
+        "out_of_range_count": 0
+      },
+      "5 Yr Hist Rel EBIT Margin": {
+        "out_of_range_count": 0
+      },
+      "5 Yr Hist Rel EBITDA to Price": {
+        "out_of_range_count": 0
+      },
+      "5 Yr Hist Rel Free Cash Flow to Price": {
+        "out_of_range_count": 0
+      },
+      "5 Yr Hist Rel Gross Profit Margin": {
+        "out_of_range_count": 0
+      },
+      "5 Yr Hist Rel Inverse P/E Ratio Adj for Growth and Yield": {
+        "out_of_range_count": 0
+      },
+      "5 Yr Hist Rel Long Term Debt to Assets Ratio": {
+        "out_of_range_count": 0
+      },
+      "5 Yr Hist Rel Net Cash Flow to Enterprise Value": {
+        "out_of_range_count": 0
+      },
+      "5 Yr Hist Rel Net Cash Flow to Price": {
+        "out_of_range_count": 0
+      },
+      "5 Yr Hist Rel Operating Cash Flow to Price": {
+        "out_of_range_count": 0
+      },
+      "5 Yr Hist Rel Operating Earnings to Assets Ratio": {
+        "out_of_range_count": 0
+      },
+      "5 Yr Hist Rel Operating Margin": {
+        "out_of_range_count": 0
+      },
+      "5 Yr Hist Rel Pretax Profit Margin": {
+        "out_of_range_count": 0
+      },
+      "5 Yr Hist Rel Quick Ratio": {
+        "out_of_range_count": 0
+      },
+      "5 Yr Hist Rel Receivables Turnover Ratio": {
+        "out_of_range_count": 0
+      },
+      "5 Yr Hist Rel Return on Assets": {
+        "out_of_range_count": 0
+      },
+      "5 Yr Hist Rel Return on Equity": {
+        "out_of_range_count": 0
+      },
+      "5 Yr Hist Rel Return on Invested Capital": {
+        "out_of_range_count": 0
+      },
+      "5 Yr Hist Rel Sales to Gross Profit Margin Growth": {
+        "out_of_range_count": 0
+      },
+      "5 Yr Hist Rel Working Capital Turnover Ratio": {
+        "out_of_range_count": 0
+      },
+      "5 Yr Hist Rel Working Capital to Assets Ratio": {
+        "out_of_range_count": 0
+      },
+      "1 Yr Chg in Admissions": {
+        "out_of_range_count": 0
+      },
+      "1 Yr Chg in Number of Properties": {
+        "out_of_range_count": 0
+      },
+      "1 Yr Chg in Number of Restuarants": {
+        "out_of_range_count": 0
+      },
+      "1 Yr Chg in Number of Rooms": {
+        "out_of_range_count": 0
+      },
+      "1 Yr Chg in Revenue per Room": {
+        "out_of_range_count": 0
+      },
+      "1 Yr Grw Avg Length of Stay": {
+        "out_of_range_count": 0
+      },
+      "1 Yr Grw Broadband Subscribers": {
+        "out_of_range_count": 0
+      },
+      "1 Yr Grw Churn Rate": {
+        "out_of_range_count": 0
+      },
+      "1 Yr Grw House Sales Revenue": {
+        "out_of_range_count": 0
+      },
+      "1 Yr Grw Net New Orders": {
+        "out_of_range_count": 0
+      },
+      "1 Yr Grw Net Wireless Subs Additions": {
+        "out_of_range_count": 0
+      },
+      "1 Yr Grw Num of Patent Applications": {
+        "out_of_range_count": 0
+      },
+      "1 Yr Grw Num of Products in Phase 3": {
+        "out_of_range_count": 0
+      },
+      "1 Yr Grw Number of Patents": {
+        "out_of_range_count": 0
+      },
+      "1 Yr Grw Revenue Passenger Miles": {
+        "out_of_range_count": 0
+      },
+      "1 Yr Grw Revenue Passengers Carried": {
+        "out_of_range_count": 0
+      },
+      "1 Yr Grw Tot Home Rev to Const in Prog": {
+        "out_of_range_count": 0
+      },
+      "1 Yr Grw Tot Home Rev to Inventory": {
+        "out_of_range_count": 0
+      },
+      "1 Yr Grw Wireless Subscribers": {
+        "out_of_range_count": 0
+      },
+      "1 Yr Grw in Net Premiums Earned": {
+        "out_of_range_count": 0
+      },
+      "1 Yr Grw in Total Investments": {
+        "out_of_range_count": 0
+      },
+      "1 Yr Grw in Underwriting Profit": {
+        "out_of_range_count": 0
+      },
+      "1 Yr Same Rest Sales Acceleration": {
+        "out_of_range_count": 0
+      },
+      "1-Year Change in Current Ratio": {
+        "out_of_range_count": 0
+      },
+      "1-Year Change in Gross Profit Margin": {
+        "out_of_range_count": 0
+      },
+      "1-Year Change in Long Term Debt to Avg Total Assets": {
+        "out_of_range_count": 0
+      },
+      "1-Year Change in ROA": {
+        "out_of_range_count": 0
+      },
+      "1Y Change in Modified Texas Ratio (Fundamentals)": {
+        "out_of_range_count": 0
+      },
+      "1Y Change in Nonaccrual Loans to Total Assets (Fundamentals)": {
+        "out_of_range_count": 0
+      },
+      "1Y Chg in Amihud": {
+        "out_of_range_count": 0
+      },
+      "1Y Chg in EPS to Operating Cash Flow": {
+        "out_of_range_count": 0
+      },
+      "1Y Chg in Future Cash Flows per Share": {
+        "out_of_range_count": 0
+      },
+      "1Y Chg in Future Cash Flows to Total Assets": {
+        "out_of_range_count": 0
+      },
+      "1Y Chg in Future Cashflow Yield": {
+        "out_of_range_count": 0
+      },
+      "1Y Chg in Proved Reserves to Market Cap": {
+        "out_of_range_count": 0
+      },
+      "1Y Chg in Reserve Acquired to Total Costs": {
+        "out_of_range_count": 0
+      },
+      "1Y Chg in Reserve Exhaustion Rate": {
+        "out_of_range_count": 0
+      },
+      "1Y Chg in Sales to Earnings": {
+        "out_of_range_count": 0
+      },
+      "20-Day Lane's Stochastic Indicator": {
+        "out_of_range_count": 0
+      },
+      "3Y Change in Operating Income to Tier 1 Common Equity (Fundamentals)": {
+        "out_of_range_count": 0
+      },
+      "3Y Change in Total Pretax Expense to Average Assets (Fundamentals)": {
+        "out_of_range_count": 0
+      },
+      "Actual Production to Market Cap": {
+        "out_of_range_count": 0
+      },
+      "Backlog Homes Value Grw": {
+        "out_of_range_count": 0
+      },
+      "Churn Rate": {
+        "out_of_range_count": 0
+      },
+      "Deliv Homes Value Grw to Mkt Cap": {
+        "out_of_range_count": 0
+      },
+      "Gas Margin": {
+        "out_of_range_count": 0
+      },
+      "Home Gross Margin": {
+        "out_of_range_count": 0
+      },
+      "Hospitals and Facilities Growth": {
+        "out_of_range_count": 0
+      },
+      "Hotel & Casino Rev to Oper Exp": {
+        "out_of_range_count": 0
+      },
+      "Implied Cap Rate": {
+        "out_of_range_count": 0
+      },
+      "Insurance: Net Premium Written to Net Assets": {
+        "out_of_range_count": 0
+      },
+      "Investment Duration": {
+        "out_of_range_count": 0
+      },
+      "Licensed Beds Growth": {
+        "out_of_range_count": 0
+      },
+      "Log TTM Sales": {
+        "out_of_range_count": 0
+      },
+      "Log of Total Last Quarter Assets": {
+        "out_of_range_count": 0
+      },
+      "Log of Unadjusted Stock Price": {
+        "out_of_range_count": 0
+      },
+      "Mine Life - Gold Mining": {
+        "out_of_range_count": 0
+      },
+      "Net Prem Written to Stat Surplus": {
+        "out_of_range_count": 0
+      },
+      "Normalized EP": {
+        "out_of_range_count": 0
+      },
+      "Normalized ROA": {
+        "out_of_range_count": 0
+      },
+      "Normalized ROE": {
+        "out_of_range_count": 0
+      },
+      "Number of Patents to Mkt Cap": {
+        "out_of_range_count": 0
+      },
+      "Oil Margin": {
+        "out_of_range_count": 0
+      },
+      "Operating Cash Flow Ratio": {
+        "out_of_range_count": 0
+      },
+      "Operating Cash Flow to Asset v2": {
+        "out_of_range_count": 0
+      },
+      "Passenger Load Factor": {
+        "out_of_range_count": 0
+      },
+      "Patient Days Growth": {
+        "out_of_range_count": 0
+      },
+      "Pre-Provision Net Revenue / Price  (Fundamentals)": {
+        "out_of_range_count": 0
+      },
+      "Profit per Room": {
+        "out_of_range_count": 0
+      },
+      "Proved & Prob Reserves to Market Cap": {
+        "out_of_range_count": 0
+      },
+      "ROA 20 Qtr Standard Deviation": {
+        "out_of_range_count": 0
+      },
+      "ROA 60 Month Slope": {
+        "out_of_range_count": 0
+      },
+      "ROE 20 Qtr Standard Deviation": {
+        "out_of_range_count": 0
+      },
+      "Reserve Acquisition Cost": {
+        "out_of_range_count": 0
+      },
+      "Reserve Acquisition Yield": {
+        "out_of_range_count": 0
+      },
+      "Reserve Replacement Ratio": {
+        "out_of_range_count": 0
+      },
+      "Restaurant Operating Margin": {
+        "out_of_range_count": 0
+      },
+      "Restaurants Closing Momentum": {
+        "out_of_range_count": 0
+      },
+      "Restaurants Opening Momentum": {
+        "out_of_range_count": 0
+      },
+      "Revenue per Room": {
+        "out_of_range_count": 0
+      },
+      "Room Margin": {
+        "out_of_range_count": 0
+      },
+      "TTM Rest Closed & Sold to Total Rest": {
+        "out_of_range_count": 0
+      },
+      "TTM Rest Open & Acquire to Total Rest": {
+        "out_of_range_count": 0
+      },
+      "Total Profit per Available Seat Mile": {
+        "out_of_range_count": 0
+      },
+      "Underwriting Margin": {
+        "out_of_range_count": 0
+      },
+      "Unexpected Inventory Change": {
+        "out_of_range_count": 0
+      },
+      "Unexpected Receivables Change": {
+        "out_of_range_count": 0
+      },
+      "Valuation": {
+        "out_of_range_count": 0
+      },
+      "Wireless Penetration Rate": {
+        "out_of_range_count": 0
+      }
+    }
+  }
+}

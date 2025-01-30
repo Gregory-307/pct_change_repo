@@ -1,0 +1,5072 @@
+{
+  "overall_stats": {
+    "total_rows": 19774,
+    "total_columns": 421,
+    "memory_usage": 66.46805953979492,
+    "date_range": {
+      "start": "2014-08-01",
+      "end": "2019-12-27",
+      "trading_days": 1352
+    }
+  },
+  "missing_data": {
+    "columns": {
+      "ASOFDATE": {
+        "missing_count": 0,
+        "missing_pct": 0.0
+      },
+      "COMPANYNAME": {
+        "missing_count": 0,
+        "missing_pct": 0.0
+      },
+      "EXCHANGETICKER": {
+        "missing_count": 0,
+        "missing_pct": 0.0
+      },
+      "PRICECLOSE": {
+        "missing_count": 0,
+        "missing_pct": 0.0
+      },
+      "horizon_mean": {
+        "missing_count": 0,
+        "missing_pct": 0.0
+      },
+      "horizon_end": {
+        "missing_count": 0,
+        "missing_pct": 0.0
+      },
+      "target": {
+        "missing_count": 0,
+        "missing_pct": 0.0
+      },
+      "Book to Price": {
+        "missing_count": 869,
+        "missing_pct": 4.394659654091231
+      },
+      "Earnings to Price": {
+        "missing_count": 1320,
+        "missing_pct": 6.675432385961363
+      },
+      "Operating Cash Flow to Price": {
+        "missing_count": 1801,
+        "missing_pct": 9.10791949023971
+      },
+      "Free Cash Flow to Price": {
+        "missing_count": 1804,
+        "missing_pct": 9.123090927480531
+      },
+      "Net Cash Flow to Price": {
+        "missing_count": 2626,
+        "missing_pct": 13.28006473146556
+      },
+      "Net Cash Flow to Enterprise Value": {
+        "missing_count": 2601,
+        "missing_pct": 13.15363608779205
+      },
+      "Operating Cash Flow to Enterprise Value": {
+        "missing_count": 1776,
+        "missing_pct": 8.981490846566198
+      },
+      "Free Cash Flow to Enterprise Value": {
+        "missing_count": 1776,
+        "missing_pct": 8.981490846566198
+      },
+      "EBITDA to Enterprise Value": {
+        "missing_count": 1913,
+        "missing_pct": 9.674319813897036
+      },
+      "Sales to EV Ratio": {
+        "missing_count": 1903,
+        "missing_pct": 9.623748356427631
+      },
+      "Assets to Price Ratio": {
+        "missing_count": 885,
+        "missing_pct": 4.475573986042278
+      },
+      "Operating Earnings to Price Ratio": {
+        "missing_count": 1320,
+        "missing_pct": 6.675432385961363
+      },
+      "Pretax Income Per Share to Price": {
+        "missing_count": 1312,
+        "missing_pct": 6.634975219985841
+      },
+      "Sales to Price Ratio": {
+        "missing_count": 2012,
+        "missing_pct": 10.174977242844138
+      },
+      "Future Cashflow Yield": {
+        "missing_count": 19774,
+        "missing_pct": 100.0
+      },
+      "Free Cash Flow to Common Equity": {
+        "missing_count": 1673,
+        "missing_pct": 8.460604834631335
+      },
+      "Operating Cash Flow to Equity": {
+        "missing_count": 1943,
+        "missing_pct": 9.826034186305248
+      },
+      "Operating Earnings to Assets Ratio": {
+        "missing_count": 1095,
+        "missing_pct": 5.537574592899768
+      },
+      "Inverse P/E Ratio Adj for Growth and Yield": {
+        "missing_count": 16223,
+        "missing_pct": 82.04207545261455
+      },
+      "Tobin's Q Ratio": {
+        "missing_count": 900,
+        "missing_pct": 4.551431172246384
+      },
+      "EBITDA to Price": {
+        "missing_count": 2041,
+        "missing_pct": 10.321634469505412
+      },
+      "Cash to Price": {
+        "missing_count": 936,
+        "missing_pct": 4.733488419136239
+      },
+      "Dividends to Price Ratio": {
+        "missing_count": 12767,
+        "missing_pct": 64.56457975118843
+      },
+      "Growth Flow to Price": {
+        "missing_count": 1312,
+        "missing_pct": 6.634975219985841
+      },
+      "Net Current Assets to Price Ratio": {
+        "missing_count": 885,
+        "missing_pct": 4.475573986042278
+      },
+      "Discounted Future Cash Flows to Market Cap": {
+        "missing_count": 19774,
+        "missing_pct": 100.0
+      },
+      "Proved Reserves to Market Cap": {
+        "missing_count": 19774,
+        "missing_pct": 100.0
+      },
+      "Cash to EV Ratio": {
+        "missing_count": 930,
+        "missing_pct": 4.703145544654596
+      },
+      "Book Value to Enterprise Value": {
+        "missing_count": 1057,
+        "missing_pct": 5.345403054516031
+      },
+      "Forward Earnings to Price": {
+        "missing_count": 9099,
+        "missing_pct": 46.014969151410945
+      },
+      "Forward Free Cash Flow to Price Ratio": {
+        "missing_count": 9267,
+        "missing_pct": 46.86456963689694
+      },
+      "Core EPS to Price (Fundamentals)": {
+        "missing_count": 19774,
+        "missing_pct": 100.0
+      },
+      "Current Liability to Price": {
+        "missing_count": 780,
+        "missing_pct": 3.944573682613533
+      },
+      "Adjusted EBIT to Price": {
+        "missing_count": 1124,
+        "missing_pct": 5.68423181956104
+      },
+      "Adjusted Forward Earnings to Price": {
+        "missing_count": 9185,
+        "missing_pct": 46.44988368564782
+      },
+      "EBITDA to Assets": {
+        "missing_count": 2244,
+        "missing_pct": 11.348235056134317
+      },
+      "Free Cash Flow to Sales": {
+        "missing_count": 5621,
+        "missing_pct": 28.426216243552137
+      },
+      "Cash Flow to Total Asset": {
+        "missing_count": 888,
+        "missing_pct": 4.490745423283099
+      },
+      "Cash Flow to Equity": {
+        "missing_count": 1421,
+        "missing_pct": 7.1862041064023465
+      },
+      "Cash Flow to Invested Capital": {
+        "missing_count": 1118,
+        "missing_pct": 5.653888945079397
+      },
+      "Cash to Sales": {
+        "missing_count": 1858,
+        "missing_pct": 9.396176797815313
+      },
+      "Gross Profit to Assets": {
+        "missing_count": 2075,
+        "missing_pct": 10.493577424901385
+      },
+      "Return on Invested Capital": {
+        "missing_count": 1623,
+        "missing_pct": 8.207747547284312
+      },
+      "Return on Equity": {
+        "missing_count": 1080,
+        "missing_pct": 5.461717406695661
+      },
+      "Return on Assets": {
+        "missing_count": 1080,
+        "missing_pct": 5.461717406695661
+      },
+      "Cash Flow Return on Invested Capital": {
+        "missing_count": 1670,
+        "missing_pct": 8.445433397390513
+      },
+      "Operating Margin": {
+        "missing_count": 1843,
+        "missing_pct": 9.320319611611207
+      },
+      "Net Profit Margin": {
+        "missing_count": 1796,
+        "missing_pct": 9.082633761505006
+      },
+      "Gross Profit Margin": {
+        "missing_count": 1795,
+        "missing_pct": 9.077576615758067
+      },
+      "EBIT Margin": {
+        "missing_count": 1795,
+        "missing_pct": 9.077576615758067
+      },
+      "Balance Sheet Accruals": {
+        "missing_count": 1796,
+        "missing_pct": 9.082633761505006
+      },
+      "Accrual Ratio - Balance Sheet": {
+        "missing_count": 2905,
+        "missing_pct": 14.69100839486194
+      },
+      "Accrual Ratio - Cash Flows": {
+        "missing_count": 1946,
+        "missing_pct": 9.84120562354607
+      },
+      "Working Capital Accruals": {
+        "missing_count": 1096,
+        "missing_pct": 5.542631738646707
+      },
+      "Earnings Quality": {
+        "missing_count": 1083,
+        "missing_pct": 5.476888843936482
+      },
+      "Piotroski F-Score": {
+        "missing_count": 15528,
+        "missing_pct": 78.52735915849095
+      },
+      "Altman Z-Score": {
+        "missing_count": 1941,
+        "missing_pct": 9.815919894811369
+      },
+      "Adjusted Interest Coverage Ratio": {
+        "missing_count": 5150,
+        "missing_pct": 26.0443005967432
+      },
+      "Depreciation to Capex Ratio": {
+        "missing_count": 3772,
+        "missing_pct": 19.07555375745929
+      },
+      "Return on Net Tangible Assets": {
+        "missing_count": 2623,
+        "missing_pct": 13.26489329422474
+      },
+      "Return on Risk Weighted Assets (Fundamentals)": {
+        "missing_count": 19774,
+        "missing_pct": 100.0
+      },
+      "EBIT to Assets": {
+        "missing_count": 1517,
+        "missing_pct": 7.671690098108627
+      },
+      "EBIT to Assets v2": {
+        "missing_count": 888,
+        "missing_pct": 4.490745423283099
+      },
+      "EPS Stability": {
+        "missing_count": 7024,
+        "missing_pct": 35.52139172650956
+      },
+      "Net Income Stability": {
+        "missing_count": 5768,
+        "missing_pct": 29.169616668352383
+      },
+      "Sales to Invested Capital": {
+        "missing_count": 1795,
+        "missing_pct": 9.077576615758067
+      },
+      "Dividends to Cash Flow": {
+        "missing_count": 13052,
+        "missing_pct": 66.00586628906645
+      },
+      "Adjusted Accruals": {
+        "missing_count": 1670,
+        "missing_pct": 8.445433397390513
+      },
+      "Asset Adjusted Capital Investments": {
+        "missing_count": 2156,
+        "missing_pct": 10.90320623040356
+      },
+      "Pretax Profit Margin": {
+        "missing_count": 1811,
+        "missing_pct": 9.158490947709113
+      },
+      "Reserve Exhaustion Rate": {
+        "missing_count": 19774,
+        "missing_pct": 100.0
+      },
+      "Pretax Income to Net Operating Assets": {
+        "missing_count": 1123,
+        "missing_pct": 5.679174673814099
+      },
+      "Return on Assets v2": {
+        "missing_count": 888,
+        "missing_pct": 4.490745423283099
+      },
+      "Inverse PEG": {
+        "missing_count": 16198,
+        "missing_pct": 81.91564680894103
+      },
+      "3Y Average Annual Sales Growth": {
+        "missing_count": 1488,
+        "missing_pct": 7.5250328714473556
+      },
+      "3Y Average Annual Earnings Growth": {
+        "missing_count": 7851,
+        "missing_pct": 39.70365125922929
+      },
+      "Expected Earnings Growth: Fiscal Year 2/Fiscal Year 1": {
+        "missing_count": 13103,
+        "missing_pct": 66.26378072216042
+      },
+      "Expected LTG": {
+        "missing_count": 16192,
+        "missing_pct": 81.88530393445939
+      },
+      "Sustainable Growth Rate": {
+        "missing_count": 13165,
+        "missing_pct": 66.57732375847073
+      },
+      "Production Growth": {
+        "missing_count": 19774,
+        "missing_pct": 100.0
+      },
+      "Reserve Growth": {
+        "missing_count": 19774,
+        "missing_pct": 100.0
+      },
+      "Dividend Growth": {
+        "missing_count": 14079,
+        "missing_pct": 71.19955497117428
+      },
+      "Dividend per Share Growth": {
+        "missing_count": 14573,
+        "missing_pct": 73.69778497016284
+      },
+      "Historical Growth": {
+        "missing_count": 1101,
+        "missing_pct": 5.56791746738141
+      },
+      "Asset Growth - 1 Year": {
+        "missing_count": 4058,
+        "missing_pct": 20.521897441084253
+      },
+      "Developed Reserves per Share Growth": {
+        "missing_count": 19774,
+        "missing_pct": 100.0
+      },
+      "1Y Chg in Asset Adjusted EPS": {
+        "missing_count": 2675,
+        "missing_pct": 13.527864873065642
+      },
+      "1Y Chg in Asset Adjusted Cash Flow": {
+        "missing_count": 1145,
+        "missing_pct": 5.790431880246789
+      },
+      "1Y Chg in Asset Adjusted Free Cash Flow": {
+        "missing_count": 1906,
+        "missing_pct": 9.638919793668453
+      },
+      "1Y Chg in Asset Adjusted Operating Cash Flow": {
+        "missing_count": 1906,
+        "missing_pct": 9.638919793668453
+      },
+      "1Y Chg in Operating Margin": {
+        "missing_count": 7886,
+        "missing_pct": 39.880651360372205
+      },
+      "1Y Chg in Cash Flow per Share": {
+        "missing_count": 8516,
+        "missing_pct": 43.06665318094468
+      },
+      "1Y Chg in Free Cash Flow per Share": {
+        "missing_count": 7653,
+        "missing_pct": 38.70233640133509
+      },
+      "1Y Chg in Operating Cash Flow per Share": {
+        "missing_count": 7826,
+        "missing_pct": 39.577222615555776
+      },
+      "1Y Chg in Earnings per Share": {
+        "missing_count": 8859,
+        "missing_pct": 44.80125417214524
+      },
+      "1Y Chg in Sales Turnover": {
+        "missing_count": 1781,
+        "missing_pct": 9.006776575300899
+      },
+      "3Y Chg in Asset Adjusted EPS": {
+        "missing_count": 4536,
+        "missing_pct": 22.939213108121777
+      },
+      "3Y Chg in Asset Adjusted Cash Flow": {
+        "missing_count": 3410,
+        "missing_pct": 17.244866997066854
+      },
+      "3Y Chg in Asset Adjusted Free Cash Flow": {
+        "missing_count": 4030,
+        "missing_pct": 20.38029736016992
+      },
+      "3Y Chg in Asset Adjusted Operating Cash Flow": {
+        "missing_count": 4030,
+        "missing_pct": 20.38029736016992
+      },
+      "3Y Chg in Operating Margin": {
+        "missing_count": 10199,
+        "missing_pct": 51.57782947304541
+      },
+      "3Y Chg in Cash Flow per Share": {
+        "missing_count": 10216,
+        "missing_pct": 51.6638009507434
+      },
+      "3Y Chg in Free Cash Flow per Share": {
+        "missing_count": 10049,
+        "missing_pct": 50.81925761100435
+      },
+      "3Y Chg in Operating Cash Flow per Share": {
+        "missing_count": 9592,
+        "missing_pct": 48.508142004652576
+      },
+      "3Y Chg in Earnings per Share": {
+        "missing_count": 10899,
+        "missing_pct": 55.117831495903715
+      },
+      "3Y Chg in Sales Turnover": {
+        "missing_count": 3748,
+        "missing_pct": 18.954182259532722
+      },
+      "1Y Chg in Cash Flow to Price": {
+        "missing_count": 2606,
+        "missing_pct": 13.178921816526753
+      },
+      "1Y Chg in Earnings to Price": {
+        "missing_count": 2675,
+        "missing_pct": 13.527864873065642
+      },
+      "1Y Chg in Free Cash Flow to Price": {
+        "missing_count": 2606,
+        "missing_pct": 13.178921816526753
+      },
+      "1Y Chg in Operating Cash Flow to Price": {
+        "missing_count": 2609,
+        "missing_pct": 13.194093253767575
+      },
+      "1Y Chg in Sales to Price": {
+        "missing_count": 3304,
+        "missing_pct": 16.70880954789117
+      },
+      "1Y Chg in Stock Buybacks": {
+        "missing_count": 17080,
+        "missing_pct": 86.37604935774249
+      },
+      "1Y Chg in Discounted Future Cash Flows to Market Cap": {
+        "missing_count": 19774,
+        "missing_pct": 100.0
+      },
+      "3Y Chg in Cash Flow to Price": {
+        "missing_count": 4352,
+        "missing_pct": 22.008698290684737
+      },
+      "3Y Chg in Earnings to Price": {
+        "missing_count": 4536,
+        "missing_pct": 22.939213108121777
+      },
+      "3Y Chg in Free Cash Flow to Price": {
+        "missing_count": 4505,
+        "missing_pct": 22.782441589966623
+      },
+      "3Y Chg in Operating Cash Flow to Price": {
+        "missing_count": 4505,
+        "missing_pct": 22.782441589966623
+      },
+      "3Y Chg in Sales to Price": {
+        "missing_count": 4682,
+        "missing_pct": 23.677556387175077
+      },
+      "Sales Acceleration": {
+        "missing_count": 5971,
+        "missing_pct": 30.19621725498129
+      },
+      "Same Restaurant Sales Growth": {
+        "missing_count": 19774,
+        "missing_pct": 100.0
+      },
+      "Surgeries Growth": {
+        "missing_count": 19774,
+        "missing_pct": 100.0
+      },
+      "12M - 1M Price Momentum": {
+        "missing_count": 2770,
+        "missing_pct": 14.008293719024984
+      },
+      "9 Month Price Momentum": {
+        "missing_count": 2107,
+        "missing_pct": 10.65540608880348
+      },
+      "6 Months Price Reversal": {
+        "missing_count": 1367,
+        "missing_pct": 6.9131182360675645
+      },
+      "1M Price Reversal": {
+        "missing_count": 92,
+        "missing_pct": 0.4652574087185193
+      },
+      "5 Day Price Reversal": {
+        "missing_count": 0,
+        "missing_pct": 0.0
+      },
+      "14-Day Relative Strength Index": {
+        "missing_count": 35,
+        "missing_pct": 0.17700010114291492
+      },
+      "10 Day MACD Trend": {
+        "missing_count": 232,
+        "missing_pct": 1.173257813290179
+      },
+      "Closing Price to 52 Week High": {
+        "missing_count": 2437,
+        "missing_pct": 12.32426418529382
+      },
+      "4W to 52W Price Oscillator": {
+        "missing_count": 2699,
+        "missing_pct": 13.649236370992213
+      },
+      "52W High Low": {
+        "missing_count": 528,
+        "missing_pct": 2.6701729543845456
+      },
+      "130 Day Minimum Return": {
+        "missing_count": 6,
+        "missing_pct": 0.03034287448164256
+      },
+      "180D Price TStat": {
+        "missing_count": 1920,
+        "missing_pct": 9.70971983412562
+      },
+      "26W Price Stat": {
+        "missing_count": 1324,
+        "missing_pct": 6.6956609689491255
+      },
+      "26W Relative Price Strength": {
+        "missing_count": 1357,
+        "missing_pct": 6.862546778598159
+      },
+      "39W Lagged Return": {
+        "missing_count": 2291,
+        "missing_pct": 11.585920906240519
+      },
+      "50 Day to 200 Day Stock Price": {
+        "missing_count": 2001,
+        "missing_pct": 10.119348639627795
+      },
+      "Slope of 52W Price Trend": {
+        "missing_count": 2699,
+        "missing_pct": 13.649236370992213
+      },
+      "Risk Adjusted Relative Strength": {
+        "missing_count": 2875,
+        "missing_pct": 14.539294022453728
+      },
+      "15/36 Week Price Ratio": {
+        "missing_count": 1841,
+        "missing_pct": 9.310205320117326
+      },
+      "1M Price High - 1M Price Low": {
+        "missing_count": 579,
+        "missing_pct": 2.928087387478507
+      },
+      "Closing Price to 260 Day Low": {
+        "missing_count": 2394,
+        "missing_pct": 12.106806918175382
+      },
+      "Percent Above 260-Day Low": {
+        "missing_count": 2712,
+        "missing_pct": 13.714979265702437
+      },
+      "Price Momentum": {
+        "missing_count": 0,
+        "missing_pct": 0.0
+      },
+      "60M CAPM Beta": {
+        "missing_count": 6209,
+        "missing_pct": 31.39981794275311
+      },
+      "60M CAPM Alpha": {
+        "missing_count": 8102,
+        "missing_pct": 40.97299484171133
+      },
+      "12M Realized Price Volatility": {
+        "missing_count": 0,
+        "missing_pct": 0.0
+      },
+      "1M Realized Price Volatility": {
+        "missing_count": 0,
+        "missing_pct": 0.0
+      },
+      "24M Residual Return Variance": {
+        "missing_count": 7096,
+        "missing_pct": 35.88550622028927
+      },
+      "90 Day Coefficient of Variation": {
+        "missing_count": 178,
+        "missing_pct": 0.900171942955396
+      },
+      "Sharpe Ratio": {
+        "missing_count": 520,
+        "missing_pct": 2.629715788409022
+      },
+      "20 Day Coefficient of Variation of Volume to Price": {
+        "missing_count": 981,
+        "missing_pct": 4.961059977748559
+      },
+      "30 Day Coefficient of Variation of Volume to Price": {
+        "missing_count": 1178,
+        "missing_pct": 5.957317689895823
+      },
+      "60 Day Coefficient of Variation of Volume to Price": {
+        "missing_count": 1456,
+        "missing_pct": 7.3632042075452615
+      },
+      "Volatility": {
+        "missing_count": 0,
+        "missing_pct": 0.0
+      },
+      "Volatility adjusted 12M return": {
+        "missing_count": 2992,
+        "missing_pct": 15.130980074845757
+      },
+      "6M Chg in 12M CAPM Alpha": {
+        "missing_count": 1784,
+        "missing_pct": 9.02194801254172
+      },
+      "6M Chg in 18M CAPM Alpha": {
+        "missing_count": 1784,
+        "missing_pct": 9.02194801254172
+      },
+      "6M Chg in 36M CAPM Alpha": {
+        "missing_count": 1784,
+        "missing_pct": 9.02194801254172
+      },
+      "Max Daily Return in the Past 6 Months": {
+        "missing_count": 1279,
+        "missing_pct": 6.468089410336805
+      },
+      "Amihud Illiquidity Measure": {
+        "missing_count": 478,
+        "missing_pct": 2.4173156670375238
+      },
+      "Log Market Cap": {
+        "missing_count": 869,
+        "missing_pct": 4.394659654091231
+      },
+      "Share Turnover": {
+        "missing_count": 1382,
+        "missing_pct": 6.98897542227167
+      },
+      "50 Day Volume Signal": {
+        "missing_count": 2437,
+        "missing_pct": 12.32426418529382
+      },
+      "Adj 50 Day Volume Signal": {
+        "missing_count": 7015,
+        "missing_pct": 35.47587741478709
+      },
+      "52-Week Volume Price Trend with 20-Day Lag": {
+        "missing_count": 1463,
+        "missing_pct": 7.398604227773845
+      },
+      "5 Day Volume Signal": {
+        "missing_count": 461,
+        "missing_pct": 2.331344189339537
+      },
+      "5-Day Money Flow/Volume": {
+        "missing_count": 529,
+        "missing_pct": 2.6752301001314858
+      },
+      "6 Month Average Share Turn Over": {
+        "missing_count": 0,
+        "missing_pct": 0.0
+      },
+      "Adjusted 6 Month Average Share Turn Over": {
+        "missing_count": 479,
+        "missing_pct": 2.4223728127844644
+      },
+      "1Y Chg in Share Turnover": {
+        "missing_count": 685,
+        "missing_pct": 3.4641448366541927
+      },
+      "1Y Chg in Shares Outstanding": {
+        "missing_count": 2202,
+        "missing_pct": 11.13583493476282
+      },
+      "Change in Number of Buyers": {
+        "missing_count": 7088,
+        "missing_pct": 35.84504905431374
+      },
+      "Change in Number of Holders": {
+        "missing_count": 7088,
+        "missing_pct": 35.84504905431374
+      },
+      "Change of Ownership Level - All Managers": {
+        "missing_count": 7089,
+        "missing_pct": 35.85010620006069
+      },
+      "Foreign Institution Ownership": {
+        "missing_count": 7683,
+        "missing_pct": 38.854050773743296
+      },
+      "Institution Ownership Level": {
+        "missing_count": 7064,
+        "missing_pct": 35.72367755638717
+      },
+      "Institution Ownership Level - Active Manager": {
+        "missing_count": 7304,
+        "missing_pct": 36.93739253565288
+      },
+      "Institution Ownership Concentration": {
+        "missing_count": 6611,
+        "missing_pct": 33.43279053302316
+      },
+      "Institution Ownership Turnover": {
+        "missing_count": 7101,
+        "missing_pct": 35.910791949023974
+      },
+      "Ownership Breadth Stability of Institution Ownership by Buyers": {
+        "missing_count": 7081,
+        "missing_pct": 35.80964903408516
+      },
+      "Ownership Breadth Stability of Institution Ownership by Holders": {
+        "missing_count": 8531,
+        "missing_pct": 43.14251036714878
+      },
+      "Stability of Change in Number of Holders": {
+        "missing_count": 8823,
+        "missing_pct": 44.61919692525538
+      },
+      "Log of Market Capitalization Cubed": {
+        "missing_count": 1042,
+        "missing_pct": 5.2695458683119245
+      },
+      "Size": {
+        "missing_count": 741,
+        "missing_pct": 3.7473449984828564
+      },
+      "Earnings Surprise": {
+        "missing_count": 9899,
+        "missing_pct": 50.06068574896329
+      },
+      "Analyst Dispersion for FY1 EPS": {
+        "missing_count": 9082,
+        "missing_pct": 45.928997673712956
+      },
+      "Analyst Dispersion for FY2 EPS": {
+        "missing_count": 9220,
+        "missing_pct": 46.626883786790735
+      },
+      "Analyst Earnings Estimate Diffusion": {
+        "missing_count": 9073,
+        "missing_pct": 45.88348336199049
+      },
+      "Analyst Expectations": {
+        "missing_count": 9001,
+        "missing_pct": 45.51936886821078
+      },
+      "EBIT Estimate Dispersion": {
+        "missing_count": 11192,
+        "missing_pct": 56.599575199757254
+      },
+      "Revenue Estimate Dispersion": {
+        "missing_count": 11471,
+        "missing_pct": 58.010518863153635
+      },
+      "Adjusted Number of EPS FY1 Revisions": {
+        "missing_count": 9611,
+        "missing_pct": 48.60422777384444
+      },
+      "Adj Number of EPS FY2 Revisions": {
+        "missing_count": 9446,
+        "missing_pct": 47.76979872559927
+      },
+      "Number of EPS FY1 Revisions": {
+        "missing_count": 9283,
+        "missing_pct": 46.94548396884798
+      },
+      "Adjusted Revision Magnitude": {
+        "missing_count": 9619,
+        "missing_pct": 48.64468493981997
+      },
+      "Street Revision Magnitude": {
+        "missing_count": 9524,
+        "missing_pct": 48.16425609386062
+      },
+      "3M Revision in FY1 EPS Estimate": {
+        "missing_count": 9516,
+        "missing_pct": 48.123798927885105
+      },
+      "3M Revision in FY2 EPS Estimate": {
+        "missing_count": 9615,
+        "missing_pct": 48.624456356832205
+      },
+      "6M Chg in Target Price": {
+        "missing_count": 10220,
+        "missing_pct": 51.684029533731156
+      },
+      "6M Chg in Target Price Gap": {
+        "missing_count": 10272,
+        "missing_pct": 51.94700111257207
+      },
+      "Target Price Gap to 6M EMA": {
+        "missing_count": 10517,
+        "missing_pct": 53.18600182057247
+      },
+      "Buy-to-Sell Recommendation Ratio Less 3M EMA": {
+        "missing_count": 11994,
+        "missing_pct": 60.655406088803474
+      },
+      "Buy-to-Sell Recommendation Ratio Less 3M SMA": {
+        "missing_count": 11680,
+        "missing_pct": 59.067462324264184
+      },
+      "6M Avg Chg 1M Recommendation": {
+        "missing_count": 8724,
+        "missing_pct": 44.11853949630829
+      },
+      "Standardized Unexpected Earnings": {
+        "missing_count": 14485,
+        "missing_pct": 73.25275614443208
+      },
+      "12 month Relative Price Strength(Ind Grp Rel VolAdjRtn12M)": {
+        "missing_count": 2992,
+        "missing_pct": 15.130980074845757
+      },
+      "4-Week Change in 12-Month Forward Earnings Consensus Estimate/Price": {
+        "missing_count": 9112,
+        "missing_pct": 46.08071204612117
+      },
+      "8-Week Change in 12-Month Forward Earnings Consensus Estimate/Price": {
+        "missing_count": 9299,
+        "missing_pct": 47.02639830079903
+      },
+      "6M Momentum in Trailing 12M Sales": {
+        "missing_count": 6815,
+        "missing_pct": 34.464448265399014
+      },
+      "3M Momentum in Trailing 12M Sales": {
+        "missing_count": 6480,
+        "missing_pct": 32.770304440173966
+      },
+      "Ind Grp Rel Return on Equity": {
+        "missing_count": 1128,
+        "missing_pct": 5.7044604025488015
+      },
+      "Ind Grp Rel Return on Assets": {
+        "missing_count": 1128,
+        "missing_pct": 5.7044604025488015
+      },
+      "Ind Grp Rel Return on Invested Capital": {
+        "missing_count": 1669,
+        "missing_pct": 8.440376251643572
+      },
+      "Ind Grp Rel EBIT Margin": {
+        "missing_count": 1802,
+        "missing_pct": 9.112976635986648
+      },
+      "Ind Grp Rel Operating Margin": {
+        "missing_count": 1802,
+        "missing_pct": 9.112976635986648
+      },
+      "Ind Grp Rel Pretax Profit Margin": {
+        "missing_count": 1814,
+        "missing_pct": 9.173662384949935
+      },
+      "Ind Grp Rel Gross Profit Margin": {
+        "missing_count": 1802,
+        "missing_pct": 9.112976635986648
+      },
+      "Ind Grp Rel Operating Earnings to Assets Ratio": {
+        "missing_count": 1101,
+        "missing_pct": 5.56791746738141
+      },
+      "Ind Grp Rel Operating Earnings to Price Ratio": {
+        "missing_count": 1325,
+        "missing_pct": 6.700718114696065
+      },
+      "Ind Grp Rel Book to Price": {
+        "missing_count": 890,
+        "missing_pct": 4.50085971477698
+      },
+      "Ind Grp Rel Cash to Price": {
+        "missing_count": 957,
+        "missing_pct": 4.839688479821989
+      },
+      "Ind Grp Rel Free Cash Flow to Price": {
+        "missing_count": 1804,
+        "missing_pct": 9.123090927480531
+      },
+      "Ind Grp Rel Operating Cash Flow to Price": {
+        "missing_count": 1801,
+        "missing_pct": 9.10791949023971
+      },
+      "Ind Grp Rel Net Cash Flow to Price": {
+        "missing_count": 2612,
+        "missing_pct": 13.209264691008396
+      },
+      "Ind Grp Rel Net Cash Flow to Enterprise Value": {
+        "missing_count": 2587,
+        "missing_pct": 13.082836047334883
+      },
+      "Ind Grp Rel EBITDA to Price": {
+        "missing_count": 2026,
+        "missing_pct": 10.245777283301305
+      },
+      "Ind Grp Rel EBITDA to Enterprise Value": {
+        "missing_count": 1913,
+        "missing_pct": 9.674319813897036
+      },
+      "Ind Grp Rel Assets to Price Ratio": {
+        "missing_count": 890,
+        "missing_pct": 4.50085971477698
+      },
+      "Ind Grp Rel Sales to Price Ratio": {
+        "missing_count": 2018,
+        "missing_pct": 10.205320117325781
+      },
+      "Ind Grp Rel Current Ratio": {
+        "missing_count": 762,
+        "missing_pct": 3.853545059168605
+      },
+      "Ind Grp Rel Quick Ratio": {
+        "missing_count": 762,
+        "missing_pct": 3.853545059168605
+      },
+      "Ind Grp Rel Cash to Total Assets": {
+        "missing_count": 829,
+        "missing_pct": 4.192373824213614
+      },
+      "Ind Grp Rel Working Capital to Assets Ratio": {
+        "missing_count": 762,
+        "missing_pct": 3.853545059168605
+      },
+      "Ind Grp Rel Long Term Debt to Assets Ratio": {
+        "missing_count": 5250,
+        "missing_pct": 26.55001517143724
+      },
+      "Ind Grp Rel Inventory Turnover": {
+        "missing_count": 12399,
+        "missing_pct": 62.703550116314354
+      },
+      "Ind Grp Rel Receivables Turnover Ratio": {
+        "missing_count": 1814,
+        "missing_pct": 9.173662384949935
+      },
+      "Ind Grp Rel Working Capital Turnover Ratio": {
+        "missing_count": 1814,
+        "missing_pct": 9.173662384949935
+      },
+      "Ind Grp Rel Sales to Gross Profit Margin Growth": {
+        "missing_count": 3154,
+        "missing_pct": 15.950237685850105
+      },
+      "Ind Grp Rel 1Y Chg in Earnings per Share": {
+        "missing_count": 8859,
+        "missing_pct": 44.80125417214524
+      },
+      "Ind Grp Rel 1Y Chg in Operating Margin": {
+        "missing_count": 7886,
+        "missing_pct": 39.880651360372205
+      },
+      "Ind Grp Rel 1Y Chg in Cash Flow to Price": {
+        "missing_count": 2593,
+        "missing_pct": 13.113178921816527
+      },
+      "Ind Grp Rel 1Y Chg in Earnings to Price": {
+        "missing_count": 2675,
+        "missing_pct": 13.527864873065642
+      },
+      "Ind Grp Rel 1Y Chg in Free Cash Flow per Share": {
+        "missing_count": 7633,
+        "missing_pct": 38.60119348639628
+      },
+      "Ind Grp Rel 1Y Chg in Free Cash Flow to Price": {
+        "missing_count": 2593,
+        "missing_pct": 13.113178921816527
+      },
+      "Ind Grp Rel 1Y Chg in Operating Cash Flow per Share": {
+        "missing_count": 7818,
+        "missing_pct": 39.53676544958026
+      },
+      "Ind Grp Rel 1Y Chg in Sales to Price": {
+        "missing_count": 3304,
+        "missing_pct": 16.70880954789117
+      },
+      "Ind Grp Rel 1Y Chg in Shares Outstanding": {
+        "missing_count": 2227,
+        "missing_pct": 11.26226357843633
+      },
+      "Ind Grp Rel 1Y Chg in Stock Buybacks": {
+        "missing_count": 17082,
+        "missing_pct": 86.38616364923637
+      },
+      "Ind Grp Rel 3Y Chg in Sales to Price": {
+        "missing_count": 4682,
+        "missing_pct": 23.677556387175077
+      },
+      "Ind Grp Rel 5 Day Price Momentum": {
+        "missing_count": 60,
+        "missing_pct": 0.3034287448164256
+      },
+      "Ind Grp Rel 9M Price Momentum": {
+        "missing_count": 2107,
+        "missing_pct": 10.65540608880348
+      },
+      "Ind Grp Rel 12M - 1M Price Momentum": {
+        "missing_count": 2770,
+        "missing_pct": 14.008293719024984
+      },
+      "Ind Grp Rel 50 Day Volume Signal": {
+        "missing_count": 2437,
+        "missing_pct": 12.32426418529382
+      },
+      "Ind Grp Rel Accrual Ratio - Cash Flows": {
+        "missing_count": 1869,
+        "missing_pct": 9.451805401031658
+      },
+      "Ind Grp Rel Adjusted Accruals": {
+        "missing_count": 1670,
+        "missing_pct": 8.445433397390513
+      },
+      "Ind Grp Rel Analyst Dispersion for FY1 EPS": {
+        "missing_count": 9082,
+        "missing_pct": 45.928997673712956
+      },
+      "Ind Grp Rel Asset Adjusted Capital Investments": {
+        "missing_count": 2130,
+        "missing_pct": 10.77172044098311
+      },
+      "Ind Grp Rel Balance Sheet Accruals": {
+        "missing_count": 1815,
+        "missing_pct": 9.178719530696874
+      },
+      "Ind Grp Rel Inverse P/E Ratio Adj for Growth and Yield": {
+        "missing_count": 16217,
+        "missing_pct": 82.01173257813291
+      },
+      "Ind Grp Rel Max Daily Return in the Past 6 Months": {
+        "missing_count": 1279,
+        "missing_pct": 6.468089410336805
+      },
+      "Ind Grp Rel Standardized Unexpected Earnings": {
+        "missing_count": 14485,
+        "missing_pct": 73.25275614443208
+      },
+      "Ind Grp Rel Sustainable Growth Rate": {
+        "missing_count": 13165,
+        "missing_pct": 66.57732375847073
+      },
+      "Ind Grp Rel Tobin's Q Ratio": {
+        "missing_count": 903,
+        "missing_pct": 4.566602609487205
+      },
+      "Ind Grp Rel 1M Price Reversal": {
+        "missing_count": 120,
+        "missing_pct": 0.6068574896328512
+      },
+      "Ind Grp Rel Earnings Surprise": {
+        "missing_count": 9872,
+        "missing_pct": 49.92414281379589
+      },
+      "Ind Grp Rel Operating Cash Flow to Enterprise Value": {
+        "missing_count": 1776,
+        "missing_pct": 8.981490846566198
+      },
+      "Ind Grp Rel Pretax Income Per Share to Price": {
+        "missing_count": 1317,
+        "missing_pct": 6.660260948720542
+      },
+      "Ind Grp Rel Asset Turnover": {
+        "missing_count": 1802,
+        "missing_pct": 9.112976635986648
+      },
+      "Ind Grp Rel Capital Acquisition Ratio": {
+        "missing_count": 3755,
+        "missing_pct": 18.9895822797613
+      },
+      "Ind Grp Rel Capital Expenditure to Total Assets": {
+        "missing_count": 3733,
+        "missing_pct": 18.878325073328615
+      },
+      "Ind Grp Rel Cash Conversion Cycle": {
+        "missing_count": 1672,
+        "missing_pct": 8.455547688884394
+      },
+      "Ind Grp Rel Cash Flow Return on Invested Capital": {
+        "missing_count": 1696,
+        "missing_pct": 8.576919186810963
+      },
+      "Ind Grp Rel Cash to EV Ratio": {
+        "missing_count": 935,
+        "missing_pct": 4.728431273389299
+      },
+      "Ind Grp Rel Change in TTM Depr. to Capex": {
+        "missing_count": 4912,
+        "missing_pct": 24.840699908971374
+      },
+      "Ind Grp Rel Debt to Assets Ratio": {
+        "missing_count": 789,
+        "missing_pct": 3.9900879943359966
+      },
+      "Ind Grp Rel Depreciation to Capex Ratio": {
+        "missing_count": 3738,
+        "missing_pct": 18.903610802063316
+      },
+      "Ind Grp Rel Dividends to Price Ratio": {
+        "missing_count": 12761,
+        "missing_pct": 64.53423687670679
+      },
+      "Ind Grp Rel Earnings to Price": {
+        "missing_count": 1325,
+        "missing_pct": 6.700718114696065
+      },
+      "Ind Grp Rel Expected LTG": {
+        "missing_count": 16190,
+        "missing_pct": 81.87518964296551
+      },
+      "Ind Grp Rel Forward Earnings to Price": {
+        "missing_count": 9080,
+        "missing_pct": 45.91888338221908
+      },
+      "Ind Grp Rel Forward Free Cash Flow to Price Ratio": {
+        "missing_count": 9248,
+        "missing_pct": 46.76848386770507
+      },
+      "Ind Grp Rel Free Cash Flow to Common Equity": {
+        "missing_count": 1673,
+        "missing_pct": 8.460604834631335
+      },
+      "Ind Grp Rel Free Cash Flow to Enterprise Value": {
+        "missing_count": 1776,
+        "missing_pct": 8.981490846566198
+      },
+      "Ind Grp Rel Growth Flow to Price": {
+        "missing_count": 1317,
+        "missing_pct": 6.660260948720542
+      },
+      "Ind Grp Rel Interest Coverage Ratio": {
+        "missing_count": 4993,
+        "missing_pct": 25.250328714473554
+      },
+      "Ind Grp Rel Inventory to Assets Ratio": {
+        "missing_count": 12250,
+        "missing_pct": 61.950035400020234
+      },
+      "Ind Grp Rel Inverse PEG": {
+        "missing_count": 16192,
+        "missing_pct": 81.88530393445939
+      },
+      "Ind Grp Rel Long Term Debt to Equity Ratio": {
+        "missing_count": 3995,
+        "missing_pct": 20.203297259027007
+      },
+      "Ind Grp Rel Net Current Assets to Price Ratio": {
+        "missing_count": 890,
+        "missing_pct": 4.50085971477698
+      },
+      "Ind Grp Rel Net Profit Margin": {
+        "missing_count": 1815,
+        "missing_pct": 9.178719530696874
+      },
+      "Ind Grp Rel Price Momentum - 6 Months": {
+        "missing_count": 1367,
+        "missing_pct": 6.9131182360675645
+      },
+      "Ind Grp Rel SG&A to Sales": {
+        "missing_count": 1953,
+        "missing_pct": 9.876605643774655
+      },
+      "Ind Grp Rel Sales to EV Ratio": {
+        "missing_count": 1908,
+        "missing_pct": 9.649034085162334
+      },
+      "Ind Grp Rel Working Capital Accruals": {
+        "missing_count": 1115,
+        "missing_pct": 5.638717507838576
+      },
+      "Ind Grp Rel Working Capital to Sales": {
+        "missing_count": 1802,
+        "missing_pct": 9.112976635986648
+      },
+      "Ind Grp Rel Year over Year Change of EPS to Sales": {
+        "missing_count": 3304,
+        "missing_pct": 16.70880954789117
+      },
+      "Ind Grp Rel Year over Year Change of Total Debt": {
+        "missing_count": 12479,
+        "missing_pct": 63.10812177606958
+      },
+      "Ind Grp Rel YoY Change in SGA to Sales": {
+        "missing_count": 1953,
+        "missing_pct": 9.876605643774655
+      },
+      "5 Yr Hist Rel 1Y Chg in Earnings per Share": {
+        "missing_count": 13965,
+        "missing_pct": 70.62304035602305
+      },
+      "5 Yr Hist Rel Adjusted Accruals": {
+        "missing_count": 6967,
+        "missing_pct": 35.23313441893395
+      },
+      "5 Yr Hist Rel Assets to Price Ratio": {
+        "missing_count": 7038,
+        "missing_pct": 35.59219176696672
+      },
+      "5 Yr Hist Rel Book to Price": {
+        "missing_count": 7038,
+        "missing_pct": 35.59219176696672
+      },
+      "5 Yr Hist Rel Cash to Total Assets": {
+        "missing_count": 6881,
+        "missing_pct": 34.798219884697076
+      },
+      "5 Yr Hist Rel Current Ratio": {
+        "missing_count": 6787,
+        "missing_pct": 34.32284818448468
+      },
+      "5 Yr Hist Rel EBIT Margin": {
+        "missing_count": 6933,
+        "missing_pct": 35.06119146353798
+      },
+      "5 Yr Hist Rel EBITDA to Price": {
+        "missing_count": 7119,
+        "missing_pct": 36.0018205724689
+      },
+      "5 Yr Hist Rel Free Cash Flow to Price": {
+        "missing_count": 7168,
+        "missing_pct": 36.24962071406898
+      },
+      "5 Yr Hist Rel Gross Profit Margin": {
+        "missing_count": 8581,
+        "missing_pct": 43.3953676544958
+      },
+      "5 Yr Hist Rel Inverse P/E Ratio Adj for Growth and Yield": {
+        "missing_count": 18408,
+        "missing_pct": 93.09193890967937
+      },
+      "5 Yr Hist Rel Long Term Debt to Assets Ratio": {
+        "missing_count": 12643,
+        "missing_pct": 63.93749367856781
+      },
+      "5 Yr Hist Rel Net Cash Flow to Enterprise Value": {
+        "missing_count": 8796,
+        "missing_pct": 44.482653990088
+      },
+      "5 Yr Hist Rel Net Cash Flow to Price": {
+        "missing_count": 7409,
+        "missing_pct": 37.46839283908162
+      },
+      "5 Yr Hist Rel Operating Cash Flow to Price": {
+        "missing_count": 7165,
+        "missing_pct": 36.23444927682816
+      },
+      "5 Yr Hist Rel Operating Earnings to Assets Ratio": {
+        "missing_count": 6806,
+        "missing_pct": 34.41893395367654
+      },
+      "5 Yr Hist Rel Operating Margin": {
+        "missing_count": 6933,
+        "missing_pct": 35.06119146353798
+      },
+      "5 Yr Hist Rel Pretax Profit Margin": {
+        "missing_count": 6933,
+        "missing_pct": 35.06119146353798
+      },
+      "5 Yr Hist Rel Quick Ratio": {
+        "missing_count": 6787,
+        "missing_pct": 34.32284818448468
+      },
+      "5 Yr Hist Rel Receivables Turnover Ratio": {
+        "missing_count": 6972,
+        "missing_pct": 35.25842014766866
+      },
+      "5 Yr Hist Rel Return on Assets": {
+        "missing_count": 6806,
+        "missing_pct": 34.41893395367654
+      },
+      "5 Yr Hist Rel Return on Equity": {
+        "missing_count": 6806,
+        "missing_pct": 34.41893395367654
+      },
+      "5 Yr Hist Rel Return on Invested Capital": {
+        "missing_count": 8199,
+        "missing_pct": 41.46353797916456
+      },
+      "5 Yr Hist Rel Sales to Gross Profit Margin Growth": {
+        "missing_count": 8456,
+        "missing_pct": 42.76322443612825
+      },
+      "5 Yr Hist Rel Working Capital Turnover Ratio": {
+        "missing_count": 6933,
+        "missing_pct": 35.06119146353798
+      },
+      "5 Yr Hist Rel Working Capital to Assets Ratio": {
+        "missing_count": 6787,
+        "missing_pct": 34.32284818448468
+      },
+      "1 Yr Chg in Admissions": {
+        "missing_count": 19774,
+        "missing_pct": 100.0
+      },
+      "1 Yr Chg in Number of Properties": {
+        "missing_count": 19774,
+        "missing_pct": 100.0
+      },
+      "1 Yr Chg in Number of Restuarants": {
+        "missing_count": 19774,
+        "missing_pct": 100.0
+      },
+      "1 Yr Chg in Number of Rooms": {
+        "missing_count": 19774,
+        "missing_pct": 100.0
+      },
+      "1 Yr Chg in Revenue per Room": {
+        "missing_count": 19774,
+        "missing_pct": 100.0
+      },
+      "1 Yr Grw Avg Length of Stay": {
+        "missing_count": 19774,
+        "missing_pct": 100.0
+      },
+      "1 Yr Grw Broadband Subscribers": {
+        "missing_count": 19774,
+        "missing_pct": 100.0
+      },
+      "1 Yr Grw Churn Rate": {
+        "missing_count": 19774,
+        "missing_pct": 100.0
+      },
+      "1 Yr Grw House Sales Revenue": {
+        "missing_count": 19774,
+        "missing_pct": 100.0
+      },
+      "1 Yr Grw Net New Orders": {
+        "missing_count": 19774,
+        "missing_pct": 100.0
+      },
+      "1 Yr Grw Net Wireless Subs Additions": {
+        "missing_count": 19774,
+        "missing_pct": 100.0
+      },
+      "1 Yr Grw Num of Patent Applications": {
+        "missing_count": 18652,
+        "missing_pct": 94.32588247193284
+      },
+      "1 Yr Grw Num of Products in Phase 3": {
+        "missing_count": 15942,
+        "missing_pct": 80.6210174977243
+      },
+      "1 Yr Grw Number of Patents": {
+        "missing_count": 18573,
+        "missing_pct": 93.92636795792455
+      },
+      "1 Yr Grw Revenue Passenger Miles": {
+        "missing_count": 19774,
+        "missing_pct": 100.0
+      },
+      "1 Yr Grw Revenue Passengers Carried": {
+        "missing_count": 19774,
+        "missing_pct": 100.0
+      },
+      "1 Yr Grw Tot Home Rev to Const in Prog": {
+        "missing_count": 19774,
+        "missing_pct": 100.0
+      },
+      "1 Yr Grw Tot Home Rev to Inventory": {
+        "missing_count": 19774,
+        "missing_pct": 100.0
+      },
+      "1 Yr Grw Wireless Subscribers": {
+        "missing_count": 19774,
+        "missing_pct": 100.0
+      },
+      "1 Yr Grw in Net Premiums Earned": {
+        "missing_count": 19774,
+        "missing_pct": 100.0
+      },
+      "1 Yr Grw in Total Investments": {
+        "missing_count": 19774,
+        "missing_pct": 100.0
+      },
+      "1 Yr Grw in Underwriting Profit": {
+        "missing_count": 19774,
+        "missing_pct": 100.0
+      },
+      "1 Yr Same Rest Sales Acceleration": {
+        "missing_count": 19774,
+        "missing_pct": 100.0
+      },
+      "1-Year Change in Current Ratio": {
+        "missing_count": 1004,
+        "missing_pct": 5.077374329928189
+      },
+      "1-Year Change in Gross Profit Margin": {
+        "missing_count": 1358,
+        "missing_pct": 6.867603924345099
+      },
+      "1-Year Change in Long Term Debt to Avg Total Assets": {
+        "missing_count": 15086,
+        "missing_pct": 76.29210073834328
+      },
+      "1-Year Change in ROA": {
+        "missing_count": 1004,
+        "missing_pct": 5.077374329928189
+      },
+      "1Y Change in Modified Texas Ratio (Fundamentals)": {
+        "missing_count": 19774,
+        "missing_pct": 100.0
+      },
+      "1Y Change in Nonaccrual Loans to Total Assets (Fundamentals)": {
+        "missing_count": 19774,
+        "missing_pct": 100.0
+      },
+      "1Y Chg in Amihud": {
+        "missing_count": 674,
+        "missing_pct": 3.408516233437848
+      },
+      "1Y Chg in EPS to Operating Cash Flow": {
+        "missing_count": 2735,
+        "missing_pct": 13.831293617882068
+      },
+      "1Y Chg in Future Cash Flows per Share": {
+        "missing_count": 19774,
+        "missing_pct": 100.0
+      },
+      "1Y Chg in Future Cash Flows to Total Assets": {
+        "missing_count": 19774,
+        "missing_pct": 100.0
+      },
+      "1Y Chg in Future Cashflow Yield": {
+        "missing_count": 19774,
+        "missing_pct": 100.0
+      },
+      "1Y Chg in Proved Reserves to Market Cap": {
+        "missing_count": 19774,
+        "missing_pct": 100.0
+      },
+      "1Y Chg in Reserve Acquired to Total Costs": {
+        "missing_count": 19774,
+        "missing_pct": 100.0
+      },
+      "1Y Chg in Reserve Exhaustion Rate": {
+        "missing_count": 19774,
+        "missing_pct": 100.0
+      },
+      "1Y Chg in Sales to Earnings": {
+        "missing_count": 3328,
+        "missing_pct": 16.830181045817742
+      },
+      "20-Day Lane's Stochastic Indicator": {
+        "missing_count": 525,
+        "missing_pct": 2.655001517143724
+      },
+      "3Y Change in Operating Income to Tier 1 Common Equity (Fundamentals)": {
+        "missing_count": 19774,
+        "missing_pct": 100.0
+      },
+      "3Y Change in Total Pretax Expense to Average Assets (Fundamentals)": {
+        "missing_count": 19150,
+        "missing_pct": 96.84434105390918
+      },
+      "Actual Production to Market Cap": {
+        "missing_count": 19774,
+        "missing_pct": 100.0
+      },
+      "Backlog Homes Value Grw": {
+        "missing_count": 19774,
+        "missing_pct": 100.0
+      },
+      "Churn Rate": {
+        "missing_count": 19774,
+        "missing_pct": 100.0
+      },
+      "Deliv Homes Value Grw to Mkt Cap": {
+        "missing_count": 19774,
+        "missing_pct": 100.0
+      },
+      "Gas Margin": {
+        "missing_count": 19774,
+        "missing_pct": 100.0
+      },
+      "Home Gross Margin": {
+        "missing_count": 19774,
+        "missing_pct": 100.0
+      },
+      "Hospitals and Facilities Growth": {
+        "missing_count": 19774,
+        "missing_pct": 100.0
+      },
+      "Hotel & Casino Rev to Oper Exp": {
+        "missing_count": 19774,
+        "missing_pct": 100.0
+      },
+      "Implied Cap Rate": {
+        "missing_count": 19774,
+        "missing_pct": 100.0
+      },
+      "Insurance: Net Premium Written to Net Assets": {
+        "missing_count": 19774,
+        "missing_pct": 100.0
+      },
+      "Investment Duration": {
+        "missing_count": 12161,
+        "missing_pct": 61.499949428542536
+      },
+      "Licensed Beds Growth": {
+        "missing_count": 19774,
+        "missing_pct": 100.0
+      },
+      "Log TTM Sales": {
+        "missing_count": 1781,
+        "missing_pct": 9.006776575300899
+      },
+      "Log of Total Last Quarter Assets": {
+        "missing_count": 852,
+        "missing_pct": 4.308688176393244
+      },
+      "Log of Unadjusted Stock Price": {
+        "missing_count": 0,
+        "missing_pct": 0.0
+      },
+      "Mine Life - Gold Mining": {
+        "missing_count": 19774,
+        "missing_pct": 100.0
+      },
+      "Net Prem Written to Stat Surplus": {
+        "missing_count": 19774,
+        "missing_pct": 100.0
+      },
+      "Normalized EP": {
+        "missing_count": 1332,
+        "missing_pct": 6.736118134924649
+      },
+      "Normalized ROA": {
+        "missing_count": 1108,
+        "missing_pct": 5.603317487609993
+      },
+      "Normalized ROE": {
+        "missing_count": 1108,
+        "missing_pct": 5.603317487609993
+      },
+      "Number of Patents to Mkt Cap": {
+        "missing_count": 17585,
+        "missing_pct": 88.92990795994741
+      },
+      "Oil Margin": {
+        "missing_count": 19774,
+        "missing_pct": 100.0
+      },
+      "Operating Cash Flow Ratio": {
+        "missing_count": 1696,
+        "missing_pct": 8.576919186810963
+      },
+      "Operating Cash Flow to Asset v2": {
+        "missing_count": 1488,
+        "missing_pct": 7.5250328714473556
+      },
+      "Passenger Load Factor": {
+        "missing_count": 19774,
+        "missing_pct": 100.0
+      },
+      "Patient Days Growth": {
+        "missing_count": 19774,
+        "missing_pct": 100.0
+      },
+      "Pre-Provision Net Revenue / Price  (Fundamentals)": {
+        "missing_count": 19774,
+        "missing_pct": 100.0
+      },
+      "Profit per Room": {
+        "missing_count": 19774,
+        "missing_pct": 100.0
+      },
+      "Proved & Prob Reserves to Market Cap": {
+        "missing_count": 19774,
+        "missing_pct": 100.0
+      },
+      "ROA 20 Qtr Standard Deviation": {
+        "missing_count": 4262,
+        "missing_pct": 21.553555173460097
+      },
+      "ROA 60 Month Slope": {
+        "missing_count": 1811,
+        "missing_pct": 9.158490947709113
+      },
+      "ROE 20 Qtr Standard Deviation": {
+        "missing_count": 4488,
+        "missing_pct": 22.696470112268635
+      },
+      "Reserve Acquisition Cost": {
+        "missing_count": 19774,
+        "missing_pct": 100.0
+      },
+      "Reserve Acquisition Yield": {
+        "missing_count": 19774,
+        "missing_pct": 100.0
+      },
+      "Reserve Replacement Ratio": {
+        "missing_count": 19774,
+        "missing_pct": 100.0
+      },
+      "Restaurant Operating Margin": {
+        "missing_count": 19774,
+        "missing_pct": 100.0
+      },
+      "Restaurants Closing Momentum": {
+        "missing_count": 19774,
+        "missing_pct": 100.0
+      },
+      "Restaurants Opening Momentum": {
+        "missing_count": 19774,
+        "missing_pct": 100.0
+      },
+      "Revenue per Room": {
+        "missing_count": 19774,
+        "missing_pct": 100.0
+      },
+      "Room Margin": {
+        "missing_count": 19774,
+        "missing_pct": 100.0
+      },
+      "TTM Rest Closed & Sold to Total Rest": {
+        "missing_count": 19774,
+        "missing_pct": 100.0
+      },
+      "TTM Rest Open & Acquire to Total Rest": {
+        "missing_count": 19774,
+        "missing_pct": 100.0
+      },
+      "Total Profit per Available Seat Mile": {
+        "missing_count": 19774,
+        "missing_pct": 100.0
+      },
+      "Underwriting Margin": {
+        "missing_count": 19774,
+        "missing_pct": 100.0
+      },
+      "Unexpected Inventory Change": {
+        "missing_count": 12602,
+        "missing_pct": 63.730150702943256
+      },
+      "Unexpected Receivables Change": {
+        "missing_count": 1776,
+        "missing_pct": 8.981490846566198
+      },
+      "Valuation": {
+        "missing_count": 866,
+        "missing_pct": 4.379488216850409
+      },
+      "Wireless Penetration Rate": {
+        "missing_count": 19774,
+        "missing_pct": 100.0
+      }
+    },
+    "total_missing_cells": 3068896,
+    "total_missing_pct": 36.86426212399641
+  },
+  "feature_stats": {
+    "ASOFDATE": {
+      "dtype": "datetime64[ns]",
+      "unique_values": 1352,
+      "mean": null,
+      "std": null,
+      "min": null,
+      "max": null
+    },
+    "COMPANYNAME": {
+      "dtype": "object",
+      "unique_values": 26,
+      "mean": null,
+      "std": null,
+      "min": null,
+      "max": null
+    },
+    "EXCHANGETICKER": {
+      "dtype": "object",
+      "unique_values": 26,
+      "mean": null,
+      "std": null,
+      "min": null,
+      "max": null
+    },
+    "PRICECLOSE": {
+      "dtype": "float64",
+      "unique_values": 5335,
+      "mean": 1765.5247817083039,
+      "std": 10003.291511928448,
+      "min": 0.042,
+      "max": 81200.0
+    },
+    "horizon_mean": {
+      "dtype": "float64",
+      "unique_values": 16437,
+      "mean": 1764.8073116589785,
+      "std": 9991.728427720285,
+      "min": 0.0474285714285714,
+      "max": 80308.33333333333
+    },
+    "horizon_end": {
+      "dtype": "object",
+      "unique_values": 1352,
+      "mean": null,
+      "std": null,
+      "min": null,
+      "max": null
+    },
+    "target": {
+      "dtype": "float64",
+      "unique_values": 18127,
+      "mean": 0.3387930793618058,
+      "std": 6.617817190332763,
+      "min": -64.07103825136613,
+      "max": 166.8044077134987
+    },
+    "Book to Price": {
+      "dtype": "float64",
+      "unique_values": 99,
+      "mean": 82.85591113462047,
+      "std": 16.965563753276797,
+      "min": 2.0,
+      "max": 98.0
+    },
+    "Earnings to Price": {
+      "dtype": "float64",
+      "unique_values": 100,
+      "mean": 65.28356995773274,
+      "std": 19.088397244386915,
+      "min": 1.0,
+      "max": 98.0
+    },
+    "Operating Cash Flow to Price": {
+      "dtype": "float64",
+      "unique_values": 97,
+      "mean": 69.25908306904802,
+      "std": 18.517628389969786,
+      "min": 5.0,
+      "max": 100.0
+    },
+    "Free Cash Flow to Price": {
+      "dtype": "float64",
+      "unique_values": 98,
+      "mean": 57.47437395659433,
+      "std": 21.690453863726752,
+      "min": 4.0,
+      "max": 100.0
+    },
+    "Net Cash Flow to Price": {
+      "dtype": "float64",
+      "unique_values": 96,
+      "mean": 68.82336132493585,
+      "std": 19.38043371011505,
+      "min": 1.0,
+      "max": 96.0
+    },
+    "Net Cash Flow to Enterprise Value": {
+      "dtype": "float64",
+      "unique_values": 100,
+      "mean": 67.74634600826879,
+      "std": 20.61403529524823,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Operating Cash Flow to Enterprise Value": {
+      "dtype": "float64",
+      "unique_values": 100,
+      "mean": 64.93421491276808,
+      "std": 22.459976083436512,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Free Cash Flow to Enterprise Value": {
+      "dtype": "float64",
+      "unique_values": 101,
+      "mean": 55.87184687187465,
+      "std": 24.660423843255824,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "EBITDA to Enterprise Value": {
+      "dtype": "float64",
+      "unique_values": 100,
+      "mean": 71.11488718436817,
+      "std": 20.100960531914414,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Sales to EV Ratio": {
+      "dtype": "float64",
+      "unique_values": 94,
+      "mean": 72.09943483856527,
+      "std": 19.8925130726456,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Assets to Price Ratio": {
+      "dtype": "float64",
+      "unique_values": 90,
+      "mean": 90.68987241251521,
+      "std": 14.05567071000286,
+      "min": 13.0,
+      "max": 100.0
+    },
+    "Operating Earnings to Price Ratio": {
+      "dtype": "float64",
+      "unique_values": 98,
+      "mean": 65.26444131353637,
+      "std": 19.160590965833254,
+      "min": 1.0,
+      "max": 98.0
+    },
+    "Pretax Income Per Share to Price": {
+      "dtype": "float64",
+      "unique_values": 96,
+      "mean": 68.40886686166179,
+      "std": 17.530564699656537,
+      "min": 7.0,
+      "max": 99.0
+    },
+    "Sales to Price Ratio": {
+      "dtype": "float64",
+      "unique_values": 84,
+      "mean": 79.04644747213152,
+      "std": 19.568019611671133,
+      "min": 17.0,
+      "max": 100.0
+    },
+    "Future Cashflow Yield": {
+      "dtype": "float64",
+      "unique_values": 0,
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN
+    },
+    "Free Cash Flow to Common Equity": {
+      "dtype": "float64",
+      "unique_values": 108,
+      "mean": 51.96991326446053,
+      "std": 37.041093347737345,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Operating Cash Flow to Equity": {
+      "dtype": "float64",
+      "unique_values": 101,
+      "mean": 57.15823565700185,
+      "std": 36.201049699314474,
+      "min": 3.0,
+      "max": 100.0
+    },
+    "Operating Earnings to Assets Ratio": {
+      "dtype": "float64",
+      "unique_values": 97,
+      "mean": 50.46493388297018,
+      "std": 41.00701791580842,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Inverse P/E Ratio Adj for Growth and Yield": {
+      "dtype": "float64",
+      "unique_values": 77,
+      "mean": 65.73669388904534,
+      "std": 16.988751944031886,
+      "min": 10.0,
+      "max": 100.0
+    },
+    "Tobin's Q Ratio": {
+      "dtype": "float64",
+      "unique_values": 100,
+      "mean": 89.4325527180248,
+      "std": 16.692056070040923,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "EBITDA to Price": {
+      "dtype": "float64",
+      "unique_values": 95,
+      "mean": 75.01531043816613,
+      "std": 15.770006419855827,
+      "min": 6.0,
+      "max": 99.0
+    },
+    "Cash to Price": {
+      "dtype": "float64",
+      "unique_values": 99,
+      "mean": 58.12119120925788,
+      "std": 22.68783828567259,
+      "min": 2.0,
+      "max": 100.0
+    },
+    "Dividends to Price Ratio": {
+      "dtype": "float64",
+      "unique_values": 130,
+      "mean": 73.67579563293849,
+      "std": 28.37941549683929,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Growth Flow to Price": {
+      "dtype": "float64",
+      "unique_values": 97,
+      "mean": 60.360795146788,
+      "std": 21.15941149058701,
+      "min": 1.0,
+      "max": 98.0
+    },
+    "Net Current Assets to Price Ratio": {
+      "dtype": "float64",
+      "unique_values": 73,
+      "mean": 31.05061146699137,
+      "std": 12.486768972686773,
+      "min": 1.0,
+      "max": 73.0
+    },
+    "Discounted Future Cash Flows to Market Cap": {
+      "dtype": "float64",
+      "unique_values": 0,
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN
+    },
+    "Proved Reserves to Market Cap": {
+      "dtype": "float64",
+      "unique_values": 0,
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN
+    },
+    "Cash to EV Ratio": {
+      "dtype": "float64",
+      "unique_values": 125,
+      "mean": 48.7305879855657,
+      "std": 23.98538451943812,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Book Value to Enterprise Value": {
+      "dtype": "float64",
+      "unique_values": 99,
+      "mean": 74.52903777314741,
+      "std": 24.20021772492696,
+      "min": 1.0,
+      "max": 99.0
+    },
+    "Forward Earnings to Price": {
+      "dtype": "float64",
+      "unique_values": 87,
+      "mean": 78.92018735362997,
+      "std": 14.490234025315866,
+      "min": 6.0,
+      "max": 98.0
+    },
+    "Forward Free Cash Flow to Price Ratio": {
+      "dtype": "float64",
+      "unique_values": 86,
+      "mean": 68.31255353573808,
+      "std": 18.814517337652664,
+      "min": 11.0,
+      "max": 100.0
+    },
+    "Core EPS to Price (Fundamentals)": {
+      "dtype": "float64",
+      "unique_values": 0,
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN
+    },
+    "Current Liability to Price": {
+      "dtype": "float64",
+      "unique_values": 79,
+      "mean": 83.42171211961671,
+      "std": 15.869610975548063,
+      "min": 20.0,
+      "max": 99.0
+    },
+    "Adjusted EBIT to Price": {
+      "dtype": "float64",
+      "unique_values": 90,
+      "mean": 71.21426273458445,
+      "std": 15.52310959603508,
+      "min": 11.0,
+      "max": 98.0
+    },
+    "Adjusted Forward Earnings to Price": {
+      "dtype": "float64",
+      "unique_values": 92,
+      "mean": 78.06197941259798,
+      "std": 16.569122061955976,
+      "min": 4.0,
+      "max": 98.0
+    },
+    "EBITDA to Assets": {
+      "dtype": "float64",
+      "unique_values": 105,
+      "mean": 52.004050199657726,
+      "std": 39.69503497861031,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Free Cash Flow to Sales": {
+      "dtype": "float64",
+      "unique_values": 114,
+      "mean": 53.72003815445488,
+      "std": 36.5389651788486,
+      "min": 2.0,
+      "max": 100.0
+    },
+    "Cash Flow to Total Asset": {
+      "dtype": "float64",
+      "unique_values": 94,
+      "mean": 51.720512548978085,
+      "std": 40.956085985675024,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Cash Flow to Equity": {
+      "dtype": "float64",
+      "unique_values": 106,
+      "mean": 55.74436331934834,
+      "std": 36.925363601198576,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Cash Flow to Invested Capital": {
+      "dtype": "float64",
+      "unique_values": 102,
+      "mean": 52.496376500857636,
+      "std": 39.443271033988864,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Cash to Sales": {
+      "dtype": "float64",
+      "unique_values": 98,
+      "mean": 68.33923866934583,
+      "std": 26.989304044487227,
+      "min": 2.0,
+      "max": 100.0
+    },
+    "Gross Profit to Assets": {
+      "dtype": "float64",
+      "unique_values": 86,
+      "mean": 30.96576642748178,
+      "std": 32.65775657858649,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Return on Invested Capital": {
+      "dtype": "float64",
+      "unique_values": 89,
+      "mean": 47.318946614511596,
+      "std": 43.11248730550323,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Return on Equity": {
+      "dtype": "float64",
+      "unique_values": 106,
+      "mean": 52.66054883919975,
+      "std": 37.27527750820215,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Return on Assets": {
+      "dtype": "float64",
+      "unique_values": 97,
+      "mean": 50.46274205627474,
+      "std": 41.00649813515432,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Cash Flow Return on Invested Capital": {
+      "dtype": "float64",
+      "unique_values": 93,
+      "mean": 53.27039328325232,
+      "std": 38.954336115560295,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Operating Margin": {
+      "dtype": "float64",
+      "unique_values": 106,
+      "mean": 63.441419887345944,
+      "std": 30.764237235191057,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Net Profit Margin": {
+      "dtype": "float64",
+      "unique_values": 97,
+      "mean": 58.49607854043831,
+      "std": 32.647044320958805,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Gross Profit Margin": {
+      "dtype": "float64",
+      "unique_values": 95,
+      "mean": 32.34788364202681,
+      "std": 31.006250349556627,
+      "min": 2.3,
+      "max": 100.0
+    },
+    "EBIT Margin": {
+      "dtype": "float64",
+      "unique_values": 103,
+      "mean": 61.733817231214196,
+      "std": 31.96926470552205,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Balance Sheet Accruals": {
+      "dtype": "float64",
+      "unique_values": 111,
+      "mean": 48.073350762042494,
+      "std": 25.987950984881785,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Accrual Ratio - Balance Sheet": {
+      "dtype": "float64",
+      "unique_values": 106,
+      "mean": 63.853844329835795,
+      "std": 36.023148141044715,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Accrual Ratio - Cash Flows": {
+      "dtype": "float64",
+      "unique_values": 113,
+      "mean": 54.23602198788423,
+      "std": 38.6202277245009,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Working Capital Accruals": {
+      "dtype": "float64",
+      "unique_values": 126,
+      "mean": 51.75049255808973,
+      "std": 33.11598106793449,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Earnings Quality": {
+      "dtype": "float64",
+      "unique_values": 878,
+      "mean": 42.57006045690439,
+      "std": 31.674779760310702,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Piotroski F-Score": {
+      "dtype": "float64",
+      "unique_values": 229,
+      "mean": 59.08683466792275,
+      "std": 31.86198806793835,
+      "min": 5.2,
+      "max": 100.0
+    },
+    "Altman Z-Score": {
+      "dtype": "float64",
+      "unique_values": 98,
+      "mean": 41.84288117534908,
+      "std": 35.57064842732621,
+      "min": 3.0,
+      "max": 100.0
+    },
+    "Adjusted Interest Coverage Ratio": {
+      "dtype": "float64",
+      "unique_values": 80,
+      "mean": 62.01391548140044,
+      "std": 38.33735734877883,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Depreciation to Capex Ratio": {
+      "dtype": "float64",
+      "unique_values": 126,
+      "mean": 47.21546681664792,
+      "std": 24.98042596249313,
+      "min": 1.0,
+      "max": 99.0
+    },
+    "Return on Net Tangible Assets": {
+      "dtype": "float64",
+      "unique_values": 100,
+      "mean": 52.628622237770394,
+      "std": 37.415178908962964,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Return on Risk Weighted Assets (Fundamentals)": {
+      "dtype": "float64",
+      "unique_values": 0,
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN
+    },
+    "EBIT to Assets": {
+      "dtype": "float64",
+      "unique_values": 101,
+      "mean": 52.79074327655146,
+      "std": 39.95779450326519,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "EBIT to Assets v2": {
+      "dtype": "float64",
+      "unique_values": 98,
+      "mean": 54.68431642486498,
+      "std": 39.879445334092686,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "EPS Stability": {
+      "dtype": "float64",
+      "unique_values": 128,
+      "mean": 50.79352941176471,
+      "std": 30.294061886729963,
+      "min": 2.0,
+      "max": 100.0
+    },
+    "Net Income Stability": {
+      "dtype": "float64",
+      "unique_values": 110,
+      "mean": 42.35811794945024,
+      "std": 29.7817034467811,
+      "min": 2.5,
+      "max": 100.0
+    },
+    "Sales to Invested Capital": {
+      "dtype": "float64",
+      "unique_values": 99,
+      "mean": 47.657366928082766,
+      "std": 27.652695675777952,
+      "min": 4.0,
+      "max": 100.0
+    },
+    "Dividends to Cash Flow": {
+      "dtype": "float64",
+      "unique_values": 55,
+      "mean": 47.052439750074385,
+      "std": 26.25108599077947,
+      "min": 1.0,
+      "max": 98.0
+    },
+    "Adjusted Accruals": {
+      "dtype": "float64",
+      "unique_values": 115,
+      "mean": 60.24656981882456,
+      "std": 20.693024745143425,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Asset Adjusted Capital Investments": {
+      "dtype": "float64",
+      "unique_values": 190,
+      "mean": 45.90571006924736,
+      "std": 24.286389283066377,
+      "min": 1.0,
+      "max": 97.0
+    },
+    "Pretax Profit Margin": {
+      "dtype": "float64",
+      "unique_values": 108,
+      "mean": 61.75972833045705,
+      "std": 31.56178336206977,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Reserve Exhaustion Rate": {
+      "dtype": "float64",
+      "unique_values": 0,
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN
+    },
+    "Pretax Income to Net Operating Assets": {
+      "dtype": "float64",
+      "unique_values": 95,
+      "mean": 47.84702696906332,
+      "std": 42.410902919755486,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Return on Assets v2": {
+      "dtype": "float64",
+      "unique_values": 93,
+      "mean": 50.93169014084507,
+      "std": 41.09840072171281,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Inverse PEG": {
+      "dtype": "float64",
+      "unique_values": 79,
+      "mean": 61.411633109619686,
+      "std": 21.988656173064374,
+      "min": 6.0,
+      "max": 100.0
+    },
+    "3Y Average Annual Sales Growth": {
+      "dtype": "float64",
+      "unique_values": 113,
+      "mean": 34.53642677458165,
+      "std": 26.38998752191663,
+      "min": 2.0,
+      "max": 100.0
+    },
+    "3Y Average Annual Earnings Growth": {
+      "dtype": "float64",
+      "unique_values": 112,
+      "mean": 48.25771198523861,
+      "std": 30.91849429679355,
+      "min": 2.0,
+      "max": 100.0
+    },
+    "Expected Earnings Growth: Fiscal Year 2/Fiscal Year 1": {
+      "dtype": "float64",
+      "unique_values": 131,
+      "mean": 39.59911557487633,
+      "std": 31.0439990622728,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Expected LTG": {
+      "dtype": "float64",
+      "unique_values": 160,
+      "mean": 29.414098269123397,
+      "std": 27.941733457225606,
+      "min": 1.0,
+      "max": 94.0
+    },
+    "Sustainable Growth Rate": {
+      "dtype": "float64",
+      "unique_values": 56,
+      "mean": 27.219624754123167,
+      "std": 28.936759091779482,
+      "min": 3.0,
+      "max": 100.0
+    },
+    "Production Growth": {
+      "dtype": "float64",
+      "unique_values": 0,
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN
+    },
+    "Reserve Growth": {
+      "dtype": "float64",
+      "unique_values": 0,
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN
+    },
+    "Dividend Growth": {
+      "dtype": "float64",
+      "unique_values": 55,
+      "mean": 49.32712906057946,
+      "std": 21.5014950287672,
+      "min": 2.0,
+      "max": 90.0
+    },
+    "Dividend per Share Growth": {
+      "dtype": "float64",
+      "unique_values": 57,
+      "mean": 49.92338011920784,
+      "std": 23.35488837389749,
+      "min": 11.0,
+      "max": 89.0
+    },
+    "Historical Growth": {
+      "dtype": "float64",
+      "unique_values": 764,
+      "mean": 49.12526107213624,
+      "std": 35.14912189279603,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Asset Growth - 1 Year": {
+      "dtype": "float64",
+      "unique_values": 114,
+      "mean": 63.20516670908628,
+      "std": 32.61304110195978,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Developed Reserves per Share Growth": {
+      "dtype": "float64",
+      "unique_values": 0,
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN
+    },
+    "1Y Chg in Asset Adjusted EPS": {
+      "dtype": "float64",
+      "unique_values": 156,
+      "mean": 46.45829580677233,
+      "std": 36.07588972319848,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "1Y Chg in Asset Adjusted Cash Flow": {
+      "dtype": "float64",
+      "unique_values": 116,
+      "mean": 50.87507649363895,
+      "std": 37.41347221322865,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "1Y Chg in Asset Adjusted Free Cash Flow": {
+      "dtype": "float64",
+      "unique_values": 116,
+      "mean": 51.09536601746138,
+      "std": 37.0010553477018,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "1Y Chg in Asset Adjusted Operating Cash Flow": {
+      "dtype": "float64",
+      "unique_values": 113,
+      "mean": 49.652512872173716,
+      "std": 37.192903386308025,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "1Y Chg in Operating Margin": {
+      "dtype": "float64",
+      "unique_values": 127,
+      "mean": 53.679281628532976,
+      "std": 31.48550800538702,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "1Y Chg in Cash Flow per Share": {
+      "dtype": "float64",
+      "unique_values": 108,
+      "mean": 48.951385681293296,
+      "std": 31.255650416954783,
+      "min": 2.0,
+      "max": 100.0
+    },
+    "1Y Chg in Free Cash Flow per Share": {
+      "dtype": "float64",
+      "unique_values": 126,
+      "mean": 47.143717515056515,
+      "std": 29.278844687110603,
+      "min": 1.0,
+      "max": 98.0
+    },
+    "1Y Chg in Operating Cash Flow per Share": {
+      "dtype": "float64",
+      "unique_values": 126,
+      "mean": 50.05299631737529,
+      "std": 31.38998061954709,
+      "min": 1.0,
+      "max": 99.0
+    },
+    "1Y Chg in Earnings per Share": {
+      "dtype": "float64",
+      "unique_values": 136,
+      "mean": 48.717022446174994,
+      "std": 29.395753598057638,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "1Y Chg in Sales Turnover": {
+      "dtype": "float64",
+      "unique_values": 123,
+      "mean": 54.02605457677986,
+      "std": 33.82072792987235,
+      "min": 1.0,
+      "max": 99.0
+    },
+    "3Y Chg in Asset Adjusted EPS": {
+      "dtype": "float64",
+      "unique_values": 111,
+      "mean": 39.95847880299252,
+      "std": 34.923965263275655,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "3Y Chg in Asset Adjusted Cash Flow": {
+      "dtype": "float64",
+      "unique_values": 103,
+      "mean": 43.91741016866292,
+      "std": 36.12124456746228,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "3Y Chg in Asset Adjusted Free Cash Flow": {
+      "dtype": "float64",
+      "unique_values": 107,
+      "mean": 50.42038236788618,
+      "std": 35.97736461637743,
+      "min": 2.0,
+      "max": 100.0
+    },
+    "3Y Chg in Asset Adjusted Operating Cash Flow": {
+      "dtype": "float64",
+      "unique_values": 105,
+      "mean": 46.50164507113821,
+      "std": 37.03239166744234,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "3Y Chg in Operating Margin": {
+      "dtype": "float64",
+      "unique_values": 98,
+      "mean": 48.33597911227154,
+      "std": 30.209550600469537,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "3Y Chg in Cash Flow per Share": {
+      "dtype": "float64",
+      "unique_values": 92,
+      "mean": 45.27871939736347,
+      "std": 32.02927468267547,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "3Y Chg in Free Cash Flow per Share": {
+      "dtype": "float64",
+      "unique_values": 101,
+      "mean": 43.90726992287918,
+      "std": 29.295763168332375,
+      "min": 1.0,
+      "max": 97.0
+    },
+    "3Y Chg in Operating Cash Flow per Share": {
+      "dtype": "float64",
+      "unique_values": 109,
+      "mean": 46.16769789825182,
+      "std": 32.096173812853195,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "3Y Chg in Earnings per Share": {
+      "dtype": "float64",
+      "unique_values": 105,
+      "mean": 46.82331267605634,
+      "std": 30.368948262154127,
+      "min": 2.0,
+      "max": 99.0
+    },
+    "3Y Chg in Sales Turnover": {
+      "dtype": "float64",
+      "unique_values": 123,
+      "mean": 58.375714463996005,
+      "std": 30.13753754543164,
+      "min": 1.0,
+      "max": 98.0
+    },
+    "1Y Chg in Cash Flow to Price": {
+      "dtype": "float64",
+      "unique_values": 94,
+      "mean": 49.94559645852749,
+      "std": 22.955075004501676,
+      "min": 2.0,
+      "max": 100.0
+    },
+    "1Y Chg in Earnings to Price": {
+      "dtype": "float64",
+      "unique_values": 136,
+      "mean": 51.52631732849874,
+      "std": 22.708859828864057,
+      "min": 2.0,
+      "max": 100.0
+    },
+    "1Y Chg in Free Cash Flow to Price": {
+      "dtype": "float64",
+      "unique_values": 100,
+      "mean": 51.020270270270274,
+      "std": 20.92663672304086,
+      "min": 2.0,
+      "max": 100.0
+    },
+    "1Y Chg in Operating Cash Flow to Price": {
+      "dtype": "float64",
+      "unique_values": 97,
+      "mean": 50.509612583746,
+      "std": 21.309261361697907,
+      "min": 1.0,
+      "max": 97.0
+    },
+    "1Y Chg in Sales to Price": {
+      "dtype": "float64",
+      "unique_values": 90,
+      "mean": 51.9078627808136,
+      "std": 19.664037838186704,
+      "min": 7.0,
+      "max": 100.0
+    },
+    "1Y Chg in Stock Buybacks": {
+      "dtype": "float64",
+      "unique_values": 58,
+      "mean": 49.955159613956944,
+      "std": 23.020254754390997,
+      "min": 10.0,
+      "max": 82.0
+    },
+    "1Y Chg in Discounted Future Cash Flows to Market Cap": {
+      "dtype": "float64",
+      "unique_values": 0,
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN
+    },
+    "3Y Chg in Cash Flow to Price": {
+      "dtype": "float64",
+      "unique_values": 96,
+      "mean": 50.232233173388664,
+      "std": 22.25583061640859,
+      "min": 2.0,
+      "max": 98.0
+    },
+    "3Y Chg in Earnings to Price": {
+      "dtype": "float64",
+      "unique_values": 104,
+      "mean": 49.67155794723717,
+      "std": 22.644028358347573,
+      "min": 2.0,
+      "max": 98.0
+    },
+    "3Y Chg in Free Cash Flow to Price": {
+      "dtype": "float64",
+      "unique_values": 97,
+      "mean": 53.56175911978519,
+      "std": 19.75434054760934,
+      "min": 4.0,
+      "max": 100.0
+    },
+    "3Y Chg in Operating Cash Flow to Price": {
+      "dtype": "float64",
+      "unique_values": 97,
+      "mean": 52.48198965223656,
+      "std": 20.834927093765238,
+      "min": 2.0,
+      "max": 99.0
+    },
+    "3Y Chg in Sales to Price": {
+      "dtype": "float64",
+      "unique_values": 92,
+      "mean": 52.2309501722767,
+      "std": 20.0656256714778,
+      "min": 8.0,
+      "max": 98.0
+    },
+    "Sales Acceleration": {
+      "dtype": "float64",
+      "unique_values": 124,
+      "mean": 50.82236470332536,
+      "std": 33.530483944809255,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Same Restaurant Sales Growth": {
+      "dtype": "float64",
+      "unique_values": 0,
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN
+    },
+    "Surgeries Growth": {
+      "dtype": "float64",
+      "unique_values": 0,
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN
+    },
+    "12M - 1M Price Momentum": {
+      "dtype": "float64",
+      "unique_values": 199,
+      "mean": 41.91493178075747,
+      "std": 32.19296831990884,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "9 Month Price Momentum": {
+      "dtype": "float64",
+      "unique_values": 250,
+      "mean": 43.054248033055984,
+      "std": 32.50458162820586,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "6 Months Price Reversal": {
+      "dtype": "float64",
+      "unique_values": 287,
+      "mean": 56.56577932308361,
+      "std": 32.69102199986428,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "1M Price Reversal": {
+      "dtype": "float64",
+      "unique_values": 372,
+      "mean": 52.0673915252515,
+      "std": 32.57801304859532,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "5 Day Price Reversal": {
+      "dtype": "float64",
+      "unique_values": 425,
+      "mean": 50.16777081015475,
+      "std": 32.70702040468462,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "14-Day Relative Strength Index": {
+      "dtype": "float64",
+      "unique_values": 415,
+      "mean": 52.179811540604895,
+      "std": 28.211659442296924,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "10 Day MACD Trend": {
+      "dtype": "float64",
+      "unique_values": 356,
+      "mean": 47.90663186981885,
+      "std": 32.47052777943557,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Closing Price to 52 Week High": {
+      "dtype": "float64",
+      "unique_values": 109,
+      "mean": 53.50143623464268,
+      "std": 27.829394994980984,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "4W to 52W Price Oscillator": {
+      "dtype": "float64",
+      "unique_values": 136,
+      "mean": 43.01078184480234,
+      "std": 32.364360925128345,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "52W High Low": {
+      "dtype": "float64",
+      "unique_values": 113,
+      "mean": 46.34877377117323,
+      "std": 28.232506270105677,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "130 Day Minimum Return": {
+      "dtype": "float64",
+      "unique_values": 125,
+      "mean": 58.579218939700525,
+      "std": 24.727009798296564,
+      "min": 5.0,
+      "max": 99.0
+    },
+    "180D Price TStat": {
+      "dtype": "float64",
+      "unique_values": 269,
+      "mean": 44.092237033717936,
+      "std": 28.97162036437447,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "26W Price Stat": {
+      "dtype": "float64",
+      "unique_values": 310,
+      "mean": 45.53184281842818,
+      "std": 29.280536273307906,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "26W Relative Price Strength": {
+      "dtype": "float64",
+      "unique_values": 166,
+      "mean": 44.56268121843949,
+      "std": 32.56427917975518,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "39W Lagged Return": {
+      "dtype": "float64",
+      "unique_values": 151,
+      "mean": 42.73177944288737,
+      "std": 32.25898491120757,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "50 Day to 200 Day Stock Price": {
+      "dtype": "float64",
+      "unique_values": 235,
+      "mean": 44.10972261295223,
+      "std": 32.114043806165505,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Slope of 52W Price Trend": {
+      "dtype": "float64",
+      "unique_values": 101,
+      "mean": 44.54655929721815,
+      "std": 33.62770097367502,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Risk Adjusted Relative Strength": {
+      "dtype": "float64",
+      "unique_values": 201,
+      "mean": 47.68042487721167,
+      "std": 26.469351795621577,
+      "min": 2.0,
+      "max": 100.0
+    },
+    "15/36 Week Price Ratio": {
+      "dtype": "float64",
+      "unique_values": 255,
+      "mean": 44.30573244855852,
+      "std": 32.095075404126035,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "1M Price High - 1M Price Low": {
+      "dtype": "float64",
+      "unique_values": 145,
+      "mean": 51.206329773378485,
+      "std": 27.34039778979423,
+      "min": 1.0,
+      "max": 99.5
+    },
+    "Closing Price to 260 Day Low": {
+      "dtype": "float64",
+      "unique_values": 115,
+      "mean": 64.20544879171463,
+      "std": 27.530972879483542,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Percent Above 260-Day Low": {
+      "dtype": "float64",
+      "unique_values": 114,
+      "mean": 36.89675887938108,
+      "std": 27.549485665083584,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Price Momentum": {
+      "dtype": "float64",
+      "unique_values": 945,
+      "mean": 46.535359563062606,
+      "std": 30.83537212038038,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "60M CAPM Beta": {
+      "dtype": "float64",
+      "unique_values": 97,
+      "mean": 48.475783265757464,
+      "std": 24.318837872412228,
+      "min": 3.0,
+      "max": 100.0
+    },
+    "60M CAPM Alpha": {
+      "dtype": "float64",
+      "unique_values": 100,
+      "mean": 53.957419465387254,
+      "std": 31.77221623368698,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "12M Realized Price Volatility": {
+      "dtype": "float64",
+      "unique_values": 106,
+      "mean": 34.833225447557396,
+      "std": 21.939841371378506,
+      "min": 1.0,
+      "max": 94.5
+    },
+    "1M Realized Price Volatility": {
+      "dtype": "float64",
+      "unique_values": 214,
+      "mean": 36.17817841610196,
+      "std": 22.141514157062,
+      "min": 1.0,
+      "max": 96.9
+    },
+    "24M Residual Return Variance": {
+      "dtype": "float64",
+      "unique_values": 75,
+      "mean": 68.08215018141662,
+      "std": 18.84174656527057,
+      "min": 20.0,
+      "max": 100.0
+    },
+    "90 Day Coefficient of Variation": {
+      "dtype": "float64",
+      "unique_values": 198,
+      "mean": 37.48327719942846,
+      "std": 24.027779417107723,
+      "min": 1.0,
+      "max": 97.2
+    },
+    "Sharpe Ratio": {
+      "dtype": "float64",
+      "unique_values": 100,
+      "mean": 65.7209930404072,
+      "std": 29.495647220140373,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "20 Day Coefficient of Variation of Volume to Price": {
+      "dtype": "float64",
+      "unique_values": 100,
+      "mean": 67.11733092108764,
+      "std": 23.96297462991684,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "30 Day Coefficient of Variation of Volume to Price": {
+      "dtype": "float64",
+      "unique_values": 100,
+      "mean": 67.54812862981287,
+      "std": 23.696526163945972,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "60 Day Coefficient of Variation of Volume to Price": {
+      "dtype": "float64",
+      "unique_values": 99,
+      "mean": 67.63669614586745,
+      "std": 23.781164159600518,
+      "min": 2.0,
+      "max": 100.0
+    },
+    "Volatility": {
+      "dtype": "float64",
+      "unique_values": 845,
+      "mean": 34.37193284110448,
+      "std": 22.94939196912925,
+      "min": 1.0,
+      "max": 99.0
+    },
+    "Volatility adjusted 12M return": {
+      "dtype": "float64",
+      "unique_values": 219,
+      "mean": 42.42470504111548,
+      "std": 29.0890784534068,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "6M Chg in 12M CAPM Alpha": {
+      "dtype": "float64",
+      "unique_values": 103,
+      "mean": 51.5052751528627,
+      "std": 29.196851092235118,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "6M Chg in 18M CAPM Alpha": {
+      "dtype": "float64",
+      "unique_values": 100,
+      "mean": 50.767481934408,
+      "std": 28.35547442652645,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "6M Chg in 36M CAPM Alpha": {
+      "dtype": "float64",
+      "unique_values": 100,
+      "mean": 51.48299055030572,
+      "std": 27.967988235693348,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Max Daily Return in the Past 6 Months": {
+      "dtype": "float64",
+      "unique_values": 135,
+      "mean": 65.91427412814274,
+      "std": 22.331881015276036,
+      "min": 7.1,
+      "max": 100.0
+    },
+    "Amihud Illiquidity Measure": {
+      "dtype": "float64",
+      "unique_values": 99,
+      "mean": 36.41443822553897,
+      "std": 25.3344017447668,
+      "min": 2.0,
+      "max": 100.0
+    },
+    "Log Market Cap": {
+      "dtype": "float64",
+      "unique_values": 98,
+      "mean": 51.9993916953187,
+      "std": 25.316433435498315,
+      "min": 1.0,
+      "max": 95.0
+    },
+    "Share Turnover": {
+      "dtype": "float64",
+      "unique_values": 93,
+      "mean": 73.51340256633318,
+      "std": 17.49139693343613,
+      "min": 10.0,
+      "max": 100.0
+    },
+    "50 Day Volume Signal": {
+      "dtype": "float64",
+      "unique_values": 100,
+      "mean": 50.22408721232047,
+      "std": 27.182543231006647,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Adj 50 Day Volume Signal": {
+      "dtype": "float64",
+      "unique_values": 100,
+      "mean": 50.90054079473313,
+      "std": 27.869149814561347,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "52-Week Volume Price Trend with 20-Day Lag": {
+      "dtype": "float64",
+      "unique_values": 99,
+      "mean": 41.88870078095134,
+      "std": 34.66701645884635,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "5 Day Volume Signal": {
+      "dtype": "float64",
+      "unique_values": 100,
+      "mean": 46.860456687205506,
+      "std": 24.729414847879397,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "5-Day Money Flow/Volume": {
+      "dtype": "float64",
+      "unique_values": 222,
+      "mean": 49.81193556767992,
+      "std": 24.408747026997986,
+      "min": 2.5,
+      "max": 98.3
+    },
+    "6 Month Average Share Turn Over": {
+      "dtype": "float64",
+      "unique_values": 660,
+      "mean": 55.836810963891985,
+      "std": 29.469332456283677,
+      "min": 1.0,
+      "max": 96.2
+    },
+    "Adjusted 6 Month Average Share Turn Over": {
+      "dtype": "float64",
+      "unique_values": 84,
+      "mean": 74.3215859030837,
+      "std": 17.050392174407513,
+      "min": 22.0,
+      "max": 100.0
+    },
+    "1Y Chg in Share Turnover": {
+      "dtype": "float64",
+      "unique_values": 100,
+      "mean": 51.093876054272094,
+      "std": 28.713898006205067,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "1Y Chg in Shares Outstanding": {
+      "dtype": "float64",
+      "unique_values": 119,
+      "mean": 64.2901434099704,
+      "std": 28.95498307830769,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Change in Number of Buyers": {
+      "dtype": "float64",
+      "unique_values": 869,
+      "mean": 53.46878448683588,
+      "std": 27.900678704723592,
+      "min": 1.0,
+      "max": 98.0
+    },
+    "Change in Number of Holders": {
+      "dtype": "float64",
+      "unique_values": 457,
+      "mean": 44.247855904146306,
+      "std": 29.023660304039396,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Change of Ownership Level - All Managers": {
+      "dtype": "float64",
+      "unique_values": 215,
+      "mean": 50.84442254631455,
+      "std": 30.876253784558454,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Foreign Institution Ownership": {
+      "dtype": "float64",
+      "unique_values": 138,
+      "mean": 40.110305185675294,
+      "std": 25.267695837455168,
+      "min": 2.0,
+      "max": 99.6
+    },
+    "Institution Ownership Level": {
+      "dtype": "float64",
+      "unique_values": 194,
+      "mean": 49.298198269079464,
+      "std": 25.458399226479,
+      "min": 1.0,
+      "max": 99.0
+    },
+    "Institution Ownership Level - Active Manager": {
+      "dtype": "float64",
+      "unique_values": 117,
+      "mean": 50.59097032878908,
+      "std": 23.79949727442999,
+      "min": 9.0,
+      "max": 99.5
+    },
+    "Institution Ownership Concentration": {
+      "dtype": "float64",
+      "unique_values": 103,
+      "mean": 54.51010407961711,
+      "std": 24.68366014730278,
+      "min": 8.0,
+      "max": 100.0
+    },
+    "Institution Ownership Turnover": {
+      "dtype": "float64",
+      "unique_values": 147,
+      "mean": 58.9947762960625,
+      "std": 27.85985138126218,
+      "min": 4.5,
+      "max": 100.0
+    },
+    "Ownership Breadth Stability of Institution Ownership by Buyers": {
+      "dtype": "float64",
+      "unique_values": 337,
+      "mean": 49.536610730323794,
+      "std": 23.38928084903121,
+      "min": 8.0,
+      "max": 95.0
+    },
+    "Ownership Breadth Stability of Institution Ownership by Holders": {
+      "dtype": "float64",
+      "unique_values": 202,
+      "mean": 60.56605888108157,
+      "std": 24.15812356131264,
+      "min": 8.0,
+      "max": 100.0
+    },
+    "Stability of Change in Number of Holders": {
+      "dtype": "float64",
+      "unique_values": 310,
+      "mean": 43.41210848324354,
+      "std": 28.45841756112895,
+      "min": 1.0,
+      "max": 97.0
+    },
+    "Log of Market Capitalization Cubed": {
+      "dtype": "float64",
+      "unique_values": 97,
+      "mean": 52.37427930813581,
+      "std": 25.460447632881166,
+      "min": 1.0,
+      "max": 95.0
+    },
+    "Size": {
+      "dtype": "float64",
+      "unique_values": 725,
+      "mean": 43.53525455787316,
+      "std": 25.07380612687445,
+      "min": 1.0,
+      "max": 84.0
+    },
+    "Earnings Surprise": {
+      "dtype": "float64",
+      "unique_values": 78,
+      "mean": 49.681073417721514,
+      "std": 19.86657900534233,
+      "min": 1.0,
+      "max": 92.0
+    },
+    "Analyst Dispersion for FY1 EPS": {
+      "dtype": "float64",
+      "unique_values": 103,
+      "mean": 42.29129255518144,
+      "std": 28.1940414515829,
+      "min": 1.0,
+      "max": 82.0
+    },
+    "Analyst Dispersion for FY2 EPS": {
+      "dtype": "float64",
+      "unique_values": 110,
+      "mean": 37.72751563388289,
+      "std": 31.471737804541117,
+      "min": 1.0,
+      "max": 84.7
+    },
+    "Analyst Earnings Estimate Diffusion": {
+      "dtype": "float64",
+      "unique_values": 465,
+      "mean": 49.31385851789552,
+      "std": 28.308837619421688,
+      "min": 1.0,
+      "max": 99.0
+    },
+    "Analyst Expectations": {
+      "dtype": "float64",
+      "unique_values": 626,
+      "mean": 47.67636684303351,
+      "std": 31.673209359702437,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "EBIT Estimate Dispersion": {
+      "dtype": "float64",
+      "unique_values": 156,
+      "mean": 66.39212304824049,
+      "std": 31.06632698908437,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Revenue Estimate Dispersion": {
+      "dtype": "float64",
+      "unique_values": 141,
+      "mean": 65.69009996386849,
+      "std": 33.14407313505411,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Adjusted Number of EPS FY1 Revisions": {
+      "dtype": "float64",
+      "unique_values": 452,
+      "mean": 49.295198268227885,
+      "std": 28.49560642074348,
+      "min": 1.9,
+      "max": 99.0
+    },
+    "Adj Number of EPS FY2 Revisions": {
+      "dtype": "float64",
+      "unique_values": 489,
+      "mean": 51.73570875290473,
+      "std": 28.142969270118133,
+      "min": 1.7,
+      "max": 99.4
+    },
+    "Number of EPS FY1 Revisions": {
+      "dtype": "float64",
+      "unique_values": 739,
+      "mean": 49.21940711085693,
+      "std": 30.791012995484667,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Adjusted Revision Magnitude": {
+      "dtype": "float64",
+      "unique_values": 224,
+      "mean": 47.014327917282124,
+      "std": 31.36231616840378,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Street Revision Magnitude": {
+      "dtype": "float64",
+      "unique_values": 217,
+      "mean": 47.38540487804878,
+      "std": 31.611305003383734,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "3M Revision in FY1 EPS Estimate": {
+      "dtype": "float64",
+      "unique_values": 230,
+      "mean": 48.35970949502827,
+      "std": 27.85433558205935,
+      "min": 1.0,
+      "max": 99.0
+    },
+    "3M Revision in FY2 EPS Estimate": {
+      "dtype": "float64",
+      "unique_values": 226,
+      "mean": 52.27658234078158,
+      "std": 30.340010470910567,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "6M Chg in Target Price": {
+      "dtype": "float64",
+      "unique_values": 192,
+      "mean": 42.50299351057149,
+      "std": 29.917985514703226,
+      "min": 1.0,
+      "max": 99.0
+    },
+    "6M Chg in Target Price Gap": {
+      "dtype": "float64",
+      "unique_values": 112,
+      "mean": 48.96005051568091,
+      "std": 27.656920843006738,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Target Price Gap to 6M EMA": {
+      "dtype": "float64",
+      "unique_values": 103,
+      "mean": 49.51242303121962,
+      "std": 27.52170576427613,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Buy-to-Sell Recommendation Ratio Less 3M EMA": {
+      "dtype": "float64",
+      "unique_values": 227,
+      "mean": 50.93827763496144,
+      "std": 26.334522700477706,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Buy-to-Sell Recommendation Ratio Less 3M SMA": {
+      "dtype": "float64",
+      "unique_values": 445,
+      "mean": 50.052718062762544,
+      "std": 26.485198790994,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "6M Avg Chg 1M Recommendation": {
+      "dtype": "float64",
+      "unique_values": 229,
+      "mean": 53.138651583710406,
+      "std": 27.09383953964376,
+      "min": 2.0,
+      "max": 100.0
+    },
+    "Standardized Unexpected Earnings": {
+      "dtype": "float64",
+      "unique_values": 98,
+      "mean": 47.8040650406504,
+      "std": 26.272692887599415,
+      "min": 2.0,
+      "max": 98.5
+    },
+    "12 month Relative Price Strength(Ind Grp Rel VolAdjRtn12M)": {
+      "dtype": "float64",
+      "unique_values": 111,
+      "mean": 44.07965081635085,
+      "std": 28.93836627064951,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "4-Week Change in 12-Month Forward Earnings Consensus Estimate/Price": {
+      "dtype": "float64",
+      "unique_values": 101,
+      "mean": 51.23227349465391,
+      "std": 28.04117302044756,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "8-Week Change in 12-Month Forward Earnings Consensus Estimate/Price": {
+      "dtype": "float64",
+      "unique_values": 100,
+      "mean": 51.66052505966587,
+      "std": 28.339816517062236,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "6M Momentum in Trailing 12M Sales": {
+      "dtype": "float64",
+      "unique_values": 126,
+      "mean": 49.70797129408133,
+      "std": 32.40047656772205,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "3M Momentum in Trailing 12M Sales": {
+      "dtype": "float64",
+      "unique_values": 119,
+      "mean": 50.823063035956075,
+      "std": 32.71664049571102,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Ind Grp Rel Return on Equity": {
+      "dtype": "float64",
+      "unique_values": 154,
+      "mean": 53.731685079909894,
+      "std": 27.91766706063737,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Ind Grp Rel Return on Assets": {
+      "dtype": "float64",
+      "unique_values": 126,
+      "mean": 46.50200042904645,
+      "std": 34.4154877881862,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Ind Grp Rel Return on Invested Capital": {
+      "dtype": "float64",
+      "unique_values": 126,
+      "mean": 51.79964650648993,
+      "std": 33.0245715221749,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Ind Grp Rel EBIT Margin": {
+      "dtype": "float64",
+      "unique_values": 115,
+      "mean": 40.92078232806588,
+      "std": 32.08037865003747,
+      "min": 3.0,
+      "max": 100.0
+    },
+    "Ind Grp Rel Operating Margin": {
+      "dtype": "float64",
+      "unique_values": 119,
+      "mean": 39.99977186734921,
+      "std": 31.669665079067066,
+      "min": 3.0,
+      "max": 100.0
+    },
+    "Ind Grp Rel Pretax Profit Margin": {
+      "dtype": "float64",
+      "unique_values": 112,
+      "mean": 37.49090757238307,
+      "std": 31.181790565599627,
+      "min": 3.0,
+      "max": 100.0
+    },
+    "Ind Grp Rel Gross Profit Margin": {
+      "dtype": "float64",
+      "unique_values": 250,
+      "mean": 42.27892276875139,
+      "std": 21.75500729829383,
+      "min": 4.0,
+      "max": 100.0
+    },
+    "Ind Grp Rel Operating Earnings to Assets Ratio": {
+      "dtype": "float64",
+      "unique_values": 126,
+      "mean": 46.503871900605155,
+      "std": 34.412051450458534,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Ind Grp Rel Operating Earnings to Price Ratio": {
+      "dtype": "float64",
+      "unique_values": 103,
+      "mean": 38.01878150577267,
+      "std": 23.945526502777994,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Ind Grp Rel Book to Price": {
+      "dtype": "float64",
+      "unique_values": 101,
+      "mean": 64.28288498199534,
+      "std": 27.519631223084488,
+      "min": 1.0,
+      "max": 99.0
+    },
+    "Ind Grp Rel Cash to Price": {
+      "dtype": "float64",
+      "unique_values": 100,
+      "mean": 61.54227560184939,
+      "std": 30.52575427560014,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Ind Grp Rel Free Cash Flow to Price": {
+      "dtype": "float64",
+      "unique_values": 101,
+      "mean": 35.69794101279911,
+      "std": 24.02513770142781,
+      "min": 2.0,
+      "max": 100.0
+    },
+    "Ind Grp Rel Operating Cash Flow to Price": {
+      "dtype": "float64",
+      "unique_values": 101,
+      "mean": 35.31330328826573,
+      "std": 24.043712613625072,
+      "min": 2.0,
+      "max": 100.0
+    },
+    "Ind Grp Rel Net Cash Flow to Price": {
+      "dtype": "float64",
+      "unique_values": 99,
+      "mean": 36.83708192518355,
+      "std": 23.289477702108627,
+      "min": 1.0,
+      "max": 99.0
+    },
+    "Ind Grp Rel Net Cash Flow to Enterprise Value": {
+      "dtype": "float64",
+      "unique_values": 100,
+      "mean": 46.21522080642346,
+      "std": 27.25999325987867,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Ind Grp Rel EBITDA to Price": {
+      "dtype": "float64",
+      "unique_values": 103,
+      "mean": 39.42173766058147,
+      "std": 23.49195716100145,
+      "min": 2.0,
+      "max": 100.0
+    },
+    "Ind Grp Rel EBITDA to Enterprise Value": {
+      "dtype": "float64",
+      "unique_values": 102,
+      "mean": 49.02860982027882,
+      "std": 26.458215573881137,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Ind Grp Rel Assets to Price Ratio": {
+      "dtype": "float64",
+      "unique_values": 100,
+      "mean": 70.59653675068841,
+      "std": 21.4114302812232,
+      "min": 5.0,
+      "max": 100.0
+    },
+    "Ind Grp Rel Sales to Price Ratio": {
+      "dtype": "float64",
+      "unique_values": 95,
+      "mean": 76.90938274386123,
+      "std": 21.626843772219917,
+      "min": 5.0,
+      "max": 100.0
+    },
+    "Ind Grp Rel Current Ratio": {
+      "dtype": "float64",
+      "unique_values": 119,
+      "mean": 38.51242899221545,
+      "std": 32.53852722036542,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Ind Grp Rel Quick Ratio": {
+      "dtype": "float64",
+      "unique_values": 122,
+      "mean": 36.4588680833158,
+      "std": 32.65354628915624,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Ind Grp Rel Cash to Total Assets": {
+      "dtype": "float64",
+      "unique_values": 118,
+      "mean": 26.922143045658483,
+      "std": 26.74946446739164,
+      "min": 2.0,
+      "max": 100.0
+    },
+    "Ind Grp Rel Working Capital to Assets Ratio": {
+      "dtype": "float64",
+      "unique_values": 120,
+      "mean": 29.894566589522405,
+      "std": 26.94664089281399,
+      "min": 2.0,
+      "max": 100.0
+    },
+    "Ind Grp Rel Long Term Debt to Assets Ratio": {
+      "dtype": "float64",
+      "unique_values": 372,
+      "mean": 48.65896447259708,
+      "std": 18.071273587271328,
+      "min": 12.3,
+      "max": 100.0
+    },
+    "Ind Grp Rel Inventory Turnover": {
+      "dtype": "float64",
+      "unique_values": 100,
+      "mean": 32.115430508474574,
+      "std": 33.71441650274318,
+      "min": 1.0,
+      "max": 94.0
+    },
+    "Ind Grp Rel Receivables Turnover Ratio": {
+      "dtype": "float64",
+      "unique_values": 118,
+      "mean": 54.71949888641425,
+      "std": 33.00797662758783,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Ind Grp Rel Working Capital Turnover Ratio": {
+      "dtype": "float64",
+      "unique_values": 130,
+      "mean": 63.107321826280625,
+      "std": 24.987089608336564,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Ind Grp Rel Sales to Gross Profit Margin Growth": {
+      "dtype": "float64",
+      "unique_values": 124,
+      "mean": 49.18270156438027,
+      "std": 29.05586272744723,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Ind Grp Rel 1Y Chg in Earnings per Share": {
+      "dtype": "float64",
+      "unique_values": 136,
+      "mean": 47.73282638570774,
+      "std": 26.263871607839135,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Ind Grp Rel 1Y Chg in Operating Margin": {
+      "dtype": "float64",
+      "unique_values": 128,
+      "mean": 44.36280282637954,
+      "std": 33.86605908658172,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Ind Grp Rel 1Y Chg in Cash Flow to Price": {
+      "dtype": "float64",
+      "unique_values": 103,
+      "mean": 65.5024445608521,
+      "std": 24.58759541935181,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Ind Grp Rel 1Y Chg in Earnings to Price": {
+      "dtype": "float64",
+      "unique_values": 108,
+      "mean": 61.62656295689807,
+      "std": 27.73642918166049,
+      "min": 1.0,
+      "max": 99.0
+    },
+    "Ind Grp Rel 1Y Chg in Free Cash Flow per Share": {
+      "dtype": "float64",
+      "unique_values": 134,
+      "mean": 50.75122312824314,
+      "std": 27.933664411266044,
+      "min": 2.0,
+      "max": 100.0
+    },
+    "Ind Grp Rel 1Y Chg in Free Cash Flow to Price": {
+      "dtype": "float64",
+      "unique_values": 100,
+      "mean": 57.13811768814388,
+      "std": 26.4721290679086,
+      "min": 3.0,
+      "max": 100.0
+    },
+    "Ind Grp Rel 1Y Chg in Operating Cash Flow per Share": {
+      "dtype": "float64",
+      "unique_values": 135,
+      "mean": 51.144270659083304,
+      "std": 33.23515089985082,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Ind Grp Rel 1Y Chg in Sales to Price": {
+      "dtype": "float64",
+      "unique_values": 101,
+      "mean": 41.429538554948394,
+      "std": 27.88200796746157,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Ind Grp Rel 1Y Chg in Shares Outstanding": {
+      "dtype": "float64",
+      "unique_values": 581,
+      "mean": 49.09919074485667,
+      "std": 25.249073629882947,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Ind Grp Rel 1Y Chg in Stock Buybacks": {
+      "dtype": "float64",
+      "unique_values": 103,
+      "mean": 62.7260029717682,
+      "std": 29.43034328429216,
+      "min": 4.0,
+      "max": 99.0
+    },
+    "Ind Grp Rel 3Y Chg in Sales to Price": {
+      "dtype": "float64",
+      "unique_values": 100,
+      "mean": 41.09435462496687,
+      "std": 27.937568416824178,
+      "min": 2.0,
+      "max": 99.0
+    },
+    "Ind Grp Rel 5 Day Price Momentum": {
+      "dtype": "float64",
+      "unique_values": 178,
+      "mean": 50.15507253728315,
+      "std": 31.01998051711531,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Ind Grp Rel 9M Price Momentum": {
+      "dtype": "float64",
+      "unique_values": 120,
+      "mean": 44.50456217807211,
+      "std": 30.208030441462007,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Ind Grp Rel 12M - 1M Price Momentum": {
+      "dtype": "float64",
+      "unique_values": 120,
+      "mean": 43.749258997882855,
+      "std": 29.86929014810787,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Ind Grp Rel 50 Day Volume Signal": {
+      "dtype": "float64",
+      "unique_values": 100,
+      "mean": 50.87356520735998,
+      "std": 26.811745276207972,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Ind Grp Rel Accrual Ratio - Cash Flows": {
+      "dtype": "float64",
+      "unique_values": 124,
+      "mean": 50.00158056408824,
+      "std": 29.390085354414122,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Ind Grp Rel Adjusted Accruals": {
+      "dtype": "float64",
+      "unique_values": 129,
+      "mean": 54.9208572691118,
+      "std": 25.106488471517594,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Ind Grp Rel Analyst Dispersion for FY1 EPS": {
+      "dtype": "float64",
+      "unique_values": 619,
+      "mean": 43.207398054620285,
+      "std": 25.654611756357927,
+      "min": 1.0,
+      "max": 98.5
+    },
+    "Ind Grp Rel Asset Adjusted Capital Investments": {
+      "dtype": "float64",
+      "unique_values": 219,
+      "mean": 44.693714577193376,
+      "std": 25.499956859981992,
+      "min": 1.0,
+      "max": 99.0
+    },
+    "Ind Grp Rel Balance Sheet Accruals": {
+      "dtype": "float64",
+      "unique_values": 122,
+      "mean": 61.48531655437385,
+      "std": 26.95416503840664,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Ind Grp Rel Inverse P/E Ratio Adj for Growth and Yield": {
+      "dtype": "float64",
+      "unique_values": 97,
+      "mean": 44.6255271296036,
+      "std": 29.225439642726315,
+      "min": 3.0,
+      "max": 100.0
+    },
+    "Ind Grp Rel Max Daily Return in the Past 6 Months": {
+      "dtype": "float64",
+      "unique_values": 135,
+      "mean": 52.57067315490673,
+      "std": 28.567732946326263,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Ind Grp Rel Standardized Unexpected Earnings": {
+      "dtype": "float64",
+      "unique_values": 96,
+      "mean": 46.55681603327661,
+      "std": 28.906296449550123,
+      "min": 1.0,
+      "max": 96.0
+    },
+    "Ind Grp Rel Sustainable Growth Rate": {
+      "dtype": "float64",
+      "unique_values": 99,
+      "mean": 36.54917536692389,
+      "std": 27.941106555280836,
+      "min": 2.0,
+      "max": 100.0
+    },
+    "Ind Grp Rel Tobin's Q Ratio": {
+      "dtype": "float64",
+      "unique_values": 100,
+      "mean": 74.20253298712309,
+      "std": 27.08320602693805,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Ind Grp Rel 1M Price Reversal": {
+      "dtype": "float64",
+      "unique_values": 166,
+      "mean": 51.95327159865676,
+      "std": 30.841191753383196,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Ind Grp Rel Earnings Surprise": {
+      "dtype": "float64",
+      "unique_values": 102,
+      "mean": 49.52562108664916,
+      "std": 25.83935202188416,
+      "min": 1.0,
+      "max": 96.0
+    },
+    "Ind Grp Rel Operating Cash Flow to Enterprise Value": {
+      "dtype": "float64",
+      "unique_values": 101,
+      "mean": 47.21116235137237,
+      "std": 26.157043135008283,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Ind Grp Rel Pretax Income Per Share to Price": {
+      "dtype": "float64",
+      "unique_values": 100,
+      "mean": 42.96827761824782,
+      "std": 24.56633368191894,
+      "min": 2.0,
+      "max": 100.0
+    },
+    "Ind Grp Rel Asset Turnover": {
+      "dtype": "float64",
+      "unique_values": 130,
+      "mean": 43.22959603828178,
+      "std": 28.435165384657047,
+      "min": 1.0,
+      "max": 98.0
+    },
+    "Ind Grp Rel Capital Acquisition Ratio": {
+      "dtype": "float64",
+      "unique_values": 117,
+      "mean": 39.33614457831325,
+      "std": 33.61516336282146,
+      "min": 2.0,
+      "max": 100.0
+    },
+    "Ind Grp Rel Capital Expenditure to Total Assets": {
+      "dtype": "float64",
+      "unique_values": 119,
+      "mean": 43.48720154603827,
+      "std": 26.69675816767234,
+      "min": 3.0,
+      "max": 99.0
+    },
+    "Ind Grp Rel Cash Conversion Cycle": {
+      "dtype": "float64",
+      "unique_values": 125,
+      "mean": 49.927427908518396,
+      "std": 26.98796834606033,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Ind Grp Rel Cash Flow Return on Invested Capital": {
+      "dtype": "float64",
+      "unique_values": 132,
+      "mean": 46.612706051554376,
+      "std": 30.296558476486496,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Ind Grp Rel Cash to EV Ratio": {
+      "dtype": "float64",
+      "unique_values": 114,
+      "mean": 54.98071022878072,
+      "std": 27.13477557975613,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Ind Grp Rel Change in TTM Depr. to Capex": {
+      "dtype": "float64",
+      "unique_values": 124,
+      "mean": 42.96435876732607,
+      "std": 29.46541002002421,
+      "min": 2.0,
+      "max": 100.0
+    },
+    "Ind Grp Rel Debt to Assets Ratio": {
+      "dtype": "float64",
+      "unique_values": 398,
+      "mean": 37.83774032130629,
+      "std": 21.888214074083738,
+      "min": 4.0,
+      "max": 100.0
+    },
+    "Ind Grp Rel Depreciation to Capex Ratio": {
+      "dtype": "float64",
+      "unique_values": 123,
+      "mean": 59.5403591918184,
+      "std": 28.096994169398734,
+      "min": 1.0,
+      "max": 99.0
+    },
+    "Ind Grp Rel Dividends to Price Ratio": {
+      "dtype": "float64",
+      "unique_values": 106,
+      "mean": 61.694310566091545,
+      "std": 29.42537382089913,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Ind Grp Rel Earnings to Price": {
+      "dtype": "float64",
+      "unique_values": 104,
+      "mean": 38.208331074855,
+      "std": 23.675337439145952,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Ind Grp Rel Expected LTG": {
+      "dtype": "float64",
+      "unique_values": 109,
+      "mean": 35.739676339285715,
+      "std": 33.39049827170026,
+      "min": 1.0,
+      "max": 97.0
+    },
+    "Ind Grp Rel Forward Earnings to Price": {
+      "dtype": "float64",
+      "unique_values": 98,
+      "mean": 36.204460445109405,
+      "std": 25.882393043105168,
+      "min": 3.0,
+      "max": 99.0
+    },
+    "Ind Grp Rel Forward Free Cash Flow to Price Ratio": {
+      "dtype": "float64",
+      "unique_values": 97,
+      "mean": 39.20121603648109,
+      "std": 22.90821886644079,
+      "min": 2.0,
+      "max": 100.0
+    },
+    "Ind Grp Rel Free Cash Flow to Common Equity": {
+      "dtype": "float64",
+      "unique_values": 131,
+      "mean": 48.6933594829015,
+      "std": 32.59296024540507,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Ind Grp Rel Free Cash Flow to Enterprise Value": {
+      "dtype": "float64",
+      "unique_values": 102,
+      "mean": 45.840648960995665,
+      "std": 26.80290372760719,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Ind Grp Rel Growth Flow to Price": {
+      "dtype": "float64",
+      "unique_values": 100,
+      "mean": 45.326000975239744,
+      "std": 25.087520677924285,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Ind Grp Rel Interest Coverage Ratio": {
+      "dtype": "float64",
+      "unique_values": 128,
+      "mean": 50.00368716595629,
+      "std": 29.85945901886287,
+      "min": 2.0,
+      "max": 100.0
+    },
+    "Ind Grp Rel Inventory to Assets Ratio": {
+      "dtype": "float64",
+      "unique_values": 91,
+      "mean": 33.35451887293993,
+      "std": 25.54725838104798,
+      "min": 4.0,
+      "max": 100.0
+    },
+    "Ind Grp Rel Inverse PEG": {
+      "dtype": "float64",
+      "unique_values": 97,
+      "mean": 52.72054718034617,
+      "std": 30.0729508065228,
+      "min": 4.0,
+      "max": 100.0
+    },
+    "Ind Grp Rel Long Term Debt to Equity Ratio": {
+      "dtype": "float64",
+      "unique_values": 475,
+      "mean": 35.270612839850436,
+      "std": 25.57568062477169,
+      "min": 1.0,
+      "max": 98.0
+    },
+    "Ind Grp Rel Net Current Assets to Price Ratio": {
+      "dtype": "float64",
+      "unique_values": 93,
+      "mean": 54.030740309256515,
+      "std": 24.995030385951196,
+      "min": 1.0,
+      "max": 92.0
+    },
+    "Ind Grp Rel Net Profit Margin": {
+      "dtype": "float64",
+      "unique_values": 123,
+      "mean": 36.67725374464057,
+      "std": 30.400443775441396,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Ind Grp Rel Price Momentum - 6 Months": {
+      "dtype": "float64",
+      "unique_values": 134,
+      "mean": 55.699174227196174,
+      "std": 30.704113759076634,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Ind Grp Rel SG&A to Sales": {
+      "dtype": "float64",
+      "unique_values": 120,
+      "mean": 45.671067841310816,
+      "std": 28.58457386808347,
+      "min": 6.0,
+      "max": 100.0
+    },
+    "Ind Grp Rel Sales to EV Ratio": {
+      "dtype": "float64",
+      "unique_values": 99,
+      "mean": 65.48404791223552,
+      "std": 23.06428057728483,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Ind Grp Rel Working Capital Accruals": {
+      "dtype": "float64",
+      "unique_values": 128,
+      "mean": 51.87334798220698,
+      "std": 30.80112088727465,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Ind Grp Rel Working Capital to Sales": {
+      "dtype": "float64",
+      "unique_values": 126,
+      "mean": 41.35850767861117,
+      "std": 31.633526755301105,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Ind Grp Rel Year over Year Change of EPS to Sales": {
+      "dtype": "float64",
+      "unique_values": 128,
+      "mean": 45.722671523983,
+      "std": 31.09085043707648,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Ind Grp Rel Year over Year Change of Total Debt": {
+      "dtype": "float64",
+      "unique_values": 110,
+      "mean": 53.118930774503085,
+      "std": 24.937612519797423,
+      "min": 1.0,
+      "max": 99.0
+    },
+    "Ind Grp Rel YoY Change in SGA to Sales": {
+      "dtype": "float64",
+      "unique_values": 125,
+      "mean": 47.01619998877728,
+      "std": 31.332205718895384,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "5 Yr Hist Rel 1Y Chg in Earnings per Share": {
+      "dtype": "float64",
+      "unique_values": 97,
+      "mean": 50.12704424169392,
+      "std": 27.259794096788706,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "5 Yr Hist Rel Adjusted Accruals": {
+      "dtype": "float64",
+      "unique_values": 118,
+      "mean": 58.400780822987436,
+      "std": 29.816893268339086,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "5 Yr Hist Rel Assets to Price Ratio": {
+      "dtype": "float64",
+      "unique_values": 100,
+      "mean": 59.25761620603015,
+      "std": 23.976113229485115,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "5 Yr Hist Rel Book to Price": {
+      "dtype": "float64",
+      "unique_values": 98,
+      "mean": 56.83197236180904,
+      "std": 24.285173344130726,
+      "min": 1.0,
+      "max": 98.0
+    },
+    "5 Yr Hist Rel Cash to Total Assets": {
+      "dtype": "float64",
+      "unique_values": 117,
+      "mean": 56.19761110680214,
+      "std": 31.683929971386878,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "5 Yr Hist Rel Current Ratio": {
+      "dtype": "float64",
+      "unique_values": 111,
+      "mean": 47.17113267113267,
+      "std": 30.79705821461105,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "5 Yr Hist Rel EBIT Margin": {
+      "dtype": "float64",
+      "unique_values": 109,
+      "mean": 45.427809360641696,
+      "std": 29.23905402569563,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "5 Yr Hist Rel EBITDA to Price": {
+      "dtype": "float64",
+      "unique_values": 100,
+      "mean": 49.90090873172659,
+      "std": 27.086812505201166,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "5 Yr Hist Rel Free Cash Flow to Price": {
+      "dtype": "float64",
+      "unique_values": 100,
+      "mean": 54.2599555767095,
+      "std": 26.224985626850785,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "5 Yr Hist Rel Gross Profit Margin": {
+      "dtype": "float64",
+      "unique_values": 105,
+      "mean": 46.14141874385777,
+      "std": 30.595002906481326,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "5 Yr Hist Rel Inverse P/E Ratio Adj for Growth and Yield": {
+      "dtype": "float64",
+      "unique_values": 83,
+      "mean": 39.80234260614934,
+      "std": 17.001284857794378,
+      "min": 5.0,
+      "max": 88.0
+    },
+    "5 Yr Hist Rel Long Term Debt to Assets Ratio": {
+      "dtype": "float64",
+      "unique_values": 128,
+      "mean": 47.55199831720657,
+      "std": 30.680681110619073,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "5 Yr Hist Rel Net Cash Flow to Enterprise Value": {
+      "dtype": "float64",
+      "unique_values": 100,
+      "mean": 49.50674075423574,
+      "std": 26.50215149750902,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "5 Yr Hist Rel Net Cash Flow to Price": {
+      "dtype": "float64",
+      "unique_values": 100,
+      "mean": 41.841002830570154,
+      "std": 29.50358648197965,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "5 Yr Hist Rel Operating Cash Flow to Price": {
+      "dtype": "float64",
+      "unique_values": 100,
+      "mean": 54.61924022523594,
+      "std": 27.015783381917437,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "5 Yr Hist Rel Operating Earnings to Assets Ratio": {
+      "dtype": "float64",
+      "unique_values": 109,
+      "mean": 45.60753392967304,
+      "std": 30.03421713068488,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "5 Yr Hist Rel Operating Margin": {
+      "dtype": "float64",
+      "unique_values": 108,
+      "mean": 45.605170936842924,
+      "std": 29.31185875378784,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "5 Yr Hist Rel Pretax Profit Margin": {
+      "dtype": "float64",
+      "unique_values": 114,
+      "mean": 46.442449964956,
+      "std": 29.020527258774376,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "5 Yr Hist Rel Quick Ratio": {
+      "dtype": "float64",
+      "unique_values": 107,
+      "mean": 47.07904057904058,
+      "std": 31.590227078227326,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "5 Yr Hist Rel Receivables Turnover Ratio": {
+      "dtype": "float64",
+      "unique_values": 110,
+      "mean": 56.631034213404156,
+      "std": 27.336072035282967,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "5 Yr Hist Rel Return on Assets": {
+      "dtype": "float64",
+      "unique_values": 107,
+      "mean": 45.6097316471314,
+      "std": 30.037093532531046,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "5 Yr Hist Rel Return on Equity": {
+      "dtype": "float64",
+      "unique_values": 106,
+      "mean": 44.501426588525604,
+      "std": 28.560994551648484,
+      "min": 1.0,
+      "max": 99.0
+    },
+    "5 Yr Hist Rel Return on Invested Capital": {
+      "dtype": "float64",
+      "unique_values": 108,
+      "mean": 49.20393088552916,
+      "std": 27.31260731474423,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "5 Yr Hist Rel Sales to Gross Profit Margin Growth": {
+      "dtype": "float64",
+      "unique_values": 107,
+      "mean": 51.08177239795017,
+      "std": 28.002037078673776,
+      "min": 2.0,
+      "max": 100.0
+    },
+    "5 Yr Hist Rel Working Capital Turnover Ratio": {
+      "dtype": "float64",
+      "unique_values": 108,
+      "mean": 51.926212911766996,
+      "std": 29.524317867480416,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "5 Yr Hist Rel Working Capital to Assets Ratio": {
+      "dtype": "float64",
+      "unique_values": 110,
+      "mean": 50.23954723954724,
+      "std": 30.48421570411746,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "1 Yr Chg in Admissions": {
+      "dtype": "float64",
+      "unique_values": 0,
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN
+    },
+    "1 Yr Chg in Number of Properties": {
+      "dtype": "float64",
+      "unique_values": 0,
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN
+    },
+    "1 Yr Chg in Number of Restuarants": {
+      "dtype": "float64",
+      "unique_values": 0,
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN
+    },
+    "1 Yr Chg in Number of Rooms": {
+      "dtype": "float64",
+      "unique_values": 0,
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN
+    },
+    "1 Yr Chg in Revenue per Room": {
+      "dtype": "float64",
+      "unique_values": 0,
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN
+    },
+    "1 Yr Grw Avg Length of Stay": {
+      "dtype": "float64",
+      "unique_values": 0,
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN
+    },
+    "1 Yr Grw Broadband Subscribers": {
+      "dtype": "float64",
+      "unique_values": 0,
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN
+    },
+    "1 Yr Grw Churn Rate": {
+      "dtype": "float64",
+      "unique_values": 0,
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN
+    },
+    "1 Yr Grw House Sales Revenue": {
+      "dtype": "float64",
+      "unique_values": 0,
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN
+    },
+    "1 Yr Grw Net New Orders": {
+      "dtype": "float64",
+      "unique_values": 0,
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN
+    },
+    "1 Yr Grw Net Wireless Subs Additions": {
+      "dtype": "float64",
+      "unique_values": 0,
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN
+    },
+    "1 Yr Grw Num of Patent Applications": {
+      "dtype": "float64",
+      "unique_values": 53,
+      "mean": 46.86639928698752,
+      "std": 39.083370292369295,
+      "min": 1.0,
+      "max": 92.4
+    },
+    "1 Yr Grw Num of Products in Phase 3": {
+      "dtype": "float64",
+      "unique_values": 319,
+      "mean": 46.15788100208769,
+      "std": 30.554944548889814,
+      "min": 1.5,
+      "max": 99.2
+    },
+    "1 Yr Grw Number of Patents": {
+      "dtype": "float64",
+      "unique_values": 97,
+      "mean": 65.6850957535387,
+      "std": 29.466919350547265,
+      "min": 3.7,
+      "max": 99.0
+    },
+    "1 Yr Grw Revenue Passenger Miles": {
+      "dtype": "float64",
+      "unique_values": 0,
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN
+    },
+    "1 Yr Grw Revenue Passengers Carried": {
+      "dtype": "float64",
+      "unique_values": 0,
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN
+    },
+    "1 Yr Grw Tot Home Rev to Const in Prog": {
+      "dtype": "float64",
+      "unique_values": 0,
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN
+    },
+    "1 Yr Grw Tot Home Rev to Inventory": {
+      "dtype": "float64",
+      "unique_values": 0,
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN
+    },
+    "1 Yr Grw Wireless Subscribers": {
+      "dtype": "float64",
+      "unique_values": 0,
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN
+    },
+    "1 Yr Grw in Net Premiums Earned": {
+      "dtype": "float64",
+      "unique_values": 0,
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN
+    },
+    "1 Yr Grw in Total Investments": {
+      "dtype": "float64",
+      "unique_values": 0,
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN
+    },
+    "1 Yr Grw in Underwriting Profit": {
+      "dtype": "float64",
+      "unique_values": 0,
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN
+    },
+    "1 Yr Same Rest Sales Acceleration": {
+      "dtype": "float64",
+      "unique_values": 0,
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN
+    },
+    "1-Year Change in Current Ratio": {
+      "dtype": "float64",
+      "unique_values": 109,
+      "mean": 48.97908364411295,
+      "std": 36.626628913418,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "1-Year Change in Gross Profit Margin": {
+      "dtype": "float64",
+      "unique_values": 170,
+      "mean": 49.901737619461336,
+      "std": 32.47514071239374,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "1-Year Change in Long Term Debt to Avg Total Assets": {
+      "dtype": "float64",
+      "unique_values": 73,
+      "mean": 43.61034556313993,
+      "std": 30.437661211423187,
+      "min": 1.0,
+      "max": 99.0
+    },
+    "1-Year Change in ROA": {
+      "dtype": "float64",
+      "unique_values": 123,
+      "mean": 51.88502397442727,
+      "std": 37.37343009713144,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "1Y Change in Modified Texas Ratio (Fundamentals)": {
+      "dtype": "float64",
+      "unique_values": 0,
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN
+    },
+    "1Y Change in Nonaccrual Loans to Total Assets (Fundamentals)": {
+      "dtype": "float64",
+      "unique_values": 0,
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN
+    },
+    "1Y Chg in Amihud": {
+      "dtype": "float64",
+      "unique_values": 102,
+      "mean": 47.374890052356015,
+      "std": 31.01168312337245,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "1Y Chg in EPS to Operating Cash Flow": {
+      "dtype": "float64",
+      "unique_values": 119,
+      "mean": 47.955613592346964,
+      "std": 24.814413394944896,
+      "min": 3.0,
+      "max": 99.0
+    },
+    "1Y Chg in Future Cash Flows per Share": {
+      "dtype": "float64",
+      "unique_values": 0,
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN
+    },
+    "1Y Chg in Future Cash Flows to Total Assets": {
+      "dtype": "float64",
+      "unique_values": 0,
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN
+    },
+    "1Y Chg in Future Cashflow Yield": {
+      "dtype": "float64",
+      "unique_values": 0,
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN
+    },
+    "1Y Chg in Proved Reserves to Market Cap": {
+      "dtype": "float64",
+      "unique_values": 0,
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN
+    },
+    "1Y Chg in Reserve Acquired to Total Costs": {
+      "dtype": "float64",
+      "unique_values": 0,
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN
+    },
+    "1Y Chg in Reserve Exhaustion Rate": {
+      "dtype": "float64",
+      "unique_values": 0,
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN
+    },
+    "1Y Chg in Sales to Earnings": {
+      "dtype": "float64",
+      "unique_values": 107,
+      "mean": 48.560938830110665,
+      "std": 23.58613741599953,
+      "min": 3.0,
+      "max": 98.0
+    },
+    "20-Day Lane's Stochastic Indicator": {
+      "dtype": "float64",
+      "unique_values": 202,
+      "mean": 52.136100576653334,
+      "std": 26.794349819273425,
+      "min": 1.4,
+      "max": 99.5
+    },
+    "3Y Change in Operating Income to Tier 1 Common Equity (Fundamentals)": {
+      "dtype": "float64",
+      "unique_values": 0,
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN
+    },
+    "3Y Change in Total Pretax Expense to Average Assets (Fundamentals)": {
+      "dtype": "float64",
+      "unique_values": 6,
+      "mean": 63.28846153846154,
+      "std": 6.108184247736542,
+      "min": 55.0,
+      "max": 70.0
+    },
+    "Actual Production to Market Cap": {
+      "dtype": "float64",
+      "unique_values": 0,
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN
+    },
+    "Backlog Homes Value Grw": {
+      "dtype": "float64",
+      "unique_values": 0,
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN
+    },
+    "Churn Rate": {
+      "dtype": "float64",
+      "unique_values": 0,
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN
+    },
+    "Deliv Homes Value Grw to Mkt Cap": {
+      "dtype": "float64",
+      "unique_values": 0,
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN
+    },
+    "Gas Margin": {
+      "dtype": "float64",
+      "unique_values": 0,
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN
+    },
+    "Home Gross Margin": {
+      "dtype": "float64",
+      "unique_values": 0,
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN
+    },
+    "Hospitals and Facilities Growth": {
+      "dtype": "float64",
+      "unique_values": 0,
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN
+    },
+    "Hotel & Casino Rev to Oper Exp": {
+      "dtype": "float64",
+      "unique_values": 0,
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN
+    },
+    "Implied Cap Rate": {
+      "dtype": "float64",
+      "unique_values": 0,
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN
+    },
+    "Insurance: Net Premium Written to Net Assets": {
+      "dtype": "float64",
+      "unique_values": 0,
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN
+    },
+    "Investment Duration": {
+      "dtype": "float64",
+      "unique_values": 111,
+      "mean": 57.493156442926576,
+      "std": 26.167481297156407,
+      "min": 18.0,
+      "max": 98.0
+    },
+    "Licensed Beds Growth": {
+      "dtype": "float64",
+      "unique_values": 0,
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN
+    },
+    "Log TTM Sales": {
+      "dtype": "float64",
+      "unique_values": 84,
+      "mean": 33.957511254376705,
+      "std": 24.37366733978689,
+      "min": 1.0,
+      "max": 72.0
+    },
+    "Log of Total Last Quarter Assets": {
+      "dtype": "float64",
+      "unique_values": 86,
+      "mean": 70.97455342987,
+      "std": 21.965804027186852,
+      "min": 28.0,
+      "max": 100.0
+    },
+    "Log of Unadjusted Stock Price": {
+      "dtype": "float64",
+      "unique_values": 108,
+      "mean": 59.60270051582887,
+      "std": 25.587144784885187,
+      "min": 3.0,
+      "max": 98.0
+    },
+    "Mine Life - Gold Mining": {
+      "dtype": "float64",
+      "unique_values": 0,
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN
+    },
+    "Net Prem Written to Stat Surplus": {
+      "dtype": "float64",
+      "unique_values": 0,
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN
+    },
+    "Normalized EP": {
+      "dtype": "float64",
+      "unique_values": 95,
+      "mean": 66.39960416440734,
+      "std": 18.43000212760821,
+      "min": 1.0,
+      "max": 97.0
+    },
+    "Normalized ROA": {
+      "dtype": "float64",
+      "unique_values": 116,
+      "mean": 58.09511946855245,
+      "std": 40.29254241548886,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Normalized ROE": {
+      "dtype": "float64",
+      "unique_values": 113,
+      "mean": 52.84360334297653,
+      "std": 35.698112154910184,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Number of Patents to Mkt Cap": {
+      "dtype": "float64",
+      "unique_values": 324,
+      "mean": 32.8278209227958,
+      "std": 13.716167879240173,
+      "min": 9.7,
+      "max": 60.6
+    },
+    "Oil Margin": {
+      "dtype": "float64",
+      "unique_values": 0,
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN
+    },
+    "Operating Cash Flow Ratio": {
+      "dtype": "float64",
+      "unique_values": 87,
+      "mean": 55.55246708706715,
+      "std": 37.71491456151185,
+      "min": 2.0,
+      "max": 100.0
+    },
+    "Operating Cash Flow to Asset v2": {
+      "dtype": "float64",
+      "unique_values": 84,
+      "mean": 53.34141966531773,
+      "std": 41.32497603688059,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Passenger Load Factor": {
+      "dtype": "float64",
+      "unique_values": 0,
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN
+    },
+    "Patient Days Growth": {
+      "dtype": "float64",
+      "unique_values": 0,
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN
+    },
+    "Pre-Provision Net Revenue / Price  (Fundamentals)": {
+      "dtype": "float64",
+      "unique_values": 0,
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN
+    },
+    "Profit per Room": {
+      "dtype": "float64",
+      "unique_values": 0,
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN
+    },
+    "Proved & Prob Reserves to Market Cap": {
+      "dtype": "float64",
+      "unique_values": 0,
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN
+    },
+    "ROA 20 Qtr Standard Deviation": {
+      "dtype": "float64",
+      "unique_values": 93,
+      "mean": 73.40585353274885,
+      "std": 22.64232172985448,
+      "min": 10.0,
+      "max": 100.0
+    },
+    "ROA 60 Month Slope": {
+      "dtype": "float64",
+      "unique_values": 112,
+      "mean": 34.89093135890442,
+      "std": 36.37449953297318,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "ROE 20 Qtr Standard Deviation": {
+      "dtype": "float64",
+      "unique_values": 113,
+      "mean": 67.90452047625278,
+      "std": 25.315720351866904,
+      "min": 4.0,
+      "max": 100.0
+    },
+    "Reserve Acquisition Cost": {
+      "dtype": "float64",
+      "unique_values": 0,
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN
+    },
+    "Reserve Acquisition Yield": {
+      "dtype": "float64",
+      "unique_values": 0,
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN
+    },
+    "Reserve Replacement Ratio": {
+      "dtype": "float64",
+      "unique_values": 0,
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN
+    },
+    "Restaurant Operating Margin": {
+      "dtype": "float64",
+      "unique_values": 0,
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN
+    },
+    "Restaurants Closing Momentum": {
+      "dtype": "float64",
+      "unique_values": 0,
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN
+    },
+    "Restaurants Opening Momentum": {
+      "dtype": "float64",
+      "unique_values": 0,
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN
+    },
+    "Revenue per Room": {
+      "dtype": "float64",
+      "unique_values": 0,
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN
+    },
+    "Room Margin": {
+      "dtype": "float64",
+      "unique_values": 0,
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN
+    },
+    "TTM Rest Closed & Sold to Total Rest": {
+      "dtype": "float64",
+      "unique_values": 0,
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN
+    },
+    "TTM Rest Open & Acquire to Total Rest": {
+      "dtype": "float64",
+      "unique_values": 0,
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN
+    },
+    "Total Profit per Available Seat Mile": {
+      "dtype": "float64",
+      "unique_values": 0,
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN
+    },
+    "Underwriting Margin": {
+      "dtype": "float64",
+      "unique_values": 0,
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN
+    },
+    "Unexpected Inventory Change": {
+      "dtype": "float64",
+      "unique_values": 96,
+      "mean": 46.293739542665925,
+      "std": 25.11887744923695,
+      "min": 1.0,
+      "max": 99.0
+    },
+    "Unexpected Receivables Change": {
+      "dtype": "float64",
+      "unique_values": 124,
+      "mean": 53.48720413379264,
+      "std": 37.1809635097605,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Valuation": {
+      "dtype": "float64",
+      "unique_values": 804,
+      "mean": 69.21533742331287,
+      "std": 25.97181971426905,
+      "min": 1.0,
+      "max": 100.0
+    },
+    "Wireless Penetration Rate": {
+      "dtype": "float64",
+      "unique_values": 0,
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN
+    }
+  }
+}

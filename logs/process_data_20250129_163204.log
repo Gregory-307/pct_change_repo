@@ -1,0 +1,114 @@
+2025-01-29 16:32:08,231 - INFO - Processing data with:
+2025-01-29 16:32:08,231 - INFO - - Start date: 2014-08-01 00:00:00
+2025-01-29 16:32:08,231 - INFO - - Prediction horizon: 10 days
+2025-01-29 16:32:08,231 - INFO - - Train end: 2017-12-29 00:00:00
+2025-01-29 16:32:08,231 - INFO - - Val end: 2018-12-28 00:00:00
+2025-01-29 16:32:08,231 - INFO - - Enabled features: 472
+2025-01-29 16:32:08,239 - INFO - 
+Loading raw data...
+2025-01-29 16:32:46,875 - INFO - 
+Cleaning data...
+2025-01-29 16:32:46,877 - INFO - Initial data shape: (11512867, 13)
+2025-01-29 16:32:47,837 - INFO - Shape after removing missing company names: (11512867, 13)
+2025-01-29 16:32:56,419 - INFO - Shape after removing days with < 8 stocks: (11460947, 13)
+2025-01-29 16:32:56,419 - INFO - 
+Pivoting data...
+2025-01-29 16:32:56,419 - INFO - Pivoting data to wide format...
+2025-01-29 16:33:39,481 - INFO - Pivoted data shape: (24283, 476)
+2025-01-29 16:33:56,167 - INFO - 
+Selecting best exchange for each stock...
+2025-01-29 16:33:56,167 - INFO - Handling multiple exchange listings...
+2025-01-29 16:33:56,167 - INFO - Initial shape: (24283, 476)
+2025-01-29 16:33:56,544 - INFO - Shape after selecting best exchange per stock: (19943, 476)
+2025-01-29 16:33:56,547 - INFO - Checking for extreme price changes...
+2025-01-29 16:33:56,677 - WARNING - Found 7 extreme price changes (>100% up or >50% down in a day)
+2025-01-29 16:33:56,684 - WARNING - Example extreme changes:
+2025-01-29 16:33:56,700 - WARNING - Network Capital Group Holding A/S: 2015-03-18 - Price change: -58.7% (1.79 -> 0.74)
+2025-01-29 16:33:56,712 - WARNING - Network Capital Group Holding A/S: 2017-05-04 - Price change: -53.5% (0.13 -> 0.06)
+2025-01-29 16:33:56,724 - WARNING - Nuevolution AB (publ): 2019-05-22 - Price change: 166.1% (12.10 -> 32.20)
+2025-01-29 16:33:56,730 - WARNING - Conferize A/S: 2019-06-11 - Price change: -62.7% (4.45 -> 1.66)
+2025-01-29 16:33:56,743 - WARNING - Conferize A/S: 2019-06-14 - Price change: 118.3% (1.26 -> 2.75)
+2025-01-29 16:33:56,757 - INFO - 
+Selecting features...
+2025-01-29 16:33:56,757 - INFO - Selecting features...
+2025-01-29 16:33:56,757 - INFO - Using 472 out of 472 enabled features
+2025-01-29 16:33:56,814 - INFO - 
+Calculating target...
+2025-01-29 16:33:56,814 - INFO - Calculating 10-day forward returns...
+2025-01-29 16:33:58,360 - INFO - Missing target values: 169 (0.8%)
+2025-01-29 16:34:13,435 - INFO - 
+Splitting data...
+2025-01-29 16:34:13,435 - INFO - Splitting data...
+2025-01-29 16:34:13,479 - INFO - Train: 10,639 rows (2014-08-01 00:00:00 to 2017-12-29 00:00:00)
+2025-01-29 16:34:13,479 - INFO - Val: 4,142 rows (2018-01-02 00:00:00 to 2018-12-28 00:00:00)
+2025-01-29 16:34:13,481 - INFO - Test: 4,803 rows (2019-01-02 00:00:00 to 2019-12-11 00:00:00)
+2025-01-29 16:34:13,481 - INFO - Validating features for train dataset...
+2025-01-29 16:34:13,481 - INFO - Validating features for val dataset...
+2025-01-29 16:34:13,481 - INFO - Validating features for test dataset...
+2025-01-29 16:34:13,481 - INFO - 
+Saving datasets...
+2025-01-29 16:34:16,189 - INFO - Saved train data with shape (10639, 479) to data\processed\train.csv
+2025-01-29 16:34:17,206 - INFO - Saved val data with shape (4142, 479) to data\processed\val.csv
+2025-01-29 16:34:18,325 - INFO - Saved test data with shape (4803, 479) to data\processed\test.csv
+2025-01-29 16:34:18,325 - INFO - 
+Running data analysis...
+2025-01-29 16:34:18,337 - INFO - Running data quality analysis...
+2025-01-29 16:34:18,339 - INFO - Analyzing train split...
+2025-01-29 16:34:18,735 - ERROR - Processing failed: 'ticker'
+Traceback (most recent call last):
+  File "C:\Users\gregb\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\indexes\base.py", line 3791, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "index.pyx", line 152, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 181, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'ticker'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\gregb\Downloads\Data\latest\pct_change\src\data_0_pipeline.py", line 110, in process_data
+    analysis_pipeline.analyze_data_quality(datasets)
+  File "C:\Users\gregb\Downloads\Data\latest\pct_change\src\analysis\_run_analysis.py", line 78, in analyze_data_quality
+    stock_coverage = self.data_analyzer.analyze_stock_coverage(df)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gregb\Downloads\Data\latest\pct_change\src\analysis\_data_analysis.py", line 100, in analyze_stock_coverage
+    'total_unique_stocks': int(df[ticker_col].nunique()),
+                               ~~^^^^^^^^^^^^
+  File "C:\Users\gregb\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\frame.py", line 3893, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gregb\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\indexes\base.py", line 3798, in get_loc
+    raise KeyError(key) from err
+KeyError: 'ticker'
+2025-01-29 16:34:18,751 - ERROR - Pipeline failed
+Traceback (most recent call last):
+  File "C:\Users\gregb\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\indexes\base.py", line 3791, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "index.pyx", line 152, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 181, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'ticker'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\gregb\Downloads\Data\latest\pct_change\src\data_0_pipeline.py", line 121, in <module>
+    process_data()
+  File "C:\Users\gregb\Downloads\Data\latest\pct_change\src\data_0_pipeline.py", line 110, in process_data
+    analysis_pipeline.analyze_data_quality(datasets)
+  File "C:\Users\gregb\Downloads\Data\latest\pct_change\src\analysis\_run_analysis.py", line 78, in analyze_data_quality
+    stock_coverage = self.data_analyzer.analyze_stock_coverage(df)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gregb\Downloads\Data\latest\pct_change\src\analysis\_data_analysis.py", line 100, in analyze_stock_coverage
+    'total_unique_stocks': int(df[ticker_col].nunique()),
+                               ~~^^^^^^^^^^^^
+  File "C:\Users\gregb\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\frame.py", line 3893, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gregb\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\indexes\base.py", line 3798, in get_loc
+    raise KeyError(key) from err
+KeyError: 'ticker'

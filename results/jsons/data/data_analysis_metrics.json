@@ -1,0 +1,53 @@
+{
+  "coverage": {
+    "mean_coverage": 265.3765511149653,
+    "min_coverage": 8,
+    "max_coverage": 23,
+    "coverage_pct": 63.487213185398396,
+    "total_features": 418
+  },
+  "features": {
+    "mean_coverage": 265.3765511149653,
+    "coverage_pct": 63.487213185398396,
+    "total_features": 418
+  },
+  "prices": {
+    "mean_price": 1476.9774878702815,
+    "min_price": 55.98499999999999,
+    "max_price": 5801.695357142858
+  },
+  "splits": {
+    "train": {
+      "mean_coverage": 12.414235705950992,
+      "min_coverage": 8,
+      "max_coverage": 18
+    },
+    "val": {
+      "mean_coverage": 16.701612903225808,
+      "min_coverage": 13,
+      "max_coverage": 21
+    },
+    "test": {
+      "mean_coverage": 20.180672268907564,
+      "min_coverage": 16,
+      "max_coverage": 23
+    }
+  },
+  "target": {
+    "train": {
+      "mean": 0.4810383674568267,
+      "std": 6.5523840731919325,
+      "skew": 1.3867301676899297
+    },
+    "val": {
+      "mean": -0.17696888035879033,
+      "std": 5.353929841405484,
+      "skew": 1.840892278076846
+    },
+    "test": {
+      "mean": 0.46051822213507,
+      "std": 7.731161479122887,
+      "skew": 4.864102378534803
+    }
+  }
+}

@@ -1,0 +1,42 @@
+2025-01-28 16:51:44,887 - INFO - Using 10-day prediction horizon
+2025-01-28 16:51:44,887 - INFO - 
+Processing data...
+2025-01-28 16:51:44,887 - INFO - Loading raw data...
+2025-01-28 16:52:01,164 - INFO - Raw data loaded with shape: (13172155, 13)
+2025-01-28 16:52:01,166 - INFO - Columns: ['GVKEY', 'IID', 'COMPANYID', 'COMPANYNAME', 'TRADINGITEMID', 'EXCHANGETICKER', 'PRICECLOSE', 'ISOCOUNTRY3', 'SIMPLEINDUSTRYDESCRIPTION', 'FACTORID', 'FACTORNAME', 'FACTORVALUE', 'ASOFDATE']
+2025-01-28 16:52:01,166 - INFO - Sample of FACTORVALUE: 0    NaN
+1    NaN
+2    NaN
+3    NaN
+4    NaN
+Name: FACTORVALUE, dtype: object
+2025-01-28 16:52:01,166 - INFO - 
+Cleaning raw data...
+2025-01-28 16:52:01,166 - INFO - Initial data shape: (13172155, 13)
+2025-01-28 16:52:01,936 - INFO - Shape after removing missing company names: (13172155, 13)
+2025-01-28 16:52:06,488 - INFO - Shape after cleaning and converting factor values: (8396239, 13)
+2025-01-28 16:52:09,245 - INFO - Shape after removing duplicates: (6996702, 13)
+2025-01-28 16:52:13,362 - INFO - Final shape after pivoting: (23432, 393)
+2025-01-28 16:52:13,398 - INFO - Data cleaned successfully, shape: (23432, 393)
+2025-01-28 16:52:16,850 - INFO - Saved cleaned data
+2025-01-28 16:53:37,453 - INFO - Using 10-day prediction horizon
+2025-01-28 16:53:37,453 - INFO - 
+Processing data...
+2025-01-28 16:53:37,453 - INFO - Loading raw data...
+2025-01-28 16:53:55,715 - INFO - Raw data loaded with shape: (13172155, 13)
+2025-01-28 16:53:55,716 - INFO - Columns: ['GVKEY', 'IID', 'COMPANYID', 'COMPANYNAME', 'TRADINGITEMID', 'EXCHANGETICKER', 'PRICECLOSE', 'ISOCOUNTRY3', 'SIMPLEINDUSTRYDESCRIPTION', 'FACTORID', 'FACTORNAME', 'FACTORVALUE', 'ASOFDATE']
+2025-01-28 16:53:55,725 - INFO - Sample of FACTORVALUE: 0    NaN
+1    NaN
+2    NaN
+3    NaN
+4    NaN
+Name: FACTORVALUE, dtype: object
+2025-01-28 16:53:55,725 - INFO - 
+Cleaning raw data...
+2025-01-28 16:53:55,725 - INFO - Initial data shape: (13172155, 13)
+2025-01-28 16:53:56,469 - INFO - Shape after removing missing company names: (13172155, 13)
+2025-01-28 16:54:01,361 - INFO - Shape after cleaning and converting factor values: (8396239, 13)
+2025-01-28 16:54:04,405 - INFO - Shape after removing duplicates: (6996702, 13)
+2025-01-28 16:54:08,751 - INFO - Final shape after pivoting: (23432, 393)
+2025-01-28 16:54:08,789 - INFO - Data cleaned successfully, shape: (23432, 393)
+2025-01-28 16:54:12,659 - INFO - Saved cleaned data

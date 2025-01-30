@@ -1,0 +1,14 @@
+2025-01-28 18:22:53,911 - ERROR - Processing failed: 'train_end_date'
+Traceback (most recent call last):
+  File "C:\Users\gregb\Downloads\Data\latest\pct_change\src\data_0_pipeline.py", line 38, in process_data
+    train_end = DATA_PARAMS['train_end_date']
+                ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+KeyError: 'train_end_date'
+2025-01-28 18:22:53,911 - ERROR - Pipeline failed
+Traceback (most recent call last):
+  File "C:\Users\gregb\Downloads\Data\latest\pct_change\src\data_0_pipeline.py", line 107, in <module>
+    process_data()
+  File "C:\Users\gregb\Downloads\Data\latest\pct_change\src\data_0_pipeline.py", line 38, in process_data
+    train_end = DATA_PARAMS['train_end_date']
+                ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+KeyError: 'train_end_date'

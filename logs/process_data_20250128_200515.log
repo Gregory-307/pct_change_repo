@@ -1,0 +1,88 @@
+2025-01-28 20:05:16,296 - INFO - Processing data with:
+2025-01-28 20:05:16,297 - INFO - - Start date: 2014-08-01 00:00:00
+2025-01-28 20:05:16,297 - INFO - - Prediction horizon: 10 days
+2025-01-28 20:05:16,297 - INFO - - Train end: 2017-12-29 00:00:00
+2025-01-28 20:05:16,297 - INFO - - Val end: 2018-12-28 00:00:00
+2025-01-28 20:05:16,297 - INFO - - Enabled features: 97
+2025-01-28 20:05:16,299 - INFO - 
+Loading raw data...
+2025-01-28 20:05:34,526 - INFO - 
+Cleaning data...
+2025-01-28 20:05:34,526 - INFO - Initial data shape: (11512867, 13)
+2025-01-28 20:05:35,122 - INFO - Shape after removing missing company names: (11512867, 13)
+2025-01-28 20:05:38,126 - INFO - Shape after removing days with < 8 stocks: (11460947, 13)
+2025-01-28 20:05:39,053 - INFO - Shape after cleaning and converting factor values: (7283052, 13)
+2025-01-28 20:05:39,076 - INFO - \Pivoting data...
+2025-01-28 20:05:39,077 - INFO - Pivoting data to wide format...
+2025-01-28 20:05:42,771 - ERROR - Pivot operation failed
+2025-01-28 20:05:43,303 - ERROR - Unique FACTORNAME values: 388
+2025-01-28 20:05:43,832 - ERROR - Sample FACTORNAME values: ['Book Value to Enterprise Value'
+ 'Trailing 12-Month Overhead/Trailing 12-Month Sales'
+ 'Change EPS to Sales' 'Change of Sales to Change of EPS'
+ 'Trailing 12-Month Receivables and Inventories/Trailing 12-Month Sales']
+2025-01-28 20:05:43,832 - ERROR - Processing failed: Pivot failed: Index contains duplicate entries, cannot reshape
+Traceback (most recent call last):
+  File "C:\Users\gregb\Downloads\Data\latest\pct_change\src\data_1_cleaning.py", line 67, in pivot_data
+    df_pivot = df.pivot(
+               ^^^^^^^^^
+  File "C:\Users\gregb\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\frame.py", line 9025, in pivot
+    return pivot(self, index=index, columns=columns, values=values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gregb\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\reshape\pivot.py", line 553, in pivot
+    result = indexed.unstack(columns_listlike)  # type: ignore[arg-type]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gregb\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\series.py", line 4459, in unstack
+    return unstack(self, level, fill_value, sort)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gregb\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\reshape\reshape.py", line 517, in unstack
+    unstacker = _Unstacker(
+                ^^^^^^^^^^^
+  File "C:\Users\gregb\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\reshape\reshape.py", line 154, in __init__
+    self._make_selectors()
+  File "C:\Users\gregb\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\reshape\reshape.py", line 210, in _make_selectors
+    raise ValueError("Index contains duplicate entries, cannot reshape")
+ValueError: Index contains duplicate entries, cannot reshape
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\gregb\Downloads\Data\latest\pct_change\src\data_0_pipeline.py", line 62, in process_data
+    pivoted_data = pivot_data(cleaned_data)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gregb\Downloads\Data\latest\pct_change\src\data_1_cleaning.py", line 80, in pivot_data
+    raise ValueError(f"Pivot failed: {str(e)}")
+ValueError: Pivot failed: Index contains duplicate entries, cannot reshape
+2025-01-28 20:05:43,937 - ERROR - Pipeline failed
+Traceback (most recent call last):
+  File "C:\Users\gregb\Downloads\Data\latest\pct_change\src\data_1_cleaning.py", line 67, in pivot_data
+    df_pivot = df.pivot(
+               ^^^^^^^^^
+  File "C:\Users\gregb\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\frame.py", line 9025, in pivot
+    return pivot(self, index=index, columns=columns, values=values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gregb\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\reshape\pivot.py", line 553, in pivot
+    result = indexed.unstack(columns_listlike)  # type: ignore[arg-type]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gregb\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\series.py", line 4459, in unstack
+    return unstack(self, level, fill_value, sort)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gregb\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\reshape\reshape.py", line 517, in unstack
+    unstacker = _Unstacker(
+                ^^^^^^^^^^^
+  File "C:\Users\gregb\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\reshape\reshape.py", line 154, in __init__
+    self._make_selectors()
+  File "C:\Users\gregb\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\reshape\reshape.py", line 210, in _make_selectors
+    raise ValueError("Index contains duplicate entries, cannot reshape")
+ValueError: Index contains duplicate entries, cannot reshape
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\gregb\Downloads\Data\latest\pct_change\src\data_0_pipeline.py", line 107, in <module>
+    process_data()
+  File "C:\Users\gregb\Downloads\Data\latest\pct_change\src\data_0_pipeline.py", line 62, in process_data
+    pivoted_data = pivot_data(cleaned_data)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gregb\Downloads\Data\latest\pct_change\src\data_1_cleaning.py", line 80, in pivot_data
+    raise ValueError(f"Pivot failed: {str(e)}")
+ValueError: Pivot failed: Index contains duplicate entries, cannot reshape

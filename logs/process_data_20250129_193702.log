@@ -1,0 +1,16 @@
+2025-01-29 19:37:03,743 - INFO - Processing data with:
+2025-01-29 19:37:03,743 - INFO - - Start date: 2014-08-01 00:00:00
+2025-01-29 19:37:03,743 - INFO - - Prediction horizon: 10 days
+2025-01-29 19:37:03,743 - INFO - - Train end: 2017-12-29 00:00:00
+2025-01-29 19:37:03,743 - INFO - - Val end: 2018-12-28 00:00:00
+2025-01-29 19:37:03,743 - INFO - - Enabled features: 472
+2025-01-29 19:37:03,743 - INFO - 
+Loading raw data...
+2025-01-29 19:37:21,548 - INFO - 
+Cleaning data...
+2025-01-29 19:37:21,549 - INFO - Initial data shape: (11512867, 13)
+2025-01-29 19:37:22,194 - INFO - Shape after removing missing company names: (11512867, 13)
+2025-01-29 19:37:25,483 - INFO - Shape after removing days with < 8 stocks: (11460947, 13)
+2025-01-29 19:37:25,483 - INFO - 
+Pivoting data...
+2025-01-29 19:37:25,483 - INFO - Pivoting data to wide format...

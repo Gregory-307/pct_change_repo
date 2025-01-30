@@ -1,0 +1,8 @@
+2025-01-29 03:16:51,403 - INFO - Processing data with:
+2025-01-29 03:16:51,403 - INFO - - Start date: 2014-08-01 00:00:00
+2025-01-29 03:16:51,403 - INFO - - Prediction horizon: 10 days
+2025-01-29 03:16:51,403 - INFO - - Train end: 2017-12-29 00:00:00
+2025-01-29 03:16:51,403 - INFO - - Val end: 2018-12-28 00:00:00
+2025-01-29 03:16:51,403 - INFO - - Enabled features: 472
+2025-01-29 03:16:51,403 - INFO - 
+Loading raw data...

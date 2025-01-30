@@ -1,0 +1,139 @@
+2025-01-28 23:36:10,026 - INFO - Processing data with:
+2025-01-28 23:36:10,028 - INFO - - Start date: 2014-08-01 00:00:00
+2025-01-28 23:36:10,028 - INFO - - Prediction horizon: 10 days
+2025-01-28 23:36:10,028 - INFO - - Train end: 2017-12-29 00:00:00
+2025-01-28 23:36:10,028 - INFO - - Val end: 2018-12-28 00:00:00
+2025-01-28 23:36:10,028 - INFO - - Enabled features: 97
+2025-01-28 23:36:10,028 - INFO - 
+Loading raw data...
+2025-01-28 23:36:35,774 - INFO - 
+Cleaning data...
+2025-01-28 23:36:35,785 - INFO - Initial data shape: (11512867, 13)
+2025-01-28 23:36:36,587 - INFO - Shape after removing missing company names: (11512867, 13)
+2025-01-28 23:36:40,984 - INFO - Shape after removing days with < 8 stocks: (11460947, 13)
+2025-01-28 23:36:42,137 - INFO - Shape after cleaning and converting factor values: (7283052, 13)
+2025-01-28 23:36:42,172 - INFO - \Pivoting data...
+2025-01-28 23:36:42,172 - INFO - Pivoting data to wide format...
+2025-01-28 23:36:44,574 - WARNING - Found 2622454 duplicate entries in pivot columns
+2025-01-28 23:36:46,496 - WARNING - Sample duplicates:
+          GVKEY  IID  COMPANYID  ...                            FACTORNAME  FACTORVALUE   ASOFDATE
+1793163  247558  01W    7687618  ...   1 Yr Grw Num of Patent Applications    54.599998 2014-08-01
+4403792  247558  02W    7687618  ...   1 Yr Grw Num of Patent Applications    54.599998 2014-08-01
+1793162  247558  01W    7687618  ...   1 Yr Grw Num of Products in Phase 3    99.099998 2014-08-01
+4403791  247558  02W    7687618  ...   1 Yr Grw Num of Products in Phase 3    99.099998 2014-08-01
+1793164  247558  01W    7687618  ...            1 Yr Grw Number of Patents    66.099998 2014-08-01
+4403793  247558  02W    7687618  ...            1 Yr Grw Number of Patents    66.099998 2014-08-01
+1793318  247558  01W    7687618  ...        1-Year Change in Current Ratio    12.000000 2014-08-01
+4403947  247558  02W    7687618  ...        1-Year Change in Current Ratio    12.000000 2014-08-01
+1793315  247558  01W    7687618  ...  1-Year Change in Gross Profit Margin    12.000000 2014-08-01
+4403944  247558  02W    7687618  ...  1-Year Change in Gross Profit Margin    12.000000 2014-08-01
+
+[10 rows x 13 columns]
+2025-01-28 23:36:54,600 - INFO - Pivoted data shape: (22040, 392)
+2025-01-28 23:37:00,225 - INFO - 
+Selecting features...
+2025-01-28 23:37:00,225 - INFO - Selecting features...
+2025-01-28 23:37:00,233 - INFO - Using 31 out of 97 enabled features
+2025-01-28 23:37:00,237 - INFO - 
+Calculating target...
+2025-01-28 23:37:00,237 - INFO - Calculating 10-day forward returns...
+2025-01-28 23:37:00,668 - ERROR - Processing failed: incompatible index of inserted column with frame index
+Traceback (most recent call last):
+  File "C:\Users\gregb\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\frame.py", line 12304, in _reindex_for_setitem
+    reindexed_value = value.reindex(index)._values
+                      ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gregb\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\series.py", line 4981, in reindex
+    return super().reindex(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\gregb\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\generic.py", line 5521, in reindex
+    return self._reindex_axes(
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gregb\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\generic.py", line 5544, in _reindex_axes
+    new_index, indexer = ax.reindex(
+                         ^^^^^^^^^^^
+  File "C:\Users\gregb\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\indexes\base.py", line 4438, in reindex
+    target = self._wrap_reindex_result(target, indexer, preserve_names)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gregb\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\indexes\multi.py", line 2602, in _wrap_reindex_result
+    target = MultiIndex.from_tuples(target)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gregb\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\indexes\multi.py", line 220, in new_meth
+    return meth(self_or_cls, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gregb\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\indexes\multi.py", line 615, in from_tuples
+    arrays = list(lib.tuples_to_object_array(tuples).T)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "lib.pyx", line 2983, in pandas._libs.lib.tuples_to_object_array
+ValueError: Buffer dtype mismatch, expected 'Python object' but got 'long long'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\gregb\Downloads\Data\latest\pct_change\src\data_0_pipeline.py", line 71, in process_data
+    featured_data = calculate_target(featured_data, horizon)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gregb\Downloads\Data\latest\pct_change\src\data_2_feature_engineering.py", line 73, in calculate_target
+    df['horizon_mean'] = df.groupby('COMPANYNAME').apply(get_horizon_mean)
+    ~~^^^^^^^^^^^^^^^^
+  File "C:\Users\gregb\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\frame.py", line 4091, in __setitem__
+    self._set_item(key, value)
+  File "C:\Users\gregb\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\frame.py", line 4300, in _set_item
+    value, refs = self._sanitize_column(value)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gregb\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\frame.py", line 5036, in _sanitize_column
+    return _reindex_for_setitem(value, self.index)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gregb\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\frame.py", line 12311, in _reindex_for_setitem
+    raise TypeError(
+TypeError: incompatible index of inserted column with frame index
+2025-01-28 23:37:01,017 - ERROR - Pipeline failed
+Traceback (most recent call last):
+  File "C:\Users\gregb\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\frame.py", line 12304, in _reindex_for_setitem
+    reindexed_value = value.reindex(index)._values
+                      ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gregb\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\series.py", line 4981, in reindex
+    return super().reindex(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\gregb\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\generic.py", line 5521, in reindex
+    return self._reindex_axes(
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gregb\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\generic.py", line 5544, in _reindex_axes
+    new_index, indexer = ax.reindex(
+                         ^^^^^^^^^^^
+  File "C:\Users\gregb\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\indexes\base.py", line 4438, in reindex
+    target = self._wrap_reindex_result(target, indexer, preserve_names)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gregb\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\indexes\multi.py", line 2602, in _wrap_reindex_result
+    target = MultiIndex.from_tuples(target)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gregb\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\indexes\multi.py", line 220, in new_meth
+    return meth(self_or_cls, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gregb\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\indexes\multi.py", line 615, in from_tuples
+    arrays = list(lib.tuples_to_object_array(tuples).T)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "lib.pyx", line 2983, in pandas._libs.lib.tuples_to_object_array
+ValueError: Buffer dtype mismatch, expected 'Python object' but got 'long long'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\gregb\Downloads\Data\latest\pct_change\src\data_0_pipeline.py", line 107, in <module>
+    process_data()
+  File "C:\Users\gregb\Downloads\Data\latest\pct_change\src\data_0_pipeline.py", line 71, in process_data
+    featured_data = calculate_target(featured_data, horizon)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gregb\Downloads\Data\latest\pct_change\src\data_2_feature_engineering.py", line 73, in calculate_target
+    df['horizon_mean'] = df.groupby('COMPANYNAME').apply(get_horizon_mean)
+    ~~^^^^^^^^^^^^^^^^
+  File "C:\Users\gregb\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\frame.py", line 4091, in __setitem__
+    self._set_item(key, value)
+  File "C:\Users\gregb\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\frame.py", line 4300, in _set_item
+    value, refs = self._sanitize_column(value)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gregb\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\frame.py", line 5036, in _sanitize_column
+    return _reindex_for_setitem(value, self.index)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gregb\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\frame.py", line 12311, in _reindex_for_setitem
+    raise TypeError(
+TypeError: incompatible index of inserted column with frame index

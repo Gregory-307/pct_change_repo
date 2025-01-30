@@ -1,0 +1,48 @@
+2025-01-28 19:54:13,747 - INFO - Processing data with:
+2025-01-28 19:54:13,747 - INFO - - Start date: 2014-08-01 00:00:00
+2025-01-28 19:54:13,747 - INFO - - Prediction horizon: 10 days
+2025-01-28 19:54:13,747 - INFO - - Train end: 2017-12-29 00:00:00
+2025-01-28 19:54:13,750 - INFO - - Val end: 2018-12-28 00:00:00
+2025-01-28 19:54:13,750 - INFO - - Enabled features: 97
+2025-01-28 19:54:13,750 - INFO - 
+Loading raw data...
+2025-01-28 19:54:31,730 - INFO - 
+Cleaning data...
+2025-01-28 19:54:31,733 - INFO - Initial data shape: (11512867, 13)
+2025-01-28 19:54:32,462 - INFO - Shape after removing missing company names: (11512867, 13)
+2025-01-28 19:54:34,513 - ERROR - Processing failed: Unalignable boolean Series provided as indexer (index of the boolean Series and of the indexed object do not match).
+Traceback (most recent call last):
+  File "C:\Users\gregb\Downloads\Data\latest\pct_change\src\data_0_pipeline.py", line 59, in process_data
+    cleaned_data = clean_raw_data(raw_data)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gregb\Downloads\Data\latest\pct_change\src\data_1_cleaning.py", line 122, in clean_raw_data
+    df = df[df.groupby('ASOFDATE')['COMPANYNAME'].nunique() >= DATA_PARAMS['min_stocks_per_day']]
+         ~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gregb\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\frame.py", line 3884, in __getitem__
+    return self._getitem_bool_array(key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gregb\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\frame.py", line 3940, in _getitem_bool_array
+    key = check_bool_indexer(self.index, key)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gregb\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\indexing.py", line 2575, in check_bool_indexer
+    raise IndexingError(
+pandas.errors.IndexingError: Unalignable boolean Series provided as indexer (index of the boolean Series and of the indexed object do not match).
+2025-01-28 19:54:34,640 - ERROR - Pipeline failed
+Traceback (most recent call last):
+  File "C:\Users\gregb\Downloads\Data\latest\pct_change\src\data_0_pipeline.py", line 107, in <module>
+    process_data()
+  File "C:\Users\gregb\Downloads\Data\latest\pct_change\src\data_0_pipeline.py", line 59, in process_data
+    cleaned_data = clean_raw_data(raw_data)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gregb\Downloads\Data\latest\pct_change\src\data_1_cleaning.py", line 122, in clean_raw_data
+    df = df[df.groupby('ASOFDATE')['COMPANYNAME'].nunique() >= DATA_PARAMS['min_stocks_per_day']]
+         ~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gregb\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\frame.py", line 3884, in __getitem__
+    return self._getitem_bool_array(key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gregb\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\frame.py", line 3940, in _getitem_bool_array
+    key = check_bool_indexer(self.index, key)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gregb\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\indexing.py", line 2575, in check_bool_indexer
+    raise IndexingError(
+pandas.errors.IndexingError: Unalignable boolean Series provided as indexer (index of the boolean Series and of the indexed object do not match).

@@ -1,0 +1,40 @@
+EXCHANGETICKER,COMPANYNAME,ISOCOUNTRY3,SIMPLEINDUSTRYDESCRIPTION
+BATS-CHIXE:ASETEO,Asetek A/S,DNK,"Technology Hardware, Storage and Peripherals"
+BATS-CHIXE:BAVAC,Bavarian Nordic A/S,DNK,Biotechnology
+BATS-CHIXE:BIOPOC,BioPorto A/S,DNK,Biotechnology
+BATS-CHIXE:CBRAIC,cBrain A/S,DNK,Software
+BATS-CHIXE:COLUMC,Columbus A/S,DNK,IT Services
+BATS-CHIXE:GMABC,Genmab A/S,DNK,Biotechnology
+BATS-CHIXE:NETCC,Netcompany Group A/S,DNK,IT Services
+BATS-CHIXE:NNITC,NNIT A/S,DNK,Health Care Technology
+BATS-CHIXE:SIMC,SimCorp A/S,DNK,Software
+BATS-CHIXE:ZEALC,Zealand Pharma A/S,DNK,Biotechnology
+CPSE:AGILC,Agillic A/S,DNK,Software
+CPSE:ATHENA,Athena IT-Group A/S,DNK,IT Services
+CPSE:BAVA,Bavarian Nordic A/S,DNK,Biotechnology
+CPSE:BIOPOR,BioPorto A/S,DNK,Biotechnology
+CPSE:CBRAIN,cBrain A/S,DNK,Software
+CPSE:COLUM,Columbus A/S,DNK,IT Services
+CPSE:CONFRZ,Conferize A/S,DNK,IT Services
+CPSE:ENALYZ,Enalyzer A/S,DNK,Software
+CPSE:FASTPC,FastPassCorp A/S,DNK,Software
+CPSE:GMAB,Genmab A/S,DNK,Biotechnology
+CPSE:HYPE,Hypefactors A/S,DNK,Software
+CPSE:KONSOL,Konsolidator A/S,DNK,Software
+CPSE:NETC,Netcompany Group A/S,DNK,IT Services
+CPSE:NETCGH,Network Capital Group Holding A/S,DNK,Software
+CPSE:NNIT,NNIT A/S,DNK,Health Care Technology
+CPSE:SCAPE,Scape Technologies A/S,DNK,Software
+CPSE:SIM,SimCorp A/S,DNK,Software
+CPSE:SLXIT,Seluxit A/S,DNK,IT Services
+CPSE:STRAP,Strategic Partners A/S,DNK,Biotechnology
+CPSE:TOPO,Topotarget A/S,DNK,Biotechnology
+CPSE:WIRTEK,Wirtek A/S,DNK,IT Services
+CPSE:ZEAL,Zealand Pharma A/S,DNK,Biotechnology
+DB:BV3,Bavarian Nordic A/S,DNK,Biotechnology
+DB:GE9,Genmab A/S,DNK,Biotechnology
+NGM:MENU B,MenuPay AB,DNK,Software
+OB:ASTK,Asetek A/S,DNK,"Technology Hardware, Storage and Peripherals"
+OM:INIT,Initiator Pharma A/S,DNK,Biotechnology
+OM:NUE,Nuevolution AB (publ),DNK,Biotechnology
+OM:SANION,Saniona AB (publ),DNK,Biotechnology

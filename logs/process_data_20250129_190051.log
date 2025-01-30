@@ -1,0 +1,63 @@
+2025-01-29 19:00:52,712 - INFO - Processing data with:
+2025-01-29 19:00:52,712 - INFO - - Start date: 2014-08-01 00:00:00
+2025-01-29 19:00:52,712 - INFO - - Prediction horizon: 10 days
+2025-01-29 19:00:52,712 - INFO - - Train end: 2017-12-29 00:00:00
+2025-01-29 19:00:52,712 - INFO - - Val end: 2018-12-28 00:00:00
+2025-01-29 19:00:52,712 - INFO - - Enabled features: 472
+2025-01-29 19:00:52,712 - INFO - 
+Loading raw data...
+2025-01-29 19:01:11,065 - INFO - 
+Cleaning data...
+2025-01-29 19:01:11,066 - INFO - Initial data shape: (11512867, 13)
+2025-01-29 19:01:11,750 - INFO - Shape after removing missing company names: (11512867, 13)
+2025-01-29 19:01:15,026 - INFO - Shape after removing days with < 8 stocks: (11460947, 13)
+2025-01-29 19:01:15,027 - INFO - 
+Pivoting data...
+2025-01-29 19:01:15,028 - INFO - Pivoting data to wide format...
+2025-01-29 19:01:27,286 - INFO - Pivoted data shape: (24283, 476)
+2025-01-29 19:01:31,575 - INFO - 
+Selecting best exchange for each stock...
+2025-01-29 19:01:31,576 - INFO - Handling multiple exchange listings...
+2025-01-29 19:01:31,576 - INFO - Initial shape: (24283, 476)
+2025-01-29 19:01:31,688 - INFO - Shape after selecting best exchange per stock: (19943, 476)
+2025-01-29 19:01:31,688 - INFO - Checking for extreme price changes...
+2025-01-29 19:01:31,728 - WARNING - Found 7 extreme price changes (>100% up or >50% down in a day)
+2025-01-29 19:01:31,730 - WARNING - Example extreme changes:
+2025-01-29 19:01:31,733 - WARNING - Network Capital Group Holding A/S: 2015-03-18 - Price change: -58.7% (1.79 -> 0.74)
+2025-01-29 19:01:31,738 - WARNING - Network Capital Group Holding A/S: 2017-05-04 - Price change: -53.5% (0.13 -> 0.06)
+2025-01-29 19:01:31,742 - WARNING - Nuevolution AB (publ): 2019-05-22 - Price change: 166.1% (12.10 -> 32.20)
+2025-01-29 19:01:31,747 - WARNING - Conferize A/S: 2019-06-11 - Price change: -62.7% (4.45 -> 1.66)
+2025-01-29 19:01:31,749 - WARNING - Conferize A/S: 2019-06-14 - Price change: 118.3% (1.26 -> 2.75)
+2025-01-29 19:01:31,752 - INFO - 
+Selecting features...
+2025-01-29 19:01:31,754 - INFO - Selecting features...
+2025-01-29 19:01:31,755 - INFO - Using 472 out of 472 enabled features
+2025-01-29 19:01:31,775 - INFO - 
+Calculating target...
+2025-01-29 19:01:31,776 - INFO - Calculating 10-day forward returns...
+2025-01-29 19:01:32,104 - INFO - Missing target values: 169 (0.8%)
+2025-01-29 19:01:35,748 - INFO - 
+Splitting data...
+2025-01-29 19:01:35,750 - INFO - Splitting data...
+2025-01-29 19:01:35,786 - INFO - Train: 10,639 rows (2014-08-01 00:00:00 to 2017-12-29 00:00:00)
+2025-01-29 19:01:35,786 - INFO - Val: 4,142 rows (2018-01-02 00:00:00 to 2018-12-28 00:00:00)
+2025-01-29 19:01:35,787 - INFO - Test: 4,803 rows (2019-01-02 00:00:00 to 2019-12-11 00:00:00)
+2025-01-29 19:01:35,787 - INFO - Validating features for train dataset...
+2025-01-29 19:01:35,787 - INFO - Validating features for val dataset...
+2025-01-29 19:01:35,788 - INFO - Validating features for test dataset...
+2025-01-29 19:01:35,788 - INFO - 
+Saving datasets...
+2025-01-29 19:01:37,756 - INFO - Saved train data with shape (10639, 479) to data\processed\train.csv
+2025-01-29 19:01:38,521 - INFO - Saved val data with shape (4142, 479) to data\processed\val.csv
+2025-01-29 19:01:39,365 - INFO - Saved test data with shape (4803, 479) to data\processed\test.csv
+2025-01-29 19:01:39,365 - INFO - 
+Running data analysis...
+2025-01-29 19:01:39,365 - INFO - Analyzing data metrics...
+2025-01-29 19:01:41,628 - INFO - Data Analysis Summary:
+2025-01-29 19:01:41,628 - INFO - Total rows: 19774
+2025-01-29 19:01:41,629 - INFO - Total features: 479
+2025-01-29 19:01:41,629 - INFO - Missing data: 36.3%
+2025-01-29 19:01:41,629 - INFO - Unique stocks: 26
+2025-01-29 19:01:41,629 - INFO - Average stocks per day: 15
+2025-01-29 19:01:41,634 - INFO - 
+Processing complete!

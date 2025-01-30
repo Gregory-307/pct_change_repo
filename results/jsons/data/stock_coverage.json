@@ -1,0 +1,168 @@
+{
+  "stock_counts": {
+    "total_unique_stocks": 26,
+    "stocks_per_day": {
+      "mean": 14.625739644970414,
+      "min": 8,
+      "max": 23
+    }
+  },
+  "stock_history": {
+    "Agillic A/S": {
+      "days_present": 405,
+      "first_date": "2018-04-03",
+      "last_date": "2019-12-27",
+      "missing_days": 947
+    },
+    "Asetek A/S": {
+      "days_present": 1346,
+      "first_date": "2014-08-01",
+      "last_date": "2019-12-27",
+      "missing_days": 6
+    },
+    "Athena IT-Group A/S": {
+      "days_present": 99,
+      "first_date": "2014-08-06",
+      "last_date": "2015-12-29",
+      "missing_days": 1253
+    },
+    "Bavarian Nordic A/S": {
+      "days_present": 1352,
+      "first_date": "2014-08-01",
+      "last_date": "2019-12-27",
+      "missing_days": 0
+    },
+    "BioPorto A/S": {
+      "days_present": 1352,
+      "first_date": "2014-08-01",
+      "last_date": "2019-12-27",
+      "missing_days": 0
+    },
+    "Columbus A/S": {
+      "days_present": 1352,
+      "first_date": "2014-08-01",
+      "last_date": "2019-12-27",
+      "missing_days": 0
+    },
+    "Conferize A/S": {
+      "days_present": 605,
+      "first_date": "2017-07-03",
+      "last_date": "2019-12-27",
+      "missing_days": 747
+    },
+    "Enalyzer A/S": {
+      "days_present": 300,
+      "first_date": "2014-08-19",
+      "last_date": "2019-12-20",
+      "missing_days": 1052
+    },
+    "FastPassCorp A/S": {
+      "days_present": 390,
+      "first_date": "2014-08-06",
+      "last_date": "2019-12-20",
+      "missing_days": 962
+    },
+    "Genmab A/S": {
+      "days_present": 1352,
+      "first_date": "2014-08-01",
+      "last_date": "2019-12-27",
+      "missing_days": 0
+    },
+    "Hypefactors A/S": {
+      "days_present": 263,
+      "first_date": "2018-10-01",
+      "last_date": "2019-12-27",
+      "missing_days": 1089
+    },
+    "Initiator Pharma A/S": {
+      "days_present": 157,
+      "first_date": "2017-06-01",
+      "last_date": "2019-12-27",
+      "missing_days": 1195
+    },
+    "Konsolidator A/S": {
+      "days_present": 140,
+      "first_date": "2019-06-03",
+      "last_date": "2019-12-27",
+      "missing_days": 1212
+    },
+    "MenuPay AB": {
+      "days_present": 575,
+      "first_date": "2017-04-03",
+      "last_date": "2019-12-27",
+      "missing_days": 777
+    },
+    "NNIT A/S": {
+      "days_present": 1184,
+      "first_date": "2015-04-01",
+      "last_date": "2019-12-27",
+      "missing_days": 168
+    },
+    "Netcompany Group A/S": {
+      "days_present": 374,
+      "first_date": "2018-07-02",
+      "last_date": "2019-12-27",
+      "missing_days": 978
+    },
+    "Network Capital Group Holding A/S": {
+      "days_present": 693,
+      "first_date": "2014-08-05",
+      "last_date": "2017-10-19",
+      "missing_days": 659
+    },
+    "Nuevolution AB (publ)": {
+      "days_present": 877,
+      "first_date": "2016-01-04",
+      "last_date": "2019-07-25",
+      "missing_days": 475
+    },
+    "Saniona AB (publ)": {
+      "days_present": 1231,
+      "first_date": "2015-01-02",
+      "last_date": "2019-12-27",
+      "missing_days": 121
+    },
+    "Scape Technologies A/S": {
+      "days_present": 264,
+      "first_date": "2018-12-03",
+      "last_date": "2019-12-27",
+      "missing_days": 1088
+    },
+    "Seluxit A/S": {
+      "days_present": 264,
+      "first_date": "2018-12-03",
+      "last_date": "2019-12-27",
+      "missing_days": 1088
+    },
+    "SimCorp A/S": {
+      "days_present": 1352,
+      "first_date": "2014-08-01",
+      "last_date": "2019-12-27",
+      "missing_days": 0
+    },
+    "Strategic Partners A/S": {
+      "days_present": 514,
+      "first_date": "2017-12-01",
+      "last_date": "2019-12-27",
+      "missing_days": 838
+    },
+    "Wirtek A/S": {
+      "days_present": 629,
+      "first_date": "2014-08-01",
+      "last_date": "2019-12-27",
+      "missing_days": 723
+    },
+    "Zealand Pharma A/S": {
+      "days_present": 1352,
+      "first_date": "2014-08-01",
+      "last_date": "2019-12-27",
+      "missing_days": 0
+    },
+    "cBrain A/S": {
+      "days_present": 1352,
+      "first_date": "2014-08-01",
+      "last_date": "2019-12-27",
+      "missing_days": 0
+    }
+  }
+}

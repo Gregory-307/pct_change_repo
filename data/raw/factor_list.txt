@@ -1,0 +1,472 @@
+1 Yr Chg in Admissions
+1 Yr Chg in Number of Properties
+1 Yr Chg in Number of Restuarants
+1 Yr Chg in Number of Rooms
+1 Yr Chg in Revenue per Room
+1 Yr Grw Avg Length of Stay
+1 Yr Grw Broadband Subscribers
+1 Yr Grw Churn Rate
+1 Yr Grw House Sales Revenue
+1 Yr Grw Net New Orders
+1 Yr Grw Net Wireless Subs Additions
+1 Yr Grw Num of Patent Applications
+1 Yr Grw Num of Products in Phase 3
+1 Yr Grw Number of Patents
+1 Yr Grw Revenue Passenger Miles
+1 Yr Grw Revenue Passengers Carried
+1 Yr Grw Tot Home Rev to Const in Prog
+1 Yr Grw Tot Home Rev to Inventory
+1 Yr Grw Wireless Subscribers
+1 Yr Grw in Net Premiums Earned
+1 Yr Grw in Total Investments
+1 Yr Grw in Underwriting Profit
+1 Yr Same Rest Sales Acceleration
+1-Year Change in Current Ratio
+1-Year Change in Gross Profit Margin
+1-Year Change in Long Term Debt to Avg Total Assets
+1-Year Change in ROA
+10 Day MACD Trend
+12 month Relative Price Strength(Ind Grp Rel VolAdjRtn12M)
+12M - 1M Price Momentum
+12M Realized Price Volatility
+130 Day Minimum Return
+14-Day Relative Strength Index
+15/36 Week Price Ratio
+180D Price TStat
+1M Price High - 1M Price Low
+1M Price Reversal
+1M Realized Price Volatility
+1Y Change in Modified Texas Ratio (Fundamentals)
+1Y Change in Nonaccrual Loans to Total Assets (Fundamentals)
+1Y Chg in Amihud
+1Y Chg in Asset Adjusted Cash Flow
+1Y Chg in Asset Adjusted EPS
+1Y Chg in Asset Adjusted Free Cash Flow
+1Y Chg in Asset Adjusted Operating Cash Flow
+1Y Chg in Cash Flow per Share
+1Y Chg in Cash Flow to Price
+1Y Chg in Debt to Assets
+1Y Chg in Discounted Future Cash Flows to Market Cap
+1Y Chg in EPS to Operating Cash Flow
+1Y Chg in Earnings per Share
+1Y Chg in Earnings to Price
+1Y Chg in Free Cash Flow per Share
+1Y Chg in Free Cash Flow to Price
+1Y Chg in Future Cash Flows per Share
+1Y Chg in Future Cash Flows to Total Assets
+1Y Chg in Future Cashflow Yield
+1Y Chg in Operating Cash Flow per Share
+1Y Chg in Operating Cash Flow to Price
+1Y Chg in Operating Margin
+1Y Chg in Proved Reserves to Market Cap
+1Y Chg in Reserve Acquired to Total Costs
+1Y Chg in Reserve Exhaustion Rate
+1Y Chg in Sales Turnover
+1Y Chg in Sales to Earnings
+1Y Chg in Sales to Price
+1Y Chg in Share Turnover
+1Y Chg in Shares Outstanding
+1Y Chg in Stock Buybacks
+20 Day Coefficient of Variation of Volume to Price
+20-Day Lane's Stochastic Indicator
+24M Residual Return Variance
+26W Price Stat
+26W Relative Price Strength
+30 Day Coefficient of Variation of Volume to Price
+39W Lagged Return
+3M Momentum in Trailing 12M Sales
+3M Revision in FY1 EPS Estimate
+3M Revision in FY2 EPS Estimate
+3Y Average Annual Earnings Growth
+3Y Average Annual Sales Growth
+3Y Change in Operating Income to Tier 1 Common Equity (Fundamentals)
+3Y Change in Total Pretax Expense to Average Assets (Fundamentals)
+3Y Chg in Asset Adjusted Cash Flow
+3Y Chg in Asset Adjusted EPS
+3Y Chg in Asset Adjusted Free Cash Flow
+3Y Chg in Asset Adjusted Operating Cash Flow
+3Y Chg in Cash Flow per Share
+3Y Chg in Cash Flow to Price
+3Y Chg in Earnings per Share
+3Y Chg in Earnings to Price
+3Y Chg in Free Cash Flow per Share
+3Y Chg in Free Cash Flow to Price
+3Y Chg in Operating Cash Flow per Share
+3Y Chg in Operating Cash Flow to Price
+3Y Chg in Operating Margin
+3Y Chg in Sales Turnover
+3Y Chg in Sales to Price
+4-Week Change in 12-Month Forward Earnings Consensus Estimate/Price
+4W to 52W Price Oscillator
+5 Day Price Reversal
+5 Day Volume Signal
+5 Yr Hist Rel 1Y Chg in Earnings per Share
+5 Yr Hist Rel Adjusted Accruals
+5 Yr Hist Rel Assets to Price Ratio
+5 Yr Hist Rel Book to Price
+5 Yr Hist Rel Cash to Total Assets
+5 Yr Hist Rel Current Ratio
+5 Yr Hist Rel EBIT Margin
+5 Yr Hist Rel EBITDA to Price
+5 Yr Hist Rel Free Cash Flow to Price
+5 Yr Hist Rel Gross Profit Margin
+5 Yr Hist Rel Inverse P/E Ratio Adj for Growth and Yield
+5 Yr Hist Rel Long Term Debt to Assets Ratio
+5 Yr Hist Rel Net Cash Flow to Enterprise Value
+5 Yr Hist Rel Net Cash Flow to Price
+5 Yr Hist Rel Operating Cash Flow to Price
+5 Yr Hist Rel Operating Earnings to Assets Ratio
+5 Yr Hist Rel Operating Margin
+5 Yr Hist Rel Pretax Profit Margin
+5 Yr Hist Rel Quick Ratio
+5 Yr Hist Rel Receivables Turnover Ratio
+5 Yr Hist Rel Return on Assets
+5 Yr Hist Rel Return on Equity
+5 Yr Hist Rel Return on Invested Capital
+5 Yr Hist Rel Sales to Gross Profit Margin Growth
+5 Yr Hist Rel Working Capital Turnover Ratio
+5 Yr Hist Rel Working Capital to Assets Ratio
+5-Day Money Flow/Volume
+50 Day Volume Signal
+50 Day to 200 Day Stock Price
+52-Week Volume Price Trend with 20-Day Lag
+52W High Low
+6 Month Average Share Turn Over
+6 Months Price Reversal
+60 Day Coefficient of Variation of Volume to Price
+60M CAPM Alpha
+60M CAPM Beta
+6M Avg Chg 1M Recommendation
+6M Chg in 12M CAPM Alpha
+6M Chg in 18M CAPM Alpha
+6M Chg in 36M CAPM Alpha
+6M Chg in Target Price
+6M Chg in Target Price Gap
+6M Momentum in Trailing 12M Sales
+8-Week Change in 12-Month Forward Earnings Consensus Estimate/Price
+9 Month Price Momentum
+90 Day Coefficient of Variation
+Accrual Ratio - Balance Sheet
+Accrual Ratio - Cash Flows
+Actual Production to Market Cap
+Adj 50 Day Volume Signal
+Adj Number of EPS FY2 Revisions
+Adjusted 6 Month Average Share Turn Over
+Adjusted Accruals
+Adjusted EBIT to Price
+Adjusted Forward Earnings to Price
+Adjusted Interest Coverage Ratio
+Adjusted Number of EPS FY1 Revisions
+Adjusted Revision Magnitude
+Altman Z-Score
+Amihud Illiquidity Measure
+Analyst Dispersion for FY1 EPS
+Analyst Dispersion for FY2 EPS
+Analyst Earnings Estimate Diffusion
+Analyst Expectations
+Asset Adjusted Capital Investments
+Asset Growth - 1 Year
+Asset Turnover
+Asset Turnover v2
+Assets to Price Ratio
+Average Age of Aircraft
+Backlog Homes Value Grw
+Balance Sheet Accruals
+Book Leverage
+Book Value to Enterprise Value
+Book to Price
+Buy-to-Sell Recommendation Ratio Less 3M EMA
+Buy-to-Sell Recommendation Ratio Less 3M SMA
+Capital Acquisition Ratio
+Capital Efficiency
+Capital Expenditure to Sales
+Capital Expenditure to Total Assets
+Cash Burn Rate
+Cash Conversion Cycle
+Cash Flow Return on Invested Capital
+Cash Flow to Equity
+Cash Flow to Invested Capital
+Cash Flow to Total Asset
+Cash Ratio
+Cash to EV Ratio
+Cash to Price
+Cash to Sales
+Cash to Total Assets
+Change EPS to Sales
+Change in Number of Buyers
+Change in Number of Holders
+Change in TTM Depr. to Capex
+Change of Asset Turnover v2
+Change of Ownership Level - All Managers
+Change of Sales to Change of EPS
+Churn Rate
+Claims Ratio
+Closing Price to 260 Day Low
+Closing Price to 52 Week High
+Combined Ratio
+Core EPS to Price (Fundamentals)
+Current Liability to Price
+Current Ratio
+Debt to Assets Ratio
+Degree of Financial Leverage
+Deliv Homes Value Grw to Mkt Cap
+Depreciation to Capex Ratio
+Developed Reserves per Share Growth
+Discounted Future Cash Flows to Market Cap
+Dividend Growth
+Dividend per Share Growth
+Dividends to Cash Flow
+Dividends to Price Ratio
+EBIT Estimate Dispersion
+EBIT Margin
+EBIT to Assets
+EBIT to Assets v2
+EBITDA to Assets
+EBITDA to Enterprise Value
+EBITDA to Price
+EPS Stability
+Earnings Quality
+Earnings Surprise
+Earnings to Price
+Equity Turnover
+Expected Earnings Growth: Fiscal Year 2/Fiscal Year 1
+Expected LTG
+Expense Ratio
+Financial Leverage (Equity Multiplier)
+Foreign Institution Ownership
+Forward Earnings to Price
+Forward Free Cash Flow to Price Ratio
+Free Cash Flow to Common Equity
+Free Cash Flow to Enterprise Value
+Free Cash Flow to Price
+Free Cash Flow to Sales
+Fuel Consumed per Available Seat Mile
+Future Cashflow Yield
+Gas Margin
+Gross Profit Margin
+Gross Profit to Assets
+Growth Flow to Price
+Historical Growth
+Home Gross Margin
+Hospitals and Facilities Growth
+Hotel & Casino Rev to Oper Exp
+Implied Cap Rate
+Ind Grp Rel 12M - 1M Price Momentum
+Ind Grp Rel 1M Price Reversal
+Ind Grp Rel 1Y Chg in Cash Flow to Price
+Ind Grp Rel 1Y Chg in Earnings per Share
+Ind Grp Rel 1Y Chg in Earnings to Price
+Ind Grp Rel 1Y Chg in Free Cash Flow per Share
+Ind Grp Rel 1Y Chg in Free Cash Flow to Price
+Ind Grp Rel 1Y Chg in Operating Cash Flow per Share
+Ind Grp Rel 1Y Chg in Operating Margin
+Ind Grp Rel 1Y Chg in Sales to Price
+Ind Grp Rel 1Y Chg in Shares Outstanding
+Ind Grp Rel 1Y Chg in Stock Buybacks
+Ind Grp Rel 3Y Chg in Sales to Price
+Ind Grp Rel 5 Day Price Momentum
+Ind Grp Rel 50 Day Volume Signal
+Ind Grp Rel 9M Price Momentum
+Ind Grp Rel Accrual Ratio - Cash Flows
+Ind Grp Rel Adjusted Accruals
+Ind Grp Rel Analyst Dispersion for FY1 EPS
+Ind Grp Rel Asset Adjusted Capital Investments
+Ind Grp Rel Asset Turnover
+Ind Grp Rel Assets to Price Ratio
+Ind Grp Rel Balance Sheet Accruals
+Ind Grp Rel Book to Price
+Ind Grp Rel Capital Acquisition Ratio
+Ind Grp Rel Capital Expenditure to Total Assets
+Ind Grp Rel Cash Conversion Cycle
+Ind Grp Rel Cash Flow Return on Invested Capital
+Ind Grp Rel Cash to EV Ratio
+Ind Grp Rel Cash to Price
+Ind Grp Rel Cash to Total Assets
+Ind Grp Rel Change in TTM Depr. to Capex
+Ind Grp Rel Current Ratio
+Ind Grp Rel Debt to Assets Ratio
+Ind Grp Rel Depreciation to Capex Ratio
+Ind Grp Rel Dividends to Price Ratio
+Ind Grp Rel EBIT Margin
+Ind Grp Rel EBITDA to Enterprise Value
+Ind Grp Rel EBITDA to Price
+Ind Grp Rel Earnings Surprise
+Ind Grp Rel Earnings to Price
+Ind Grp Rel Expected LTG
+Ind Grp Rel Forward Earnings to Price
+Ind Grp Rel Forward Free Cash Flow to Price Ratio
+Ind Grp Rel Free Cash Flow to Common Equity
+Ind Grp Rel Free Cash Flow to Enterprise Value
+Ind Grp Rel Free Cash Flow to Price
+Ind Grp Rel Gross Profit Margin
+Ind Grp Rel Growth Flow to Price
+Ind Grp Rel Interest Coverage Ratio
+Ind Grp Rel Inventory Turnover
+Ind Grp Rel Inventory to Assets Ratio
+Ind Grp Rel Inverse P/E Ratio Adj for Growth and Yield
+Ind Grp Rel Inverse PEG
+Ind Grp Rel Long Term Debt to Assets Ratio
+Ind Grp Rel Long Term Debt to Equity Ratio
+Ind Grp Rel Max Daily Return in the Past 6 Months
+Ind Grp Rel Net Cash Flow to Enterprise Value
+Ind Grp Rel Net Cash Flow to Price
+Ind Grp Rel Net Current Assets to Price Ratio
+Ind Grp Rel Net Profit Margin
+Ind Grp Rel Operating Cash Flow to Enterprise Value
+Ind Grp Rel Operating Cash Flow to Price
+Ind Grp Rel Operating Earnings to Assets Ratio
+Ind Grp Rel Operating Earnings to Price Ratio
+Ind Grp Rel Operating Margin
+Ind Grp Rel Pretax Income Per Share to Price
+Ind Grp Rel Pretax Profit Margin
+Ind Grp Rel Price Momentum - 6 Months
+Ind Grp Rel Quick Ratio
+Ind Grp Rel Receivables Turnover Ratio
+Ind Grp Rel Return on Assets
+Ind Grp Rel Return on Equity
+Ind Grp Rel Return on Invested Capital
+Ind Grp Rel SG&A to Sales
+Ind Grp Rel Sales to EV Ratio
+Ind Grp Rel Sales to Gross Profit Margin Growth
+Ind Grp Rel Sales to Price Ratio
+Ind Grp Rel Standardized Unexpected Earnings
+Ind Grp Rel Sustainable Growth Rate
+Ind Grp Rel Tobin's Q Ratio
+Ind Grp Rel Working Capital Accruals
+Ind Grp Rel Working Capital Turnover Ratio
+Ind Grp Rel Working Capital to Assets Ratio
+Ind Grp Rel Working Capital to Sales
+Ind Grp Rel Year over Year Change of EPS to Sales
+Ind Grp Rel Year over Year Change of Total Debt
+Ind Grp Rel YoY Change in SGA to Sales
+Institution Ownership Concentration
+Institution Ownership Level
+Institution Ownership Level - Active Manager
+Institution Ownership Turnover
+Insurance: Net Premium Written to Net Assets
+Interest Coverage Ratio
+Inventory Turnover
+Inventory to Assets Ratio
+Inverse P/E Ratio Adj for Growth and Yield
+Inverse PEG
+Investment Duration
+Licensed Beds Growth
+Log Market Cap
+Log TTM Sales
+Log of Market Capitalization Cubed
+Log of Total Last Quarter Assets
+Log of Unadjusted Stock Price
+Long Term Debt to Assets Ratio
+Long Term Debt to Equity Ratio
+Max Daily Return in the Past 6 Months
+Mine Life - Gold Mining
+Net Cash Flow to Enterprise Value
+Net Cash Flow to Price
+Net Current Assets to Price Ratio
+Net Income Stability
+Net Prem Written to Stat Surplus
+Net Profit Margin
+Normalized EP
+Normalized ROA
+Normalized ROE
+Number of EPS FY1 Revisions
+Number of Patents to Mkt Cap
+Oil Margin
+Operating Cash Flow Ratio
+Operating Cash Flow to Asset v2
+Operating Cash Flow to Enterprise Value
+Operating Cash Flow to Equity
+Operating Cash Flow to Price
+Operating Earnings to Assets Ratio
+Operating Earnings to Price Ratio
+Operating Exp per Available Seat Miles
+Operating Margin
+Ownership Breadth Stability of Institution Ownership by Buyers
+Ownership Breadth Stability of Institution Ownership by Holders
+Passenger Load Factor
+Patient Days Growth
+Payout Ratio
+Percent Above 260-Day Low
+Piotroski F-Score
+Pre-Provision Net Revenue / Price  (Fundamentals)
+Pretax Income Per Share to Price
+Pretax Income to Net Operating Assets
+Pretax Profit Margin
+Price Momentum
+Problem Loans to Total Equity plus Loan Loss Reserves (Fundamentals)
+Production Growth
+Profit per Room
+Proved & Prob Reserves to Market Cap
+Proved Reserves to Market Cap
+Quick Ratio
+ROA 20 Qtr Standard Deviation
+ROA 60 Month Slope
+ROE 20 Qtr Standard Deviation
+Receivables Turnover Ratio
+Research & Development Intensity
+Reserve Acquisition Cost
+Reserve Acquisition Yield
+Reserve Exhaustion Rate
+Reserve Growth
+Reserve Replacement Ratio
+Restaurant Operating Margin
+Restaurants Closing Momentum
+Restaurants Opening Momentum
+Retained Earnings to Total Assets
+Retained Earnings to Total Assets v2
+Retention Ratio
+Return on Assets
+Return on Assets v2
+Return on Equity
+Return on Invested Capital
+Return on Net Tangible Assets
+Return on Risk Weighted Assets (Fundamentals)
+Revenue Estimate Dispersion
+Revenue per Room
+Risk Adjusted Relative Strength
+Room Margin
+SG&A to Sales
+Sales Acceleration
+Sales to EV Ratio
+Sales to Gross Profit Margin Growth
+Sales to Invested Capital
+Sales to Price Ratio
+Same Restaurant Sales Growth
+Savings & Money Market Deposit Accounts to Total Deposits (Fundamentals)
+Share Turnover
+Sharpe Ratio
+Size
+Slope of 52W Price Trend
+Solvency Ratio
+Stability of Change in Number of Holders
+Standardized Unexpected Earnings
+Street Revision Magnitude
+Surgeries Growth
+Sustainable Growth Rate
+TTM Rest Closed & Sold to Total Rest
+TTM Rest Open & Acquire to Total Rest
+Target Price Gap to 6M EMA
+Tier 1 Capital Ratio  (Fundamentals)
+Tobin's Q Ratio
+Total Market Value of Equity to Total Liabilities
+Total Profit per Available Seat Mile
+Total Revenue per Facility
+Trailing 12-Month Overhead/Trailing 12-Month Sales
+Trailing 12-Month Receivables and Inventories/Trailing 12-Month Sales
+Underwriting Margin
+Unexpected Inventory Change
+Unexpected Receivables Change
+Valuation
+Volatility
+Volatility adjusted 12M return
+Wireless Penetration Rate
+Working Capital Accruals
+Working Capital Turnover Ratio
+Working Capital to Assets Ratio
+Working Capital to Assets Ratio v2
+Working Capital to Sales
+Working Capital to Total Assets
+Year over Year Change in SGA to Sales
+Year over Year Change of EPS to Sales
+Year over Year Change of Inventory to Assets
+Year over Year Change of Total Debt

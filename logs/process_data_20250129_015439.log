@@ -1,0 +1,82 @@
+2025-01-29 01:54:39,510 - INFO - Processing data with:
+2025-01-29 01:54:39,519 - INFO - - Start date: 2014-08-01 00:00:00
+2025-01-29 01:54:39,519 - INFO - - Prediction horizon: 10 days
+2025-01-29 01:54:39,519 - INFO - - Train end: 2017-12-29 00:00:00
+2025-01-29 01:54:39,519 - INFO - - Val end: 2018-12-28 00:00:00
+2025-01-29 01:54:39,519 - INFO - - Enabled features: 472
+2025-01-29 01:54:39,519 - INFO - 
+Loading raw data...
+2025-01-29 01:55:00,996 - INFO - 
+Cleaning data...
+2025-01-29 01:55:01,000 - INFO - Initial data shape: (11512867, 13)
+2025-01-29 01:55:01,796 - INFO - Shape after removing missing company names: (11512867, 13)
+2025-01-29 01:55:05,197 - INFO - Shape after removing days with < 8 stocks: (11460947, 13)
+2025-01-29 01:55:05,198 - INFO - \Pivoting data...
+2025-01-29 01:55:05,199 - INFO - Pivoting data to wide format...
+2025-01-29 01:55:09,929 - WARNING - Found 3952614 duplicate entries in pivot columns
+2025-01-29 01:55:11,941 - WARNING - Sample duplicates:
+          GVKEY  IID  COMPANYID  ...                         FACTORNAME  FACTORVALUE   ASOFDATE
+1793161  247558  01W    7687618  ...             1 Yr Chg in Admissions          NaN 2014-08-01
+4403790  247558  02W    7687618  ...             1 Yr Chg in Admissions          NaN 2014-08-01
+1793199  247558  01W    7687618  ...   1 Yr Chg in Number of Properties          NaN 2014-08-01
+4403828  247558  02W    7687618  ...   1 Yr Chg in Number of Properties          NaN 2014-08-01
+1793205  247558  01W    7687618  ...  1 Yr Chg in Number of Restuarants          NaN 2014-08-01
+4403834  247558  02W    7687618  ...  1 Yr Chg in Number of Restuarants          NaN 2014-08-01
+1793200  247558  01W    7687618  ...        1 Yr Chg in Number of Rooms          NaN 2014-08-01
+4403829  247558  02W    7687618  ...        1 Yr Chg in Number of Rooms          NaN 2014-08-01
+1793201  247558  01W    7687618  ...       1 Yr Chg in Revenue per Room          NaN 2014-08-01
+4403830  247558  02W    7687618  ...       1 Yr Chg in Revenue per Room          NaN 2014-08-01
+
+[10 rows x 13 columns]
+2025-01-29 01:55:12,390 - WARNING - 991 duplicate entries with different FACTORVALUE values found
+2025-01-29 01:55:21,421 - INFO - Pivoted data shape: (19943, 476)
+2025-01-29 01:55:25,099 - INFO - 
+Selecting features...
+2025-01-29 01:55:25,099 - INFO - Selecting features...
+2025-01-29 01:55:25,100 - INFO - Using 472 out of 472 enabled features
+2025-01-29 01:55:25,121 - INFO - 
+Calculating target...
+2025-01-29 01:55:25,122 - INFO - Calculating 10-day forward returns...
+2025-01-29 01:55:25,470 - INFO - Missing target values: 169 (0.8%)
+2025-01-29 01:55:29,873 - INFO - 
+Splitting data...
+2025-01-29 01:55:29,873 - INFO - Splitting data...
+2025-01-29 01:55:29,918 - INFO - Train: 10,639 rows (2014-08-01 00:00:00 to 2017-12-29 00:00:00)
+2025-01-29 01:55:29,919 - INFO - Val: 4,142 rows (2018-01-02 00:00:00 to 2018-12-28 00:00:00)
+2025-01-29 01:55:29,919 - INFO - Test: 4,803 rows (2019-01-02 00:00:00 to 2019-12-11 00:00:00)
+2025-01-29 01:55:29,921 - INFO - 
+Saving datasets...
+2025-01-29 01:55:29,923 - ERROR - Processing failed: [Errno 13] Permission denied: 'data\\processed\\train.csv'
+Traceback (most recent call last):
+  File "C:\Users\gregb\Downloads\Data\latest\pct_change\src\data_0_pipeline.py", line 90, in process_data
+    data.to_csv(path, index=False)
+  File "C:\Users\gregb\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\generic.py", line 3902, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gregb\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\formats\format.py", line 1152, in to_csv
+    csv_formatter.save()
+  File "C:\Users\gregb\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\formats\csvs.py", line 247, in save
+    with get_handle(
+         ^^^^^^^^^^^
+  File "C:\Users\gregb\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\common.py", line 863, in get_handle
+    handle = open(
+             ^^^^^
+PermissionError: [Errno 13] Permission denied: 'data\\processed\\train.csv'
+2025-01-29 01:55:29,971 - ERROR - Pipeline failed
+Traceback (most recent call last):
+  File "C:\Users\gregb\Downloads\Data\latest\pct_change\src\data_0_pipeline.py", line 106, in <module>
+    process_data()
+  File "C:\Users\gregb\Downloads\Data\latest\pct_change\src\data_0_pipeline.py", line 90, in process_data
+    data.to_csv(path, index=False)
+  File "C:\Users\gregb\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\generic.py", line 3902, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gregb\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\formats\format.py", line 1152, in to_csv
+    csv_formatter.save()
+  File "C:\Users\gregb\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\formats\csvs.py", line 247, in save
+    with get_handle(
+         ^^^^^^^^^^^
+  File "C:\Users\gregb\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\common.py", line 863, in get_handle
+    handle = open(
+             ^^^^^
+PermissionError: [Errno 13] Permission denied: 'data\\processed\\train.csv'

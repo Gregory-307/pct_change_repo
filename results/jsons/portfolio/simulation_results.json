@@ -1,0 +1,6393 @@
+{
+  "total_return": 0.4762650764999979,
+  "sharpe_ratio": 2.201097792775303,
+  "max_drawdown": 0.06466167069331692,
+  "final_value": 1476265.0764999979,
+  "portfolio_values": [
+    1000000,
+    1000000,
+    997707.5599999999,
+    1021077.0499999999,
+    1045304.4799999999,
+    1047688.4299999999,
+    1053844.128,
+    1063097.7185,
+    1076618.1685,
+    1071925.6694999998,
+    1061395.0574999999,
+    1077158.2285,
+    1071984.0885,
+    1075914.7585,
+    1082500.9185,
+    1070606.5684999998,
+    1070219.8845,
+    1070673.4985,
+    1063799.7785,
+    1053764.7385,
+    1057921.6585,
+    1085322.5984999998,
+    1077644.3684999999,
+    1075264.6885,
+    1072190.4685,
+    1066403.4585,
+    1055878.4685,
+    1052335.3185,
+    1049855.2085,
+    1058404.0984999998,
+    1072102.0984999998,
+    1071230.7384999997,
+    1079163.2584999998,
+    1081728.1184999996,
+    1088535.6784999997,
+    1079494.0784999996,
+    1087565.8484999996,
+    1088971.2684999995,
+    1100126.3364999995,
+    1112517.8844999995,
+    1105886.5744999994,
+    1106747.9944999993,
+    1113145.5044999993,
+    1101883.4644999993,
+    1104863.7244999993,
+    1108011.9044999992,
+    1101187.3444999992,
+    1095422.0144999991,
+    1085995.779499999,
+    1081402.826499999,
+    1097631.448499999,
+    1094460.519499999,
+    1093845.459499999,
+    1091548.414499999,
+    1090203.996499999,
+    1087357.2344999989,
+    1107491.763499999,
+    1118171.3594999989,
+    1114116.044499999,
+    1092485.639499999,
+    1104693.341499999,
+    1105065.649499999,
+    1120505.651499999,
+    1115899.869499999,
+    1120312.7094999992,
+    1120841.9794999992,
+    1124875.2194999992,
+    1131513.9694999992,
+    1137286.629499999,
+    1134983.249499999,
+    1132898.059499999,
+    1131786.049499999,
+    1131660.949499999,
+    1145094.649499999,
+    1172800.3094999988,
+    1182798.1294999989,
+    1169411.979499999,
+    1172248.929499999,
+    1173538.269499999,
+    1175853.309499999,
+    1173807.6794999992,
+    1174519.6794999992,
+    1172814.9594999992,
+    1177226.9094999991,
+    1173263.5094999992,
+    1179523.9294999992,
+    1164281.049499999,
+    1157558.249499999,
+    1159651.989499999,
+    1145334.759499999,
+    1152623.659499999,
+    1138078.8294999988,
+    1139212.8694999989,
+    1147696.509499999,
+    1149052.659499999,
+    1150748.719499999,
+    1157604.749499999,
+    1291934.979499999,
+    1288622.1194999989,
+    1298056.679499999,
+    1280580.499499999,
+    1298046.499499999,
+    1269921.089499999,
+    1240730.969499999,
+    1240312.919499999,
+    1218092.1094999989,
+    1254220.2994999988,
+    1254240.1944999988,
+    1259740.8294999988,
+    1242373.4044999988,
+    1296719.4044999988,
+    1297080.7244999988,
+    1307686.6444999988,
+    1309390.8144999987,
+    1315891.7044999986,
+    1303077.2144999986,
+    1313229.5844999987,
+    1299540.9244999988,
+    1296421.8444999987,
+    1303187.9844999989,
+    1319384.9544999988,
+    1332616.4944999989,
+    1327719.2344999989,
+    1339644.8644999987,
+    1323387.5784999987,
+    1319946.8384999987,
+    1338817.6184999987,
+    1335008.7034999987,
+    1343850.7684999986,
+    1355864.5184999986,
+    1351692.6834999986,
+    1345870.8734999986,
+    1349959.7384999986,
+    1348130.1734999986,
+    1337614.5984999987,
+    1339723.2584999986,
+    1350858.6384999985,
+    1334260.2084999986,
+    1338086.6634999986,
+    1341641.9784999986,
+    1348796.8684999985,
+    1349990.0534999985,
+    1344996.0484999986,
+    1340934.7984999986,
+    1348654.0284999986,
+    1332575.5584999986,
+    1302495.6984999985,
+    1313346.4884999986,
+    1301477.2984999986,
+    1315550.8984999987,
+    1311600.2084999988,
+    1311192.6834999989,
+    1315750.668499999,
+    1289989.583499999,
+    1272546.233499999,
+    1277957.053499999,
+    1280147.403499999,
+    1284791.153499999,
+    1293167.153499999,
+    1282815.133499999,
+    1280151.353499999,
+    1269544.793499999,
+    1284156.4334999989,
+    1268192.053499999,
+    1273127.973499999,
+    1285483.1634999989,
+    1287359.8234999988,
+    1295138.9734999987,
+    1302430.8834999986,
+    1290609.3294999986,
+    1291019.2514999986,
+    1288634.2794999985,
+    1275710.0494999986,
+    1291146.8694999986,
+    1299983.4414999986,
+    1303412.4694999985,
+    1316762.6954999985,
+    1320257.7574999984,
+    1327247.0874999985,
+    1342347.9354999985,
+    1346851.4394999985,
+    1349724.0734999985,
+    1365322.1654999985,
+    1348691.4874999984,
+    1358520.2854999984,
+    1354625.0974999983,
+    1352053.2494999983,
+    1344377.2414999984,
+    1319155.9074999983,
+    1329149.9394999982,
+    1345571.7274999982,
+    1340889.5674999983,
+    1336955.5454999981,
+    1344704.0754999982,
+    1345600.1874999981,
+    1355888.4274999981,
+    1365727.617499998,
+    1372800.783499998,
+    1373698.503499998,
+    1388126.297499998,
+    1409858.6874999981,
+    1408616.157499998,
+    1407622.533499998,
+    1396380.365499998,
+    1414032.643499998,
+    1432515.8474999978,
+    1436071.653499998,
+    1428481.8434999979,
+    1438321.2014999979,
+    1445165.193499998,
+    1449322.953499998,
+    1482833.375499998,
+    1470045.177499998,
+    1477956.743499998,
+    1475463.457499998,
+    1486183.575499998,
+    1492056.655499998,
+    1495368.659499998,
+    1492779.619499998,
+    1492564.757499998,
+    1504148.868499998,
+    1515477.664499998,
+    1510997.5524999981,
+    1508761.6264999982,
+    1499615.4024999982,
+    1499071.3484999982,
+    1453683.9104999981,
+    1457651.830499998,
+    1467381.708499998,
+    1462631.162499998,
+    1460926.116499998,
+    1471126.612499998,
+    1473054.300499998,
+    1475620.656499998,
+    1474832.950499998,
+    1474563.616499998,
+    1470410.0604999978,
+    1479245.3004999978
+  ],
+  "trades": [
+    {
+      "date": "2019-01-02",
+      "ticker": "cBrain A/S",
+      "action": "buy",
+      "price": 19.85,
+      "shares": 5597
+    },
+    {
+      "date": "2019-01-02",
+      "ticker": "Asetek A/S",
+      "action": "buy",
+      "price": 44.35,
+      "shares": 2505
+    },
+    {
+      "date": "2019-01-02",
+      "ticker": "FastPassCorp A/S",
+      "action": "buy",
+      "price": 44.0,
+      "shares": 2525
+    },
+    {
+      "date": "2019-01-02",
+      "ticker": "Strategic Partners A/S",
+      "action": "buy",
+      "price": 44250.0,
+      "shares": 2
+    },
+    {
+      "date": "2019-01-02",
+      "ticker": "Nuevolution AB (publ)",
+      "action": "buy",
+      "price": 16.98,
+      "shares": 6543
+    },
+    {
+      "date": "2019-01-02",
+      "ticker": "Zealand Pharma A/S",
+      "action": "buy",
+      "price": 83.0,
+      "shares": 1338
+    },
+    {
+      "date": "2019-01-02",
+      "ticker": "Bavarian Nordic A/S",
+      "action": "buy",
+      "price": 133.1,
+      "shares": 834
+    },
+    {
+      "date": "2019-01-02",
+      "ticker": "Saniona AB (publ)",
+      "action": "buy",
+      "price": 32.2,
+      "shares": 3450
+    },
+    {
+      "date": "2019-01-02",
+      "ticker": "Netcompany Group A/S",
+      "action": "buy",
+      "price": 224.6,
+      "shares": 494
+    },
+    {
+      "date": "2019-01-03",
+      "ticker": "Nuevolution AB (publ)",
+      "action": "sell",
+      "price": 16.1,
+      "shares": 6543,
+      "pnl": -5757.839999999994
+    },
+    {
+      "date": "2019-01-03",
+      "ticker": "Nuevolution AB (publ)",
+      "action": "buy",
+      "price": 16.1,
+      "shares": 1652
+    },
+    {
+      "date": "2019-01-03",
+      "ticker": "MenuPay AB",
+      "action": "buy",
+      "price": 1.12,
+      "shares": 23754
+    },
+    {
+      "date": "2019-01-07",
+      "ticker": "FastPassCorp A/S",
+      "action": "buy",
+      "price": 44.0,
+      "shares": 470
+    },
+    {
+      "date": "2019-01-08",
+      "ticker": "Scape Technologies A/S",
+      "action": "buy",
+      "price": 8.04,
+      "shares": 2573
+    },
+    {
+      "date": "2019-01-09",
+      "ticker": "Asetek A/S",
+      "action": "sell",
+      "price": 41.95,
+      "shares": 2505,
+      "pnl": -6011.999999999996
+    },
+    {
+      "date": "2019-01-09",
+      "ticker": "Asetek A/S",
+      "action": "buy",
+      "price": 41.95,
+      "shares": 716
+    },
+    {
+      "date": "2019-01-09",
+      "ticker": "Hypefactors A/S",
+      "action": "buy",
+      "price": 3.0,
+      "shares": 10023
+    },
+    {
+      "date": "2019-01-10",
+      "ticker": "Hypefactors A/S",
+      "action": "sell",
+      "price": 4.6695,
+      "shares": 10023,
+      "pnl": 16733.398500000003
+    },
+    {
+      "date": "2019-01-10",
+      "ticker": "Wirtek A/S",
+      "action": "buy",
+      "price": 6.25,
+      "shares": 4574
+    },
+    {
+      "date": "2019-01-16",
+      "ticker": "Columbus A/S",
+      "action": "buy",
+      "price": 13.16,
+      "shares": 2172
+    },
+    {
+      "date": "2019-01-17",
+      "ticker": "Nuevolution AB (publ)",
+      "action": "sell",
+      "price": 15.26,
+      "shares": 1652,
+      "pnl": -1387.6800000000028
+    },
+    {
+      "date": "2019-01-17",
+      "ticker": "Nuevolution AB (publ)",
+      "action": "buy",
+      "price": 15.26,
+      "shares": 1849
+    },
+    {
+      "date": "2019-01-22",
+      "ticker": "Wirtek A/S",
+      "action": "buy",
+      "price": 6.25,
+      "shares": 4013
+    },
+    {
+      "date": "2019-01-24",
+      "ticker": "Wirtek A/S",
+      "action": "buy",
+      "price": 6.25,
+      "shares": 4013
+    },
+    {
+      "date": "2019-01-29",
+      "ticker": "Scape Technologies A/S",
+      "action": "sell",
+      "price": 12.9,
+      "shares": 2573,
+      "pnl": 12504.780000000002
+    },
+    {
+      "date": "2019-01-29",
+      "ticker": "FastPassCorp A/S",
+      "action": "buy",
+      "price": 45.0,
+      "shares": 638
+    },
+    {
+      "date": "2019-01-30",
+      "ticker": "Saniona AB (publ)",
+      "action": "sell",
+      "price": 30.2,
+      "shares": 3450,
+      "pnl": -6900.000000000012
+    },
+    {
+      "date": "2019-01-30",
+      "ticker": "Nuevolution AB (publ)",
+      "action": "sell",
+      "price": 14.48,
+      "shares": 1849,
+      "pnl": -1442.219999999999
+    },
+    {
+      "date": "2019-01-30",
+      "ticker": "Nuevolution AB (publ)",
+      "action": "buy",
+      "price": 14.48,
+      "shares": 3243
+    },
+    {
+      "date": "2019-01-30",
+      "ticker": "Saniona AB (publ)",
+      "action": "buy",
+      "price": 30.2,
+      "shares": 1555
+    },
+    {
+      "date": "2019-01-30",
+      "ticker": "Genmab A/S",
+      "action": "buy",
+      "price": 954.8,
+      "shares": 49
+    },
+    {
+      "date": "2019-01-31",
+      "ticker": "MenuPay AB",
+      "action": "buy",
+      "price": 1.28,
+      "shares": 24480
+    },
+    {
+      "date": "2019-01-31",
+      "ticker": "BioPorto A/S",
+      "action": "buy",
+      "price": 3.875,
+      "shares": 8086
+    },
+    {
+      "date": "2019-01-31",
+      "ticker": "FastPassCorp A/S",
+      "action": "buy",
+      "price": 53.0,
+      "shares": 591
+    },
+    {
+      "date": "2019-02-01",
+      "ticker": "Wirtek A/S",
+      "action": "buy",
+      "price": 6.0,
+      "shares": 3481
+    },
+    {
+      "date": "2019-02-04",
+      "ticker": "FastPassCorp A/S",
+      "action": "sell",
+      "price": 47.0,
+      "shares": 591,
+      "pnl": -3546.0
+    },
+    {
+      "date": "2019-02-04",
+      "ticker": "FastPassCorp A/S",
+      "action": "buy",
+      "price": 47.0,
+      "shares": 460
+    },
+    {
+      "date": "2019-02-05",
+      "ticker": "Nuevolution AB (publ)",
+      "action": "sell",
+      "price": 13.54,
+      "shares": 3243,
+      "pnl": -3048.420000000004
+    },
+    {
+      "date": "2019-02-05",
+      "ticker": "MenuPay AB",
+      "action": "sell",
+      "price": 1.21,
+      "shares": 24480,
+      "pnl": -1713.6000000000015
+    },
+    {
+      "date": "2019-02-05",
+      "ticker": "Nuevolution AB (publ)",
+      "action": "buy",
+      "price": 13.54,
+      "shares": 2374
+    },
+    {
+      "date": "2019-02-05",
+      "ticker": "MenuPay AB",
+      "action": "buy",
+      "price": 1.21,
+      "shares": 26568
+    },
+    {
+      "date": "2019-02-05",
+      "ticker": "NNIT A/S",
+      "action": "buy",
+      "price": 190.0,
+      "shares": 169
+    },
+    {
+      "date": "2019-02-06",
+      "ticker": "Netcompany Group A/S",
+      "action": "sell",
+      "price": 205.8,
+      "shares": 494,
+      "pnl": -9287.199999999992
+    },
+    {
+      "date": "2019-02-06",
+      "ticker": "Netcompany Group A/S",
+      "action": "buy",
+      "price": 205.8,
+      "shares": 159
+    },
+    {
+      "date": "2019-02-06",
+      "ticker": "Wirtek A/S",
+      "action": "buy",
+      "price": 5.9,
+      "shares": 5547
+    },
+    {
+      "date": "2019-02-08",
+      "ticker": "Wirtek A/S",
+      "action": "buy",
+      "price": 5.9,
+      "shares": 4931
+    },
+    {
+      "date": "2019-02-13",
+      "ticker": "FastPassCorp A/S",
+      "action": "buy",
+      "price": 45.4,
+      "shares": 569
+    },
+    {
+      "date": "2019-02-20",
+      "ticker": "Saniona AB (publ)",
+      "action": "sell",
+      "price": 28.6,
+      "shares": 1555,
+      "pnl": -2487.999999999997
+    },
+    {
+      "date": "2019-02-20",
+      "ticker": "Saniona AB (publ)",
+      "action": "buy",
+      "price": 28.6,
+      "shares": 1347
+    },
+    {
+      "date": "2019-02-20",
+      "ticker": "Scape Technologies A/S",
+      "action": "buy",
+      "price": 17.0,
+      "shares": 2267
+    },
+    {
+      "date": "2019-02-20",
+      "ticker": "Seluxit A/S",
+      "action": "buy",
+      "price": 11.756,
+      "shares": 3279
+    },
+    {
+      "date": "2019-02-20",
+      "ticker": "MenuPay AB",
+      "action": "buy",
+      "price": 1.28,
+      "shares": 30115
+    },
+    {
+      "date": "2019-02-21",
+      "ticker": "Wirtek A/S",
+      "action": "buy",
+      "price": 6.75,
+      "shares": 3173
+    },
+    {
+      "date": "2019-02-25",
+      "ticker": "Nuevolution AB (publ)",
+      "action": "sell",
+      "price": 12.38,
+      "shares": 2374,
+      "pnl": -2753.839999999996
+    },
+    {
+      "date": "2019-02-25",
+      "ticker": "Nuevolution AB (publ)",
+      "action": "buy",
+      "price": 12.38,
+      "shares": 1993
+    },
+    {
+      "date": "2019-02-25",
+      "ticker": "FastPassCorp A/S",
+      "action": "buy",
+      "price": 45.0,
+      "shares": 548
+    },
+    {
+      "date": "2019-02-25",
+      "ticker": "Wirtek A/S",
+      "action": "buy",
+      "price": 6.7,
+      "shares": 3684
+    },
+    {
+      "date": "2019-02-26",
+      "ticker": "Conferize A/S",
+      "action": "buy",
+      "price": 7.75,
+      "shares": 2477
+    },
+    {
+      "date": "2019-02-28",
+      "ticker": "Nuevolution AB (publ)",
+      "action": "sell",
+      "price": 11.7,
+      "shares": 1993,
+      "pnl": -1355.240000000003
+    },
+    {
+      "date": "2019-02-28",
+      "ticker": "Nuevolution AB (publ)",
+      "action": "buy",
+      "price": 11.7,
+      "shares": 1680
+    },
+    {
+      "date": "2019-03-01",
+      "ticker": "FastPassCorp A/S",
+      "action": "buy",
+      "price": 47.0,
+      "shares": 429
+    },
+    {
+      "date": "2019-03-04",
+      "ticker": "Wirtek A/S",
+      "action": "buy",
+      "price": 6.6,
+      "shares": 2717
+    },
+    {
+      "date": "2019-03-05",
+      "ticker": "Nuevolution AB (publ)",
+      "action": "sell",
+      "price": 11.0,
+      "shares": 1680,
+      "pnl": -1175.9999999999989
+    },
+    {
+      "date": "2019-03-05",
+      "ticker": "Nuevolution AB (publ)",
+      "action": "buy",
+      "price": 11.0,
+      "shares": 2033
+    },
+    {
+      "date": "2019-03-06",
+      "ticker": "Asetek A/S",
+      "action": "sell",
+      "price": 38.9,
+      "shares": 716,
+      "pnl": -2183.800000000003
+    },
+    {
+      "date": "2019-03-06",
+      "ticker": "Conferize A/S",
+      "action": "sell",
+      "price": 7.35,
+      "shares": 2477,
+      "pnl": -990.8000000000009
+    },
+    {
+      "date": "2019-03-06",
+      "ticker": "Asetek A/S",
+      "action": "buy",
+      "price": 38.9,
+      "shares": 642
+    },
+    {
+      "date": "2019-03-06",
+      "ticker": "Conferize A/S",
+      "action": "buy",
+      "price": 7.35,
+      "shares": 3402
+    },
+    {
+      "date": "2019-03-06",
+      "ticker": "Wirtek A/S",
+      "action": "buy",
+      "price": 6.6,
+      "shares": 3788
+    },
+    {
+      "date": "2019-03-07",
+      "ticker": "Saniona AB (publ)",
+      "action": "sell",
+      "price": 27.0,
+      "shares": 1347,
+      "pnl": -2155.200000000002
+    },
+    {
+      "date": "2019-03-07",
+      "ticker": "Asetek A/S",
+      "action": "sell",
+      "price": 33.95,
+      "shares": 642,
+      "pnl": -3177.8999999999974
+    },
+    {
+      "date": "2019-03-07",
+      "ticker": "Asetek A/S",
+      "action": "buy",
+      "price": 33.95,
+      "shares": 763
+    },
+    {
+      "date": "2019-03-07",
+      "ticker": "Saniona AB (publ)",
+      "action": "buy",
+      "price": 27.0,
+      "shares": 959
+    },
+    {
+      "date": "2019-03-07",
+      "ticker": "Agillic A/S",
+      "action": "buy",
+      "price": 27.01,
+      "shares": 959
+    },
+    {
+      "date": "2019-03-08",
+      "ticker": "NNIT A/S",
+      "action": "sell",
+      "price": 178.8,
+      "shares": 169,
+      "pnl": -1892.7999999999981
+    },
+    {
+      "date": "2019-03-08",
+      "ticker": "Wirtek A/S",
+      "action": "buy",
+      "price": 6.6,
+      "shares": 4386
+    },
+    {
+      "date": "2019-03-11",
+      "ticker": "Agillic A/S",
+      "action": "sell",
+      "price": 25.5,
+      "shares": 959,
+      "pnl": -1448.0900000000015
+    },
+    {
+      "date": "2019-03-11",
+      "ticker": "FastPassCorp A/S",
+      "action": "buy",
+      "price": 45.0,
+      "shares": 632
+    },
+    {
+      "date": "2019-03-11",
+      "ticker": "MenuPay AB",
+      "action": "buy",
+      "price": 1.65,
+      "shares": 17245
+    },
+    {
+      "date": "2019-03-11",
+      "ticker": "Agillic A/S",
+      "action": "buy",
+      "price": 25.5,
+      "shares": 1115
+    },
+    {
+      "date": "2019-03-12",
+      "ticker": "Conferize A/S",
+      "action": "buy",
+      "price": 7.14,
+      "shares": 2657
+    },
+    {
+      "date": "2019-03-18",
+      "ticker": "Conferize A/S",
+      "action": "buy",
+      "price": 7.17,
+      "shares": 3134
+    },
+    {
+      "date": "2019-03-19",
+      "ticker": "Columbus A/S",
+      "action": "sell",
+      "price": 12.46,
+      "shares": 2172,
+      "pnl": -1520.3999999999985
+    },
+    {
+      "date": "2019-03-19",
+      "ticker": "Asetek A/S",
+      "action": "sell",
+      "price": 31.95,
+      "shares": 763,
+      "pnl": -1526.0000000000027
+    },
+    {
+      "date": "2019-03-19",
+      "ticker": "Wirtek A/S",
+      "action": "sell",
+      "price": 6.15,
+      "shares": 4386,
+      "pnl": -1973.6999999999969
+    },
+    {
+      "date": "2019-03-19",
+      "ticker": "Asetek A/S",
+      "action": "buy",
+      "price": 31.95,
+      "shares": 1011
+    },
+    {
+      "date": "2019-03-19",
+      "ticker": "Columbus A/S",
+      "action": "buy",
+      "price": 12.46,
+      "shares": 2594
+    },
+    {
+      "date": "2019-03-19",
+      "ticker": "Wirtek A/S",
+      "action": "buy",
+      "price": 6.15,
+      "shares": 5257
+    },
+    {
+      "date": "2019-03-19",
+      "ticker": "Hypefactors A/S",
+      "action": "buy",
+      "price": 4.84,
+      "shares": 6680
+    },
+    {
+      "date": "2019-03-20",
+      "ticker": "NNIT A/S",
+      "action": "buy",
+      "price": 177.6,
+      "shares": 101
+    },
+    {
+      "date": "2019-03-21",
+      "ticker": "Asetek A/S",
+      "action": "sell",
+      "price": 30.0,
+      "shares": 1011,
+      "pnl": -1971.4499999999994
+    },
+    {
+      "date": "2019-03-21",
+      "ticker": "Asetek A/S",
+      "action": "buy",
+      "price": 30.0,
+      "shares": 755
+    },
+    {
+      "date": "2019-03-21",
+      "ticker": "MenuPay AB",
+      "action": "buy",
+      "price": 1.88,
+      "shares": 12054
+    },
+    {
+      "date": "2019-03-26",
+      "ticker": "MenuPay AB",
+      "action": "buy",
+      "price": 1.75,
+      "shares": 13479
+    },
+    {
+      "date": "2019-03-27",
+      "ticker": "Conferize A/S",
+      "action": "sell",
+      "price": 6.79,
+      "shares": 3134,
+      "pnl": -1190.9199999999996
+    },
+    {
+      "date": "2019-03-27",
+      "ticker": "Columbus A/S",
+      "action": "sell",
+      "price": 11.76,
+      "shares": 2594,
+      "pnl": -1815.8000000000027
+    },
+    {
+      "date": "2019-03-27",
+      "ticker": "Columbus A/S",
+      "action": "buy",
+      "price": 11.76,
+      "shares": 2272
+    },
+    {
+      "date": "2019-03-27",
+      "ticker": "Conferize A/S",
+      "action": "buy",
+      "price": 6.79,
+      "shares": 3935
+    },
+    {
+      "date": "2019-03-29",
+      "ticker": "Agillic A/S",
+      "action": "buy",
+      "price": 28.0,
+      "shares": 742
+    },
+    {
+      "date": "2019-04-02",
+      "ticker": "MenuPay AB",
+      "action": "buy",
+      "price": 2.0,
+      "shares": 10510
+    },
+    {
+      "date": "2019-04-03",
+      "ticker": "FastPassCorp A/S",
+      "action": "buy",
+      "price": 45.4,
+      "shares": 411
+    },
+    {
+      "date": "2019-04-04",
+      "ticker": "Zealand Pharma A/S",
+      "action": "sell",
+      "price": 125.9,
+      "shares": 1338,
+      "pnl": 57400.200000000004
+    },
+    {
+      "date": "2019-04-05",
+      "ticker": "Wirtek A/S",
+      "action": "buy",
+      "price": 6.15,
+      "shares": 6333
+    },
+    {
+      "date": "2019-04-09",
+      "ticker": "Zealand Pharma A/S",
+      "action": "buy",
+      "price": 127.0,
+      "shares": 309
+    },
+    {
+      "date": "2019-04-10",
+      "ticker": "MenuPay AB",
+      "action": "buy",
+      "price": 2.07,
+      "shares": 16866
+    },
+    {
+      "date": "2019-04-15",
+      "ticker": "cBrain A/S",
+      "action": "sell",
+      "price": 30.5,
+      "shares": 5597,
+      "pnl": 59608.049999999996
+    },
+    {
+      "date": "2019-04-17",
+      "ticker": "MenuPay AB",
+      "action": "sell",
+      "price": 1.84,
+      "shares": 16866,
+      "pnl": -3879.1799999999957
+    },
+    {
+      "date": "2019-04-24",
+      "ticker": "Conferize A/S",
+      "action": "sell",
+      "price": 6.44,
+      "shares": 3935,
+      "pnl": -1377.2499999999986
+    },
+    {
+      "date": "2019-04-24",
+      "ticker": "Conferize A/S",
+      "action": "buy",
+      "price": 6.44,
+      "shares": 9812
+    },
+    {
+      "date": "2019-04-24",
+      "ticker": "Wirtek A/S",
+      "action": "buy",
+      "price": 6.35,
+      "shares": 9951
+    },
+    {
+      "date": "2019-04-25",
+      "ticker": "Conferize A/S",
+      "action": "sell",
+      "price": 6.1,
+      "shares": 9812,
+      "pnl": -3336.080000000007
+    },
+    {
+      "date": "2019-04-25",
+      "ticker": "Conferize A/S",
+      "action": "buy",
+      "price": 6.1,
+      "shares": 9147
+    },
+    {
+      "date": "2019-04-26",
+      "ticker": "Conferize A/S",
+      "action": "sell",
+      "price": 5.46,
+      "shares": 9147,
+      "pnl": -5854.079999999997
+    },
+    {
+      "date": "2019-04-26",
+      "ticker": "Conferize A/S",
+      "action": "buy",
+      "price": 5.46,
+      "shares": 10100
+    },
+    {
+      "date": "2019-04-26",
+      "ticker": "FastPassCorp A/S",
+      "action": "buy",
+      "price": 44.0,
+      "shares": 1253
+    },
+    {
+      "date": "2019-05-02",
+      "ticker": "Nuevolution AB (publ)",
+      "action": "buy",
+      "price": 12.1,
+      "shares": 5405
+    },
+    {
+      "date": "2019-05-02",
+      "ticker": "Saniona AB (publ)",
+      "action": "buy",
+      "price": 25.6,
+      "shares": 2554
+    },
+    {
+      "date": "2019-05-03",
+      "ticker": "Asetek A/S",
+      "action": "buy",
+      "price": 34.8,
+      "shares": 1461
+    },
+    {
+      "date": "2019-05-03",
+      "ticker": "FastPassCorp A/S",
+      "action": "buy",
+      "price": 45.0,
+      "shares": 1130
+    },
+    {
+      "date": "2019-05-06",
+      "ticker": "Wirtek A/S",
+      "action": "buy",
+      "price": 6.7,
+      "shares": 6750
+    },
+    {
+      "date": "2019-05-08",
+      "ticker": "Asetek A/S",
+      "action": "sell",
+      "price": 33.05,
+      "shares": 1461,
+      "pnl": -2556.75
+    },
+    {
+      "date": "2019-05-08",
+      "ticker": "Asetek A/S",
+      "action": "buy",
+      "price": 33.05,
+      "shares": 1378
+    },
+    {
+      "date": "2019-05-09",
+      "ticker": "NNIT A/S",
+      "action": "sell",
+      "price": 156.2,
+      "shares": 101,
+      "pnl": -2161.4000000000005
+    },
+    {
+      "date": "2019-05-09",
+      "ticker": "NNIT A/S",
+      "action": "buy",
+      "price": 156.2,
+      "shares": 270
+    },
+    {
+      "date": "2019-05-10",
+      "ticker": "FastPassCorp A/S",
+      "action": "buy",
+      "price": 44.0,
+      "shares": 966
+    },
+    {
+      "date": "2019-05-13",
+      "ticker": "NNIT A/S",
+      "action": "sell",
+      "price": 148.2,
+      "shares": 270,
+      "pnl": -2160.0
+    },
+    {
+      "date": "2019-05-13",
+      "ticker": "Wirtek A/S",
+      "action": "buy",
+      "price": 6.45,
+      "shares": 6549
+    },
+    {
+      "date": "2019-05-13",
+      "ticker": "NNIT A/S",
+      "action": "buy",
+      "price": 148.2,
+      "shares": 285
+    },
+    {
+      "date": "2019-05-15",
+      "ticker": "NNIT A/S",
+      "action": "sell",
+      "price": 139.4,
+      "shares": 285,
+      "pnl": -2507.999999999995
+    },
+    {
+      "date": "2019-05-15",
+      "ticker": "NNIT A/S",
+      "action": "buy",
+      "price": 139.4,
+      "shares": 267
+    },
+    {
+      "date": "2019-05-16",
+      "ticker": "Scape Technologies A/S",
+      "action": "sell",
+      "price": 16.14,
+      "shares": 2267,
+      "pnl": -1949.6199999999988
+    },
+    {
+      "date": "2019-05-16",
+      "ticker": "Agillic A/S",
+      "action": "buy",
+      "price": 25.6,
+      "shares": 1637
+    },
+    {
+      "date": "2019-05-16",
+      "ticker": "Hypefactors A/S",
+      "action": "buy",
+      "price": 4.31,
+      "shares": 9728
+    },
+    {
+      "date": "2019-05-20",
+      "ticker": "NNIT A/S",
+      "action": "sell",
+      "price": 131.6,
+      "shares": 267,
+      "pnl": -2082.600000000003
+    },
+    {
+      "date": "2019-05-20",
+      "ticker": "Hypefactors A/S",
+      "action": "sell",
+      "price": 3.91,
+      "shares": 9728,
+      "pnl": -3891.199999999995
+    },
+    {
+      "date": "2019-05-20",
+      "ticker": "NNIT A/S",
+      "action": "buy",
+      "price": 131.6,
+      "shares": 309
+    },
+    {
+      "date": "2019-05-20",
+      "ticker": "Hypefactors A/S",
+      "action": "buy",
+      "price": 3.91,
+      "shares": 10420
+    },
+    {
+      "date": "2019-05-20",
+      "ticker": "SimCorp A/S",
+      "action": "buy",
+      "price": 603.5,
+      "shares": 67
+    },
+    {
+      "date": "2019-05-22",
+      "ticker": "Nuevolution AB (publ)",
+      "action": "sell",
+      "price": 32.2,
+      "shares": 5405,
+      "pnl": 108640.50000000001
+    },
+    {
+      "date": "2019-05-22",
+      "ticker": "MenuPay AB",
+      "action": "buy",
+      "price": 1.61,
+      "shares": 34748
+    },
+    {
+      "date": "2019-05-23",
+      "ticker": "Wirtek A/S",
+      "action": "buy",
+      "price": 6.7,
+      "shares": 9344
+    },
+    {
+      "date": "2019-05-23",
+      "ticker": "Scape Technologies A/S",
+      "action": "buy",
+      "price": 15.12,
+      "shares": 4140
+    },
+    {
+      "date": "2019-05-24",
+      "ticker": "Conferize A/S",
+      "action": "buy",
+      "price": 5.88,
+      "shares": 9465
+    },
+    {
+      "date": "2019-05-27",
+      "ticker": "Conferize A/S",
+      "action": "sell",
+      "price": 5.38,
+      "shares": 9465,
+      "pnl": -4732.5
+    },
+    {
+      "date": "2019-05-27",
+      "ticker": "Wirtek A/S",
+      "action": "buy",
+      "price": 6.6,
+      "shares": 8353
+    },
+    {
+      "date": "2019-05-27",
+      "ticker": "Conferize A/S",
+      "action": "buy",
+      "price": 5.38,
+      "shares": 10247
+    },
+    {
+      "date": "2019-05-29",
+      "ticker": "Saniona AB (publ)",
+      "action": "sell",
+      "price": 22.6,
+      "shares": 2554,
+      "pnl": -7662.0
+    },
+    {
+      "date": "2019-05-29",
+      "ticker": "Conferize A/S",
+      "action": "sell",
+      "price": 4.99,
+      "shares": 10247,
+      "pnl": -3996.3299999999967
+    },
+    {
+      "date": "2019-05-29",
+      "ticker": "Conferize A/S",
+      "action": "buy",
+      "price": 4.99,
+      "shares": 11982
+    },
+    {
+      "date": "2019-05-29",
+      "ticker": "Saniona AB (publ)",
+      "action": "buy",
+      "price": 22.6,
+      "shares": 2645
+    },
+    {
+      "date": "2019-06-03",
+      "ticker": "NNIT A/S",
+      "action": "sell",
+      "price": 123.4,
+      "shares": 309,
+      "pnl": -2533.7999999999965
+    },
+    {
+      "date": "2019-06-03",
+      "ticker": "Conferize A/S",
+      "action": "sell",
+      "price": 4.26,
+      "shares": 11982,
+      "pnl": -8746.860000000004
+    },
+    {
+      "date": "2019-06-03",
+      "ticker": "NNIT A/S",
+      "action": "buy",
+      "price": 123.4,
+      "shares": 457
+    },
+    {
+      "date": "2019-06-03",
+      "ticker": "Conferize A/S",
+      "action": "buy",
+      "price": 4.26,
+      "shares": 13243
+    },
+    {
+      "date": "2019-06-04",
+      "ticker": "Seluxit A/S",
+      "action": "sell",
+      "price": 10.55,
+      "shares": 3279,
+      "pnl": -3954.4739999999983
+    },
+    {
+      "date": "2019-06-04",
+      "ticker": "Saniona AB (publ)",
+      "action": "sell",
+      "price": 21.3,
+      "shares": 2645,
+      "pnl": -3438.500000000002
+    },
+    {
+      "date": "2019-06-04",
+      "ticker": "Seluxit A/S",
+      "action": "buy",
+      "price": 10.55,
+      "shares": 5117
+    },
+    {
+      "date": "2019-06-04",
+      "ticker": "Saniona AB (publ)",
+      "action": "buy",
+      "price": 21.3,
+      "shares": 2534
+    },
+    {
+      "date": "2019-06-06",
+      "ticker": "Conferize A/S",
+      "action": "sell",
+      "price": 2.9,
+      "shares": 13243,
+      "pnl": -18010.48
+    },
+    {
+      "date": "2019-06-06",
+      "ticker": "Conferize A/S",
+      "action": "buy",
+      "price": 2.9,
+      "shares": 18019
+    },
+    {
+      "date": "2019-06-06",
+      "ticker": "FastPassCorp A/S",
+      "action": "buy",
+      "price": 38.0,
+      "shares": 1375
+    },
+    {
+      "date": "2019-06-07",
+      "ticker": "Conferize A/S",
+      "action": "sell",
+      "price": 4.45,
+      "shares": 18019,
+      "pnl": 27929.450000000004
+    },
+    {
+      "date": "2019-06-07",
+      "ticker": "Saniona AB (publ)",
+      "action": "buy",
+      "price": 20.6,
+      "shares": 2687
+    },
+    {
+      "date": "2019-06-07",
+      "ticker": "MenuPay AB",
+      "action": "buy",
+      "price": 1.33,
+      "shares": 41623
+    },
+    {
+      "date": "2019-06-11",
+      "ticker": "Saniona AB (publ)",
+      "action": "sell",
+      "price": 19.02,
+      "shares": 2687,
+      "pnl": -4245.460000000005
+    },
+    {
+      "date": "2019-06-11",
+      "ticker": "Conferize A/S",
+      "action": "buy",
+      "price": 1.66,
+      "shares": 29359
+    },
+    {
+      "date": "2019-06-11",
+      "ticker": "Saniona AB (publ)",
+      "action": "buy",
+      "price": 19.02,
+      "shares": 2562
+    },
+    {
+      "date": "2019-06-12",
+      "ticker": "Asetek A/S",
+      "action": "sell",
+      "price": 30.8,
+      "shares": 1378,
+      "pnl": -3100.499999999995
+    },
+    {
+      "date": "2019-06-12",
+      "ticker": "Asetek A/S",
+      "action": "buy",
+      "price": 30.8,
+      "shares": 1591
+    },
+    {
+      "date": "2019-06-12",
+      "ticker": "Konsolidator A/S",
+      "action": "buy",
+      "price": 9.5,
+      "shares": 5160
+    },
+    {
+      "date": "2019-06-13",
+      "ticker": "Conferize A/S",
+      "action": "sell",
+      "price": 1.26,
+      "shares": 29359,
+      "pnl": -11743.599999999997
+    },
+    {
+      "date": "2019-06-13",
+      "ticker": "Konsolidator A/S",
+      "action": "sell",
+      "price": 9.0,
+      "shares": 5160,
+      "pnl": -2580.0
+    },
+    {
+      "date": "2019-06-13",
+      "ticker": "Conferize A/S",
+      "action": "buy",
+      "price": 1.26,
+      "shares": 37624
+    },
+    {
+      "date": "2019-06-14",
+      "ticker": "Conferize A/S",
+      "action": "sell",
+      "price": 2.75,
+      "shares": 37624,
+      "pnl": 56059.76
+    },
+    {
+      "date": "2019-06-14",
+      "ticker": "Konsolidator A/S",
+      "action": "buy",
+      "price": 9.0,
+      "shares": 5959
+    },
+    {
+      "date": "2019-06-14",
+      "ticker": "MenuPay AB",
+      "action": "buy",
+      "price": 1.48,
+      "shares": 36240
+    },
+    {
+      "date": "2019-06-18",
+      "ticker": "Seluxit A/S",
+      "action": "sell",
+      "price": 10.0,
+      "shares": 5117,
+      "pnl": -2814.3500000000035
+    },
+    {
+      "date": "2019-06-18",
+      "ticker": "Asetek A/S",
+      "action": "sell",
+      "price": 28.0,
+      "shares": 1591,
+      "pnl": -4454.800000000001
+    },
+    {
+      "date": "2019-06-18",
+      "ticker": "Asetek A/S",
+      "action": "buy",
+      "price": 28.0,
+      "shares": 1869
+    },
+    {
+      "date": "2019-06-18",
+      "ticker": "Seluxit A/S",
+      "action": "buy",
+      "price": 10.0,
+      "shares": 5235
+    },
+    {
+      "date": "2019-06-19",
+      "ticker": "Seluxit A/S",
+      "action": "sell",
+      "price": 9.5,
+      "shares": 5235,
+      "pnl": -2617.5
+    },
+    {
+      "date": "2019-06-19",
+      "ticker": "Seluxit A/S",
+      "action": "buy",
+      "price": 9.5,
+      "shares": 5532
+    },
+    {
+      "date": "2019-06-19",
+      "ticker": "Conferize A/S",
+      "action": "buy",
+      "price": 1.93,
+      "shares": 27232
+    },
+    {
+      "date": "2019-06-21",
+      "ticker": "Wirtek A/S",
+      "action": "buy",
+      "price": 6.8,
+      "shares": 7841
+    },
+    {
+      "date": "2019-06-21",
+      "ticker": "Hypefactors A/S",
+      "action": "buy",
+      "price": 4.0,
+      "shares": 13330
+    },
+    {
+      "date": "2019-06-24",
+      "ticker": "Saniona AB (publ)",
+      "action": "buy",
+      "price": 19.36,
+      "shares": 2448
+    },
+    {
+      "date": "2019-06-25",
+      "ticker": "Hypefactors A/S",
+      "action": "buy",
+      "price": 4.2,
+      "shares": 11442
+    },
+    {
+      "date": "2019-06-26",
+      "ticker": "Asetek A/S",
+      "action": "sell",
+      "price": 25.95,
+      "shares": 1869,
+      "pnl": -3831.450000000001
+    },
+    {
+      "date": "2019-06-26",
+      "ticker": "Asetek A/S",
+      "action": "buy",
+      "price": 25.95,
+      "shares": 2059
+    },
+    {
+      "date": "2019-06-26",
+      "ticker": "Wirtek A/S",
+      "action": "buy",
+      "price": 6.75,
+      "shares": 7918
+    },
+    {
+      "date": "2019-06-27",
+      "ticker": "Hypefactors A/S",
+      "action": "buy",
+      "price": 3.91,
+      "shares": 12150
+    },
+    {
+      "date": "2019-06-28",
+      "ticker": "Wirtek A/S",
+      "action": "buy",
+      "price": 6.75,
+      "shares": 6256
+    },
+    {
+      "date": "2019-07-02",
+      "ticker": "Conferize A/S",
+      "action": "sell",
+      "price": 1.82,
+      "shares": 27232,
+      "pnl": -2995.519999999997
+    },
+    {
+      "date": "2019-07-02",
+      "ticker": "Conferize A/S",
+      "action": "buy",
+      "price": 1.82,
+      "shares": 26581
+    },
+    {
+      "date": "2019-07-04",
+      "ticker": "NNIT A/S",
+      "action": "sell",
+      "price": 110.2,
+      "shares": 457,
+      "pnl": -6032.4000000000015
+    },
+    {
+      "date": "2019-07-04",
+      "ticker": "Conferize A/S",
+      "action": "sell",
+      "price": 0.964,
+      "shares": 26581,
+      "pnl": -22753.336000000003
+    },
+    {
+      "date": "2019-07-04",
+      "ticker": "NNIT A/S",
+      "action": "buy",
+      "price": 110.2,
+      "shares": 466
+    },
+    {
+      "date": "2019-07-05",
+      "ticker": "Conferize A/S",
+      "action": "buy",
+      "price": 1.075,
+      "shares": 47043
+    },
+    {
+      "date": "2019-07-05",
+      "ticker": "FastPassCorp A/S",
+      "action": "buy",
+      "price": 39.0,
+      "shares": 1296
+    },
+    {
+      "date": "2019-07-08",
+      "ticker": "Konsolidator A/S",
+      "action": "sell",
+      "price": 14.1,
+      "shares": 5959,
+      "pnl": 30390.899999999998
+    },
+    {
+      "date": "2019-07-08",
+      "ticker": "Wirtek A/S",
+      "action": "buy",
+      "price": 7.05,
+      "shares": 6903
+    },
+    {
+      "date": "2019-07-08",
+      "ticker": "Hypefactors A/S",
+      "action": "buy",
+      "price": 3.8,
+      "shares": 12808
+    },
+    {
+      "date": "2019-07-09",
+      "ticker": "MenuPay AB",
+      "action": "buy",
+      "price": 1.41,
+      "shares": 34519
+    },
+    {
+      "date": "2019-07-10",
+      "ticker": "Wirtek A/S",
+      "action": "buy",
+      "price": 7.1,
+      "shares": 6093
+    },
+    {
+      "date": "2019-07-10",
+      "ticker": "Hypefactors A/S",
+      "action": "buy",
+      "price": 3.79,
+      "shares": 11415
+    },
+    {
+      "date": "2019-07-11",
+      "ticker": "Enalyzer A/S",
+      "action": "buy",
+      "price": 3.62,
+      "shares": 10863
+    },
+    {
+      "date": "2019-07-12",
+      "ticker": "Hypefactors A/S",
+      "action": "sell",
+      "price": 3.48,
+      "shares": 11415,
+      "pnl": -3538.6500000000005
+    },
+    {
+      "date": "2019-07-12",
+      "ticker": "Hypefactors A/S",
+      "action": "buy",
+      "price": 3.48,
+      "shares": 14138
+    },
+    {
+      "date": "2019-07-12",
+      "ticker": "FastPassCorp A/S",
+      "action": "buy",
+      "price": 39.4,
+      "shares": 1248
+    },
+    {
+      "date": "2019-07-15",
+      "ticker": "BioPorto A/S",
+      "action": "sell",
+      "price": 3.18,
+      "shares": 8086,
+      "pnl": -5619.769999999999
+    },
+    {
+      "date": "2019-07-15",
+      "ticker": "BioPorto A/S",
+      "action": "buy",
+      "price": 3.18,
+      "shares": 16371
+    },
+    {
+      "date": "2019-07-15",
+      "ticker": "MenuPay AB",
+      "action": "buy",
+      "price": 1.41,
+      "shares": 36922
+    },
+    {
+      "date": "2019-07-16",
+      "ticker": "Saniona AB (publ)",
+      "action": "sell",
+      "price": 18.22,
+      "shares": 2448,
+      "pnl": -2790.720000000001
+    },
+    {
+      "date": "2019-07-16",
+      "ticker": "Saniona AB (publ)",
+      "action": "buy",
+      "price": 18.22,
+      "shares": 2811
+    },
+    {
+      "date": "2019-07-16",
+      "ticker": "Agillic A/S",
+      "action": "buy",
+      "price": 28.1,
+      "shares": 1823
+    },
+    {
+      "date": "2019-07-18",
+      "ticker": "NNIT A/S",
+      "action": "sell",
+      "price": 104.6,
+      "shares": 466,
+      "pnl": -2609.600000000004
+    },
+    {
+      "date": "2019-07-18",
+      "ticker": "Conferize A/S",
+      "action": "sell",
+      "price": 0.99,
+      "shares": 47043,
+      "pnl": -3998.6549999999984
+    },
+    {
+      "date": "2019-07-18",
+      "ticker": "NNIT A/S",
+      "action": "buy",
+      "price": 104.6,
+      "shares": 482
+    },
+    {
+      "date": "2019-07-18",
+      "ticker": "Hypefactors A/S",
+      "action": "buy",
+      "price": 3.5,
+      "shares": 14411
+    },
+    {
+      "date": "2019-07-18",
+      "ticker": "MenuPay AB",
+      "action": "buy",
+      "price": 1.42,
+      "shares": 35521
+    },
+    {
+      "date": "2019-07-22",
+      "ticker": "Hypefactors A/S",
+      "action": "buy",
+      "price": 3.22,
+      "shares": 15497
+    },
+    {
+      "date": "2019-07-22",
+      "ticker": "FastPassCorp A/S",
+      "action": "buy",
+      "price": 40.0,
+      "shares": 1247
+    },
+    {
+      "date": "2019-07-23",
+      "ticker": "Wirtek A/S",
+      "action": "buy",
+      "price": 7.1,
+      "shares": 7812
+    },
+    {
+      "date": "2019-07-23",
+      "ticker": "Agillic A/S",
+      "action": "buy",
+      "price": 29.0,
+      "shares": 1912
+    },
+    {
+      "date": "2019-07-24",
+      "ticker": "Asetek A/S",
+      "action": "sell",
+      "price": 23.2,
+      "shares": 2059,
+      "pnl": -5662.25
+    },
+    {
+      "date": "2019-07-24",
+      "ticker": "Asetek A/S",
+      "action": "buy",
+      "price": 23.2,
+      "shares": 2088
+    },
+    {
+      "date": "2019-07-25",
+      "ticker": "Asetek A/S",
+      "action": "sell",
+      "price": 20.0,
+      "shares": 2088,
+      "pnl": -6681.5999999999985
+    },
+    {
+      "date": "2019-07-25",
+      "ticker": "Asetek A/S",
+      "action": "buy",
+      "price": 20.0,
+      "shares": 2385
+    },
+    {
+      "date": "2019-07-31",
+      "ticker": "Wirtek A/S",
+      "action": "buy",
+      "price": 7.2,
+      "shares": 6757
+    },
+    {
+      "date": "2019-08-02",
+      "ticker": "Agillic A/S",
+      "action": "buy",
+      "price": 28.0,
+      "shares": 1965
+    },
+    {
+      "date": "2019-08-05",
+      "ticker": "Wirtek A/S",
+      "action": "buy",
+      "price": 7.2,
+      "shares": 6794
+    },
+    {
+      "date": "2019-08-06",
+      "ticker": "FastPassCorp A/S",
+      "action": "buy",
+      "price": 39.0,
+      "shares": 1254
+    },
+    {
+      "date": "2019-08-07",
+      "ticker": "Wirtek A/S",
+      "action": "buy",
+      "price": 7.7,
+      "shares": 5647
+    },
+    {
+      "date": "2019-08-12",
+      "ticker": "Strategic Partners A/S",
+      "action": "sell",
+      "price": 67600.0,
+      "shares": 2,
+      "pnl": 46700.0
+    },
+    {
+      "date": "2019-08-13",
+      "ticker": "BioPorto A/S",
+      "action": "sell",
+      "price": 2.9,
+      "shares": 16371,
+      "pnl": -4583.880000000004
+    },
+    {
+      "date": "2019-08-13",
+      "ticker": "NNIT A/S",
+      "action": "sell",
+      "price": 98.5,
+      "shares": 482,
+      "pnl": -2940.199999999997
+    },
+    {
+      "date": "2019-08-13",
+      "ticker": "NNIT A/S",
+      "action": "buy",
+      "price": 98.5,
+      "shares": 704
+    },
+    {
+      "date": "2019-08-13",
+      "ticker": "BioPorto A/S",
+      "action": "buy",
+      "price": 2.9,
+      "shares": 23933
+    },
+    {
+      "date": "2019-08-14",
+      "ticker": "SimCorp A/S",
+      "action": "sell",
+      "price": 572.5,
+      "shares": 67,
+      "pnl": -2077.0
+    },
+    {
+      "date": "2019-08-14",
+      "ticker": "NNIT A/S",
+      "action": "sell",
+      "price": 78.3,
+      "shares": 704,
+      "pnl": -14220.800000000003
+    },
+    {
+      "date": "2019-08-14",
+      "ticker": "BioPorto A/S",
+      "action": "sell",
+      "price": 2.725,
+      "shares": 23933,
+      "pnl": -4188.274999999996
+    },
+    {
+      "date": "2019-08-14",
+      "ticker": "NNIT A/S",
+      "action": "buy",
+      "price": 78.3,
+      "shares": 914
+    },
+    {
+      "date": "2019-08-14",
+      "ticker": "SimCorp A/S",
+      "action": "buy",
+      "price": 572.5,
+      "shares": 125
+    },
+    {
+      "date": "2019-08-14",
+      "ticker": "BioPorto A/S",
+      "action": "buy",
+      "price": 2.725,
+      "shares": 26284
+    },
+    {
+      "date": "2019-08-14",
+      "ticker": "Hypefactors A/S",
+      "action": "buy",
+      "price": 3.22,
+      "shares": 22243
+    },
+    {
+      "date": "2019-08-15",
+      "ticker": "Columbus A/S",
+      "action": "sell",
+      "price": 10.6,
+      "shares": 2272,
+      "pnl": -2635.5200000000004
+    },
+    {
+      "date": "2019-08-15",
+      "ticker": "Saniona AB (publ)",
+      "action": "sell",
+      "price": 16.96,
+      "shares": 2811,
+      "pnl": -3541.859999999994
+    },
+    {
+      "date": "2019-08-15",
+      "ticker": "NNIT A/S",
+      "action": "sell",
+      "price": 71.8,
+      "shares": 914,
+      "pnl": -5941.0
+    },
+    {
+      "date": "2019-08-15",
+      "ticker": "NNIT A/S",
+      "action": "buy",
+      "price": 71.8,
+      "shares": 766
+    },
+    {
+      "date": "2019-08-15",
+      "ticker": "Columbus A/S",
+      "action": "buy",
+      "price": 10.6,
+      "shares": 5195
+    },
+    {
+      "date": "2019-08-15",
+      "ticker": "Saniona AB (publ)",
+      "action": "buy",
+      "price": 16.96,
+      "shares": 3247
+    },
+    {
+      "date": "2019-08-19",
+      "ticker": "Scape Technologies A/S",
+      "action": "sell",
+      "price": 13.88,
+      "shares": 4140,
+      "pnl": -5133.599999999993
+    },
+    {
+      "date": "2019-08-19",
+      "ticker": "Scape Technologies A/S",
+      "action": "buy",
+      "price": 13.88,
+      "shares": 3693
+    },
+    {
+      "date": "2019-08-20",
+      "ticker": "Wirtek A/S",
+      "action": "sell",
+      "price": 6.95,
+      "shares": 5647,
+      "pnl": -4235.25
+    },
+    {
+      "date": "2019-08-20",
+      "ticker": "Wirtek A/S",
+      "action": "buy",
+      "price": 6.95,
+      "shares": 7183
+    },
+    {
+      "date": "2019-08-20",
+      "ticker": "Hypefactors A/S",
+      "action": "buy",
+      "price": 3.44,
+      "shares": 14513
+    },
+    {
+      "date": "2019-08-22",
+      "ticker": "Hypefactors A/S",
+      "action": "sell",
+      "price": 3.1,
+      "shares": 14513,
+      "pnl": -4934.419999999998
+    },
+    {
+      "date": "2019-08-22",
+      "ticker": "Hypefactors A/S",
+      "action": "buy",
+      "price": 3.1,
+      "shares": 14139
+    },
+    {
+      "date": "2019-08-26",
+      "ticker": "Asetek A/S",
+      "action": "sell",
+      "price": 18.66,
+      "shares": 2385,
+      "pnl": -3195.8999999999996
+    },
+    {
+      "date": "2019-08-26",
+      "ticker": "Wirtek A/S",
+      "action": "sell",
+      "price": 6.6,
+      "shares": 7183,
+      "pnl": -2514.050000000004
+    },
+    {
+      "date": "2019-08-26",
+      "ticker": "Asetek A/S",
+      "action": "buy",
+      "price": 18.66,
+      "shares": 2897
+    },
+    {
+      "date": "2019-08-26",
+      "ticker": "Wirtek A/S",
+      "action": "buy",
+      "price": 6.6,
+      "shares": 8190
+    },
+    {
+      "date": "2019-08-27",
+      "ticker": "cBrain A/S",
+      "action": "buy",
+      "price": 28.6,
+      "shares": 1691
+    },
+    {
+      "date": "2019-08-30",
+      "ticker": "Agillic A/S",
+      "action": "buy",
+      "price": 29.6,
+      "shares": 1660
+    },
+    {
+      "date": "2019-09-02",
+      "ticker": "Columbus A/S",
+      "action": "sell",
+      "price": 9.95,
+      "shares": 5195,
+      "pnl": -3376.750000000002
+    },
+    {
+      "date": "2019-09-02",
+      "ticker": "Columbus A/S",
+      "action": "buy",
+      "price": 9.95,
+      "shares": 4968
+    },
+    {
+      "date": "2019-09-02",
+      "ticker": "Conferize A/S",
+      "action": "buy",
+      "price": 0.732,
+      "shares": 67530
+    },
+    {
+      "date": "2019-09-02",
+      "ticker": "Wirtek A/S",
+      "action": "buy",
+      "price": 6.95,
+      "shares": 7112
+    },
+    {
+      "date": "2019-09-03",
+      "ticker": "Genmab A/S",
+      "action": "sell",
+      "price": 1435.0,
+      "shares": 49,
+      "pnl": 23529.800000000003
+    },
+    {
+      "date": "2019-09-03",
+      "ticker": "Hypefactors A/S",
+      "action": "buy",
+      "price": 3.0,
+      "shares": 13589
+    },
+    {
+      "date": "2019-09-04",
+      "ticker": "Conferize A/S",
+      "action": "sell",
+      "price": 0.674,
+      "shares": 67530,
+      "pnl": -3916.739999999996
+    },
+    {
+      "date": "2019-09-04",
+      "ticker": "Conferize A/S",
+      "action": "buy",
+      "price": 0.674,
+      "shares": 61269
+    },
+    {
+      "date": "2019-09-05",
+      "ticker": "Columbus A/S",
+      "action": "sell",
+      "price": 9.39,
+      "shares": 4968,
+      "pnl": -2782.0799999999936
+    },
+    {
+      "date": "2019-09-05",
+      "ticker": "Hypefactors A/S",
+      "action": "sell",
+      "price": 2.75,
+      "shares": 13589,
+      "pnl": -3397.25
+    },
+    {
+      "date": "2019-09-05",
+      "ticker": "Columbus A/S",
+      "action": "buy",
+      "price": 9.39,
+      "shares": 4903
+    },
+    {
+      "date": "2019-09-05",
+      "ticker": "Hypefactors A/S",
+      "action": "buy",
+      "price": 2.75,
+      "shares": 16742
+    },
+    {
+      "date": "2019-09-06",
+      "ticker": "Wirtek A/S",
+      "action": "sell",
+      "price": 6.6,
+      "shares": 7112,
+      "pnl": -2489.200000000004
+    },
+    {
+      "date": "2019-09-06",
+      "ticker": "Hypefactors A/S",
+      "action": "sell",
+      "price": 2.5,
+      "shares": 16742,
+      "pnl": -4185.5
+    },
+    {
+      "date": "2019-09-06",
+      "ticker": "Hypefactors A/S",
+      "action": "buy",
+      "price": 2.5,
+      "shares": 18270
+    },
+    {
+      "date": "2019-09-06",
+      "ticker": "Wirtek A/S",
+      "action": "buy",
+      "price": 6.6,
+      "shares": 6920
+    },
+    {
+      "date": "2019-09-09",
+      "ticker": "Hypefactors A/S",
+      "action": "sell",
+      "price": 2.31,
+      "shares": 18270,
+      "pnl": -3471.299999999999
+    },
+    {
+      "date": "2019-09-09",
+      "ticker": "Hypefactors A/S",
+      "action": "buy",
+      "price": 2.31,
+      "shares": 17410
+    },
+    {
+      "date": "2019-09-09",
+      "ticker": "MenuPay AB",
+      "action": "buy",
+      "price": 1.26,
+      "shares": 31918
+    },
+    {
+      "date": "2019-09-11",
+      "ticker": "Hypefactors A/S",
+      "action": "buy",
+      "price": 2.31,
+      "shares": 17410
+    },
+    {
+      "date": "2019-09-12",
+      "ticker": "MenuPay AB",
+      "action": "buy",
+      "price": 1.39,
+      "shares": 25718
+    },
+    {
+      "date": "2019-09-19",
+      "ticker": "Saniona AB (publ)",
+      "action": "sell",
+      "price": 28.0,
+      "shares": 3247,
+      "pnl": 35846.88
+    },
+    {
+      "date": "2019-09-19",
+      "ticker": "Wirtek A/S",
+      "action": "buy",
+      "price": 7.4,
+      "shares": 6964
+    },
+    {
+      "date": "2019-09-20",
+      "ticker": "Enalyzer A/S",
+      "action": "buy",
+      "price": 3.98,
+      "shares": 12906
+    },
+    {
+      "date": "2019-09-24",
+      "ticker": "Bavarian Nordic A/S",
+      "action": "sell",
+      "price": 203.8,
+      "shares": 834,
+      "pnl": 58963.80000000002
+    },
+    {
+      "date": "2019-09-24",
+      "ticker": "Strategic Partners A/S",
+      "action": "buy",
+      "price": 58400.0,
+      "shares": 1
+    },
+    {
+      "date": "2019-09-25",
+      "ticker": "Hypefactors A/S",
+      "action": "sell",
+      "price": 2.02,
+      "shares": 17410,
+      "pnl": -5048.900000000001
+    },
+    {
+      "date": "2019-09-25",
+      "ticker": "Hypefactors A/S",
+      "action": "buy",
+      "price": 2.02,
+      "shares": 33542
+    },
+    {
+      "date": "2019-09-30",
+      "ticker": "Hypefactors A/S",
+      "action": "sell",
+      "price": 1.865,
+      "shares": 33542,
+      "pnl": -5199.010000000001
+    },
+    {
+      "date": "2019-09-30",
+      "ticker": "Hypefactors A/S",
+      "action": "buy",
+      "price": 1.865,
+      "shares": 36020
+    },
+    {
+      "date": "2019-10-02",
+      "ticker": "Conferize A/S",
+      "action": "sell",
+      "price": 0.63,
+      "shares": 61269,
+      "pnl": -2695.8360000000025
+    },
+    {
+      "date": "2019-10-02",
+      "ticker": "Strategic Partners A/S",
+      "action": "sell",
+      "price": 51600.0,
+      "shares": 1,
+      "pnl": -6800.0
+    },
+    {
+      "date": "2019-10-02",
+      "ticker": "Conferize A/S",
+      "action": "buy",
+      "price": 0.63,
+      "shares": 110692
+    },
+    {
+      "date": "2019-10-02",
+      "ticker": "Strategic Partners A/S",
+      "action": "buy",
+      "price": 51600.0,
+      "shares": 1
+    },
+    {
+      "date": "2019-10-03",
+      "ticker": "BioPorto A/S",
+      "action": "sell",
+      "price": 2.56,
+      "shares": 26284,
+      "pnl": -4336.860000000001
+    },
+    {
+      "date": "2019-10-03",
+      "ticker": "BioPorto A/S",
+      "action": "buy",
+      "price": 2.56,
+      "shares": 24894
+    },
+    {
+      "date": "2019-10-03",
+      "ticker": "Konsolidator A/S",
+      "action": "buy",
+      "price": 11.5,
+      "shares": 5541
+    },
+    {
+      "date": "2019-10-09",
+      "ticker": "Hypefactors A/S",
+      "action": "buy",
+      "price": 1.9,
+      "shares": 34741
+    },
+    {
+      "date": "2019-10-09",
+      "ticker": "Konsolidator A/S",
+      "action": "buy",
+      "price": 11.0,
+      "shares": 6000
+    },
+    {
+      "date": "2019-10-10",
+      "ticker": "Enalyzer A/S",
+      "action": "buy",
+      "price": 3.5,
+      "shares": 16415
+    },
+    {
+      "date": "2019-10-11",
+      "ticker": "FastPassCorp A/S",
+      "action": "buy",
+      "price": 37.4,
+      "shares": 1365
+    },
+    {
+      "date": "2019-10-11",
+      "ticker": "Wirtek A/S",
+      "action": "buy",
+      "price": 7.75,
+      "shares": 6589
+    },
+    {
+      "date": "2019-10-15",
+      "ticker": "Hypefactors A/S",
+      "action": "buy",
+      "price": 1.995,
+      "shares": 30412
+    },
+    {
+      "date": "2019-10-18",
+      "ticker": "Bavarian Nordic A/S",
+      "action": "buy",
+      "price": 174.55,
+      "shares": 342
+    },
+    {
+      "date": "2019-10-21",
+      "ticker": "Bavarian Nordic A/S",
+      "action": "sell",
+      "price": 158.5,
+      "shares": 342,
+      "pnl": -5489.100000000004
+    },
+    {
+      "date": "2019-10-21",
+      "ticker": "FastPassCorp A/S",
+      "action": "buy",
+      "price": 33.8,
+      "shares": 1748
+    },
+    {
+      "date": "2019-10-21",
+      "ticker": "Wirtek A/S",
+      "action": "buy",
+      "price": 7.9,
+      "shares": 7481
+    },
+    {
+      "date": "2019-10-21",
+      "ticker": "MenuPay AB",
+      "action": "buy",
+      "price": 1.31,
+      "shares": 45118
+    },
+    {
+      "date": "2019-10-23",
+      "ticker": "Bavarian Nordic A/S",
+      "action": "buy",
+      "price": 159.15,
+      "shares": 370
+    },
+    {
+      "date": "2019-10-24",
+      "ticker": "FastPassCorp A/S",
+      "action": "buy",
+      "price": 37.2,
+      "shares": 1410
+    },
+    {
+      "date": "2019-10-25",
+      "ticker": "Wirtek A/S",
+      "action": "buy",
+      "price": 7.75,
+      "shares": 6771
+    },
+    {
+      "date": "2019-10-25",
+      "ticker": "MenuPay AB",
+      "action": "buy",
+      "price": 1.02,
+      "shares": 51449
+    },
+    {
+      "date": "2019-10-29",
+      "ticker": "Columbus A/S",
+      "action": "sell",
+      "price": 8.9,
+      "shares": 4903,
+      "pnl": -2402.470000000001
+    },
+    {
+      "date": "2019-10-29",
+      "ticker": "Columbus A/S",
+      "action": "buy",
+      "price": 8.9,
+      "shares": 6037
+    },
+    {
+      "date": "2019-10-30",
+      "ticker": "Zealand Pharma A/S",
+      "action": "sell",
+      "price": 205.0,
+      "shares": 309,
+      "pnl": 24102.0
+    },
+    {
+      "date": "2019-10-31",
+      "ticker": "Wirtek A/S",
+      "action": "buy",
+      "price": 7.9,
+      "shares": 8801
+    },
+    {
+      "date": "2019-11-04",
+      "ticker": "Wirtek A/S",
+      "action": "buy",
+      "price": 7.75,
+      "shares": 8971
+    },
+    {
+      "date": "2019-11-07",
+      "ticker": "Asetek A/S",
+      "action": "sell",
+      "price": 28.6,
+      "shares": 2897,
+      "pnl": 28796.180000000004
+    },
+    {
+      "date": "2019-11-07",
+      "ticker": "Hypefactors A/S",
+      "action": "buy",
+      "price": 2.56,
+      "shares": 27738
+    },
+    {
+      "date": "2019-11-11",
+      "ticker": "Enalyzer A/S",
+      "action": "buy",
+      "price": 3.7,
+      "shares": 19134
+    },
+    {
+      "date": "2019-11-12",
+      "ticker": "Wirtek A/S",
+      "action": "buy",
+      "price": 7.7,
+      "shares": 9194
+    },
+    {
+      "date": "2019-11-15",
+      "ticker": "Scape Technologies A/S",
+      "action": "sell",
+      "price": 21.35,
+      "shares": 3693,
+      "pnl": 27586.710000000003
+    },
+    {
+      "date": "2019-11-15",
+      "ticker": "MenuPay AB",
+      "action": "sell",
+      "price": 0.955,
+      "shares": 51449,
+      "pnl": -3344.185000000003
+    },
+    {
+      "date": "2019-11-15",
+      "ticker": "Wirtek A/S",
+      "action": "sell",
+      "price": 7.25,
+      "shares": 9194,
+      "pnl": -4137.300000000002
+    },
+    {
+      "date": "2019-11-15",
+      "ticker": "Wirtek A/S",
+      "action": "buy",
+      "price": 7.25,
+      "shares": 11662
+    },
+    {
+      "date": "2019-11-15",
+      "ticker": "MenuPay AB",
+      "action": "buy",
+      "price": 0.955,
+      "shares": 88540
+    },
+    {
+      "date": "2019-11-18",
+      "ticker": "cBrain A/S",
+      "action": "sell",
+      "price": 45.9,
+      "shares": 1691,
+      "pnl": 29254.299999999996
+    },
+    {
+      "date": "2019-11-21",
+      "ticker": "MenuPay AB",
+      "action": "sell",
+      "price": 0.9,
+      "shares": 88540,
+      "pnl": -4869.699999999994
+    },
+    {
+      "date": "2019-11-21",
+      "ticker": "Wirtek A/S",
+      "action": "buy",
+      "price": 7.3,
+      "shares": 13772
+    },
+    {
+      "date": "2019-11-21",
+      "ticker": "MenuPay AB",
+      "action": "buy",
+      "price": 0.9,
+      "shares": 111709
+    },
+    {
+      "date": "2019-11-22",
+      "ticker": "Hypefactors A/S",
+      "action": "buy",
+      "price": 2.43,
+      "shares": 32179
+    },
+    {
+      "date": "2019-11-25",
+      "ticker": "MenuPay AB",
+      "action": "sell",
+      "price": 0.422,
+      "shares": 111709,
+      "pnl": -53396.902
+    },
+    {
+      "date": "2019-11-25",
+      "ticker": "MenuPay AB",
+      "action": "buy",
+      "price": 0.422,
+      "shares": 177125
+    },
+    {
+      "date": "2019-11-26",
+      "ticker": "MenuPay AB",
+      "action": "sell",
+      "price": 0.34,
+      "shares": 177125,
+      "pnl": -14524.249999999993
+    },
+    {
+      "date": "2019-11-26",
+      "ticker": "FastPassCorp A/S",
+      "action": "buy",
+      "price": 38.2,
+      "shares": 1914
+    },
+    {
+      "date": "2019-11-26",
+      "ticker": "MenuPay AB",
+      "action": "buy",
+      "price": 0.34,
+      "shares": 215097
+    },
+    {
+      "date": "2019-12-02",
+      "ticker": "FastPassCorp A/S",
+      "action": "buy",
+      "price": 38.2,
+      "shares": 1701
+    },
+    {
+      "date": "2019-12-04",
+      "ticker": "Netcompany Group A/S",
+      "action": "sell",
+      "price": 314.0,
+      "shares": 159,
+      "pnl": 17203.8
+    },
+    {
+      "date": "2019-12-04",
+      "ticker": "MenuPay AB",
+      "action": "sell",
+      "price": 0.32,
+      "shares": 215097,
+      "pnl": -4301.940000000004
+    },
+    {
+      "date": "2019-12-04",
+      "ticker": "FastPassCorp A/S",
+      "action": "sell",
+      "price": 36.0,
+      "shares": 1701,
+      "pnl": -3742.200000000005
+    },
+    {
+      "date": "2019-12-04",
+      "ticker": "FastPassCorp A/S",
+      "action": "buy",
+      "price": 36.0,
+      "shares": 2160
+    },
+    {
+      "date": "2019-12-04",
+      "ticker": "Netcompany Group A/S",
+      "action": "buy",
+      "price": 314.0,
+      "shares": 247
+    },
+    {
+      "date": "2019-12-04",
+      "ticker": "MenuPay AB",
+      "action": "buy",
+      "price": 0.32,
+      "shares": 243083
+    },
+    {
+      "date": "2019-12-09",
+      "ticker": "MenuPay AB",
+      "action": "sell",
+      "price": 0.292,
+      "shares": 243083,
+      "pnl": -6806.324000000006
+    },
+    {
+      "date": "2019-12-09",
+      "ticker": "MenuPay AB",
+      "action": "buy",
+      "price": 0.292,
+      "shares": 269677
+    },
+    {
+      "date": "2019-12-10",
+      "ticker": "FastPassCorp A/S",
+      "action": "buy",
+      "price": 36.6,
+      "shares": 1912
+    },
+    {
+      "date": "2019-12-11",
+      "ticker": "Scape Technologies A/S",
+      "action": "buy",
+      "price": 17.44,
+      "shares": 3567
+    }
+  ],
+  "lifecycle": {
+    "dates": [
+      "2019-01-02",
+      "2019-01-03",
+      "2019-01-04",
+      "2019-01-07",
+      "2019-01-08",
+      "2019-01-09",
+      "2019-01-10",
+      "2019-01-11",
+      "2019-01-14",
+      "2019-01-15",
+      "2019-01-16",
+      "2019-01-17",
+      "2019-01-18",
+      "2019-01-21",
+      "2019-01-22",
+      "2019-01-23",
+      "2019-01-24",
+      "2019-01-25",
+      "2019-01-28",
+      "2019-01-29",
+      "2019-01-30",
+      "2019-01-31",
+      "2019-02-01",
+      "2019-02-04",
+      "2019-02-05",
+      "2019-02-06",
+      "2019-02-07",
+      "2019-02-08",
+      "2019-02-11",
+      "2019-02-12",
+      "2019-02-13",
+      "2019-02-14",
+      "2019-02-15",
+      "2019-02-18",
+      "2019-02-19",
+      "2019-02-20",
+      "2019-02-21",
+      "2019-02-22",
+      "2019-02-25",
+      "2019-02-26",
+      "2019-02-27",
+      "2019-02-28",
+      "2019-03-01",
+      "2019-03-04",
+      "2019-03-05",
+      "2019-03-06",
+      "2019-03-07",
+      "2019-03-08",
+      "2019-03-11",
+      "2019-03-12",
+      "2019-03-13",
+      "2019-03-14",
+      "2019-03-15",
+      "2019-03-18",
+      "2019-03-19",
+      "2019-03-20",
+      "2019-03-21",
+      "2019-03-22",
+      "2019-03-25",
+      "2019-03-26",
+      "2019-03-27",
+      "2019-03-28",
+      "2019-03-29",
+      "2019-04-01",
+      "2019-04-02",
+      "2019-04-03",
+      "2019-04-04",
+      "2019-04-05",
+      "2019-04-08",
+      "2019-04-09",
+      "2019-04-10",
+      "2019-04-11",
+      "2019-04-12",
+      "2019-04-15",
+      "2019-04-16",
+      "2019-04-17",
+      "2019-04-23",
+      "2019-04-24",
+      "2019-04-25",
+      "2019-04-26",
+      "2019-04-29",
+      "2019-04-30",
+      "2019-05-01",
+      "2019-05-02",
+      "2019-05-03",
+      "2019-05-06",
+      "2019-05-07",
+      "2019-05-08",
+      "2019-05-09",
+      "2019-05-10",
+      "2019-05-13",
+      "2019-05-14",
+      "2019-05-15",
+      "2019-05-16",
+      "2019-05-20",
+      "2019-05-21",
+      "2019-05-22",
+      "2019-05-23",
+      "2019-05-24",
+      "2019-05-27",
+      "2019-05-28",
+      "2019-05-29",
+      "2019-06-03",
+      "2019-06-04",
+      "2019-06-06",
+      "2019-06-07",
+      "2019-06-11",
+      "2019-06-12",
+      "2019-06-13",
+      "2019-06-14",
+      "2019-06-17",
+      "2019-06-18",
+      "2019-06-19",
+      "2019-06-20",
+      "2019-06-21",
+      "2019-06-24",
+      "2019-06-25",
+      "2019-06-26",
+      "2019-06-27",
+      "2019-06-28",
+      "2019-07-01",
+      "2019-07-02",
+      "2019-07-03",
+      "2019-07-04",
+      "2019-07-05",
+      "2019-07-08",
+      "2019-07-09",
+      "2019-07-10",
+      "2019-07-11",
+      "2019-07-12",
+      "2019-07-15",
+      "2019-07-16",
+      "2019-07-17",
+      "2019-07-18",
+      "2019-07-19",
+      "2019-07-22",
+      "2019-07-23",
+      "2019-07-24",
+      "2019-07-25",
+      "2019-07-26",
+      "2019-07-29",
+      "2019-07-30",
+      "2019-07-31",
+      "2019-08-01",
+      "2019-08-02",
+      "2019-08-05",
+      "2019-08-06",
+      "2019-08-07",
+      "2019-08-08",
+      "2019-08-09",
+      "2019-08-12",
+      "2019-08-13",
+      "2019-08-14",
+      "2019-08-15",
+      "2019-08-16",
+      "2019-08-19",
+      "2019-08-20",
+      "2019-08-21",
+      "2019-08-22",
+      "2019-08-23",
+      "2019-08-26",
+      "2019-08-27",
+      "2019-08-28",
+      "2019-08-29",
+      "2019-08-30",
+      "2019-09-02",
+      "2019-09-03",
+      "2019-09-04",
+      "2019-09-05",
+      "2019-09-06",
+      "2019-09-09",
+      "2019-09-10",
+      "2019-09-11",
+      "2019-09-12",
+      "2019-09-13",
+      "2019-09-16",
+      "2019-09-17",
+      "2019-09-18",
+      "2019-09-19",
+      "2019-09-20",
+      "2019-09-23",
+      "2019-09-24",
+      "2019-09-25",
+      "2019-09-26",
+      "2019-09-27",
+      "2019-09-30",
+      "2019-10-01",
+      "2019-10-02",
+      "2019-10-03",
+      "2019-10-04",
+      "2019-10-07",
+      "2019-10-08",
+      "2019-10-09",
+      "2019-10-10",
+      "2019-10-11",
+      "2019-10-14",
+      "2019-10-15",
+      "2019-10-16",
+      "2019-10-17",
+      "2019-10-18",
+      "2019-10-21",
+      "2019-10-22",
+      "2019-10-23",
+      "2019-10-24",
+      "2019-10-25",
+      "2019-10-28",
+      "2019-10-29",
+      "2019-10-30",
+      "2019-10-31",
+      "2019-11-01",
+      "2019-11-04",
+      "2019-11-05",
+      "2019-11-06",
+      "2019-11-07",
+      "2019-11-08",
+      "2019-11-11",
+      "2019-11-12",
+      "2019-11-13",
+      "2019-11-14",
+      "2019-11-15",
+      "2019-11-18",
+      "2019-11-19",
+      "2019-11-20",
+      "2019-11-21",
+      "2019-11-22",
+      "2019-11-25",
+      "2019-11-26",
+      "2019-11-27",
+      "2019-11-28",
+      "2019-11-29",
+      "2019-12-02",
+      "2019-12-03",
+      "2019-12-04",
+      "2019-12-05",
+      "2019-12-06",
+      "2019-12-09",
+      "2019-12-10",
+      "2019-12-11"
+    ],
+    "portfolio_values": [
+      1000000,
+      1000000,
+      997707.5599999999,
+      1021077.0499999999,
+      1045304.4799999999,
+      1047688.4299999999,
+      1053844.128,
+      1063097.7185,
+      1076618.1685,
+      1071925.6694999998,
+      1061395.0574999999,
+      1077158.2285,
+      1071984.0885,
+      1075914.7585,
+      1082500.9185,
+      1070606.5684999998,
+      1070219.8845,
+      1070673.4985,
+      1063799.7785,
+      1053764.7385,
+      1057921.6585,
+      1085322.5984999998,
+      1077644.3684999999,
+      1075264.6885,
+      1072190.4685,
+      1066403.4585,
+      1055878.4685,
+      1052335.3185,
+      1049855.2085,
+      1058404.0984999998,
+      1072102.0984999998,
+      1071230.7384999997,
+      1079163.2584999998,
+      1081728.1184999996,
+      1088535.6784999997,
+      1079494.0784999996,
+      1087565.8484999996,
+      1088971.2684999995,
+      1100126.3364999995,
+      1112517.8844999995,
+      1105886.5744999994,
+      1106747.9944999993,
+      1113145.5044999993,
+      1101883.4644999993,
+      1104863.7244999993,
+      1108011.9044999992,
+      1101187.3444999992,
+      1095422.0144999991,
+      1085995.779499999,
+      1081402.826499999,
+      1097631.448499999,
+      1094460.519499999,
+      1093845.459499999,
+      1091548.414499999,
+      1090203.996499999,
+      1087357.2344999989,
+      1107491.763499999,
+      1118171.3594999989,
+      1114116.044499999,
+      1092485.639499999,
+      1104693.341499999,
+      1105065.649499999,
+      1120505.651499999,
+      1115899.869499999,
+      1120312.7094999992,
+      1120841.9794999992,
+      1124875.2194999992,
+      1131513.9694999992,
+      1137286.629499999,
+      1134983.249499999,
+      1132898.059499999,
+      1131786.049499999,
+      1131660.949499999,
+      1145094.649499999,
+      1172800.3094999988,
+      1182798.1294999989,
+      1169411.979499999,
+      1172248.929499999,
+      1173538.269499999,
+      1175853.309499999,
+      1173807.6794999992,
+      1174519.6794999992,
+      1172814.9594999992,
+      1177226.9094999991,
+      1173263.5094999992,
+      1179523.9294999992,
+      1164281.049499999,
+      1157558.249499999,
+      1159651.989499999,
+      1145334.759499999,
+      1152623.659499999,
+      1138078.8294999988,
+      1139212.8694999989,
+      1147696.509499999,
+      1149052.659499999,
+      1150748.719499999,
+      1157604.749499999,
+      1291934.979499999,
+      1288622.1194999989,
+      1298056.679499999,
+      1280580.499499999,
+      1298046.499499999,
+      1269921.089499999,
+      1240730.969499999,
+      1240312.919499999,
+      1218092.1094999989,
+      1254220.2994999988,
+      1254240.1944999988,
+      1259740.8294999988,
+      1242373.4044999988,
+      1296719.4044999988,
+      1297080.7244999988,
+      1307686.6444999988,
+      1309390.8144999987,
+      1315891.7044999986,
+      1303077.2144999986,
+      1313229.5844999987,
+      1299540.9244999988,
+      1296421.8444999987,
+      1303187.9844999989,
+      1319384.9544999988,
+      1332616.4944999989,
+      1327719.2344999989,
+      1339644.8644999987,
+      1323387.5784999987,
+      1319946.8384999987,
+      1338817.6184999987,
+      1335008.7034999987,
+      1343850.7684999986,
+      1355864.5184999986,
+      1351692.6834999986,
+      1345870.8734999986,
+      1349959.7384999986,
+      1348130.1734999986,
+      1337614.5984999987,
+      1339723.2584999986,
+      1350858.6384999985,
+      1334260.2084999986,
+      1338086.6634999986,
+      1341641.9784999986,
+      1348796.8684999985,
+      1349990.0534999985,
+      1344996.0484999986,
+      1340934.7984999986,
+      1348654.0284999986,
+      1332575.5584999986,
+      1302495.6984999985,
+      1313346.4884999986,
+      1301477.2984999986,
+      1315550.8984999987,
+      1311600.2084999988,
+      1311192.6834999989,
+      1315750.668499999,
+      1289989.583499999,
+      1272546.233499999,
+      1277957.053499999,
+      1280147.403499999,
+      1284791.153499999,
+      1293167.153499999,
+      1282815.133499999,
+      1280151.353499999,
+      1269544.793499999,
+      1284156.4334999989,
+      1268192.053499999,
+      1273127.973499999,
+      1285483.1634999989,
+      1287359.8234999988,
+      1295138.9734999987,
+      1302430.8834999986,
+      1290609.3294999986,
+      1291019.2514999986,
+      1288634.2794999985,
+      1275710.0494999986,
+      1291146.8694999986,
+      1299983.4414999986,
+      1303412.4694999985,
+      1316762.6954999985,
+      1320257.7574999984,
+      1327247.0874999985,
+      1342347.9354999985,
+      1346851.4394999985,
+      1349724.0734999985,
+      1365322.1654999985,
+      1348691.4874999984,
+      1358520.2854999984,
+      1354625.0974999983,
+      1352053.2494999983,
+      1344377.2414999984,
+      1319155.9074999983,
+      1329149.9394999982,
+      1345571.7274999982,
+      1340889.5674999983,
+      1336955.5454999981,
+      1344704.0754999982,
+      1345600.1874999981,
+      1355888.4274999981,
+      1365727.617499998,
+      1372800.783499998,
+      1373698.503499998,
+      1388126.297499998,
+      1409858.6874999981,
+      1408616.157499998,
+      1407622.533499998,
+      1396380.365499998,
+      1414032.643499998,
+      1432515.8474999978,
+      1436071.653499998,
+      1428481.8434999979,
+      1438321.2014999979,
+      1445165.193499998,
+      1449322.953499998,
+      1482833.375499998,
+      1470045.177499998,
+      1477956.743499998,
+      1475463.457499998,
+      1486183.575499998,
+      1492056.655499998,
+      1495368.659499998,
+      1492779.619499998,
+      1492564.757499998,
+      1504148.868499998,
+      1515477.664499998,
+      1510997.5524999981,
+      1508761.6264999982,
+      1499615.4024999982,
+      1499071.3484999982,
+      1453683.9104999981,
+      1457651.830499998,
+      1467381.708499998,
+      1462631.162499998,
+      1460926.116499998,
+      1471126.612499998,
+      1473054.300499998,
+      1475620.656499998,
+      1474832.950499998,
+      1474563.616499998,
+      1470410.0604999978,
+      1479245.3004999978
+    ],
+    "daily_returns": "0      0.000000\n1     -0.002298\n2      0.022887\n3      0.023177\n4      0.002275\n         ...   \n233   -0.000534\n234   -0.000183\n235   -0.002825\n236    0.005973\n237   -0.002019\nLength: 238, dtype: float64",
+    "daily_metrics": [
+      {
+        "date": "2019-01-02",
+        "value": 1000000,
+        "cash": 1000000,
+        "positions": 9
+      },
+      {
+        "date": "2019-01-03",
+        "value": 997707.5599999999,
+        "cash": 239443.15999999992,
+        "positions": 9
+      },
+      {
+        "date": "2019-01-04",
+        "value": 1021077.0499999999,
+        "cash": 186241.4800000001,
+        "positions": 9
+      },
+      {
+        "date": "2019-01-07",
+        "value": 1045304.4799999999,
+        "cash": 186241.47999999986,
+        "positions": 10
+      },
+      {
+        "date": "2019-01-08",
+        "value": 1047688.4299999999,
+        "cash": 186241.47999999998,
+        "positions": 10
+      },
+      {
+        "date": "2019-01-09",
+        "value": 1053844.128,
+        "cash": 270639.30999999994,
+        "positions": 11
+      },
+      {
+        "date": "2019-01-10",
+        "value": 1063097.7185,
+        "cash": 257336.50849999988,
+        "positions": 11
+      },
+      {
+        "date": "2019-01-11",
+        "value": 1076618.1685,
+        "cash": 228749.00849999988,
+        "positions": 11
+      },
+      {
+        "date": "2019-01-14",
+        "value": 1071925.6694999998,
+        "cash": 228749.00849999988,
+        "positions": 11
+      },
+      {
+        "date": "2019-01-15",
+        "value": 1061395.0574999999,
+        "cash": 257336.50849999988,
+        "positions": 10
+      },
+      {
+        "date": "2019-01-16",
+        "value": 1077158.2285,
+        "cash": 257336.50849999988,
+        "positions": 11
+      },
+      {
+        "date": "2019-01-17",
+        "value": 1071984.0885,
+        "cash": 253962.5085000001,
+        "positions": 11
+      },
+      {
+        "date": "2019-01-18",
+        "value": 1075914.7585,
+        "cash": 225746.7685,
+        "positions": 11
+      },
+      {
+        "date": "2019-01-21",
+        "value": 1082500.9185,
+        "cash": 225746.7684999999,
+        "positions": 11
+      },
+      {
+        "date": "2019-01-22",
+        "value": 1070606.5684999998,
+        "cash": 225746.76849999966,
+        "positions": 12
+      },
+      {
+        "date": "2019-01-23",
+        "value": 1070219.8845,
+        "cash": 225746.76849999977,
+        "positions": 11
+      },
+      {
+        "date": "2019-01-24",
+        "value": 1070673.4985,
+        "cash": 225746.76850000012,
+        "positions": 12
+      },
+      {
+        "date": "2019-01-25",
+        "value": 1063799.7785,
+        "cash": 200665.5184999999,
+        "positions": 12
+      },
+      {
+        "date": "2019-01-28",
+        "value": 1053764.7385,
+        "cash": 200665.5185,
+        "positions": 12
+      },
+      {
+        "date": "2019-01-29",
+        "value": 1057921.6585,
+        "cash": 258737.81850000005,
+        "positions": 11
+      },
+      {
+        "date": "2019-01-30",
+        "value": 1085322.5984999998,
+        "cash": 422719.3984999999,
+        "positions": 10
+      },
+      {
+        "date": "2019-01-31",
+        "value": 1077644.3684999999,
+        "cash": 282014.5584999998,
+        "positions": 13
+      },
+      {
+        "date": "2019-02-01",
+        "value": 1075264.6885,
+        "cash": 188023.9084999999,
+        "positions": 14
+      },
+      {
+        "date": "2019-02-04",
+        "value": 1072190.4685,
+        "cash": 194914.9084999999,
+        "positions": 14
+      },
+      {
+        "date": "2019-02-05",
+        "value": 1066403.4585,
+        "cash": 289331.92850000004,
+        "positions": 13
+      },
+      {
+        "date": "2019-02-06",
+        "value": 1055878.4685,
+        "cash": 294595.8884999999,
+        "positions": 14
+      },
+      {
+        "date": "2019-02-07",
+        "value": 1052335.3185,
+        "cash": 261873.68850000016,
+        "positions": 13
+      },
+      {
+        "date": "2019-02-08",
+        "value": 1049855.2085,
+        "cash": 261873.68849999993,
+        "positions": 14
+      },
+      {
+        "date": "2019-02-11",
+        "value": 1058404.0984999998,
+        "cash": 232780.7884999998,
+        "positions": 14
+      },
+      {
+        "date": "2019-02-12",
+        "value": 1072102.0984999998,
+        "cash": 232780.78849999967,
+        "positions": 14
+      },
+      {
+        "date": "2019-02-13",
+        "value": 1071230.7384999997,
+        "cash": 232780.7884999998,
+        "positions": 15
+      },
+      {
+        "date": "2019-02-14",
+        "value": 1079163.2584999998,
+        "cash": 206948.1884999997,
+        "positions": 15
+      },
+      {
+        "date": "2019-02-15",
+        "value": 1081728.1184999996,
+        "cash": 235170.5884999995,
+        "positions": 14
+      },
+      {
+        "date": "2019-02-18",
+        "value": 1088535.6784999997,
+        "cash": 235170.58849999972,
+        "positions": 14
+      },
+      {
+        "date": "2019-02-19",
+        "value": 1079494.0784999996,
+        "cash": 302461.87849999976,
+        "positions": 12
+      },
+      {
+        "date": "2019-02-20",
+        "value": 1087565.8484999996,
+        "cash": 346934.8784999995,
+        "positions": 15
+      },
+      {
+        "date": "2019-02-21",
+        "value": 1088971.2684999995,
+        "cash": 192776.55449999962,
+        "positions": 16
+      },
+      {
+        "date": "2019-02-22",
+        "value": 1100126.3364999995,
+        "cash": 192776.5544999994,
+        "positions": 15
+      },
+      {
+        "date": "2019-02-25",
+        "value": 1112517.8844999995,
+        "cash": 222166.67449999938,
+        "positions": 17
+      },
+      {
+        "date": "2019-02-26",
+        "value": 1105886.5744999994,
+        "cash": 172810.53449999925,
+        "positions": 17
+      },
+      {
+        "date": "2019-02-27",
+        "value": 1106747.9944999993,
+        "cash": 153613.78449999925,
+        "positions": 17
+      },
+      {
+        "date": "2019-02-28",
+        "value": 1113145.5044999993,
+        "cash": 176931.88449999923,
+        "positions": 17
+      },
+      {
+        "date": "2019-03-01",
+        "value": 1101883.4644999993,
+        "cash": 181590.28449999948,
+        "positions": 17
+      },
+      {
+        "date": "2019-03-04",
+        "value": 1104863.7244999993,
+        "cash": 161427.28449999925,
+        "positions": 18
+      },
+      {
+        "date": "2019-03-05",
+        "value": 1108011.9044999992,
+        "cash": 201357.28449999914,
+        "positions": 16
+      },
+      {
+        "date": "2019-03-06",
+        "value": 1101187.3444999992,
+        "cash": 225052.63449999935,
+        "positions": 17
+      },
+      {
+        "date": "2019-03-07",
+        "value": 1095422.0144999991,
+        "cash": 233239.03449999902,
+        "positions": 17
+      },
+      {
+        "date": "2019-03-08",
+        "value": 1085995.779499999,
+        "cash": 260587.32449999906,
+        "positions": 15
+      },
+      {
+        "date": "2019-03-11",
+        "value": 1081402.826499999,
+        "cash": 256094.22449999908,
+        "positions": 17
+      },
+      {
+        "date": "2019-03-12",
+        "value": 1097631.448499999,
+        "cash": 170767.4744999992,
+        "positions": 18
+      },
+      {
+        "date": "2019-03-13",
+        "value": 1094460.519499999,
+        "cash": 183143.69449999905,
+        "positions": 17
+      },
+      {
+        "date": "2019-03-14",
+        "value": 1093845.459499999,
+        "cash": 183143.69449999905,
+        "positions": 17
+      },
+      {
+        "date": "2019-03-15",
+        "value": 1091548.414499999,
+        "cash": 202274.09449999896,
+        "positions": 16
+      },
+      {
+        "date": "2019-03-18",
+        "value": 1090203.996499999,
+        "cash": 202274.09449999884,
+        "positions": 17
+      },
+      {
+        "date": "2019-03-19",
+        "value": 1087357.2344999989,
+        "cash": 290983.6844999989,
+        "positions": 17
+      },
+      {
+        "date": "2019-03-20",
+        "value": 1107491.763499999,
+        "cash": 161699.24449999921,
+        "positions": 18
+      },
+      {
+        "date": "2019-03-21",
+        "value": 1118171.3594999989,
+        "cash": 203968.06949999894,
+        "positions": 18
+      },
+      {
+        "date": "2019-03-22",
+        "value": 1114116.044499999,
+        "cash": 158656.5494999988,
+        "positions": 18
+      },
+      {
+        "date": "2019-03-25",
+        "value": 1092485.639499999,
+        "cash": 212298.70949999895,
+        "positions": 16
+      },
+      {
+        "date": "2019-03-26",
+        "value": 1104693.341499999,
+        "cash": 212298.70949999883,
+        "positions": 17
+      },
+      {
+        "date": "2019-03-27",
+        "value": 1105065.649499999,
+        "cash": 240495.75949999876,
+        "positions": 17
+      },
+      {
+        "date": "2019-03-28",
+        "value": 1120505.651499999,
+        "cash": 187058.38949999888,
+        "positions": 17
+      },
+      {
+        "date": "2019-03-29",
+        "value": 1115899.869499999,
+        "cash": 187058.38949999923,
+        "positions": 18
+      },
+      {
+        "date": "2019-04-01",
+        "value": 1120312.7094999992,
+        "cash": 189196.68949999916,
+        "positions": 17
+      },
+      {
+        "date": "2019-04-02",
+        "value": 1120841.9794999992,
+        "cash": 189196.68949999916,
+        "positions": 18
+      },
+      {
+        "date": "2019-04-03",
+        "value": 1124875.2194999992,
+        "cash": 168176.68949999928,
+        "positions": 19
+      },
+      {
+        "date": "2019-04-04",
+        "value": 1131513.9694999992,
+        "cash": 350564.88949999923,
+        "positions": 17
+      },
+      {
+        "date": "2019-04-05",
+        "value": 1137286.629499999,
+        "cash": 350564.889499999,
+        "positions": 18
+      },
+      {
+        "date": "2019-04-08",
+        "value": 1134983.249499999,
+        "cash": 330769.5394999989,
+        "positions": 17
+      },
+      {
+        "date": "2019-04-09",
+        "value": 1132898.059499999,
+        "cash": 353471.1394999991,
+        "positions": 17
+      },
+      {
+        "date": "2019-04-10",
+        "value": 1131786.049499999,
+        "cash": 314228.1394999989,
+        "positions": 18
+      },
+      {
+        "date": "2019-04-11",
+        "value": 1131660.949499999,
+        "cash": 279315.519499999,
+        "positions": 18
+      },
+      {
+        "date": "2019-04-12",
+        "value": 1145094.649499999,
+        "cash": 300462.5194999988,
+        "positions": 17
+      },
+      {
+        "date": "2019-04-15",
+        "value": 1172800.3094999988,
+        "cash": 471171.0194999989,
+        "positions": 16
+      },
+      {
+        "date": "2019-04-16",
+        "value": 1182798.1294999989,
+        "cash": 471171.0194999989,
+        "positions": 16
+      },
+      {
+        "date": "2019-04-17",
+        "value": 1169411.979499999,
+        "cash": 502204.45949999895,
+        "positions": 15
+      },
+      {
+        "date": "2019-04-23",
+        "value": 1172248.929499999,
+        "cash": 543368.959499999,
+        "positions": 14
+      },
+      {
+        "date": "2019-04-24",
+        "value": 1173538.269499999,
+        "cash": 568710.3594999991,
+        "positions": 15
+      },
+      {
+        "date": "2019-04-25",
+        "value": 1175853.309499999,
+        "cash": 502185.42949999915,
+        "positions": 15
+      },
+      {
+        "date": "2019-04-26",
+        "value": 1173807.6794999992,
+        "cash": 496331.3494999992,
+        "positions": 16
+      },
+      {
+        "date": "2019-04-29",
+        "value": 1174519.6794999992,
+        "cash": 386053.3494999992,
+        "positions": 16
+      },
+      {
+        "date": "2019-04-30",
+        "value": 1172814.9594999992,
+        "cash": 444944.3494999991,
+        "positions": 15
+      },
+      {
+        "date": "2019-05-01",
+        "value": 1177226.9094999991,
+        "cash": 521501.04949999927,
+        "positions": 12
+      },
+      {
+        "date": "2019-05-02",
+        "value": 1173263.5094999992,
+        "cash": 588670.2994999993,
+        "positions": 13
+      },
+      {
+        "date": "2019-05-03",
+        "value": 1179523.9294999992,
+        "cash": 457887.3994999991,
+        "positions": 15
+      },
+      {
+        "date": "2019-05-06",
+        "value": 1164281.049499999,
+        "cash": 407044.5994999991,
+        "positions": 15
+      },
+      {
+        "date": "2019-05-07",
+        "value": 1157558.249499999,
+        "cash": 361819.59949999896,
+        "positions": 15
+      },
+      {
+        "date": "2019-05-08",
+        "value": 1159651.989499999,
+        "cash": 410105.649499999,
+        "positions": 15
+      },
+      {
+        "date": "2019-05-09",
+        "value": 1145334.759499999,
+        "cash": 380338.94949999894,
+        "positions": 15
+      },
+      {
+        "date": "2019-05-10",
+        "value": 1152623.659499999,
+        "cash": 382714.9494999988,
+        "positions": 15
+      },
+      {
+        "date": "2019-05-13",
+        "value": 1138078.8294999988,
+        "cash": 380224.94949999894,
+        "positions": 16
+      },
+      {
+        "date": "2019-05-14",
+        "value": 1139212.8694999989,
+        "cash": 295746.8994999989,
+        "positions": 16
+      },
+      {
+        "date": "2019-05-15",
+        "value": 1147696.509499999,
+        "cash": 335475.899499999,
+        "positions": 16
+      },
+      {
+        "date": "2019-05-16",
+        "value": 1149052.659499999,
+        "cash": 377349.47949999897,
+        "positions": 16
+      },
+      {
+        "date": "2019-05-20",
+        "value": 1150748.719499999,
+        "cash": 366688.2794999989,
+        "positions": 17
+      },
+      {
+        "date": "2019-05-21",
+        "value": 1157604.749499999,
+        "cash": 285589.379499999,
+        "positions": 16
+      },
+      {
+        "date": "2019-05-22",
+        "value": 1291934.979499999,
+        "cash": 503508.6794999989,
+        "positions": 15
+      },
+      {
+        "date": "2019-05-23",
+        "value": 1288622.1194999989,
+        "cash": 563502.6794999988,
+        "positions": 15
+      },
+      {
+        "date": "2019-05-24",
+        "value": 1298056.679499999,
+        "cash": 500905.879499999,
+        "positions": 15
+      },
+      {
+        "date": "2019-05-27",
+        "value": 1280580.499499999,
+        "cash": 496173.379499999,
+        "positions": 16
+      },
+      {
+        "date": "2019-05-28",
+        "value": 1298046.499499999,
+        "cash": 429295.21949999896,
+        "positions": 15
+      },
+      {
+        "date": "2019-05-29",
+        "value": 1269921.089499999,
+        "cash": 538148.149499999,
+        "positions": 15
+      },
+      {
+        "date": "2019-06-03",
+        "value": 1240730.969499999,
+        "cash": 507754.889499999,
+        "positions": 15
+      },
+      {
+        "date": "2019-06-04",
+        "value": 1240312.919499999,
+        "cash": 485877.859499999,
+        "positions": 15
+      },
+      {
+        "date": "2019-06-06",
+        "value": 1218092.1094999989,
+        "cash": 470298.20949999895,
+        "positions": 15
+      },
+      {
+        "date": "2019-06-07",
+        "value": 1254220.2994999988,
+        "cash": 498227.65949999867,
+        "positions": 15
+      },
+      {
+        "date": "2019-06-11",
+        "value": 1254240.1944999988,
+        "cash": 438623.60949999886,
+        "positions": 16
+      },
+      {
+        "date": "2019-06-12",
+        "value": 1259740.8294999988,
+        "cash": 441248.6844999989,
+        "positions": 16
+      },
+      {
+        "date": "2019-06-13",
+        "value": 1242373.4044999988,
+        "cash": 426658.22449999885,
+        "positions": 15
+      },
+      {
+        "date": "2019-06-14",
+        "value": 1296719.4044999988,
+        "cash": 482717.98449999886,
+        "positions": 16
+      },
+      {
+        "date": "2019-06-17",
+        "value": 1297080.7244999988,
+        "cash": 375451.7844999989,
+        "positions": 16
+      },
+      {
+        "date": "2019-06-18",
+        "value": 1307686.6444999988,
+        "cash": 471169.7844999988,
+        "positions": 16
+      },
+      {
+        "date": "2019-06-19",
+        "value": 1309390.8144999987,
+        "cash": 473020.6844999987,
+        "positions": 16
+      },
+      {
+        "date": "2019-06-20",
+        "value": 1315891.7044999986,
+        "cash": 367908.92449999845,
+        "positions": 16
+      },
+      {
+        "date": "2019-06-21",
+        "value": 1303077.2144999986,
+        "cash": 479911.88449999853,
+        "positions": 16
+      },
+      {
+        "date": "2019-06-24",
+        "value": 1313229.5844999987,
+        "cash": 426593.0844999987,
+        "positions": 16
+      },
+      {
+        "date": "2019-06-25",
+        "value": 1299540.9244999988,
+        "cash": 432518.60449999874,
+        "positions": 16
+      },
+      {
+        "date": "2019-06-26",
+        "value": 1296421.8444999987,
+        "cash": 481019.15449999855,
+        "positions": 16
+      },
+      {
+        "date": "2019-06-27",
+        "value": 1303187.9844999989,
+        "cash": 427588.10449999885,
+        "positions": 16
+      },
+      {
+        "date": "2019-06-28",
+        "value": 1319384.9544999988,
+        "cash": 380081.6044999991,
+        "positions": 17
+      },
+      {
+        "date": "2019-07-01",
+        "value": 1332616.4944999989,
+        "cash": 337853.60449999897,
+        "positions": 17
+      },
+      {
+        "date": "2019-07-02",
+        "value": 1327719.2344999989,
+        "cash": 435408.34449999896,
+        "positions": 16
+      },
+      {
+        "date": "2019-07-03",
+        "value": 1339644.8644999987,
+        "cash": 387030.9244999988,
+        "positions": 16
+      },
+      {
+        "date": "2019-07-04",
+        "value": 1323387.5784999987,
+        "cash": 463016.4084999986,
+        "positions": 15
+      },
+      {
+        "date": "2019-07-05",
+        "value": 1319946.8384999987,
+        "cash": 455142.4084999986,
+        "positions": 16
+      },
+      {
+        "date": "2019-07-08",
+        "value": 1338817.6184999987,
+        "cash": 438049.08349999867,
+        "positions": 17
+      },
+      {
+        "date": "2019-07-09",
+        "value": 1335008.7034999987,
+        "cash": 438049.08349999867,
+        "positions": 16
+      },
+      {
+        "date": "2019-07-10",
+        "value": 1343850.7684999986,
+        "cash": 389377.29349999863,
+        "positions": 18
+      },
+      {
+        "date": "2019-07-11",
+        "value": 1355864.5184999986,
+        "cash": 353916.5434999985,
+        "positions": 18
+      },
+      {
+        "date": "2019-07-12",
+        "value": 1351692.6834999986,
+        "cash": 442830.31849999866,
+        "positions": 17
+      },
+      {
+        "date": "2019-07-15",
+        "value": 1345870.8734999986,
+        "cash": 468543.7984999985,
+        "positions": 16
+      },
+      {
+        "date": "2019-07-16",
+        "value": 1349959.7384999986,
+        "cash": 461086.57849999866,
+        "positions": 16
+      },
+      {
+        "date": "2019-07-17",
+        "value": 1348130.1734999986,
+        "cash": 358643.8584999989,
+        "positions": 16
+      },
+      {
+        "date": "2019-07-18",
+        "value": 1337614.5984999987,
+        "cash": 453960.02849999873,
+        "positions": 17
+      },
+      {
+        "date": "2019-07-19",
+        "value": 1339723.2584999986,
+        "cash": 353103.0084999987,
+        "positions": 16
+      },
+      {
+        "date": "2019-07-22",
+        "value": 1350858.6384999985,
+        "cash": 449110.4084999984,
+        "positions": 16
+      },
+      {
+        "date": "2019-07-23",
+        "value": 1334260.2084999986,
+        "cash": 499195.0184999985,
+        "positions": 15
+      },
+      {
+        "date": "2019-07-24",
+        "value": 1338086.6634999986,
+        "cash": 436050.6184999987,
+        "positions": 15
+      },
+      {
+        "date": "2019-07-25",
+        "value": 1341641.9784999986,
+        "cash": 429369.0184999986,
+        "positions": 15
+      },
+      {
+        "date": "2019-07-26",
+        "value": 1348796.8684999985,
+        "cash": 381669.0184999985,
+        "positions": 15
+      },
+      {
+        "date": "2019-07-29",
+        "value": 1349990.0534999985,
+        "cash": 381669.0184999985,
+        "positions": 15
+      },
+      {
+        "date": "2019-07-30",
+        "value": 1344996.0484999986,
+        "cash": 437915.41849999863,
+        "positions": 14
+      },
+      {
+        "date": "2019-07-31",
+        "value": 1340934.7984999986,
+        "cash": 437915.41849999863,
+        "positions": 15
+      },
+      {
+        "date": "2019-08-01",
+        "value": 1348654.0284999986,
+        "cash": 495275.41849999863,
+        "positions": 13
+      },
+      {
+        "date": "2019-08-02",
+        "value": 1332575.5584999986,
+        "cash": 495275.41849999875,
+        "positions": 14
+      },
+      {
+        "date": "2019-08-05",
+        "value": 1302495.6984999985,
+        "cash": 440255.4184999984,
+        "positions": 15
+      },
+      {
+        "date": "2019-08-06",
+        "value": 1313346.4884999986,
+        "cash": 440255.41849999863,
+        "positions": 15
+      },
+      {
+        "date": "2019-08-07",
+        "value": 1301477.2984999986,
+        "cash": 391349.4184999985,
+        "positions": 16
+      },
+      {
+        "date": "2019-08-08",
+        "value": 1315550.8984999987,
+        "cash": 394516.3184999988,
+        "positions": 15
+      },
+      {
+        "date": "2019-08-09",
+        "value": 1311600.2084999988,
+        "cash": 394516.31849999854,
+        "positions": 15
+      },
+      {
+        "date": "2019-08-12",
+        "value": 1311192.6834999989,
+        "cash": 529716.3184999989,
+        "positions": 14
+      },
+      {
+        "date": "2019-08-13",
+        "value": 1315750.668499999,
+        "cash": 624669.218499999,
+        "positions": 14
+      },
+      {
+        "date": "2019-08-14",
+        "value": 1289989.583499999,
+        "cash": 644617.6434999991,
+        "positions": 15
+      },
+      {
+        "date": "2019-08-15",
+        "value": 1272546.233499999,
+        "cash": 495625.54349999886,
+        "positions": 15
+      },
+      {
+        "date": "2019-08-16",
+        "value": 1277957.053499999,
+        "cash": 403892.5234999991,
+        "positions": 14
+      },
+      {
+        "date": "2019-08-19",
+        "value": 1280147.403499999,
+        "cash": 461355.72349999915,
+        "positions": 14
+      },
+      {
+        "date": "2019-08-20",
+        "value": 1284791.153499999,
+        "cash": 449343.5334999992,
+        "positions": 15
+      },
+      {
+        "date": "2019-08-21",
+        "value": 1293167.153499999,
+        "cash": 349496.96349999914,
+        "positions": 15
+      },
+      {
+        "date": "2019-08-22",
+        "value": 1282815.133499999,
+        "cash": 394487.2634999992,
+        "positions": 15
+      },
+      {
+        "date": "2019-08-23",
+        "value": 1280151.353499999,
+        "cash": 350656.36349999905,
+        "positions": 15
+      },
+      {
+        "date": "2019-08-26",
+        "value": 1269544.793499999,
+        "cash": 486540.553499999,
+        "positions": 14
+      },
+      {
+        "date": "2019-08-27",
+        "value": 1284156.4334999989,
+        "cash": 435413.53349999886,
+        "positions": 14
+      },
+      {
+        "date": "2019-08-28",
+        "value": 1268192.053499999,
+        "cash": 387050.9334999991,
+        "positions": 14
+      },
+      {
+        "date": "2019-08-29",
+        "value": 1273127.973499999,
+        "cash": 387050.933499999,
+        "positions": 14
+      },
+      {
+        "date": "2019-08-30",
+        "value": 1285483.1634999989,
+        "cash": 442333.43349999876,
+        "positions": 14
+      },
+      {
+        "date": "2019-09-02",
+        "value": 1287359.8234999988,
+        "cash": 444887.68349999876,
+        "positions": 16
+      },
+      {
+        "date": "2019-09-03",
+        "value": 1295138.9734999987,
+        "cash": 366910.72349999857,
+        "positions": 16
+      },
+      {
+        "date": "2019-09-04",
+        "value": 1302430.8834999986,
+        "cash": 371658.94349999854,
+        "positions": 16
+      },
+      {
+        "date": "2019-09-05",
+        "value": 1290609.3294999986,
+        "cash": 414382.9074999986,
+        "positions": 16
+      },
+      {
+        "date": "2019-09-06",
+        "value": 1291019.2514999986,
+        "cash": 411097.4374999985,
+        "positions": 16
+      },
+      {
+        "date": "2019-09-09",
+        "value": 1288634.2794999985,
+        "cash": 361954.13749999844,
+        "positions": 17
+      },
+      {
+        "date": "2019-09-10",
+        "value": 1275710.0494999986,
+        "cash": 361954.13749999856,
+        "positions": 15
+      },
+      {
+        "date": "2019-09-11",
+        "value": 1291146.8694999986,
+        "cash": 361954.13749999856,
+        "positions": 16
+      },
+      {
+        "date": "2019-09-12",
+        "value": 1299983.4414999986,
+        "cash": 321737.03749999846,
+        "positions": 17
+      },
+      {
+        "date": "2019-09-13",
+        "value": 1303412.4694999985,
+        "cash": 372945.03749999846,
+        "positions": 15
+      },
+      {
+        "date": "2019-09-16",
+        "value": 1316762.6954999985,
+        "cash": 372945.0374999986,
+        "positions": 15
+      },
+      {
+        "date": "2019-09-17",
+        "value": 1320257.7574999984,
+        "cash": 372945.0374999986,
+        "positions": 15
+      },
+      {
+        "date": "2019-09-18",
+        "value": 1327247.0874999985,
+        "cash": 372945.03749999835,
+        "positions": 15
+      },
+      {
+        "date": "2019-09-19",
+        "value": 1342347.9354999985,
+        "cash": 463861.03749999846,
+        "positions": 15
+      },
+      {
+        "date": "2019-09-20",
+        "value": 1346851.4394999985,
+        "cash": 462293.43749999837,
+        "positions": 15
+      },
+      {
+        "date": "2019-09-23",
+        "value": 1349724.0734999985,
+        "cash": 410927.5574999985,
+        "positions": 15
+      },
+      {
+        "date": "2019-09-24",
+        "value": 1365322.1654999985,
+        "cash": 580896.7574999986,
+        "positions": 15
+      },
+      {
+        "date": "2019-09-25",
+        "value": 1348691.4874999984,
+        "cash": 609805.1974999984,
+        "positions": 14
+      },
+      {
+        "date": "2019-09-26",
+        "value": 1358520.2854999984,
+        "cash": 542050.3574999983,
+        "positions": 14
+      },
+      {
+        "date": "2019-09-27",
+        "value": 1354625.0974999983,
+        "cash": 542050.3574999983,
+        "positions": 14
+      },
+      {
+        "date": "2019-09-30",
+        "value": 1352053.2494999983,
+        "cash": 604606.1874999981,
+        "positions": 14
+      },
+      {
+        "date": "2019-10-01",
+        "value": 1344377.2414999984,
+        "cash": 537428.8874999984,
+        "positions": 14
+      },
+      {
+        "date": "2019-10-02",
+        "value": 1319155.9074999983,
+        "cash": 627628.3574999983,
+        "positions": 14
+      },
+      {
+        "date": "2019-10-03",
+        "value": 1329149.9394999982,
+        "cash": 573579.4374999981,
+        "positions": 15
+      },
+      {
+        "date": "2019-10-04",
+        "value": 1345571.7274999982,
+        "cash": 446129.29749999824,
+        "positions": 15
+      },
+      {
+        "date": "2019-10-07",
+        "value": 1340889.5674999983,
+        "cash": 594081.6974999983,
+        "positions": 13
+      },
+      {
+        "date": "2019-10-08",
+        "value": 1336955.5454999981,
+        "cash": 594081.6974999981,
+        "positions": 13
+      },
+      {
+        "date": "2019-10-09",
+        "value": 1344704.0754999982,
+        "cash": 594081.6974999983,
+        "positions": 15
+      },
+      {
+        "date": "2019-10-10",
+        "value": 1345600.1874999981,
+        "cash": 517089.3974999982,
+        "positions": 15
+      },
+      {
+        "date": "2019-10-11",
+        "value": 1355888.4274999981,
+        "cash": 459636.8974999981,
+        "positions": 17
+      },
+      {
+        "date": "2019-10-14",
+        "value": 1365727.617499998,
+        "cash": 487082.047499998,
+        "positions": 15
+      },
+      {
+        "date": "2019-10-15",
+        "value": 1372800.783499998,
+        "cash": 546050.0474999979,
+        "positions": 15
+      },
+      {
+        "date": "2019-10-16",
+        "value": 1373698.503499998,
+        "cash": 485378.10749999806,
+        "positions": 15
+      },
+      {
+        "date": "2019-10-17",
+        "value": 1388126.297499998,
+        "cash": 485378.10749999795,
+        "positions": 15
+      },
+      {
+        "date": "2019-10-18",
+        "value": 1409858.6874999981,
+        "cash": 537431.2074999982,
+        "positions": 15
+      },
+      {
+        "date": "2019-10-21",
+        "value": 1408616.157499998,
+        "cash": 531942.1074999982,
+        "positions": 17
+      },
+      {
+        "date": "2019-10-22",
+        "value": 1407622.533499998,
+        "cash": 472842.2074999979,
+        "positions": 15
+      },
+      {
+        "date": "2019-10-23",
+        "value": 1396380.365499998,
+        "cash": 531194.007499998,
+        "positions": 15
+      },
+      {
+        "date": "2019-10-24",
+        "value": 1414032.643499998,
+        "cash": 472308.50749999785,
+        "positions": 16
+      },
+      {
+        "date": "2019-10-25",
+        "value": 1432515.8474999978,
+        "cash": 472308.50749999785,
+        "positions": 17
+      },
+      {
+        "date": "2019-10-28",
+        "value": 1436071.653499998,
+        "cash": 439955.277499998,
+        "positions": 16
+      },
+      {
+        "date": "2019-10-29",
+        "value": 1428481.8434999979,
+        "cash": 483591.97749999794,
+        "positions": 16
+      },
+      {
+        "date": "2019-10-30",
+        "value": 1438321.2014999979,
+        "cash": 625769.7774999978,
+        "positions": 13
+      },
+      {
+        "date": "2019-10-31",
+        "value": 1445165.193499998,
+        "cash": 625769.7774999979,
+        "positions": 14
+      },
+      {
+        "date": "2019-11-01",
+        "value": 1449322.953499998,
+        "cash": 625769.777499998,
+        "positions": 13
+      },
+      {
+        "date": "2019-11-04",
+        "value": 1482833.375499998,
+        "cash": 625769.777499998,
+        "positions": 14
+      },
+      {
+        "date": "2019-11-05",
+        "value": 1470045.177499998,
+        "cash": 556244.5274999979,
+        "positions": 14
+      },
+      {
+        "date": "2019-11-06",
+        "value": 1477956.743499998,
+        "cash": 556244.5274999979,
+        "positions": 14
+      },
+      {
+        "date": "2019-11-07",
+        "value": 1475463.457499998,
+        "cash": 639098.7274999979,
+        "positions": 14
+      },
+      {
+        "date": "2019-11-08",
+        "value": 1486183.575499998,
+        "cash": 637166.147499998,
+        "positions": 13
+      },
+      {
+        "date": "2019-11-11",
+        "value": 1492056.655499998,
+        "cash": 637166.147499998,
+        "positions": 14
+      },
+      {
+        "date": "2019-11-12",
+        "value": 1495368.659499998,
+        "cash": 637166.147499998,
+        "positions": 14
+      },
+      {
+        "date": "2019-11-13",
+        "value": 1492779.619499998,
+        "cash": 566372.3474999979,
+        "positions": 14
+      },
+      {
+        "date": "2019-11-14",
+        "value": 1492564.757499998,
+        "cash": 566372.3474999979,
+        "positions": 14
+      },
+      {
+        "date": "2019-11-15",
+        "value": 1504148.868499998,
+        "cash": 761008.192499998,
+        "positions": 13
+      },
+      {
+        "date": "2019-11-18",
+        "value": 1515477.664499998,
+        "cash": 669519.8924999981,
+        "positions": 12
+      },
+      {
+        "date": "2019-11-19",
+        "value": 1510997.5524999981,
+        "cash": 669519.8924999981,
+        "positions": 12
+      },
+      {
+        "date": "2019-11-20",
+        "value": 1508761.6264999982,
+        "cash": 755818.6924999981,
+        "positions": 11
+      },
+      {
+        "date": "2019-11-21",
+        "value": 1499615.4024999982,
+        "cash": 904849.6924999983,
+        "positions": 11
+      },
+      {
+        "date": "2019-11-22",
+        "value": 1499071.3484999982,
+        "cash": 703775.9924999983,
+        "positions": 12
+      },
+      {
+        "date": "2019-11-25",
+        "value": 1453683.9104999981,
+        "cash": 672722.2204999983,
+        "positions": 12
+      },
+      {
+        "date": "2019-11-26",
+        "value": 1457651.830499998,
+        "cash": 658197.9704999981,
+        "positions": 13
+      },
+      {
+        "date": "2019-11-27",
+        "value": 1467381.708499998,
+        "cash": 585064.9904999981,
+        "positions": 12
+      },
+      {
+        "date": "2019-11-28",
+        "value": 1462631.162499998,
+        "cash": 585064.990499998,
+        "positions": 12
+      },
+      {
+        "date": "2019-11-29",
+        "value": 1460926.116499998,
+        "cash": 585064.9904999979,
+        "positions": 12
+      },
+      {
+        "date": "2019-12-02",
+        "value": 1471126.612499998,
+        "cash": 585064.990499998,
+        "positions": 13
+      },
+      {
+        "date": "2019-12-03",
+        "value": 1473054.300499998,
+        "cash": 520086.7904999979,
+        "positions": 13
+      },
+      {
+        "date": "2019-12-04",
+        "value": 1475620.656499998,
+        "cash": 700079.830499998,
+        "positions": 13
+      },
+      {
+        "date": "2019-12-05",
+        "value": 1474832.950499998,
+        "cash": 544735.270499998,
+        "positions": 12
+      },
+      {
+        "date": "2019-12-06",
+        "value": 1474563.616499998,
+        "cash": 544735.270499998,
+        "positions": 12
+      },
+      {
+        "date": "2019-12-09",
+        "value": 1470410.0604999978,
+        "cash": 708712.8164999979,
+        "positions": 11
+      },
+      {
+        "date": "2019-12-10",
+        "value": 1479245.3004999978,
+        "cash": 629967.1324999977,
+        "positions": 12
+      },
+      {
+        "date": "2019-12-11",
+        "value": 1476265.0764999979,
+        "cash": 559987.932499998,
+        "positions": 13
+      }
+    ]
+  },
+  "enhanced_trades": [
+    {
+      "entry_date": "2019-01-02",
+      "ticker": "cBrain A/S",
+      "exit_date": "2019-04-15",
+      "entry_price": 19.85,
+      "exit_price": 30.5
+    },
+    {
+      "entry_date": "2019-01-02",
+      "ticker": "Asetek A/S",
+      "exit_date": "2019-01-09",
+      "entry_price": 44.35,
+      "exit_price": 41.95
+    },
+    {
+      "entry_date": "2019-01-02",
+      "ticker": "FastPassCorp A/S",
+      "exit_date": "2019-02-04",
+      "entry_price": 44.0,
+      "exit_price": 47.0
+    },
+    {
+      "entry_date": "2019-01-02",
+      "ticker": "Strategic Partners A/S",
+      "exit_date": "2019-08-12",
+      "entry_price": 44250.0,
+      "exit_price": 67600.0
+    },
+    {
+      "entry_date": "2019-01-02",
+      "ticker": "Nuevolution AB (publ)",
+      "exit_date": "2019-01-03",
+      "entry_price": 16.98,
+      "exit_price": 16.1
+    },
+    {
+      "entry_date": "2019-01-02",
+      "ticker": "Zealand Pharma A/S",
+      "exit_date": "2019-04-04",
+      "entry_price": 83.0,
+      "exit_price": 125.9
+    },
+    {
+      "entry_date": "2019-01-02",
+      "ticker": "Bavarian Nordic A/S",
+      "exit_date": "2019-09-24",
+      "entry_price": 133.1,
+      "exit_price": 203.8
+    },
+    {
+      "entry_date": "2019-01-02",
+      "ticker": "Saniona AB (publ)",
+      "exit_date": "2019-01-30",
+      "entry_price": 32.2,
+      "exit_price": 30.2
+    },
+    {
+      "entry_date": "2019-01-02",
+      "ticker": "Netcompany Group A/S",
+      "exit_date": "2019-02-06",
+      "entry_price": 224.6,
+      "exit_price": 205.8
+    },
+    {
+      "entry_date": "2019-01-03",
+      "ticker": "Nuevolution AB (publ)",
+      "exit_date": "2019-01-03",
+      "entry_price": 16.1,
+      "exit_price": 16.1
+    },
+    {
+      "entry_date": "2019-01-03",
+      "ticker": "MenuPay AB",
+      "exit_date": "2019-02-05",
+      "entry_price": 1.12,
+      "exit_price": 1.21
+    },
+    {
+      "entry_date": "2019-01-07",
+      "ticker": "FastPassCorp A/S",
+      "exit_date": "2019-02-04",
+      "entry_price": 44.0,
+      "exit_price": 47.0
+    },
+    {
+      "entry_date": "2019-01-08",
+      "ticker": "Scape Technologies A/S",
+      "exit_date": "2019-01-29",
+      "entry_price": 8.04,
+      "exit_price": 12.9
+    },
+    {
+      "entry_date": "2019-01-09",
+      "ticker": "Asetek A/S",
+      "exit_date": "2019-01-09",
+      "entry_price": 41.95,
+      "exit_price": 41.95
+    },
+    {
+      "entry_date": "2019-01-09",
+      "ticker": "Hypefactors A/S",
+      "exit_date": "2019-01-10",
+      "entry_price": 3.0,
+      "exit_price": 4.6695
+    },
+    {
+      "entry_date": "2019-01-10",
+      "ticker": "Wirtek A/S",
+      "exit_date": "2019-03-19",
+      "entry_price": 6.25,
+      "exit_price": 6.15
+    },
+    {
+      "entry_date": "2019-01-16",
+      "ticker": "Columbus A/S",
+      "exit_date": "2019-03-19",
+      "entry_price": 13.16,
+      "exit_price": 12.46
+    },
+    {
+      "entry_date": "2019-01-17",
+      "ticker": "Nuevolution AB (publ)",
+      "exit_date": "2019-01-03",
+      "entry_price": 15.26,
+      "exit_price": 16.1
+    },
+    {
+      "entry_date": "2019-01-22",
+      "ticker": "Wirtek A/S",
+      "exit_date": "2019-03-19",
+      "entry_price": 6.25,
+      "exit_price": 6.15
+    },
+    {
+      "entry_date": "2019-01-24",
+      "ticker": "Wirtek A/S",
+      "exit_date": "2019-03-19",
+      "entry_price": 6.25,
+      "exit_price": 6.15
+    },
+    {
+      "entry_date": "2019-01-29",
+      "ticker": "FastPassCorp A/S",
+      "exit_date": "2019-02-04",
+      "entry_price": 45.0,
+      "exit_price": 47.0
+    },
+    {
+      "entry_date": "2019-01-30",
+      "ticker": "Nuevolution AB (publ)",
+      "exit_date": "2019-01-03",
+      "entry_price": 14.48,
+      "exit_price": 16.1
+    },
+    {
+      "entry_date": "2019-01-30",
+      "ticker": "Saniona AB (publ)",
+      "exit_date": "2019-01-30",
+      "entry_price": 30.2,
+      "exit_price": 30.2
+    },
+    {
+      "entry_date": "2019-01-30",
+      "ticker": "Genmab A/S",
+      "exit_date": "2019-09-03",
+      "entry_price": 954.8,
+      "exit_price": 1435.0
+    },
+    {
+      "entry_date": "2019-01-31",
+      "ticker": "MenuPay AB",
+      "exit_date": "2019-02-05",
+      "entry_price": 1.28,
+      "exit_price": 1.21
+    },
+    {
+      "entry_date": "2019-01-31",
+      "ticker": "BioPorto A/S",
+      "exit_date": "2019-07-15",
+      "entry_price": 3.875,
+      "exit_price": 3.18
+    },
+    {
+      "entry_date": "2019-01-31",
+      "ticker": "FastPassCorp A/S",
+      "exit_date": "2019-02-04",
+      "entry_price": 53.0,
+      "exit_price": 47.0
+    },
+    {
+      "entry_date": "2019-02-01",
+      "ticker": "Wirtek A/S",
+      "exit_date": "2019-03-19",
+      "entry_price": 6.0,
+      "exit_price": 6.15
+    },
+    {
+      "entry_date": "2019-02-04",
+      "ticker": "FastPassCorp A/S",
+      "exit_date": "2019-02-04",
+      "entry_price": 47.0,
+      "exit_price": 47.0
+    },
+    {
+      "entry_date": "2019-02-05",
+      "ticker": "Nuevolution AB (publ)",
+      "exit_date": "2019-01-03",
+      "entry_price": 13.54,
+      "exit_price": 16.1
+    },
+    {
+      "entry_date": "2019-02-05",
+      "ticker": "MenuPay AB",
+      "exit_date": "2019-02-05",
+      "entry_price": 1.21,
+      "exit_price": 1.21
+    },
+    {
+      "entry_date": "2019-02-05",
+      "ticker": "NNIT A/S",
+      "exit_date": "2019-03-08",
+      "entry_price": 190.0,
+      "exit_price": 178.8
+    },
+    {
+      "entry_date": "2019-02-06",
+      "ticker": "Netcompany Group A/S",
+      "exit_date": "2019-02-06",
+      "entry_price": 205.8,
+      "exit_price": 205.8
+    },
+    {
+      "entry_date": "2019-02-06",
+      "ticker": "Wirtek A/S",
+      "exit_date": "2019-03-19",
+      "entry_price": 5.9,
+      "exit_price": 6.15
+    },
+    {
+      "entry_date": "2019-02-08",
+      "ticker": "Wirtek A/S",
+      "exit_date": "2019-03-19",
+      "entry_price": 5.9,
+      "exit_price": 6.15
+    },
+    {
+      "entry_date": "2019-02-13",
+      "ticker": "FastPassCorp A/S",
+      "exit_date": "2019-02-04",
+      "entry_price": 45.4,
+      "exit_price": 47.0
+    },
+    {
+      "entry_date": "2019-02-20",
+      "ticker": "Saniona AB (publ)",
+      "exit_date": "2019-01-30",
+      "entry_price": 28.6,
+      "exit_price": 30.2
+    },
+    {
+      "entry_date": "2019-02-20",
+      "ticker": "Scape Technologies A/S",
+      "exit_date": "2019-01-29",
+      "entry_price": 17.0,
+      "exit_price": 12.9
+    },
+    {
+      "entry_date": "2019-02-20",
+      "ticker": "Seluxit A/S",
+      "exit_date": "2019-06-04",
+      "entry_price": 11.756,
+      "exit_price": 10.55
+    },
+    {
+      "entry_date": "2019-02-20",
+      "ticker": "MenuPay AB",
+      "exit_date": "2019-02-05",
+      "entry_price": 1.28,
+      "exit_price": 1.21
+    },
+    {
+      "entry_date": "2019-02-21",
+      "ticker": "Wirtek A/S",
+      "exit_date": "2019-03-19",
+      "entry_price": 6.75,
+      "exit_price": 6.15
+    },
+    {
+      "entry_date": "2019-02-25",
+      "ticker": "Nuevolution AB (publ)",
+      "exit_date": "2019-01-03",
+      "entry_price": 12.38,
+      "exit_price": 16.1
+    },
+    {
+      "entry_date": "2019-02-25",
+      "ticker": "FastPassCorp A/S",
+      "exit_date": "2019-02-04",
+      "entry_price": 45.0,
+      "exit_price": 47.0
+    },
+    {
+      "entry_date": "2019-02-25",
+      "ticker": "Wirtek A/S",
+      "exit_date": "2019-03-19",
+      "entry_price": 6.7,
+      "exit_price": 6.15
+    },
+    {
+      "entry_date": "2019-02-26",
+      "ticker": "Conferize A/S",
+      "exit_date": "2019-03-06",
+      "entry_price": 7.75,
+      "exit_price": 7.35
+    },
+    {
+      "entry_date": "2019-02-28",
+      "ticker": "Nuevolution AB (publ)",
+      "exit_date": "2019-01-03",
+      "entry_price": 11.7,
+      "exit_price": 16.1
+    },
+    {
+      "entry_date": "2019-03-01",
+      "ticker": "FastPassCorp A/S",
+      "exit_date": "2019-02-04",
+      "entry_price": 47.0,
+      "exit_price": 47.0
+    },
+    {
+      "entry_date": "2019-03-04",
+      "ticker": "Wirtek A/S",
+      "exit_date": "2019-03-19",
+      "entry_price": 6.6,
+      "exit_price": 6.15
+    },
+    {
+      "entry_date": "2019-03-05",
+      "ticker": "Nuevolution AB (publ)",
+      "exit_date": "2019-01-03",
+      "entry_price": 11.0,
+      "exit_price": 16.1
+    },
+    {
+      "entry_date": "2019-03-06",
+      "ticker": "Asetek A/S",
+      "exit_date": "2019-01-09",
+      "entry_price": 38.9,
+      "exit_price": 41.95
+    },
+    {
+      "entry_date": "2019-03-06",
+      "ticker": "Conferize A/S",
+      "exit_date": "2019-03-06",
+      "entry_price": 7.35,
+      "exit_price": 7.35
+    },
+    {
+      "entry_date": "2019-03-06",
+      "ticker": "Wirtek A/S",
+      "exit_date": "2019-03-19",
+      "entry_price": 6.6,
+      "exit_price": 6.15
+    },
+    {
+      "entry_date": "2019-03-07",
+      "ticker": "Asetek A/S",
+      "exit_date": "2019-01-09",
+      "entry_price": 33.95,
+      "exit_price": 41.95
+    },
+    {
+      "entry_date": "2019-03-07",
+      "ticker": "Saniona AB (publ)",
+      "exit_date": "2019-01-30",
+      "entry_price": 27.0,
+      "exit_price": 30.2
+    },
+    {
+      "entry_date": "2019-03-07",
+      "ticker": "Agillic A/S",
+      "exit_date": "2019-03-11",
+      "entry_price": 27.01,
+      "exit_price": 25.5
+    },
+    {
+      "entry_date": "2019-03-08",
+      "ticker": "Wirtek A/S",
+      "exit_date": "2019-03-19",
+      "entry_price": 6.6,
+      "exit_price": 6.15
+    },
+    {
+      "entry_date": "2019-03-11",
+      "ticker": "FastPassCorp A/S",
+      "exit_date": "2019-02-04",
+      "entry_price": 45.0,
+      "exit_price": 47.0
+    },
+    {
+      "entry_date": "2019-03-11",
+      "ticker": "MenuPay AB",
+      "exit_date": "2019-02-05",
+      "entry_price": 1.65,
+      "exit_price": 1.21
+    },
+    {
+      "entry_date": "2019-03-11",
+      "ticker": "Agillic A/S",
+      "exit_date": "2019-03-11",
+      "entry_price": 25.5,
+      "exit_price": 25.5
+    },
+    {
+      "entry_date": "2019-03-12",
+      "ticker": "Conferize A/S",
+      "exit_date": "2019-03-06",
+      "entry_price": 7.14,
+      "exit_price": 7.35
+    },
+    {
+      "entry_date": "2019-03-18",
+      "ticker": "Conferize A/S",
+      "exit_date": "2019-03-06",
+      "entry_price": 7.17,
+      "exit_price": 7.35
+    },
+    {
+      "entry_date": "2019-03-19",
+      "ticker": "Asetek A/S",
+      "exit_date": "2019-01-09",
+      "entry_price": 31.95,
+      "exit_price": 41.95
+    },
+    {
+      "entry_date": "2019-03-19",
+      "ticker": "Columbus A/S",
+      "exit_date": "2019-03-19",
+      "entry_price": 12.46,
+      "exit_price": 12.46
+    },
+    {
+      "entry_date": "2019-03-19",
+      "ticker": "Wirtek A/S",
+      "exit_date": "2019-03-19",
+      "entry_price": 6.15,
+      "exit_price": 6.15
+    },
+    {
+      "entry_date": "2019-03-19",
+      "ticker": "Hypefactors A/S",
+      "exit_date": "2019-01-10",
+      "entry_price": 4.84,
+      "exit_price": 4.6695
+    },
+    {
+      "entry_date": "2019-03-20",
+      "ticker": "NNIT A/S",
+      "exit_date": "2019-03-08",
+      "entry_price": 177.6,
+      "exit_price": 178.8
+    },
+    {
+      "entry_date": "2019-03-21",
+      "ticker": "Asetek A/S",
+      "exit_date": "2019-01-09",
+      "entry_price": 30.0,
+      "exit_price": 41.95
+    },
+    {
+      "entry_date": "2019-03-21",
+      "ticker": "MenuPay AB",
+      "exit_date": "2019-02-05",
+      "entry_price": 1.88,
+      "exit_price": 1.21
+    },
+    {
+      "entry_date": "2019-03-26",
+      "ticker": "MenuPay AB",
+      "exit_date": "2019-02-05",
+      "entry_price": 1.75,
+      "exit_price": 1.21
+    },
+    {
+      "entry_date": "2019-03-27",
+      "ticker": "Columbus A/S",
+      "exit_date": "2019-03-19",
+      "entry_price": 11.76,
+      "exit_price": 12.46
+    },
+    {
+      "entry_date": "2019-03-27",
+      "ticker": "Conferize A/S",
+      "exit_date": "2019-03-06",
+      "entry_price": 6.79,
+      "exit_price": 7.35
+    },
+    {
+      "entry_date": "2019-03-29",
+      "ticker": "Agillic A/S",
+      "exit_date": "2019-03-11",
+      "entry_price": 28.0,
+      "exit_price": 25.5
+    },
+    {
+      "entry_date": "2019-04-02",
+      "ticker": "MenuPay AB",
+      "exit_date": "2019-02-05",
+      "entry_price": 2.0,
+      "exit_price": 1.21
+    },
+    {
+      "entry_date": "2019-04-03",
+      "ticker": "FastPassCorp A/S",
+      "exit_date": "2019-02-04",
+      "entry_price": 45.4,
+      "exit_price": 47.0
+    },
+    {
+      "entry_date": "2019-04-05",
+      "ticker": "Wirtek A/S",
+      "exit_date": "2019-03-19",
+      "entry_price": 6.15,
+      "exit_price": 6.15
+    },
+    {
+      "entry_date": "2019-04-09",
+      "ticker": "Zealand Pharma A/S",
+      "exit_date": "2019-04-04",
+      "entry_price": 127.0,
+      "exit_price": 125.9
+    },
+    {
+      "entry_date": "2019-04-10",
+      "ticker": "MenuPay AB",
+      "exit_date": "2019-02-05",
+      "entry_price": 2.07,
+      "exit_price": 1.21
+    },
+    {
+      "entry_date": "2019-04-24",
+      "ticker": "Conferize A/S",
+      "exit_date": "2019-03-06",
+      "entry_price": 6.44,
+      "exit_price": 7.35
+    },
+    {
+      "entry_date": "2019-04-24",
+      "ticker": "Wirtek A/S",
+      "exit_date": "2019-03-19",
+      "entry_price": 6.35,
+      "exit_price": 6.15
+    },
+    {
+      "entry_date": "2019-04-25",
+      "ticker": "Conferize A/S",
+      "exit_date": "2019-03-06",
+      "entry_price": 6.1,
+      "exit_price": 7.35
+    },
+    {
+      "entry_date": "2019-04-26",
+      "ticker": "Conferize A/S",
+      "exit_date": "2019-03-06",
+      "entry_price": 5.46,
+      "exit_price": 7.35
+    },
+    {
+      "entry_date": "2019-04-26",
+      "ticker": "FastPassCorp A/S",
+      "exit_date": "2019-02-04",
+      "entry_price": 44.0,
+      "exit_price": 47.0
+    },
+    {
+      "entry_date": "2019-05-02",
+      "ticker": "Nuevolution AB (publ)",
+      "exit_date": "2019-01-03",
+      "entry_price": 12.1,
+      "exit_price": 16.1
+    },
+    {
+      "entry_date": "2019-05-02",
+      "ticker": "Saniona AB (publ)",
+      "exit_date": "2019-01-30",
+      "entry_price": 25.6,
+      "exit_price": 30.2
+    },
+    {
+      "entry_date": "2019-05-03",
+      "ticker": "Asetek A/S",
+      "exit_date": "2019-01-09",
+      "entry_price": 34.8,
+      "exit_price": 41.95
+    },
+    {
+      "entry_date": "2019-05-03",
+      "ticker": "FastPassCorp A/S",
+      "exit_date": "2019-02-04",
+      "entry_price": 45.0,
+      "exit_price": 47.0
+    },
+    {
+      "entry_date": "2019-05-06",
+      "ticker": "Wirtek A/S",
+      "exit_date": "2019-03-19",
+      "entry_price": 6.7,
+      "exit_price": 6.15
+    },
+    {
+      "entry_date": "2019-05-08",
+      "ticker": "Asetek A/S",
+      "exit_date": "2019-01-09",
+      "entry_price": 33.05,
+      "exit_price": 41.95
+    },
+    {
+      "entry_date": "2019-05-09",
+      "ticker": "NNIT A/S",
+      "exit_date": "2019-03-08",
+      "entry_price": 156.2,
+      "exit_price": 178.8
+    },
+    {
+      "entry_date": "2019-05-10",
+      "ticker": "FastPassCorp A/S",
+      "exit_date": "2019-02-04",
+      "entry_price": 44.0,
+      "exit_price": 47.0
+    },
+    {
+      "entry_date": "2019-05-13",
+      "ticker": "Wirtek A/S",
+      "exit_date": "2019-03-19",
+      "entry_price": 6.45,
+      "exit_price": 6.15
+    },
+    {
+      "entry_date": "2019-05-13",
+      "ticker": "NNIT A/S",
+      "exit_date": "2019-03-08",
+      "entry_price": 148.2,
+      "exit_price": 178.8
+    },
+    {
+      "entry_date": "2019-05-15",
+      "ticker": "NNIT A/S",
+      "exit_date": "2019-03-08",
+      "entry_price": 139.4,
+      "exit_price": 178.8
+    },
+    {
+      "entry_date": "2019-05-16",
+      "ticker": "Agillic A/S",
+      "exit_date": "2019-03-11",
+      "entry_price": 25.6,
+      "exit_price": 25.5
+    },
+    {
+      "entry_date": "2019-05-16",
+      "ticker": "Hypefactors A/S",
+      "exit_date": "2019-01-10",
+      "entry_price": 4.31,
+      "exit_price": 4.6695
+    },
+    {
+      "entry_date": "2019-05-20",
+      "ticker": "NNIT A/S",
+      "exit_date": "2019-03-08",
+      "entry_price": 131.6,
+      "exit_price": 178.8
+    },
+    {
+      "entry_date": "2019-05-20",
+      "ticker": "Hypefactors A/S",
+      "exit_date": "2019-01-10",
+      "entry_price": 3.91,
+      "exit_price": 4.6695
+    },
+    {
+      "entry_date": "2019-05-20",
+      "ticker": "SimCorp A/S",
+      "exit_date": "2019-08-14",
+      "entry_price": 603.5,
+      "exit_price": 572.5
+    },
+    {
+      "entry_date": "2019-05-22",
+      "ticker": "MenuPay AB",
+      "exit_date": "2019-02-05",
+      "entry_price": 1.61,
+      "exit_price": 1.21
+    },
+    {
+      "entry_date": "2019-05-23",
+      "ticker": "Wirtek A/S",
+      "exit_date": "2019-03-19",
+      "entry_price": 6.7,
+      "exit_price": 6.15
+    },
+    {
+      "entry_date": "2019-05-23",
+      "ticker": "Scape Technologies A/S",
+      "exit_date": "2019-01-29",
+      "entry_price": 15.12,
+      "exit_price": 12.9
+    },
+    {
+      "entry_date": "2019-05-24",
+      "ticker": "Conferize A/S",
+      "exit_date": "2019-03-06",
+      "entry_price": 5.88,
+      "exit_price": 7.35
+    },
+    {
+      "entry_date": "2019-05-27",
+      "ticker": "Wirtek A/S",
+      "exit_date": "2019-03-19",
+      "entry_price": 6.6,
+      "exit_price": 6.15
+    },
+    {
+      "entry_date": "2019-05-27",
+      "ticker": "Conferize A/S",
+      "exit_date": "2019-03-06",
+      "entry_price": 5.38,
+      "exit_price": 7.35
+    },
+    {
+      "entry_date": "2019-05-29",
+      "ticker": "Conferize A/S",
+      "exit_date": "2019-03-06",
+      "entry_price": 4.99,
+      "exit_price": 7.35
+    },
+    {
+      "entry_date": "2019-05-29",
+      "ticker": "Saniona AB (publ)",
+      "exit_date": "2019-01-30",
+      "entry_price": 22.6,
+      "exit_price": 30.2
+    },
+    {
+      "entry_date": "2019-06-03",
+      "ticker": "NNIT A/S",
+      "exit_date": "2019-03-08",
+      "entry_price": 123.4,
+      "exit_price": 178.8
+    },
+    {
+      "entry_date": "2019-06-03",
+      "ticker": "Conferize A/S",
+      "exit_date": "2019-03-06",
+      "entry_price": 4.26,
+      "exit_price": 7.35
+    },
+    {
+      "entry_date": "2019-06-04",
+      "ticker": "Seluxit A/S",
+      "exit_date": "2019-06-04",
+      "entry_price": 10.55,
+      "exit_price": 10.55
+    },
+    {
+      "entry_date": "2019-06-04",
+      "ticker": "Saniona AB (publ)",
+      "exit_date": "2019-01-30",
+      "entry_price": 21.3,
+      "exit_price": 30.2
+    },
+    {
+      "entry_date": "2019-06-06",
+      "ticker": "Conferize A/S",
+      "exit_date": "2019-03-06",
+      "entry_price": 2.9,
+      "exit_price": 7.35
+    },
+    {
+      "entry_date": "2019-06-06",
+      "ticker": "FastPassCorp A/S",
+      "exit_date": "2019-02-04",
+      "entry_price": 38.0,
+      "exit_price": 47.0
+    },
+    {
+      "entry_date": "2019-06-07",
+      "ticker": "Saniona AB (publ)",
+      "exit_date": "2019-01-30",
+      "entry_price": 20.6,
+      "exit_price": 30.2
+    },
+    {
+      "entry_date": "2019-06-07",
+      "ticker": "MenuPay AB",
+      "exit_date": "2019-02-05",
+      "entry_price": 1.33,
+      "exit_price": 1.21
+    },
+    {
+      "entry_date": "2019-06-11",
+      "ticker": "Conferize A/S",
+      "exit_date": "2019-03-06",
+      "entry_price": 1.66,
+      "exit_price": 7.35
+    },
+    {
+      "entry_date": "2019-06-11",
+      "ticker": "Saniona AB (publ)",
+      "exit_date": "2019-01-30",
+      "entry_price": 19.02,
+      "exit_price": 30.2
+    },
+    {
+      "entry_date": "2019-06-12",
+      "ticker": "Asetek A/S",
+      "exit_date": "2019-01-09",
+      "entry_price": 30.8,
+      "exit_price": 41.95
+    },
+    {
+      "entry_date": "2019-06-12",
+      "ticker": "Konsolidator A/S",
+      "exit_date": "2019-06-13",
+      "entry_price": 9.5,
+      "exit_price": 9.0
+    },
+    {
+      "entry_date": "2019-06-13",
+      "ticker": "Conferize A/S",
+      "exit_date": "2019-03-06",
+      "entry_price": 1.26,
+      "exit_price": 7.35
+    },
+    {
+      "entry_date": "2019-06-14",
+      "ticker": "Konsolidator A/S",
+      "exit_date": "2019-06-13",
+      "entry_price": 9.0,
+      "exit_price": 9.0
+    },
+    {
+      "entry_date": "2019-06-14",
+      "ticker": "MenuPay AB",
+      "exit_date": "2019-02-05",
+      "entry_price": 1.48,
+      "exit_price": 1.21
+    },
+    {
+      "entry_date": "2019-06-18",
+      "ticker": "Asetek A/S",
+      "exit_date": "2019-01-09",
+      "entry_price": 28.0,
+      "exit_price": 41.95
+    },
+    {
+      "entry_date": "2019-06-18",
+      "ticker": "Seluxit A/S",
+      "exit_date": "2019-06-04",
+      "entry_price": 10.0,
+      "exit_price": 10.55
+    },
+    {
+      "entry_date": "2019-06-19",
+      "ticker": "Seluxit A/S",
+      "exit_date": "2019-06-04",
+      "entry_price": 9.5,
+      "exit_price": 10.55
+    },
+    {
+      "entry_date": "2019-06-19",
+      "ticker": "Conferize A/S",
+      "exit_date": "2019-03-06",
+      "entry_price": 1.93,
+      "exit_price": 7.35
+    },
+    {
+      "entry_date": "2019-06-21",
+      "ticker": "Wirtek A/S",
+      "exit_date": "2019-03-19",
+      "entry_price": 6.8,
+      "exit_price": 6.15
+    },
+    {
+      "entry_date": "2019-06-21",
+      "ticker": "Hypefactors A/S",
+      "exit_date": "2019-01-10",
+      "entry_price": 4.0,
+      "exit_price": 4.6695
+    },
+    {
+      "entry_date": "2019-06-24",
+      "ticker": "Saniona AB (publ)",
+      "exit_date": "2019-01-30",
+      "entry_price": 19.36,
+      "exit_price": 30.2
+    },
+    {
+      "entry_date": "2019-06-25",
+      "ticker": "Hypefactors A/S",
+      "exit_date": "2019-01-10",
+      "entry_price": 4.2,
+      "exit_price": 4.6695
+    },
+    {
+      "entry_date": "2019-06-26",
+      "ticker": "Asetek A/S",
+      "exit_date": "2019-01-09",
+      "entry_price": 25.95,
+      "exit_price": 41.95
+    },
+    {
+      "entry_date": "2019-06-26",
+      "ticker": "Wirtek A/S",
+      "exit_date": "2019-03-19",
+      "entry_price": 6.75,
+      "exit_price": 6.15
+    },
+    {
+      "entry_date": "2019-06-27",
+      "ticker": "Hypefactors A/S",
+      "exit_date": "2019-01-10",
+      "entry_price": 3.91,
+      "exit_price": 4.6695
+    },
+    {
+      "entry_date": "2019-06-28",
+      "ticker": "Wirtek A/S",
+      "exit_date": "2019-03-19",
+      "entry_price": 6.75,
+      "exit_price": 6.15
+    },
+    {
+      "entry_date": "2019-07-02",
+      "ticker": "Conferize A/S",
+      "exit_date": "2019-03-06",
+      "entry_price": 1.82,
+      "exit_price": 7.35
+    },
+    {
+      "entry_date": "2019-07-04",
+      "ticker": "NNIT A/S",
+      "exit_date": "2019-03-08",
+      "entry_price": 110.2,
+      "exit_price": 178.8
+    },
+    {
+      "entry_date": "2019-07-05",
+      "ticker": "Conferize A/S",
+      "exit_date": "2019-03-06",
+      "entry_price": 1.075,
+      "exit_price": 7.35
+    },
+    {
+      "entry_date": "2019-07-05",
+      "ticker": "FastPassCorp A/S",
+      "exit_date": "2019-02-04",
+      "entry_price": 39.0,
+      "exit_price": 47.0
+    },
+    {
+      "entry_date": "2019-07-08",
+      "ticker": "Wirtek A/S",
+      "exit_date": "2019-03-19",
+      "entry_price": 7.05,
+      "exit_price": 6.15
+    },
+    {
+      "entry_date": "2019-07-08",
+      "ticker": "Hypefactors A/S",
+      "exit_date": "2019-01-10",
+      "entry_price": 3.8,
+      "exit_price": 4.6695
+    },
+    {
+      "entry_date": "2019-07-09",
+      "ticker": "MenuPay AB",
+      "exit_date": "2019-02-05",
+      "entry_price": 1.41,
+      "exit_price": 1.21
+    },
+    {
+      "entry_date": "2019-07-10",
+      "ticker": "Wirtek A/S",
+      "exit_date": "2019-03-19",
+      "entry_price": 7.1,
+      "exit_price": 6.15
+    },
+    {
+      "entry_date": "2019-07-10",
+      "ticker": "Hypefactors A/S",
+      "exit_date": "2019-01-10",
+      "entry_price": 3.79,
+      "exit_price": 4.6695
+    },
+    {
+      "entry_date": "2019-07-11",
+      "ticker": "Enalyzer A/S",
+      "exit_date": null,
+      "entry_price": 3.62,
+      "exit_price": null
+    },
+    {
+      "entry_date": "2019-07-12",
+      "ticker": "Hypefactors A/S",
+      "exit_date": "2019-01-10",
+      "entry_price": 3.48,
+      "exit_price": 4.6695
+    },
+    {
+      "entry_date": "2019-07-12",
+      "ticker": "FastPassCorp A/S",
+      "exit_date": "2019-02-04",
+      "entry_price": 39.4,
+      "exit_price": 47.0
+    },
+    {
+      "entry_date": "2019-07-15",
+      "ticker": "BioPorto A/S",
+      "exit_date": "2019-07-15",
+      "entry_price": 3.18,
+      "exit_price": 3.18
+    },
+    {
+      "entry_date": "2019-07-15",
+      "ticker": "MenuPay AB",
+      "exit_date": "2019-02-05",
+      "entry_price": 1.41,
+      "exit_price": 1.21
+    },
+    {
+      "entry_date": "2019-07-16",
+      "ticker": "Saniona AB (publ)",
+      "exit_date": "2019-01-30",
+      "entry_price": 18.22,
+      "exit_price": 30.2
+    },
+    {
+      "entry_date": "2019-07-16",
+      "ticker": "Agillic A/S",
+      "exit_date": "2019-03-11",
+      "entry_price": 28.1,
+      "exit_price": 25.5
+    },
+    {
+      "entry_date": "2019-07-18",
+      "ticker": "NNIT A/S",
+      "exit_date": "2019-03-08",
+      "entry_price": 104.6,
+      "exit_price": 178.8
+    },
+    {
+      "entry_date": "2019-07-18",
+      "ticker": "Hypefactors A/S",
+      "exit_date": "2019-01-10",
+      "entry_price": 3.5,
+      "exit_price": 4.6695
+    },
+    {
+      "entry_date": "2019-07-18",
+      "ticker": "MenuPay AB",
+      "exit_date": "2019-02-05",
+      "entry_price": 1.42,
+      "exit_price": 1.21
+    },
+    {
+      "entry_date": "2019-07-22",
+      "ticker": "Hypefactors A/S",
+      "exit_date": "2019-01-10",
+      "entry_price": 3.22,
+      "exit_price": 4.6695
+    },
+    {
+      "entry_date": "2019-07-22",
+      "ticker": "FastPassCorp A/S",
+      "exit_date": "2019-02-04",
+      "entry_price": 40.0,
+      "exit_price": 47.0
+    },
+    {
+      "entry_date": "2019-07-23",
+      "ticker": "Wirtek A/S",
+      "exit_date": "2019-03-19",
+      "entry_price": 7.1,
+      "exit_price": 6.15
+    },
+    {
+      "entry_date": "2019-07-23",
+      "ticker": "Agillic A/S",
+      "exit_date": "2019-03-11",
+      "entry_price": 29.0,
+      "exit_price": 25.5
+    },
+    {
+      "entry_date": "2019-07-24",
+      "ticker": "Asetek A/S",
+      "exit_date": "2019-01-09",
+      "entry_price": 23.2,
+      "exit_price": 41.95
+    },
+    {
+      "entry_date": "2019-07-25",
+      "ticker": "Asetek A/S",
+      "exit_date": "2019-01-09",
+      "entry_price": 20.0,
+      "exit_price": 41.95
+    },
+    {
+      "entry_date": "2019-07-31",
+      "ticker": "Wirtek A/S",
+      "exit_date": "2019-03-19",
+      "entry_price": 7.2,
+      "exit_price": 6.15
+    },
+    {
+      "entry_date": "2019-08-02",
+      "ticker": "Agillic A/S",
+      "exit_date": "2019-03-11",
+      "entry_price": 28.0,
+      "exit_price": 25.5
+    },
+    {
+      "entry_date": "2019-08-05",
+      "ticker": "Wirtek A/S",
+      "exit_date": "2019-03-19",
+      "entry_price": 7.2,
+      "exit_price": 6.15
+    },
+    {
+      "entry_date": "2019-08-06",
+      "ticker": "FastPassCorp A/S",
+      "exit_date": "2019-02-04",
+      "entry_price": 39.0,
+      "exit_price": 47.0
+    },
+    {
+      "entry_date": "2019-08-07",
+      "ticker": "Wirtek A/S",
+      "exit_date": "2019-03-19",
+      "entry_price": 7.7,
+      "exit_price": 6.15
+    },
+    {
+      "entry_date": "2019-08-13",
+      "ticker": "NNIT A/S",
+      "exit_date": "2019-03-08",
+      "entry_price": 98.5,
+      "exit_price": 178.8
+    },
+    {
+      "entry_date": "2019-08-13",
+      "ticker": "BioPorto A/S",
+      "exit_date": "2019-07-15",
+      "entry_price": 2.9,
+      "exit_price": 3.18
+    },
+    {
+      "entry_date": "2019-08-14",
+      "ticker": "NNIT A/S",
+      "exit_date": "2019-03-08",
+      "entry_price": 78.3,
+      "exit_price": 178.8
+    },
+    {
+      "entry_date": "2019-08-14",
+      "ticker": "SimCorp A/S",
+      "exit_date": "2019-08-14",
+      "entry_price": 572.5,
+      "exit_price": 572.5
+    },
+    {
+      "entry_date": "2019-08-14",
+      "ticker": "BioPorto A/S",
+      "exit_date": "2019-07-15",
+      "entry_price": 2.725,
+      "exit_price": 3.18
+    },
+    {
+      "entry_date": "2019-08-14",
+      "ticker": "Hypefactors A/S",
+      "exit_date": "2019-01-10",
+      "entry_price": 3.22,
+      "exit_price": 4.6695
+    },
+    {
+      "entry_date": "2019-08-15",
+      "ticker": "NNIT A/S",
+      "exit_date": "2019-03-08",
+      "entry_price": 71.8,
+      "exit_price": 178.8
+    },
+    {
+      "entry_date": "2019-08-15",
+      "ticker": "Columbus A/S",
+      "exit_date": "2019-03-19",
+      "entry_price": 10.6,
+      "exit_price": 12.46
+    },
+    {
+      "entry_date": "2019-08-15",
+      "ticker": "Saniona AB (publ)",
+      "exit_date": "2019-01-30",
+      "entry_price": 16.96,
+      "exit_price": 30.2
+    },
+    {
+      "entry_date": "2019-08-19",
+      "ticker": "Scape Technologies A/S",
+      "exit_date": "2019-01-29",
+      "entry_price": 13.88,
+      "exit_price": 12.9
+    },
+    {
+      "entry_date": "2019-08-20",
+      "ticker": "Wirtek A/S",
+      "exit_date": "2019-03-19",
+      "entry_price": 6.95,
+      "exit_price": 6.15
+    },
+    {
+      "entry_date": "2019-08-20",
+      "ticker": "Hypefactors A/S",
+      "exit_date": "2019-01-10",
+      "entry_price": 3.44,
+      "exit_price": 4.6695
+    },
+    {
+      "entry_date": "2019-08-22",
+      "ticker": "Hypefactors A/S",
+      "exit_date": "2019-01-10",
+      "entry_price": 3.1,
+      "exit_price": 4.6695
+    },
+    {
+      "entry_date": "2019-08-26",
+      "ticker": "Asetek A/S",
+      "exit_date": "2019-01-09",
+      "entry_price": 18.66,
+      "exit_price": 41.95
+    },
+    {
+      "entry_date": "2019-08-26",
+      "ticker": "Wirtek A/S",
+      "exit_date": "2019-03-19",
+      "entry_price": 6.6,
+      "exit_price": 6.15
+    },
+    {
+      "entry_date": "2019-08-27",
+      "ticker": "cBrain A/S",
+      "exit_date": "2019-04-15",
+      "entry_price": 28.6,
+      "exit_price": 30.5
+    },
+    {
+      "entry_date": "2019-08-30",
+      "ticker": "Agillic A/S",
+      "exit_date": "2019-03-11",
+      "entry_price": 29.6,
+      "exit_price": 25.5
+    },
+    {
+      "entry_date": "2019-09-02",
+      "ticker": "Columbus A/S",
+      "exit_date": "2019-03-19",
+      "entry_price": 9.95,
+      "exit_price": 12.46
+    },
+    {
+      "entry_date": "2019-09-02",
+      "ticker": "Conferize A/S",
+      "exit_date": "2019-03-06",
+      "entry_price": 0.732,
+      "exit_price": 7.35
+    },
+    {
+      "entry_date": "2019-09-02",
+      "ticker": "Wirtek A/S",
+      "exit_date": "2019-03-19",
+      "entry_price": 6.95,
+      "exit_price": 6.15
+    },
+    {
+      "entry_date": "2019-09-03",
+      "ticker": "Hypefactors A/S",
+      "exit_date": "2019-01-10",
+      "entry_price": 3.0,
+      "exit_price": 4.6695
+    },
+    {
+      "entry_date": "2019-09-04",
+      "ticker": "Conferize A/S",
+      "exit_date": "2019-03-06",
+      "entry_price": 0.674,
+      "exit_price": 7.35
+    },
+    {
+      "entry_date": "2019-09-05",
+      "ticker": "Columbus A/S",
+      "exit_date": "2019-03-19",
+      "entry_price": 9.39,
+      "exit_price": 12.46
+    },
+    {
+      "entry_date": "2019-09-05",
+      "ticker": "Hypefactors A/S",
+      "exit_date": "2019-01-10",
+      "entry_price": 2.75,
+      "exit_price": 4.6695
+    },
+    {
+      "entry_date": "2019-09-06",
+      "ticker": "Hypefactors A/S",
+      "exit_date": "2019-01-10",
+      "entry_price": 2.5,
+      "exit_price": 4.6695
+    },
+    {
+      "entry_date": "2019-09-06",
+      "ticker": "Wirtek A/S",
+      "exit_date": "2019-03-19",
+      "entry_price": 6.6,
+      "exit_price": 6.15
+    },
+    {
+      "entry_date": "2019-09-09",
+      "ticker": "Hypefactors A/S",
+      "exit_date": "2019-01-10",
+      "entry_price": 2.31,
+      "exit_price": 4.6695
+    },
+    {
+      "entry_date": "2019-09-09",
+      "ticker": "MenuPay AB",
+      "exit_date": "2019-02-05",
+      "entry_price": 1.26,
+      "exit_price": 1.21
+    },
+    {
+      "entry_date": "2019-09-11",
+      "ticker": "Hypefactors A/S",
+      "exit_date": "2019-01-10",
+      "entry_price": 2.31,
+      "exit_price": 4.6695
+    },
+    {
+      "entry_date": "2019-09-12",
+      "ticker": "MenuPay AB",
+      "exit_date": "2019-02-05",
+      "entry_price": 1.39,
+      "exit_price": 1.21
+    },
+    {
+      "entry_date": "2019-09-19",
+      "ticker": "Wirtek A/S",
+      "exit_date": "2019-03-19",
+      "entry_price": 7.4,
+      "exit_price": 6.15
+    },
+    {
+      "entry_date": "2019-09-20",
+      "ticker": "Enalyzer A/S",
+      "exit_date": null,
+      "entry_price": 3.98,
+      "exit_price": null
+    },
+    {
+      "entry_date": "2019-09-24",
+      "ticker": "Strategic Partners A/S",
+      "exit_date": "2019-08-12",
+      "entry_price": 58400.0,
+      "exit_price": 67600.0
+    },
+    {
+      "entry_date": "2019-09-25",
+      "ticker": "Hypefactors A/S",
+      "exit_date": "2019-01-10",
+      "entry_price": 2.02,
+      "exit_price": 4.6695
+    },
+    {
+      "entry_date": "2019-09-30",
+      "ticker": "Hypefactors A/S",
+      "exit_date": "2019-01-10",
+      "entry_price": 1.865,
+      "exit_price": 4.6695
+    },
+    {
+      "entry_date": "2019-10-02",
+      "ticker": "Conferize A/S",
+      "exit_date": "2019-03-06",
+      "entry_price": 0.63,
+      "exit_price": 7.35
+    },
+    {
+      "entry_date": "2019-10-02",
+      "ticker": "Strategic Partners A/S",
+      "exit_date": "2019-08-12",
+      "entry_price": 51600.0,
+      "exit_price": 67600.0
+    },
+    {
+      "entry_date": "2019-10-03",
+      "ticker": "BioPorto A/S",
+      "exit_date": "2019-07-15",
+      "entry_price": 2.56,
+      "exit_price": 3.18
+    },
+    {
+      "entry_date": "2019-10-03",
+      "ticker": "Konsolidator A/S",
+      "exit_date": "2019-06-13",
+      "entry_price": 11.5,
+      "exit_price": 9.0
+    },
+    {
+      "entry_date": "2019-10-09",
+      "ticker": "Hypefactors A/S",
+      "exit_date": "2019-01-10",
+      "entry_price": 1.9,
+      "exit_price": 4.6695
+    },
+    {
+      "entry_date": "2019-10-09",
+      "ticker": "Konsolidator A/S",
+      "exit_date": "2019-06-13",
+      "entry_price": 11.0,
+      "exit_price": 9.0
+    },
+    {
+      "entry_date": "2019-10-10",
+      "ticker": "Enalyzer A/S",
+      "exit_date": null,
+      "entry_price": 3.5,
+      "exit_price": null
+    },
+    {
+      "entry_date": "2019-10-11",
+      "ticker": "FastPassCorp A/S",
+      "exit_date": "2019-02-04",
+      "entry_price": 37.4,
+      "exit_price": 47.0
+    },
+    {
+      "entry_date": "2019-10-11",
+      "ticker": "Wirtek A/S",
+      "exit_date": "2019-03-19",
+      "entry_price": 7.75,
+      "exit_price": 6.15
+    },
+    {
+      "entry_date": "2019-10-15",
+      "ticker": "Hypefactors A/S",
+      "exit_date": "2019-01-10",
+      "entry_price": 1.995,
+      "exit_price": 4.6695
+    },
+    {
+      "entry_date": "2019-10-18",
+      "ticker": "Bavarian Nordic A/S",
+      "exit_date": "2019-09-24",
+      "entry_price": 174.55,
+      "exit_price": 203.8
+    },
+    {
+      "entry_date": "2019-10-21",
+      "ticker": "FastPassCorp A/S",
+      "exit_date": "2019-02-04",
+      "entry_price": 33.8,
+      "exit_price": 47.0
+    },
+    {
+      "entry_date": "2019-10-21",
+      "ticker": "Wirtek A/S",
+      "exit_date": "2019-03-19",
+      "entry_price": 7.9,
+      "exit_price": 6.15
+    },
+    {
+      "entry_date": "2019-10-21",
+      "ticker": "MenuPay AB",
+      "exit_date": "2019-02-05",
+      "entry_price": 1.31,
+      "exit_price": 1.21
+    },
+    {
+      "entry_date": "2019-10-23",
+      "ticker": "Bavarian Nordic A/S",
+      "exit_date": "2019-09-24",
+      "entry_price": 159.15,
+      "exit_price": 203.8
+    },
+    {
+      "entry_date": "2019-10-24",
+      "ticker": "FastPassCorp A/S",
+      "exit_date": "2019-02-04",
+      "entry_price": 37.2,
+      "exit_price": 47.0
+    },
+    {
+      "entry_date": "2019-10-25",
+      "ticker": "Wirtek A/S",
+      "exit_date": "2019-03-19",
+      "entry_price": 7.75,
+      "exit_price": 6.15
+    },
+    {
+      "entry_date": "2019-10-25",
+      "ticker": "MenuPay AB",
+      "exit_date": "2019-02-05",
+      "entry_price": 1.02,
+      "exit_price": 1.21
+    },
+    {
+      "entry_date": "2019-10-29",
+      "ticker": "Columbus A/S",
+      "exit_date": "2019-03-19",
+      "entry_price": 8.9,
+      "exit_price": 12.46
+    },
+    {
+      "entry_date": "2019-10-31",
+      "ticker": "Wirtek A/S",
+      "exit_date": "2019-03-19",
+      "entry_price": 7.9,
+      "exit_price": 6.15
+    },
+    {
+      "entry_date": "2019-11-04",
+      "ticker": "Wirtek A/S",
+      "exit_date": "2019-03-19",
+      "entry_price": 7.75,
+      "exit_price": 6.15
+    },
+    {
+      "entry_date": "2019-11-07",
+      "ticker": "Hypefactors A/S",
+      "exit_date": "2019-01-10",
+      "entry_price": 2.56,
+      "exit_price": 4.6695
+    },
+    {
+      "entry_date": "2019-11-11",
+      "ticker": "Enalyzer A/S",
+      "exit_date": null,
+      "entry_price": 3.7,
+      "exit_price": null
+    },
+    {
+      "entry_date": "2019-11-12",
+      "ticker": "Wirtek A/S",
+      "exit_date": "2019-03-19",
+      "entry_price": 7.7,
+      "exit_price": 6.15
+    },
+    {
+      "entry_date": "2019-11-15",
+      "ticker": "Wirtek A/S",
+      "exit_date": "2019-03-19",
+      "entry_price": 7.25,
+      "exit_price": 6.15
+    },
+    {
+      "entry_date": "2019-11-15",
+      "ticker": "MenuPay AB",
+      "exit_date": "2019-02-05",
+      "entry_price": 0.955,
+      "exit_price": 1.21
+    },
+    {
+      "entry_date": "2019-11-21",
+      "ticker": "Wirtek A/S",
+      "exit_date": "2019-03-19",
+      "entry_price": 7.3,
+      "exit_price": 6.15
+    },
+    {
+      "entry_date": "2019-11-21",
+      "ticker": "MenuPay AB",
+      "exit_date": "2019-02-05",
+      "entry_price": 0.9,
+      "exit_price": 1.21
+    },
+    {
+      "entry_date": "2019-11-22",
+      "ticker": "Hypefactors A/S",
+      "exit_date": "2019-01-10",
+      "entry_price": 2.43,
+      "exit_price": 4.6695
+    },
+    {
+      "entry_date": "2019-11-25",
+      "ticker": "MenuPay AB",
+      "exit_date": "2019-02-05",
+      "entry_price": 0.422,
+      "exit_price": 1.21
+    },
+    {
+      "entry_date": "2019-11-26",
+      "ticker": "FastPassCorp A/S",
+      "exit_date": "2019-02-04",
+      "entry_price": 38.2,
+      "exit_price": 47.0
+    },
+    {
+      "entry_date": "2019-11-26",
+      "ticker": "MenuPay AB",
+      "exit_date": "2019-02-05",
+      "entry_price": 0.34,
+      "exit_price": 1.21
+    },
+    {
+      "entry_date": "2019-12-02",
+      "ticker": "FastPassCorp A/S",
+      "exit_date": "2019-02-04",
+      "entry_price": 38.2,
+      "exit_price": 47.0
+    },
+    {
+      "entry_date": "2019-12-04",
+      "ticker": "FastPassCorp A/S",
+      "exit_date": "2019-02-04",
+      "entry_price": 36.0,
+      "exit_price": 47.0
+    },
+    {
+      "entry_date": "2019-12-04",
+      "ticker": "Netcompany Group A/S",
+      "exit_date": "2019-02-06",
+      "entry_price": 314.0,
+      "exit_price": 205.8
+    },
+    {
+      "entry_date": "2019-12-04",
+      "ticker": "MenuPay AB",
+      "exit_date": "2019-02-05",
+      "entry_price": 0.32,
+      "exit_price": 1.21
+    },
+    {
+      "entry_date": "2019-12-09",
+      "ticker": "MenuPay AB",
+      "exit_date": "2019-02-05",
+      "entry_price": 0.292,
+      "exit_price": 1.21
+    },
+    {
+      "entry_date": "2019-12-10",
+      "ticker": "FastPassCorp A/S",
+      "exit_date": "2019-02-04",
+      "entry_price": 36.6,
+      "exit_price": 47.0
+    },
+    {
+      "entry_date": "2019-12-11",
+      "ticker": "Scape Technologies A/S",
+      "exit_date": "2019-01-29",
+      "entry_price": 17.44,
+      "exit_price": 12.9
+    }
+  ]
+}

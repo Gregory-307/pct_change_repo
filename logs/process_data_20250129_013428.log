@@ -1,0 +1,70 @@
+2025-01-29 01:34:28,969 - INFO - Processing data with:
+2025-01-29 01:34:28,969 - INFO - - Start date: 2014-08-01 00:00:00
+2025-01-29 01:34:28,969 - INFO - - Prediction horizon: 10 days
+2025-01-29 01:34:28,969 - INFO - - Train end: 2017-12-29 00:00:00
+2025-01-29 01:34:28,969 - INFO - - Val end: 2018-12-28 00:00:00
+2025-01-29 01:34:28,969 - INFO - - Enabled features: 472
+2025-01-29 01:34:28,969 - INFO - 
+Loading raw data...
+2025-01-29 01:34:45,398 - INFO - 
+Cleaning data...
+2025-01-29 01:34:45,398 - INFO - Initial data shape: (11512867, 13)
+2025-01-29 01:34:45,939 - INFO - Shape after removing missing company names: (11512867, 13)
+2025-01-29 01:34:48,784 - INFO - Shape after removing days with < 8 stocks: (11460947, 13)
+2025-01-29 01:34:48,786 - INFO - \Pivoting data...
+2025-01-29 01:34:48,786 - INFO - Pivoting data to wide format...
+2025-01-29 01:34:52,930 - WARNING - Found 3952614 duplicate entries in pivot columns
+2025-01-29 01:34:54,645 - WARNING - Sample duplicates:
+          GVKEY  IID  COMPANYID  ...                         FACTORNAME  FACTORVALUE   ASOFDATE
+1793161  247558  01W    7687618  ...             1 Yr Chg in Admissions          NaN 2014-08-01
+4403790  247558  02W    7687618  ...             1 Yr Chg in Admissions          NaN 2014-08-01
+1793199  247558  01W    7687618  ...   1 Yr Chg in Number of Properties          NaN 2014-08-01
+4403828  247558  02W    7687618  ...   1 Yr Chg in Number of Properties          NaN 2014-08-01
+1793205  247558  01W    7687618  ...  1 Yr Chg in Number of Restuarants          NaN 2014-08-01
+4403834  247558  02W    7687618  ...  1 Yr Chg in Number of Restuarants          NaN 2014-08-01
+1793200  247558  01W    7687618  ...        1 Yr Chg in Number of Rooms          NaN 2014-08-01
+4403829  247558  02W    7687618  ...        1 Yr Chg in Number of Rooms          NaN 2014-08-01
+1793201  247558  01W    7687618  ...       1 Yr Chg in Revenue per Room          NaN 2014-08-01
+4403830  247558  02W    7687618  ...       1 Yr Chg in Revenue per Room          NaN 2014-08-01
+
+[10 rows x 13 columns]
+2025-01-29 01:34:55,038 - WARNING - 991 duplicate entries with different FACTORVALUE values found
+2025-01-29 01:34:56,748 - WARNING - Sample duplicates:
+          GVKEY  IID  COMPANYID  ...                         FACTORNAME  FACTORVALUE   ASOFDATE
+1793161  247558  01W    7687618  ...             1 Yr Chg in Admissions          NaN 2014-08-01
+4403790  247558  02W    7687618  ...             1 Yr Chg in Admissions          NaN 2014-08-01
+1793199  247558  01W    7687618  ...   1 Yr Chg in Number of Properties          NaN 2014-08-01
+4403828  247558  02W    7687618  ...   1 Yr Chg in Number of Properties          NaN 2014-08-01
+1793205  247558  01W    7687618  ...  1 Yr Chg in Number of Restuarants          NaN 2014-08-01
+4403834  247558  02W    7687618  ...  1 Yr Chg in Number of Restuarants          NaN 2014-08-01
+1793200  247558  01W    7687618  ...        1 Yr Chg in Number of Rooms          NaN 2014-08-01
+4403829  247558  02W    7687618  ...        1 Yr Chg in Number of Rooms          NaN 2014-08-01
+1793201  247558  01W    7687618  ...       1 Yr Chg in Revenue per Room          NaN 2014-08-01
+4403830  247558  02W    7687618  ...       1 Yr Chg in Revenue per Room          NaN 2014-08-01
+
+[10 rows x 13 columns]
+2025-01-29 01:35:05,301 - INFO - Pivoted data shape: (19943, 476)
+2025-01-29 01:35:08,418 - INFO - 
+Selecting features...
+2025-01-29 01:35:08,428 - INFO - Selecting features...
+2025-01-29 01:35:08,428 - INFO - Using 472 out of 472 enabled features
+2025-01-29 01:35:08,456 - INFO - 
+Calculating target...
+2025-01-29 01:35:08,456 - INFO - Calculating 10-day forward returns...
+2025-01-29 01:35:08,760 - INFO - Missing target values: 169 (0.8%)
+2025-01-29 01:35:11,918 - INFO - 
+Splitting data...
+2025-01-29 01:35:11,918 - ERROR - Processing failed: split_data() takes 1 positional argument but 3 were given
+Traceback (most recent call last):
+  File "C:\Users\gregb\Downloads\Data\latest\pct_change\src\data_0_pipeline.py", line 78, in process_data
+    train_data, val_data, test_data = split_data(featured_data, train_end, val_end)
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: split_data() takes 1 positional argument but 3 were given
+2025-01-29 01:35:11,931 - ERROR - Pipeline failed
+Traceback (most recent call last):
+  File "C:\Users\gregb\Downloads\Data\latest\pct_change\src\data_0_pipeline.py", line 107, in <module>
+    process_data()
+  File "C:\Users\gregb\Downloads\Data\latest\pct_change\src\data_0_pipeline.py", line 78, in process_data
+    train_data, val_data, test_data = split_data(featured_data, train_end, val_end)
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: split_data() takes 1 positional argument but 3 were given

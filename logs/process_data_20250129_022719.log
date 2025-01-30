@@ -1,0 +1,72 @@
+2025-01-29 02:27:19,971 - INFO - Processing data with:
+2025-01-29 02:27:19,971 - INFO - - Start date: 2014-08-01 00:00:00
+2025-01-29 02:27:19,975 - INFO - - Prediction horizon: 10 days
+2025-01-29 02:27:19,975 - INFO - - Train end: 2017-12-29 00:00:00
+2025-01-29 02:27:19,975 - INFO - - Val end: 2018-12-28 00:00:00
+2025-01-29 02:27:19,975 - INFO - - Enabled features: 472
+2025-01-29 02:27:19,975 - INFO - 
+Loading raw data...
+2025-01-29 02:27:37,753 - INFO - 
+Cleaning data...
+2025-01-29 02:27:37,753 - INFO - Initial data shape: (11512867, 13)
+2025-01-29 02:27:38,335 - INFO - Shape after removing missing company names: (11512867, 13)
+2025-01-29 02:27:41,435 - INFO - Shape after removing days with < 8 stocks: (11460947, 13)
+2025-01-29 02:27:41,435 - INFO - \Pivoting data...
+2025-01-29 02:27:41,435 - INFO - Pivoting data to wide format...
+2025-01-29 02:27:46,140 - WARNING - Found 3952614 duplicate entries in pivot columns
+2025-01-29 02:27:48,063 - WARNING - Sample duplicates:
+          GVKEY  IID  COMPANYID  ...                         FACTORNAME  FACTORVALUE   ASOFDATE
+1793161  247558  01W    7687618  ...             1 Yr Chg in Admissions          NaN 2014-08-01
+4403790  247558  02W    7687618  ...             1 Yr Chg in Admissions          NaN 2014-08-01
+1793199  247558  01W    7687618  ...   1 Yr Chg in Number of Properties          NaN 2014-08-01
+4403828  247558  02W    7687618  ...   1 Yr Chg in Number of Properties          NaN 2014-08-01
+1793205  247558  01W    7687618  ...  1 Yr Chg in Number of Restuarants          NaN 2014-08-01
+4403834  247558  02W    7687618  ...  1 Yr Chg in Number of Restuarants          NaN 2014-08-01
+1793200  247558  01W    7687618  ...        1 Yr Chg in Number of Rooms          NaN 2014-08-01
+4403829  247558  02W    7687618  ...        1 Yr Chg in Number of Rooms          NaN 2014-08-01
+1793201  247558  01W    7687618  ...       1 Yr Chg in Revenue per Room          NaN 2014-08-01
+4403830  247558  02W    7687618  ...       1 Yr Chg in Revenue per Room          NaN 2014-08-01
+
+[10 rows x 13 columns]
+2025-01-29 02:27:48,491 - WARNING - 991 duplicate entries with different FACTORVALUE values found
+2025-01-29 02:27:58,982 - INFO - Pivoted data shape: (19943, 477)
+2025-01-29 02:28:02,968 - INFO - 
+Selecting best exchange for each stock...
+2025-01-29 02:28:02,970 - INFO - Handling multiple exchange listings...
+2025-01-29 02:28:02,970 - INFO - Initial shape: (19943, 477)
+2025-01-29 02:28:02,997 - ERROR - Processing failed: Not allowed to merge between different levels. (1 levels on the left, 2 on the right)
+Traceback (most recent call last):
+  File "C:\Users\gregb\Downloads\Data\latest\pct_change\src\data_0_pipeline.py", line 67, in process_data
+    pivoted_data = handle_multiple_exchanges(pivoted_data)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gregb\Downloads\Data\latest\pct_change\src\data_1_cleaning.py", line 204, in handle_multiple_exchanges
+    df = df.merge(best_exchanges, on=['COMPANYNAME', 'EXCHANGETICKER'])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gregb\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\frame.py", line 10487, in merge
+    return merge(
+           ^^^^^^
+  File "C:\Users\gregb\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\reshape\merge.py", line 169, in merge
+    op = _MergeOperation(
+         ^^^^^^^^^^^^^^^^
+  File "C:\Users\gregb\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\reshape\merge.py", line 781, in __init__
+    raise MergeError(msg)
+pandas.errors.MergeError: Not allowed to merge between different levels. (1 levels on the left, 2 on the right)
+2025-01-29 02:28:03,001 - ERROR - Pipeline failed
+Traceback (most recent call last):
+  File "C:\Users\gregb\Downloads\Data\latest\pct_change\src\data_0_pipeline.py", line 110, in <module>
+    process_data()
+  File "C:\Users\gregb\Downloads\Data\latest\pct_change\src\data_0_pipeline.py", line 67, in process_data
+    pivoted_data = handle_multiple_exchanges(pivoted_data)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gregb\Downloads\Data\latest\pct_change\src\data_1_cleaning.py", line 204, in handle_multiple_exchanges
+    df = df.merge(best_exchanges, on=['COMPANYNAME', 'EXCHANGETICKER'])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gregb\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\frame.py", line 10487, in merge
+    return merge(
+           ^^^^^^
+  File "C:\Users\gregb\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\reshape\merge.py", line 169, in merge
+    op = _MergeOperation(
+         ^^^^^^^^^^^^^^^^
+  File "C:\Users\gregb\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\reshape\merge.py", line 781, in __init__
+    raise MergeError(msg)
+pandas.errors.MergeError: Not allowed to merge between different levels. (1 levels on the left, 2 on the right)

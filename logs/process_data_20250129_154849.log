@@ -1,0 +1,130 @@
+2025-01-29 15:48:56,849 - INFO - Processing data with:
+2025-01-29 15:48:56,849 - INFO - - Start date: 2014-08-01 00:00:00
+2025-01-29 15:48:56,849 - INFO - - Prediction horizon: 10 days
+2025-01-29 15:48:56,849 - INFO - - Train end: 2017-12-29 00:00:00
+2025-01-29 15:48:56,849 - INFO - - Val end: 2018-12-28 00:00:00
+2025-01-29 15:48:56,849 - INFO - - Enabled features: 472
+2025-01-29 15:48:56,859 - INFO - 
+Loading raw data...
+2025-01-29 15:49:13,919 - INFO - 
+Cleaning data...
+2025-01-29 15:49:13,919 - INFO - Initial data shape: (11512867, 13)
+2025-01-29 15:49:14,541 - INFO - Shape after removing missing company names: (11512867, 13)
+2025-01-29 15:49:17,435 - INFO - Shape after removing days with < 8 stocks: (11460947, 13)
+2025-01-29 15:49:17,437 - INFO - 
+Pivoting data...
+2025-01-29 15:49:17,449 - INFO - Pivoting data to wide format...
+2025-01-29 15:49:21,765 - WARNING - Found 3952614 duplicate entries in pivot columns
+2025-01-29 15:49:23,592 - WARNING - Sample duplicates:
+          GVKEY  IID  COMPANYID          COMPANYNAME  ...  FACTORID                         FACTORNAME  FACTORVALUE   ASOFDATE
+1793161  247558  01W    7687618  Bavarian Nordic A/S  ...       918             1 Yr Chg in Admissions          NaN 2014-08-01
+4403790  247558  02W    7687618  Bavarian Nordic A/S  ...       918             1 Yr Chg in Admissions          NaN 2014-08-01
+1793199  247558  01W    7687618  Bavarian Nordic A/S  ...       880   1 Yr Chg in Number of Properties          NaN 2014-08-01
+4403828  247558  02W    7687618  Bavarian Nordic A/S  ...       880   1 Yr Chg in Number of Properties          NaN 2014-08-01
+1793205  247558  01W    7687618  Bavarian Nordic A/S  ...       874  1 Yr Chg in Number of Restuarants          NaN 2014-08-01
+4403834  247558  02W    7687618  Bavarian Nordic A/S  ...       874  1 Yr Chg in Number of Restuarants          NaN 2014-08-01
+1793200  247558  01W    7687618  Bavarian Nordic A/S  ...       879        1 Yr Chg in Number of Rooms          NaN 2014-08-01
+4403829  247558  02W    7687618  Bavarian Nordic A/S  ...       879        1 Yr Chg in Number of Rooms          NaN 2014-08-01
+1793201  247558  01W    7687618  Bavarian Nordic A/S  ...       878       1 Yr Chg in Revenue per Room          NaN 2014-08-01
+4403830  247558  02W    7687618  Bavarian Nordic A/S  ...       878       1 Yr Chg in Revenue per Room          NaN 2014-08-01
+
+[10 rows x 13 columns]
+2025-01-29 15:49:24,041 - WARNING - 991 duplicate entries with different FACTORVALUE values found
+2025-01-29 15:49:33,167 - INFO - Pivoted data shape: (19943, 477)
+2025-01-29 15:49:36,409 - INFO - 
+Selecting best exchange for each stock...
+2025-01-29 15:49:36,409 - INFO - Handling multiple exchange listings...
+2025-01-29 15:49:36,417 - INFO - Initial shape: (19943, 477)
+2025-01-29 15:49:36,526 - INFO - Shape after selecting best exchange per stock: (17822, 477)
+2025-01-29 15:49:36,527 - INFO - Checking for extreme price changes...
+2025-01-29 15:49:36,559 - WARNING - Found 7 extreme price changes (>100% up or >50% down in a day)
+2025-01-29 15:49:36,573 - WARNING - Example extreme changes:
+2025-01-29 15:49:36,575 - WARNING - Network Capital Group Holding A/S: 2015-03-18 - Price change: -58.7% (1.79 -> 0.74)
+2025-01-29 15:49:36,580 - WARNING - Network Capital Group Holding A/S: 2017-05-04 - Price change: -53.5% (0.13 -> 0.06)
+2025-01-29 15:49:36,583 - WARNING - Nuevolution AB (publ): 2019-05-22 - Price change: 166.1% (12.10 -> 32.20)
+2025-01-29 15:49:36,584 - WARNING - Conferize A/S: 2019-06-11 - Price change: -62.7% (4.45 -> 1.66)
+2025-01-29 15:49:36,585 - WARNING - Conferize A/S: 2019-06-14 - Price change: 118.3% (1.26 -> 2.75)
+2025-01-29 15:49:36,591 - INFO - 
+Selecting features...
+2025-01-29 15:49:36,591 - INFO - Selecting features...
+2025-01-29 15:49:36,592 - INFO - Using 472 out of 472 enabled features
+2025-01-29 15:49:36,606 - INFO - 
+Calculating target...
+2025-01-29 15:49:36,606 - INFO - Calculating 10-day forward returns...
+2025-01-29 15:49:36,836 - INFO - Missing target values: 219 (1.2%)
+2025-01-29 15:49:39,643 - INFO - 
+Splitting data...
+2025-01-29 15:49:39,643 - INFO - Splitting data...
+2025-01-29 15:49:39,672 - INFO - Train: 9,743 rows (2014-08-01 00:00:00 to 2017-12-29 00:00:00)
+2025-01-29 15:49:39,672 - INFO - Val: 3,909 rows (2018-01-02 00:00:00 to 2018-12-28 00:00:00)
+2025-01-29 15:49:39,672 - INFO - Test: 3,805 rows (2019-01-02 00:00:00 to 2019-12-11 00:00:00)
+2025-01-29 15:49:39,672 - INFO - Validating features for train dataset...
+2025-01-29 15:49:39,672 - INFO - Validating features for val dataset...
+2025-01-29 15:49:39,672 - INFO - Validating features for test dataset...
+2025-01-29 15:49:39,672 - INFO - 
+Saving datasets...
+2025-01-29 15:49:41,238 - INFO - Saved train data with shape (9743, 480) to data\processed\train.csv
+2025-01-29 15:49:41,860 - INFO - Saved val data with shape (3909, 480) to data\processed\val.csv
+2025-01-29 15:49:42,439 - INFO - Saved test data with shape (3805, 480) to data\processed\test.csv
+2025-01-29 15:49:42,439 - INFO - 
+Running data analysis...
+2025-01-29 15:49:42,439 - ERROR - Processing failed: 'seaborn' is not a valid package style, path of style file, URL of style file, or library style name (library styles are listed in `style.available`)
+Traceback (most recent call last):
+  File "C:\Users\gregb\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\style\core.py", line 137, in use
+    style = _rc_params_in_file(style)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gregb\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\__init__.py", line 879, in _rc_params_in_file
+    with _open_file_or_url(fname) as fd:
+  File "C:\Users\gregb\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\gregb\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\__init__.py", line 856, in _open_file_or_url
+    with open(fname, encoding='utf-8') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'seaborn'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\gregb\Downloads\Data\latest\pct_change\src\data_0_pipeline.py", line 104, in process_data
+    analysis_pipeline = AnalysisPipeline()
+                        ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gregb\Downloads\Data\latest\pct_change\src\analysis\_run_analysis.py", line 35, in __init__
+    self.model_analyzer = ModelAnalyzer()
+                          ^^^^^^^^^^^^^^^
+  File "C:\Users\gregb\Downloads\Data\latest\pct_change\src\analysis\_model_analysis.py", line 32, in __init__
+    plt.style.use('seaborn')
+  File "C:\Users\gregb\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\style\core.py", line 139, in use
+    raise OSError(
+OSError: 'seaborn' is not a valid package style, path of style file, URL of style file, or library style name (library styles are listed in `style.available`)
+2025-01-29 15:49:42,511 - ERROR - Pipeline failed
+Traceback (most recent call last):
+  File "C:\Users\gregb\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\style\core.py", line 137, in use
+    style = _rc_params_in_file(style)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gregb\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\__init__.py", line 879, in _rc_params_in_file
+    with _open_file_or_url(fname) as fd:
+  File "C:\Users\gregb\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\gregb\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\__init__.py", line 856, in _open_file_or_url
+    with open(fname, encoding='utf-8') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'seaborn'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\gregb\Downloads\Data\latest\pct_change\src\data_0_pipeline.py", line 121, in <module>
+    process_data()
+  File "C:\Users\gregb\Downloads\Data\latest\pct_change\src\data_0_pipeline.py", line 104, in process_data
+    analysis_pipeline = AnalysisPipeline()
+                        ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gregb\Downloads\Data\latest\pct_change\src\analysis\_run_analysis.py", line 35, in __init__
+    self.model_analyzer = ModelAnalyzer()
+                          ^^^^^^^^^^^^^^^
+  File "C:\Users\gregb\Downloads\Data\latest\pct_change\src\analysis\_model_analysis.py", line 32, in __init__
+    plt.style.use('seaborn')
+  File "C:\Users\gregb\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\style\core.py", line 139, in use
+    raise OSError(
+OSError: 'seaborn' is not a valid package style, path of style file, URL of style file, or library style name (library styles are listed in `style.available`)

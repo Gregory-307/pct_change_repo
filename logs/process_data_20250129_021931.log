@@ -1,0 +1,49 @@
+2025-01-29 02:19:32,033 - INFO - Processing data with:
+2025-01-29 02:19:32,033 - INFO - - Start date: 2014-08-01 00:00:00
+2025-01-29 02:19:32,033 - INFO - - Prediction horizon: 10 days
+2025-01-29 02:19:32,033 - INFO - - Train end: 2017-12-29 00:00:00
+2025-01-29 02:19:32,033 - INFO - - Val end: 2018-12-28 00:00:00
+2025-01-29 02:19:32,033 - INFO - - Enabled features: 472
+2025-01-29 02:19:32,033 - INFO - 
+Loading raw data...
+2025-01-29 02:19:51,069 - INFO - 
+Cleaning data...
+2025-01-29 02:19:51,070 - INFO - Initial data shape: (11512867, 13)
+2025-01-29 02:19:51,715 - INFO - Shape after removing missing company names: (11512867, 13)
+2025-01-29 02:19:51,727 - INFO - Selecting best exchange for each stock...
+2025-01-29 02:19:53,150 - ERROR - Processing failed: Not allowed to merge between different levels. (1 levels on the left, 2 on the right)
+Traceback (most recent call last):
+  File "C:\Users\gregb\Downloads\Data\latest\pct_change\src\data_0_pipeline.py", line 59, in process_data
+    cleaned_data = clean_raw_data(raw_data)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gregb\Downloads\Data\latest\pct_change\src\data_1_cleaning.py", line 171, in clean_raw_data
+    df = df.merge(best_exchanges, on=['COMPANYNAME', 'EXCHANGETICKER'])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gregb\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\frame.py", line 10487, in merge
+    return merge(
+           ^^^^^^
+  File "C:\Users\gregb\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\reshape\merge.py", line 169, in merge
+    op = _MergeOperation(
+         ^^^^^^^^^^^^^^^^
+  File "C:\Users\gregb\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\reshape\merge.py", line 781, in __init__
+    raise MergeError(msg)
+pandas.errors.MergeError: Not allowed to merge between different levels. (1 levels on the left, 2 on the right)
+2025-01-29 02:19:53,200 - ERROR - Pipeline failed
+Traceback (most recent call last):
+  File "C:\Users\gregb\Downloads\Data\latest\pct_change\src\data_0_pipeline.py", line 106, in <module>
+    process_data()
+  File "C:\Users\gregb\Downloads\Data\latest\pct_change\src\data_0_pipeline.py", line 59, in process_data
+    cleaned_data = clean_raw_data(raw_data)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gregb\Downloads\Data\latest\pct_change\src\data_1_cleaning.py", line 171, in clean_raw_data
+    df = df.merge(best_exchanges, on=['COMPANYNAME', 'EXCHANGETICKER'])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gregb\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\frame.py", line 10487, in merge
+    return merge(
+           ^^^^^^
+  File "C:\Users\gregb\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\reshape\merge.py", line 169, in merge
+    op = _MergeOperation(
+         ^^^^^^^^^^^^^^^^
+  File "C:\Users\gregb\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\reshape\merge.py", line 781, in __init__
+    raise MergeError(msg)
+pandas.errors.MergeError: Not allowed to merge between different levels. (1 levels on the left, 2 on the right)

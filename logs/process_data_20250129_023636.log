@@ -1,0 +1,98 @@
+2025-01-29 02:36:37,211 - INFO - Processing data with:
+2025-01-29 02:36:37,211 - INFO - - Start date: 2014-08-01 00:00:00
+2025-01-29 02:36:37,211 - INFO - - Prediction horizon: 10 days
+2025-01-29 02:36:37,211 - INFO - - Train end: 2017-12-29 00:00:00
+2025-01-29 02:36:37,211 - INFO - - Val end: 2018-12-28 00:00:00
+2025-01-29 02:36:37,211 - INFO - - Enabled features: 472
+2025-01-29 02:36:37,211 - INFO - 
+Loading raw data...
+2025-01-29 02:37:00,381 - INFO - 
+Cleaning data...
+2025-01-29 02:37:00,398 - INFO - Initial data shape: (11512867, 13)
+2025-01-29 02:37:01,060 - INFO - Shape after removing missing company names: (11512867, 13)
+2025-01-29 02:37:04,467 - INFO - Shape after removing days with < 8 stocks: (11460947, 13)
+2025-01-29 02:37:04,468 - INFO - 
+Pivoting data...
+2025-01-29 02:37:04,468 - INFO - Pivoting data to wide format...
+2025-01-29 02:37:09,321 - WARNING - Found 3952614 duplicate entries in pivot columns
+2025-01-29 02:37:11,492 - WARNING - Sample duplicates:
+          GVKEY  IID  COMPANYID          COMPANYNAME  TRADINGITEMID  ... SIMPLEINDUSTRYDESCRIPTION  FACTORID                         FACTORNAME FACTORVALUE   ASOFDATE
+1793161  247558  01W    7687618  Bavarian Nordic A/S       20142800  ...             Biotechnology       918             1 Yr Chg in Admissions         NaN 2014-08-01
+4403790  247558  02W    7687618  Bavarian Nordic A/S       20211834  ...             Biotechnology       918             1 Yr Chg in Admissions         NaN 2014-08-01
+1793199  247558  01W    7687618  Bavarian Nordic A/S       20142800  ...             Biotechnology       880   1 Yr Chg in Number of Properties         NaN 2014-08-01
+4403828  247558  02W    7687618  Bavarian Nordic A/S       20211834  ...             Biotechnology       880   1 Yr Chg in Number of Properties         NaN 2014-08-01
+1793205  247558  01W    7687618  Bavarian Nordic A/S       20142800  ...             Biotechnology       874  1 Yr Chg in Number of Restuarants         NaN 2014-08-01
+4403834  247558  02W    7687618  Bavarian Nordic A/S       20211834  ...             Biotechnology       874  1 Yr Chg in Number of Restuarants         NaN 2014-08-01
+1793200  247558  01W    7687618  Bavarian Nordic A/S       20142800  ...             Biotechnology       879        1 Yr Chg in Number of Rooms         NaN 2014-08-01
+4403829  247558  02W    7687618  Bavarian Nordic A/S       20211834  ...             Biotechnology       879        1 Yr Chg in Number of Rooms         NaN 2014-08-01
+1793201  247558  01W    7687618  Bavarian Nordic A/S       20142800  ...             Biotechnology       878       1 Yr Chg in Revenue per Room         NaN 2014-08-01
+4403830  247558  02W    7687618  Bavarian Nordic A/S       20211834  ...             Biotechnology       878       1 Yr Chg in Revenue per Room         NaN 2014-08-01
+
+[10 rows x 13 columns]
+2025-01-29 02:37:11,941 - WARNING - 991 duplicate entries with different FACTORVALUE values found
+2025-01-29 02:37:21,304 - INFO - Pivoted data shape: (19943, 477)
+2025-01-29 02:37:25,080 - INFO - 
+Selecting best exchange for each stock...
+2025-01-29 02:37:25,080 - INFO - Handling multiple exchange listings...
+2025-01-29 02:37:25,090 - INFO - Initial shape: (19943, 477)
+2025-01-29 02:37:25,214 - INFO - Shape after selecting best exchange per stock: (17822, 477)
+2025-01-29 02:37:25,214 - INFO - Checking for extreme price changes...
+2025-01-29 02:37:25,248 - WARNING - Found 7 extreme price changes (>100% up or >50% down in a day)
+2025-01-29 02:37:25,250 - WARNING - Example extreme changes:
+2025-01-29 02:37:25,250 - WARNING - Network Capital Group Holding A/S: 2015-03-18 - Price change: -58.7% (1.79 -> 0.74)
+2025-01-29 02:37:25,258 - WARNING - Network Capital Group Holding A/S: 2017-05-04 - Price change: -53.5% (0.13 -> 0.06)
+2025-01-29 02:37:25,260 - WARNING - Nuevolution AB (publ): 2019-05-22 - Price change: 166.1% (12.10 -> 32.20)
+2025-01-29 02:37:25,262 - WARNING - Conferize A/S: 2019-06-11 - Price change: -62.7% (4.45 -> 1.66)
+2025-01-29 02:37:25,264 - WARNING - Conferize A/S: 2019-06-14 - Price change: 118.3% (1.26 -> 2.75)
+2025-01-29 02:37:25,270 - INFO - 
+Selecting features...
+2025-01-29 02:37:25,270 - INFO - Selecting features...
+2025-01-29 02:37:25,271 - INFO - Using 472 out of 472 enabled features
+2025-01-29 02:37:25,286 - INFO - 
+Calculating target...
+2025-01-29 02:37:25,287 - INFO - Calculating 10-day forward returns...
+2025-01-29 02:37:25,570 - INFO - Missing target values: 219 (1.2%)
+2025-01-29 02:37:28,498 - INFO - 
+Splitting data...
+2025-01-29 02:37:28,498 - INFO - Splitting data...
+2025-01-29 02:37:28,532 - INFO - Train: 9,743 rows (2014-08-01 00:00:00 to 2017-12-29 00:00:00)
+2025-01-29 02:37:28,532 - INFO - Val: 3,909 rows (2018-01-02 00:00:00 to 2018-12-28 00:00:00)
+2025-01-29 02:37:28,532 - INFO - Test: 3,805 rows (2019-01-02 00:00:00 to 2019-12-11 00:00:00)
+2025-01-29 02:37:28,532 - INFO - 
+Saving datasets...
+2025-01-29 02:37:30,192 - INFO - Saved train data with shape (9743, 479) to data\processed\train.csv
+2025-01-29 02:37:30,830 - INFO - Saved val data with shape (3909, 479) to data\processed\val.csv
+2025-01-29 02:37:31,497 - INFO - Saved test data with shape (3805, 479) to data\processed\test.csv
+2025-01-29 02:37:31,500 - INFO - 
+Analyzing results...
+2025-01-29 02:37:31,500 - INFO - 
+Train Dataset:
+2025-01-29 02:37:31,501 - INFO - Rows: 9,743
+2025-01-29 02:37:31,502 - INFO - Companies: 20
+2025-01-29 02:37:31,502 - INFO - Date range: 2014-08-01 to 2017-12-29
+2025-01-29 02:37:31,502 - INFO - Features: 475
+2025-01-29 02:37:31,522 - INFO - Mean feature coverage: 64.1%
+2025-01-29 02:37:31,523 - INFO - Target mean: 44.92%
+2025-01-29 02:37:31,524 - INFO - Target std: 665.76%
+2025-01-29 02:37:31,524 - INFO - 
+Val Dataset:
+2025-01-29 02:37:31,525 - INFO - Rows: 3,909
+2025-01-29 02:37:31,525 - INFO - Companies: 22
+2025-01-29 02:37:31,526 - INFO - Date range: 2018-01-02 to 2018-12-28
+2025-01-29 02:37:31,526 - INFO - Features: 475
+2025-01-29 02:37:31,535 - INFO - Mean feature coverage: 62.2%
+2025-01-29 02:37:31,536 - INFO - Target mean: -16.17%
+2025-01-29 02:37:31,536 - INFO - Target std: 540.14%
+2025-01-29 02:37:31,536 - INFO - 
+Test Dataset:
+2025-01-29 02:37:31,537 - INFO - Rows: 3,805
+2025-01-29 02:37:31,537 - INFO - Companies: 24
+2025-01-29 02:37:31,537 - INFO - Date range: 2019-01-02 to 2019-12-11
+2025-01-29 02:37:31,537 - INFO - Features: 475
+2025-01-29 02:37:31,546 - INFO - Mean feature coverage: 55.0%
+2025-01-29 02:37:31,546 - INFO - Target mean: 48.05%
+2025-01-29 02:37:31,547 - INFO - Target std: 838.19%
+2025-01-29 02:37:32,346 - INFO - 
+Analysis complete. Plots saved to results/analysis/
+2025-01-29 02:37:32,347 - INFO - 
+Processing complete!

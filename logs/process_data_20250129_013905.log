@@ -1,0 +1,98 @@
+2025-01-29 01:39:05,759 - INFO - Processing data with:
+2025-01-29 01:39:05,763 - INFO - - Start date: 2014-08-01 00:00:00
+2025-01-29 01:39:05,763 - INFO - - Prediction horizon: 10 days
+2025-01-29 01:39:05,763 - INFO - - Train end: 2017-12-29 00:00:00
+2025-01-29 01:39:05,763 - INFO - - Val end: 2018-12-28 00:00:00
+2025-01-29 01:39:05,763 - INFO - - Enabled features: 472
+2025-01-29 01:39:05,763 - INFO - 
+Loading raw data...
+2025-01-29 01:39:24,509 - INFO - 
+Cleaning data...
+2025-01-29 01:39:24,513 - INFO - Initial data shape: (11512867, 13)
+2025-01-29 01:39:25,117 - INFO - Shape after removing missing company names: (11512867, 13)
+2025-01-29 01:39:28,128 - INFO - Shape after removing days with < 8 stocks: (11460947, 13)
+2025-01-29 01:39:28,128 - INFO - \Pivoting data...
+2025-01-29 01:39:28,128 - INFO - Pivoting data to wide format...
+2025-01-29 01:39:32,410 - WARNING - Found 3952614 duplicate entries in pivot columns
+2025-01-29 01:39:34,295 - WARNING - Sample duplicates:
+          GVKEY  IID  COMPANYID  ...                         FACTORNAME  FACTORVALUE   ASOFDATE
+1793161  247558  01W    7687618  ...             1 Yr Chg in Admissions          NaN 2014-08-01
+4403790  247558  02W    7687618  ...             1 Yr Chg in Admissions          NaN 2014-08-01
+1793199  247558  01W    7687618  ...   1 Yr Chg in Number of Properties          NaN 2014-08-01
+4403828  247558  02W    7687618  ...   1 Yr Chg in Number of Properties          NaN 2014-08-01
+1793205  247558  01W    7687618  ...  1 Yr Chg in Number of Restuarants          NaN 2014-08-01
+4403834  247558  02W    7687618  ...  1 Yr Chg in Number of Restuarants          NaN 2014-08-01
+1793200  247558  01W    7687618  ...        1 Yr Chg in Number of Rooms          NaN 2014-08-01
+4403829  247558  02W    7687618  ...        1 Yr Chg in Number of Rooms          NaN 2014-08-01
+1793201  247558  01W    7687618  ...       1 Yr Chg in Revenue per Room          NaN 2014-08-01
+4403830  247558  02W    7687618  ...       1 Yr Chg in Revenue per Room          NaN 2014-08-01
+
+[10 rows x 13 columns]
+2025-01-29 01:39:34,689 - WARNING - 991 duplicate entries with different FACTORVALUE values found
+2025-01-29 01:39:36,453 - WARNING - Sample duplicates:
+          GVKEY  IID  COMPANYID  ...                         FACTORNAME  FACTORVALUE   ASOFDATE
+1793161  247558  01W    7687618  ...             1 Yr Chg in Admissions          NaN 2014-08-01
+4403790  247558  02W    7687618  ...             1 Yr Chg in Admissions          NaN 2014-08-01
+1793199  247558  01W    7687618  ...   1 Yr Chg in Number of Properties          NaN 2014-08-01
+4403828  247558  02W    7687618  ...   1 Yr Chg in Number of Properties          NaN 2014-08-01
+1793205  247558  01W    7687618  ...  1 Yr Chg in Number of Restuarants          NaN 2014-08-01
+4403834  247558  02W    7687618  ...  1 Yr Chg in Number of Restuarants          NaN 2014-08-01
+1793200  247558  01W    7687618  ...        1 Yr Chg in Number of Rooms          NaN 2014-08-01
+4403829  247558  02W    7687618  ...        1 Yr Chg in Number of Rooms          NaN 2014-08-01
+1793201  247558  01W    7687618  ...       1 Yr Chg in Revenue per Room          NaN 2014-08-01
+4403830  247558  02W    7687618  ...       1 Yr Chg in Revenue per Room          NaN 2014-08-01
+
+[10 rows x 13 columns]
+2025-01-29 01:39:44,666 - INFO - Pivoted data shape: (19943, 476)
+2025-01-29 01:39:47,928 - INFO - 
+Selecting features...
+2025-01-29 01:39:47,929 - INFO - Selecting features...
+2025-01-29 01:39:47,930 - INFO - Using 472 out of 472 enabled features
+2025-01-29 01:39:47,952 - INFO - 
+Calculating target...
+2025-01-29 01:39:47,952 - INFO - Calculating 10-day forward returns...
+2025-01-29 01:39:48,290 - INFO - Missing target values: 169 (0.8%)
+2025-01-29 01:39:51,745 - INFO - 
+Splitting data...
+2025-01-29 01:39:51,745 - INFO - Splitting data...
+2025-01-29 01:39:51,780 - INFO - Train: 10,639 rows (2014-08-01 00:00:00 to 2017-12-29 00:00:00)
+2025-01-29 01:39:51,781 - INFO - Val: 4,142 rows (2018-01-02 00:00:00 to 2018-12-28 00:00:00)
+2025-01-29 01:39:51,781 - INFO - Test: 4,803 rows (2019-01-02 00:00:00 to 2019-12-11 00:00:00)
+2025-01-29 01:39:51,784 - INFO - 
+Saving datasets...
+2025-01-29 01:39:53,630 - INFO - Saved train data with shape (10639, 477) to data\processed\train.csv
+2025-01-29 01:39:54,377 - INFO - Saved val data with shape (4142, 477) to data\processed\val.csv
+2025-01-29 01:39:55,177 - INFO - Saved test data with shape (4803, 477) to data\processed\test.csv
+2025-01-29 01:39:55,178 - INFO - 
+Analyzing results...
+2025-01-29 01:39:55,178 - INFO - 
+Train Dataset:
+2025-01-29 01:39:55,178 - INFO - Rows: 10,639
+2025-01-29 01:39:55,179 - INFO - Companies: 20
+2025-01-29 01:39:55,180 - INFO - Date range: 2014-08-01 to 2017-12-29
+2025-01-29 01:39:55,180 - INFO - Features: 473
+2025-01-29 01:39:55,204 - INFO - Mean feature coverage: 64.5%
+2025-01-29 01:39:55,205 - INFO - Target mean: 23.14%
+2025-01-29 01:39:55,206 - INFO - Target std: 97.10%
+2025-01-29 01:39:55,206 - INFO - 
+Val Dataset:
+2025-01-29 01:39:55,206 - INFO - Rows: 4,142
+2025-01-29 01:39:55,207 - INFO - Companies: 22
+2025-01-29 01:39:55,207 - INFO - Date range: 2018-01-02 to 2018-12-28
+2025-01-29 01:39:55,207 - INFO - Features: 473
+2025-01-29 01:39:55,216 - INFO - Mean feature coverage: 62.7%
+2025-01-29 01:39:55,218 - INFO - Target mean: 16.95%
+2025-01-29 01:39:55,218 - INFO - Target std: 87.60%
+2025-01-29 01:39:55,218 - INFO - 
+Test Dataset:
+2025-01-29 01:39:55,218 - INFO - Rows: 4,803
+2025-01-29 01:39:55,218 - INFO - Companies: 24
+2025-01-29 01:39:55,218 - INFO - Date range: 2019-01-02 to 2019-12-11
+2025-01-29 01:39:55,218 - INFO - Features: 473
+2025-01-29 01:39:55,232 - INFO - Mean feature coverage: 57.1%
+2025-01-29 01:39:55,232 - INFO - Target mean: 13.62%
+2025-01-29 01:39:55,232 - INFO - Target std: 81.40%
+2025-01-29 01:39:56,589 - INFO - 
+Analysis complete. Plots saved to results/analysis/
+2025-01-29 01:39:56,590 - INFO - 
+Processing complete!

@@ -1,0 +1,71 @@
+2025-01-29 16:28:56,845 - INFO - Processing data with:
+2025-01-29 16:28:56,845 - INFO - - Start date: 2014-08-01 00:00:00
+2025-01-29 16:28:56,845 - INFO - - Prediction horizon: 10 days
+2025-01-29 16:28:56,845 - INFO - - Train end: 2017-12-29 00:00:00
+2025-01-29 16:28:56,845 - INFO - - Val end: 2018-12-28 00:00:00
+2025-01-29 16:28:56,845 - INFO - - Enabled features: 472
+2025-01-29 16:28:56,845 - INFO - 
+Loading raw data...
+2025-01-29 16:29:35,549 - INFO - 
+Cleaning data...
+2025-01-29 16:29:35,565 - INFO - Initial data shape: (11512867, 13)
+2025-01-29 16:29:37,874 - INFO - Shape after removing missing company names: (11512867, 13)
+2025-01-29 16:29:49,776 - INFO - Shape after removing days with < 8 stocks: (11460947, 13)
+2025-01-29 16:29:49,778 - INFO - 
+Pivoting data...
+2025-01-29 16:29:49,778 - INFO - Pivoting data to wide format...
+2025-01-29 16:30:35,420 - INFO - Pivoted data shape: (24283, 476)
+2025-01-29 16:30:51,744 - INFO - 
+Selecting best exchange for each stock...
+2025-01-29 16:30:51,744 - INFO - Handling multiple exchange listings...
+2025-01-29 16:30:51,754 - INFO - Initial shape: (24283, 476)
+2025-01-29 16:30:52,140 - INFO - Shape after selecting best exchange per stock: (19943, 476)
+2025-01-29 16:30:52,144 - INFO - Checking for extreme price changes...
+2025-01-29 16:30:52,284 - WARNING - Found 7 extreme price changes (>100% up or >50% down in a day)
+2025-01-29 16:30:52,284 - WARNING - Example extreme changes:
+2025-01-29 16:30:52,309 - WARNING - Network Capital Group Holding A/S: 2015-03-18 - Price change: -58.7% (1.79 -> 0.74)
+2025-01-29 16:30:52,316 - WARNING - Network Capital Group Holding A/S: 2017-05-04 - Price change: -53.5% (0.13 -> 0.06)
+2025-01-29 16:30:52,327 - WARNING - Nuevolution AB (publ): 2019-05-22 - Price change: 166.1% (12.10 -> 32.20)
+2025-01-29 16:30:52,337 - WARNING - Conferize A/S: 2019-06-11 - Price change: -62.7% (4.45 -> 1.66)
+2025-01-29 16:30:52,347 - WARNING - Conferize A/S: 2019-06-14 - Price change: 118.3% (1.26 -> 2.75)
+2025-01-29 16:30:52,363 - INFO - 
+Selecting features...
+2025-01-29 16:30:52,365 - INFO - Selecting features...
+2025-01-29 16:30:52,368 - INFO - Using 472 out of 472 enabled features
+2025-01-29 16:30:52,426 - INFO - 
+Calculating target...
+2025-01-29 16:30:52,426 - INFO - Calculating 10-day forward returns...
+2025-01-29 16:30:53,946 - ERROR - Processing failed: "['SIMPLEINDUSTRYDESCRIPTION'] not in index"
+Traceback (most recent call last):
+  File "C:\Users\gregb\Downloads\Data\latest\pct_change\src\data_0_pipeline.py", line 81, in process_data
+    featured_data = calculate_target(featured_data, horizon)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gregb\Downloads\Data\latest\pct_change\src\data_2_feature_engineering.py", line 79, in calculate_target
+    df = df[['ASOFDATE', 'COMPANYNAME', 'EXCHANGETICKER', 'PRICECLOSE', 'SIMPLEINDUSTRYDESCRIPTION', 'horizon_mean', 'horizon_end', 'target'] + [col for col in df.columns if col not in ['ASOFDATE', 'COMPANYNAME', 'EXCHANGETICKER', 'PRICECLOSE', 'SIMPLEINDUSTRYDESCRIPTION', 'horizon_mean', 'horizon_end', 'target']]]
+         ~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gregb\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\frame.py", line 3899, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gregb\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\indexes\base.py", line 6115, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+  File "C:\Users\gregb\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\indexes\base.py", line 6179, in _raise_if_missing
+    raise KeyError(f"{not_found} not in index")
+KeyError: "['SIMPLEINDUSTRYDESCRIPTION'] not in index"
+2025-01-29 16:30:53,965 - ERROR - Pipeline failed
+Traceback (most recent call last):
+  File "C:\Users\gregb\Downloads\Data\latest\pct_change\src\data_0_pipeline.py", line 121, in <module>
+    process_data()
+  File "C:\Users\gregb\Downloads\Data\latest\pct_change\src\data_0_pipeline.py", line 81, in process_data
+    featured_data = calculate_target(featured_data, horizon)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gregb\Downloads\Data\latest\pct_change\src\data_2_feature_engineering.py", line 79, in calculate_target
+    df = df[['ASOFDATE', 'COMPANYNAME', 'EXCHANGETICKER', 'PRICECLOSE', 'SIMPLEINDUSTRYDESCRIPTION', 'horizon_mean', 'horizon_end', 'target'] + [col for col in df.columns if col not in ['ASOFDATE', 'COMPANYNAME', 'EXCHANGETICKER', 'PRICECLOSE', 'SIMPLEINDUSTRYDESCRIPTION', 'horizon_mean', 'horizon_end', 'target']]]
+         ~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gregb\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\frame.py", line 3899, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gregb\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\indexes\base.py", line 6115, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+  File "C:\Users\gregb\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\indexes\base.py", line 6179, in _raise_if_missing
+    raise KeyError(f"{not_found} not in index")
+KeyError: "['SIMPLEINDUSTRYDESCRIPTION'] not in index"
