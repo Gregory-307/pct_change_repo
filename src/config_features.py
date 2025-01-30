@@ -147,7 +147,7 @@ FEATURE_CONFIG = {
     
     # Balance Sheet Strength
     'balance_sheet': {
-        'enabled': False,
+        'enabled': True,
         'features': {
             'Current Ratio': True,
             'Quick Ratio': True,
@@ -182,7 +182,7 @@ FEATURE_CONFIG = {
     
     # Efficiency/Activity
     'efficiency': {
-        'enabled': False,
+        'enabled': True,
         'features': {
             'Asset Turnover': True,
             'Asset Turnover v2': True,
